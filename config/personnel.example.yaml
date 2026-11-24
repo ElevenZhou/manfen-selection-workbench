@@ -1,0 +1,15 @@
+version: 1
+claim_bonus_default: 2
+members:
+  - user_id: user_demo_research
+    display_name: 示例研究员
+    role: maintainer
+    active: true
+    skills: [research, mobile_game]
+    markets: [global, us, jp]
+    product_forms: [mobile_app, mobile_game]
+    base_concurrency: 3
+    claim_bonus_limit: 2
+    timezone: Asia/Singapore
+    availability: "09:00-18:00"
+    priority_weight: 1

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>满分选品工作台 · 视觉方向实验室</title>
+  <style>
+    :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; background:#ece9e1; color:#1f2422; }
+    body { max-width:1180px; margin:0 auto; padding:48px 24px 80px; }
+    h1 { font-size:clamp(34px,5vw,72px); line-height:.98; letter-spacing:-.06em; max-width:720px; margin:18px 0; }
+    p { max-width:720px; line-height:1.7; color:#626961; }
+    .eyebrow { letter-spacing:.18em; font:600 11px/1.2 ui-monospace,monospace; color:#8b5a3c; }
+    .lab-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:44px; }
+    .lab-card { background:#fffaf0; border:1px solid #d8d0c1; padding:22px; min-height:240px; display:flex; flex-direction:column; justify-content:space-between; }
+    .lab-card h2 { margin:0; font-size:22px; letter-spacing:-.04em; }
+    .lab-card p { font-size:14px; margin:12px 0 22px; }
+    .lab-card a { color:#1f2422; font-weight:700; text-decoration:none; border-bottom:1px solid currentColor; width:max-content; padding-bottom:3px; }
+    .swatch { display:flex; gap:6px; margin:18px 0 0; }
+    .swatch i { width:22px; height:22px; border-radius:50%; display:block; }
+    .note { margin-top:24px; font-size:13px; }
+    @media (max-width:800px){ .lab-grid{grid-template-columns:1fr;} body{padding:32px 18px 60px;} }
+  </style>
+</head>
+<body>
+  <span class="eyebrow">MÁNFĒN SELECT WORKBENCH / INTERFACE PRISM</span>
+  <h1>三种方式，<br>把机会交给正确的人。</h1>
+  <p>同一份任务、同一组状态、同一个认领动作，只改变视觉语言与信息轮廓。先比较，再选择一个方向进入生产实现。</p>
+  <section class="lab-grid">
+    <article class="lab-card"><div><h2>A · 深海指挥台</h2><p>深夜蓝、容量潮汐线和任务海图，适合长时间看全局、看风险、看谁有余量。</p><div class="swatch"><i style="background:#071521"></i><i style="background:#19384b"></i><i style="background:#77e2d1"></i><i style="background:#ff8364"></i></div></div><a href="variants/variant-a.html">打开方向 A →</a></article>
+    <article class="lab-card"><div><h2>B · 纸本运营室</h2><p>骨白纸张、细线账簿和证据索引，适合复盘、审计与把每次判断写清楚。</p><div class="swatch"><i style="background:#f6f1e7"></i><i style="background:#1e211d"></i><i style="background:#3c6d5b"></i><i style="background:#b66a43"></i></div></div><a href="variants/variant-b.html">打开方向 B →</a></article>
+    <article class="lab-card"><div><h2>C · 琥珀工坊</h2><p>石墨、琥珀和横向生产线，认领时任务会滑入工作台，适合协作与快速接单。</p><div class="swatch"><i style="background:#171817"></i><i style="background:#f0a84b"></i><i style="background:#c55a42"></i><i style="background:#f5efe2"></i></div></div><a href="variants/variant-c.html">打开方向 C →</a></article>
+  </section>
+  <p class="note">建议：MVP 首选 A；B 和 C 保留为用户访谈与可用性测试基线。三个页面共享同一任务数据，尚未连接真实 API。</p>
+</body>
+</html>
