@@ -1,0 +1,20 @@
+flowchart LR
+  U[登录用户 / 管理员] --> E[select.1add2.com<br/>DNS · TLS · WAF]
+  E --> W[Web 工作台]
+  E --> A[API + OIDC 鉴权]
+  A --> D[Dispatcher<br/>容量 · 分派 · 租约]
+  A --> T[(Postgres<br/>任务 · 报告 · 审计)]
+  D --> Q[(Redis Queue<br/>队列 · 心跳 · 限流)]
+  Q --> R[Research Adapter<br/>来源 · 证据 · 报告]
+  R --> X{Executor Adapter}
+  X --> C[Codex<br/>计划 / 综合 / Review]
+  X --> O[OpenCode<br/>代码 / 测试 / Worktree]
+  X --> H[Hermes<br/>长时研究 / 批处理]
+  R --> S[(Object Storage<br/>证据 · 资料包 · 回执)]
+  R --> T
+  T --> F[Feishu Publisher<br/>幂等卡片 + 发送回执]
+  F --> L[Feishu Webhook]
+  R --> M[外部来源<br/>商店 · 趋势 · GitHub · 评论]
+  D --> V[容量与公平性看板]
+  T --> V
+

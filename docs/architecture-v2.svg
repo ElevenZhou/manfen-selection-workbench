@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1013"/><stop offset="1" stop-color="#161b20"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d8cff"/><stop offset="1" stop-color="#9caeff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".28"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#718099"/></marker>
+    <style>
+      .title{font:700 33px Inter,Arial,sans-serif;fill:#edf2f7;letter-spacing:-1px}.sub{font:14px Inter,Arial,sans-serif;fill:#9da8b6}.lane{font:700 13px Inter,Arial,sans-serif;fill:#718099;letter-spacing:2px}.box{fill:#1a2026;stroke:#35404d;stroke-width:1.5;rx:14;filter:url(#shadow)}.box-blue{fill:#1b2435;stroke:#6d8cff}.box-green{fill:#192b29;stroke:#5ac9b8}.box-amber{fill:#2b241d;stroke:#e8a85d}.label{font:700 16px Inter,Arial,sans-serif;fill:#edf2f7}.small{font:12px Inter,Arial,sans-serif;fill:#aab5c2}.mono{font:11px 'SFMono-Regular',Consolas,monospace;fill:#8391a2}.line{stroke:#718099;stroke-width:2;fill:none;marker-end:url(#arrow)}.dash{stroke:#718099;stroke-width:1.5;stroke-dasharray:7 7;fill:none;marker-end:url(#arrow)}.legend{font:12px Inter,Arial,sans-serif;fill:#aab5c2}.dot{fill:#6d8cff}.dotg{fill:#5ac9b8}.dota{fill:#e8a85d}
+    </style>
+  </defs>
+  <rect width="1600" height="1020" fill="url(#bg)"/>
+  <text x="72" y="72" class="title">满分选品工作台 · 新版本系统架构</text>
+  <text x="72" y="103" class="sub">Research Operations OS / control plane + evidence plane + governed executors</text>
+
+  <text x="72" y="156" class="lane">01 / 入口与身份</text>
+  <rect x="72" y="178" width="230" height="90" class="box"/>
+  <text x="95" y="215" class="label">登录用户 / 管理员</text><text x="95" y="241" class="small">发起 · 认领 · 复核 · 配置</text>
+  <rect x="360" y="178" width="310" height="90" class="box-blue"/>
+  <text x="384" y="215" class="label">select.1add2.com</text><text x="384" y="241" class="small">DNS · TLS · WAF · OIDC 回调</text>
+  <path d="M302 223 H360" class="line"/>
+
+  <text x="72" y="328" class="lane">02 / 控制面 · 事实状态在这里产生</text>
+  <rect x="72" y="350" width="275" height="124" class="box"/>
+  <text x="95" y="388" class="label">Web 工作台</text><text x="95" y="416" class="small">机会 · 任务 · 容量 · 候选</text><text x="95" y="443" class="mono">keyboard-first / responsive</text>
+  <rect x="395" y="350" width="275" height="124" class="box-blue"/>
+  <text x="418" y="388" class="label">API + OIDC 鉴权</text><text x="418" y="416" class="small">权限 · 幂等 · 限流 · 审计</text><text x="418" y="443" class="mono">/api/tasks · /api/reports</text>
+  <rect x="718" y="350" width="300" height="124" class="box-blue"/>
+  <text x="741" y="388" class="label">Dispatcher</text><text x="741" y="416" class="small">容量 · 自动分派 · 主动认领</text><text x="741" y="443" class="mono">base + claim bonus ≤ global</text>
+  <rect x="1066" y="350" width="250" height="124" class="box"/>
+  <text x="1089" y="388" class="label">审计与状态机</text><text x="1089" y="416" class="small">queued → review → completed</text><text x="1089" y="443" class="mono">every transition has reason</text>
+  <path d="M670 412 H718" class="line"/><path d="M1018 412 H1066" class="line"/>
+  <path d="M517 268 V350" class="line"/><path d="M360 223 C470 280 500 285 517 350" class="dash"/>
+
+  <text x="72" y="535" class="lane">03 / 异步执行面 · 研究与代码永不阻塞浏览器</text>
+  <rect x="72" y="560" width="250" height="116" class="box"/>
+  <text x="95" y="598" class="label">Redis Queue</text><text x="95" y="626" class="small">队列 · 心跳 · 租约 · 限流</text><text x="95" y="650" class="mono">at-least-once + idempotency</text>
+  <rect x="370" y="560" width="270" height="116" class="box-green"/>
+  <text x="393" y="598" class="label">Research Adapter</text><text x="393" y="626" class="small">来源 · 证据 · 冲突 · 报告</text><text x="393" y="650" class="mono">insufficient_data is truthful</text>
+  <rect x="688" y="560" width="270" height="116" class="box-amber"/>
+  <text x="711" y="598" class="label">Executor Adapter</text><text x="711" y="626" class="small">沙箱 · 白名单 · 预算 · 超时</text><text x="711" y="650" class="mono">no direct production writes</text>
+  <rect x="1006" y="560" width="250" height="116" class="box"/>
+  <text x="1029" y="598" class="label">Codex / OpenCode / Hermes</text><text x="1029" y="626" class="small">计划 · 代码 · 长时研究</text><text x="1029" y="650" class="mono">adapter outputs only</text>
+  <path d="M322 618 H370" class="line"/><path d="M640 618 H688" class="line"/><path d="M958 618 H1006" class="line"/><path d="M868 474 V560" class="line"/>
+
+  <text x="72" y="740" class="lane">04 / 数据与外部连接</text>
+  <rect x="72" y="765" width="280" height="116" class="box-blue"/>
+  <text x="95" y="803" class="label">Postgres</text><text x="95" y="831" class="small">用户 · 任务 · 报告 · 容量 · 审计</text><text x="95" y="855" class="mono">system of record</text>
+  <rect x="400" y="765" width="280" height="116" class="box"/>
+  <text x="423" y="803" class="label">Object Storage</text><text x="423" y="831" class="small">证据 · 资料包 · 运行产物</text><text x="423" y="855" class="mono">sha256 + versioned objects</text>
+  <rect x="728" y="765" width="280" height="116" class="box"/>
+  <text x="751" y="803" class="label">外部研究来源</text><text x="751" y="831" class="small">商店 · 趋势 · GitHub · 评论</text><text x="751" y="855" class="mono">source / time / scope required</text>
+  <rect x="1056" y="765" width="260" height="116" class="box-amber"/>
+  <text x="1079" y="803" class="label">Feishu Publisher</text><text x="1079" y="831" class="small">卡片 · 绝对链接 · 回执</text><text x="1079" y="855" class="mono">stable idempotency key</text>
+  <path d="M205 676 V765" class="line"/><path d="M505 676 V765" class="line"/><path d="M505 676 C670 718 820 720 868 765" class="dash"/><path d="M1191 474 V765" class="line"/>
+
+  <rect x="72" y="930" width="1244" height="44" fill="#12171c" stroke="#29333e" rx="10"/>
+  <circle cx="100" cy="952" r="6" class="dot"/><text x="116" y="957" class="legend">控制面：权限、状态、容量、审计</text>
+  <circle cx="400" cy="952" r="6" class="dotg"/><text x="416" y="957" class="legend">证据面：来源、研究、报告、资料包</text>
+  <circle cx="730" cy="952" r="6" class="dota"/><text x="746" y="957" class="legend">执行面：受控 Agent、预算、沙箱、回执</text>
+</svg>
+

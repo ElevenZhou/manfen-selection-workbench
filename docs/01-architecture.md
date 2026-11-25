@@ -1,5 +1,7 @@
 # 系统架构
 
+可视化图：[新版本架构图 SVG](architecture-v2.svg) · [可编辑 Mermaid 源文件](architecture-v2.mmd)
+
 ## 推荐形态
 
 生产使用自有服务器上的 Docker Compose 或等价编排，Cloudflare 只承担 DNS、TLS、CDN/WAF 和可选的边缘缓存。系统的状态、队列和长任务都由自己的服务持有，避免把常驻 Worker、浏览器或本地模型误塞进页面请求。
