@@ -70,3 +70,10 @@
 ### Remaining boundary
 
 - OIDC、角色权限、Postgres/Redis、常驻 Worker、Docker、备份监控和生产 Feishu/DNS 仍需外部配置与发布门禁，当前交付定位为明早可用的本地 Demo/MVP 闭环。
+
+### Open-source delivery
+
+- Public repository: `https://github.com/ElevenZhou/manfen-selection-workbench`
+- Main commit: `b92bde9` (`feat: harden selection workbench for open source`)
+- GitHub Actions CI: passed for `main` in run `45683590857`.
+- Repository topics: `app-selection`, `product-research`, `nextjs`, `cloudflare`, `feishu`, `youtube-evidence`.
