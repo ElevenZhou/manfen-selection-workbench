@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://app-selection.local/schemas/skill-result.schema.json",
+  "title": "App Selection Skill Result Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "task_id",
+    "run_id",
+    "skill_name",
+    "skill_version",
+    "status",
+    "artifacts",
+    "metrics",
+    "assumptions",
+    "warnings",
+    "next_actions"
+  ],
+  "properties": {
+    "contract_version": { "const": "1.0" },
+    "task_id": { "type": "string", "minLength": 3 },
+    "run_id": { "type": "string", "minLength": 3 },
+    "skill_name": { "type": "string", "minLength": 3 },
+    "skill_version": { "type": "string", "minLength": 1 },
+    "methodology_version": { "type": ["string", "null"] },
+    "status": { "enum": ["completed", "partial", "blocked", "failed"] },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["artifact_type", "path"],
+        "properties": {
+          "artifact_type": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "schema": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["number", "integer", "string", "boolean", "null"]
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "error": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["code", "message", "retryable"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1 },
+        "retryable": { "type": "boolean" },
+        "required_input": { "type": ["string", "null"] }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "status": { "enum": ["blocked", "failed"] } },
+        "required": ["status"]
+      },
+      "then": {
+        "required": ["error"],
+        "properties": {
+          "error": { "type": "object" }
+        }
+      }
+    }
+  ]
+}

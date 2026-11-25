@@ -1,0 +1,123 @@
+[
+  {
+    "candidate_id": "ref-changedetection-io",
+    "entity_kind": "open_source_project",
+    "facts": {
+      "github_stars": 32485,
+      "license": "Apache-2.0",
+      "latest_release": "0.55.8",
+      "latest_release_at": "2026-07-13",
+      "capabilities": ["CSS/XPath/JSON diff", "screenshots", "REST API", "AI importance rules", "AI summaries", "multi-channel notifications"]
+    },
+    "sources": ["https://api.github.com/repos/dgtlmoon/changedetection.io", "https://github.com/dgtlmoon/changedetection.io"]
+  },
+  {
+    "candidate_id": "ref-rsshub",
+    "entity_kind": "open_source_project",
+    "facts": {
+      "github_stars": 45410,
+      "github_forks": 10046,
+      "license": "AGPL-3.0",
+      "last_push_at": "2026-07-26",
+      "named_source_topics": ["Bilibili", "Instagram", "TikTok", "Twitter", "WeChat", "Weibo", "YouTube", "Zhihu"]
+    },
+    "sources": ["https://api.github.com/repos/DIYgod/RSSHub", "https://github.com/DIYgod/RSSHub"]
+  },
+  {
+    "candidate_id": "ref-freshrss",
+    "entity_kind": "open_source_project",
+    "facts": {
+      "github_stars": 15612,
+      "license": "AGPL-3.0",
+      "latest_release": "1.29.1",
+      "latest_release_at": "2026-05-20",
+      "relevant_extensions": ["Webhook", "LLM Classification", "ArticleSummary", "Feed Digest"]
+    },
+    "sources": ["https://api.github.com/repos/FreshRSS/FreshRSS", "https://github.com/FreshRSS/FreshRSS", "https://github.com/FreshRSS/Extensions"]
+  },
+  {
+    "candidate_id": "ref-visualping",
+    "entity_kind": "commercial_product",
+    "facts": {
+      "free_tier": true,
+      "pages": 5,
+      "checks_per_month": 150,
+      "minimum_interval_minutes": 60,
+      "included": ["AI summaries", "IMPORTANT classification", "API", "webhooks", "Zapier"]
+    },
+    "sources": ["https://visualping.io/blog/visualping-pricing-explained"]
+  },
+  {
+    "candidate_id": "ref-huginn",
+    "entity_kind": "open_source_project",
+    "facts": {
+      "github_stars": 49688,
+      "license": "MIT",
+      "last_push_at": "2026-07-25",
+      "latest_formal_release": "v2022.08.18",
+      "capabilities": ["web scraping", "RSS", "webhooks", "JavaScript", "email", "Slack"]
+    },
+    "sources": ["https://api.github.com/repos/huginn/huginn", "https://github.com/huginn/huginn"]
+  },
+  {
+    "candidate_id": "ref-miniflux",
+    "entity_kind": "open_source_project",
+    "facts": {
+      "github_stars": 9512,
+      "license": "Apache-2.0",
+      "latest_release": "2.3.3",
+      "latest_release_at": "2026-07-24",
+      "integrations": "25+"
+    },
+    "sources": ["https://api.github.com/repos/miniflux/v2", "https://github.com/miniflux/v2"]
+  },
+  {
+    "candidate_id": "ref-talkwalker-alerts",
+    "entity_kind": "commercial_product",
+    "facts": {
+      "free_service": true,
+      "source_types": ["news", "blogs", "forums", "websites", "X"],
+      "delivery": ["email", "RSS", "Slack"],
+      "languages": 22
+    },
+    "sources": ["https://www.talkwalker.com/alerts"]
+  },
+  {
+    "candidate_id": "ref-inoreader",
+    "entity_kind": "commercial_product",
+    "facts": {
+      "free_forever": true,
+      "credit_card_required": false,
+      "free_public_rss_subscriptions": 150,
+      "free_capabilities": ["RSS feeds", "article search", "Google News alerts"]
+    },
+    "sources": ["https://www.inoreader.com/pricing"]
+  },
+  {
+    "candidate_id": "ref-distill",
+    "entity_kind": "commercial_product",
+    "facts": {
+      "free_tier": true,
+      "monitors": 25,
+      "cloud_monitors": 5,
+      "cloud_checks_per_month": 1000,
+      "cloud_minimum_interval_hours": 6,
+      "email_alerts_per_month": 30,
+      "push_notifications_per_month": 100,
+      "version_history": false
+    },
+    "sources": ["https://distill.io/pricing/"]
+  },
+  {
+    "candidate_id": "ref-browse-ai",
+    "entity_kind": "commercial_product",
+    "facts": {
+      "free_tier": true,
+      "credits_per_month": 50,
+      "websites": 2,
+      "users": 3,
+      "robots": "unlimited"
+    },
+    "sources": ["https://www.browse.ai/pricing", "https://help.browse.ai/en/articles/11429429-how-do-plans-and-pricing-work"]
+  }
+]

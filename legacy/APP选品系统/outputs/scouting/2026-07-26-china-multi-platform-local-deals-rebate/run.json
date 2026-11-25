@@ -1,0 +1,47 @@
+{
+  "run_id": "2026-07-26-china-multi-platform-local-deals-rebate",
+  "created_at": "2026-07-26T22:10:00+08:00",
+  "completed_at": "2026-07-26T22:10:00+08:00",
+  "mode": "competitor-expand",
+  "direction": "china-multi-platform-local-deals-rebate",
+  "status": "completed_authorization_gated",
+  "request": "调查中国App商店是否已有外部版抖省省，并验证美团、抖音、淘宝多平台接入与综合最优券方案。",
+  "scope": {
+    "country": [
+      "CN"
+    ],
+    "store": [
+      "Apple App Store"
+    ],
+    "competitor_count": 10,
+    "deep_dive_count": 3
+  },
+  "assumptions": [
+    "商店文案只证明公开声称，不证明所有商品和订单均可返利。",
+    "平台接入以官方联盟文档和书面授权为准。"
+  ],
+  "sources": [
+    "https://apps.apple.com/cn/app/id6459108197",
+    "https://apps.apple.com/cn/app/id1298543740",
+    "https://apps.apple.com/cn/app/id6474171626",
+    "https://apps.apple.com/cn/app/id527012586",
+    "https://apps.apple.com/cn/app/id1273170325",
+    "https://apps.apple.com/cn/app/id1262351972",
+    "https://apps.apple.com/cn/app/id1584044872",
+    "https://apps.apple.com/cn/app/id591584458",
+    "https://apps.apple.com/cn/app/id6695740999",
+    "https://apps.apple.com/cn/app/id1535146403",
+    "https://union.meituan.com/",
+    "https://developer.alibaba.com/docs/doc.htm?articleId=119418&docType=1&treeId=129",
+    "https://partner.open-douyin.com/docs/resource/zh-CN/mini-app/open-capacity/Industry/life/partner/CPS-guide"
+  ],
+  "counts": {
+    "discovered": 10,
+    "ranked": 3,
+    "deep_dives": 3,
+    "selected": 0,
+    "backup": 0,
+    "watch": 3,
+    "rejected": 0
+  }
+}

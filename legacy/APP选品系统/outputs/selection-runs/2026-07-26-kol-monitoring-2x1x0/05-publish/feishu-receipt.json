@@ -1,0 +1,13 @@
+{
+  "reportId": "2026-07-26-kol-monitoring-2x1x0",
+  "sentAt": "2026-07-26T05:06:16Z",
+  "success": true,
+  "deliveryMode": "website_authenticated_manual",
+  "confirmation": {
+    "buttonState": "已推送飞书",
+    "message": "选品概述已推送到飞书"
+  },
+  "reportUrl": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-26-kol-monitoring-2x1x0",
+  "cardPath": "05-publish/feishu-card.json",
+  "note": "通过正式报告页执行一次推送；页面确认成功后未重试。"
+}

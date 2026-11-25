@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-11-12-语音快速登记待办-云文档同步-强提醒与ai认领排队定时执行的移动app-web-机器人机会调研",
+  "created_at": "2026-11-12T07:56:25.412443+00:00",
+  "goal": "语音快速登记待办，云文档同步，强提醒与AI认领排队定时执行的移动App/Web/机器人机会调研",
+  "mode": "full",
+  "status": "initialized",
+  "targets": {
+    "final_count_per_route": 5,
+    "total_selected": 15,
+    "total_packages": 15
+  },
+  "constraints": {
+    "cross_route_ranking": false,
+    "development_scheduling_independent": true,
+    "non_overwrite": true
+  },
+  "notifications": {
+    "feishu": false,
+    "delivery_mode": "after_website_persistence",
+    "idempotency_key": "2026-11-12-语音快速登记待办-云文档同步-强提醒与ai认领排队定时执行的移动app-web-机器人机会调研:feishu-summary:v1"
+  },
+  "assumptions": [],
+  "authorized_external_side_effects": []
+}

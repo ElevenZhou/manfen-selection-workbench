@@ -1,0 +1,16 @@
+﻿route,rank,product,category,market,score,completeness,promise,improvements,primary_reference,product_form
+A,1,Dose Quiet（静药提醒）,健康工具,US / DE,84,0.88,把多药确认压缩到通知层，同时只把漏服风险升级给照护者,通知层一滑确认、延后或暂停，不强制打开App | 照护者只接收异常升级，并保留用户可控的隐私边界,https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy,mobile_app
+A,2,Pantry Snap（随拍食材库）,生活工具,US / SG,81,0.85,不要求逐件录入，用照片确认和临期优先级维持一个足够准确的家庭库存,整张购物袋或冰箱照片批量建档，只确认低置信度项目 | 首页只显示临期、缺货和需要确认三类行动,https://play.google.com/store/apps/details?id=fr.icuisto.icuisto,mobile_app
+A,3,Study Slice（学习切片）,知识学习,US / GB,82,0.86,两步从资料进入首轮测验，之后只围绕错误证据安排复习,导入后先生成10题诊断而不是先生成整套卡片 | 所有AI答案可回跳原文，并按错误类型安排下一轮,https://quizlet.com/,mobile_app
+A,4,Focus Relay（专注接力）,效率工具,Global,80,0.84,把专注工具从计时器变成可恢复的工作接力,每次中断只记录一句“下一步”，跨设备恢复时直接呈现 | AI仅在会话结束后压缩中断原因和恢复建议,https://www.forestapp.cc/,mobile_app
+A,5,Receipt Quiet（静默票据）,财务工具,US / JP,79,0.83,本地优先识别票据，以置信度而不是复杂表单决定用户是否需要介入,批量扫描后只呈现低置信度字段队列 | 默认本地处理敏感票据，导出前展示数据去向,https://www.expensify.com/,mobile_app
+B,1,Care Handoff（照护交接）,家庭照护,US / SG,88,0.89,用一次结构化交接代替在聊天、日历和记忆中追线索,语音交接自动拆成事实、待办、药物和负责人 | 高风险事项必须由下一位照护者确认，普通更新不打扰,https://lotsahelpinghands.com/,mobile_app
+B,2,Field Quote（现场报价）,小微经营,US / AU,86,0.87,离开现场前完成一份有照片依据、可编辑且可确认的报价,照片和口述自动形成报价草稿，离线保存、联网再同步 | 报价中的每个项目可回看对应现场照片并让客户确认,https://apps.apple.com/us/app/jobber-field-service-software/id1014146758,mobile_app
+B,3,Shift Proof（交班留证）,一线工作,GB / AU,84,0.85,把交班从消息堆变成带证据和确认的责任链,语音和照片生成事实、风险、行动与负责人四段式交班 | 关键项需接班人确认，所有修改保留原始记录,https://learn.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams,mobile_app
+B,4,Access Guide（无障碍向导）,无障碍工具,JP / US,83,0.86,让远程手机指导从“你看到了什么”变成安全的一步一确认,用户主动分享当前屏幕后只生成一个大字步骤和回退动作 | 识别诈骗或付款风险时停止指导并升级给可信联系人,https://www.bemyeyes.com/bme-app/,mobile_app
+B,5,Move Proof（搬家留证）,租房工具,SG / GB,81,0.83,从入住到退租持续形成双方可读的证据时间线,拍摄时自动按房间和问题分类，并保留时间及编辑记录 | 费用或责任变更需要相关租客轻量确认，退租一键导出,https://www.google.com/drive/,mobile_app
+C,1,Agent Inbox（智能体收件箱）,AI工作流,Global,89,0.88,把人从盯代理运行变成只处理少量可解释的决策,统一聚合高风险待确认动作，默认隐藏无须干预的执行日志 | 每项展示来源、影响面、可逆性和撤回截止时间,https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/,cross_platform
+C,2,Proof Camera（可信相机）,内容可信,US / EU,87,0.86,拍摄时自动建立来源链，分享时用普通人能理解的方式呈现,拍摄即建立本地签名与编辑事件，不上传原图也能验证 | 分享时生成简明轨迹卡，明确哪些内容可证明、哪些不能,https://c2pa.org/,mobile_app
+C,3,Model Ledger（模型账本）,AI工具,Global,85,0.85,跨模型自动生成成本、隐私和结果可追溯的任务账本,按任务而非按API调用记录模型、费用和结果版本 | 发送敏感内容前显示本地/云端路径和保留策略,https://openrouter.ai/,desktop_app
+C,4,Offline Tutor（离线导师）,知识学习,Emerging Markets,82,0.82,把端侧模型限制在一门课程内，让核心解释与练习离线可用,课程包、引用和练习离线运行，答案必须回到教材片段 | 联网时只同步学习状态和内容更新，不上传原始学习对话,https://developer.apple.com/core-ai/,mobile_app
+C,5,Passkey Ready（通行密钥助手）,安全工具,US / EU,78,0.81,不保存密钥本身，只给用户一张跨平台恢复与迁移地图,扫描账户设置生成Passkey位置和恢复路径清单，不接触私钥 | 换机前运行可恢复性检查并生成家庭应急步骤,https://fidoalliance.org/passkeys/,mobile_app

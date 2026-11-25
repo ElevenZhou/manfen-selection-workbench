@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101827"/><stop offset="1" stop-color="#263957"/></linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFB86B"/><stop offset=".48" stop-color="#D76C58"/><stop offset="1" stop-color="#3B254D"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#08101d" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#F3EDE2"/>
+  <rect x="0" y="0" width="1600" height="86" fill="#101827"/>
+  <text x="70" y="54" fill="#F3EDE2" font-family="Arial, sans-serif" font-size="28" font-weight="700">THEME DIRECTION BOARD / A</text>
+  <text x="1280" y="52" fill="#B9C8D9" font-family="Arial, sans-serif" font-size="18">PROJECT-ID · v01 · 2026-11-19</text>
+  <text x="70" y="140" fill="#101827" font-family="Arial, sans-serif" font-size="42" font-weight="700">方案名称：在这里写一句可记住的主题</text>
+  <text x="70" y="180" fill="#576579" font-family="Arial, sans-serif" font-size="22">一句话定位：用一条清晰的情绪和体验承诺，说明它为什么值得做</text>
+  <rect x="70" y="225" width="720" height="470" rx="28" fill="url(#hero)" filter="url(#shadow)"/>
+  <circle cx="620" cy="370" r="130" fill="#FFD98E" opacity=".32"/>
+  <path d="M155 610 C270 450 410 520 520 390 C590 310 680 430 730 300" fill="none" stroke="#FDE6B8" stroke-width="14" opacity=".8"/>
+  <text x="118" y="650" fill="#FFF4DF" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">HERO / ATMOSPHERE / ORIGINAL WORLD</text>
+  <rect x="835" y="225" width="300" height="470" rx="28" fill="#172338" filter="url(#shadow)"/>
+  <rect x="870" y="268" width="230" height="54" rx="27" fill="#F2B36E"/>
+  <text x="915" y="304" fill="#172338" font-family="Arial, sans-serif" font-size="20" font-weight="700">核心页面</text>
+  <rect x="875" y="355" width="220" height="120" rx="16" fill="#2D486A"/>
+  <circle cx="984" cy="415" r="38" fill="#F2B36E"/>
+  <rect x="875" y="500" width="220" height="18" rx="9" fill="#8BA4C2"/>
+  <rect x="875" y="540" width="150" height="18" rx="9" fill="#5D789A"/>
+  <rect x="875" y="595" width="220" height="42" rx="21" fill="#D76C58"/>
+  <text x="929" y="622" fill="#FFF4DF" font-family="Arial, sans-serif" font-size="17" font-weight="700">PRIMARY ACTION</text>
+  <rect x="1180" y="225" width="350" height="470" rx="28" fill="#E6D9C8"/>
+  <text x="1220" y="280" fill="#101827" font-family="Arial, sans-serif" font-size="20" font-weight="700">视觉系统</text>
+  <text x="1220" y="330" fill="#576579" font-family="Arial, sans-serif" font-size="18">主色 / #D76C58</text>
+  <rect x="1220" y="350" width="56" height="56" rx="28" fill="#D76C58"/><rect x="1290" y="350" width="56" height="56" rx="28" fill="#F2B36E"/><rect x="1360" y="350" width="56" height="56" rx="28" fill="#172338"/><rect x="1430" y="350" width="56" height="56" rx="28" fill="#F3EDE2" stroke="#9C8F82"/>
+  <text x="1220" y="455" fill="#576579" font-family="Arial, sans-serif" font-size="18">材质 / 纸张、暖光、磨砂玻璃</text>
+  <text x="1220" y="500" fill="#576579" font-family="Arial, sans-serif" font-size="18">字体 / 几何无衬线 + 手写强调</text>
+  <text x="1220" y="545" fill="#576579" font-family="Arial, sans-serif" font-size="18">动效 / 轻微漂浮、即时回弹</text>
+  <text x="1220" y="590" fill="#576579" font-family="Arial, sans-serif" font-size="18">情绪 / 温暖、专注、带一点探索感</text>
+  <rect x="70" y="750" width="1460" height="170" rx="24" fill="#FFFFFF"/>
+  <text x="105" y="800" fill="#101827" font-family="Arial, sans-serif" font-size="20" font-weight="700">操作员选择依据</text>
+  <text x="105" y="842" fill="#576579" font-family="Arial, sans-serif" font-size="18">核心玩法表达：写清画面如何支持玩法瞬间；原创边界：写清哪些元素必须重新设计。</text>
+  <text x="105" y="880" fill="#576579" font-family="Arial, sans-serif" font-size="18">风险/待验证：图像是方向稿，最终文案、图标、资产授权和可用性需在实现阶段复核。</text>
+  <text x="105" y="912" fill="#D76C58" font-family="Arial, sans-serif" font-size="18" font-weight="700">选择：□ A  □ B  □ C  □ 要求重做</text>
+</svg>

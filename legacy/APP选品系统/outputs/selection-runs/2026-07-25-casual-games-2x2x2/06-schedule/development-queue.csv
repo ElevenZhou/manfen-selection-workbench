@@ -1,0 +1,7 @@
+﻿priority,bench,candidate_id,product,route,package_id,status
+1,BENCH-1,2026-07-25-casual-games-2x2x2-a-fair-screw,Fair Screw,A,pkg-2026-07-25-casual-games-2x2x2-a-fair-screw,READY_TO_LOAD
+2,BENCH-2,2026-07-25-casual-games-2x2x2-a-calm-sort,Calm Sort,A,pkg-2026-07-25-casual-games-2x2x2-a-calm-sort,READY_TO_LOAD
+3,BENCH-3,2026-07-25-casual-games-2x2x2-b-merge-minute,Merge Minute,B,pkg-2026-07-25-casual-games-2x2x2-b-merge-minute,READY_TO_LOAD
+4,BENCH-4,2026-07-25-casual-games-2x2x2-b-duo-shelf,Duo Shelf,B,pkg-2026-07-25-casual-games-2x2x2-b-duo-shelf,READY_TO_LOAD
+5,BENCH-5,2026-07-25-casual-games-2x2x2-c-daily-scene,Daily Scene,C,pkg-2026-07-25-casual-games-2x2x2-c-daily-scene,READY_TO_LOAD
+6,WAITING,2026-07-25-casual-games-2x2x2-c-snap-blocks,Snap Blocks,C,pkg-2026-07-25-casual-games-2x2x2-c-snap-blocks,READY_WAITING

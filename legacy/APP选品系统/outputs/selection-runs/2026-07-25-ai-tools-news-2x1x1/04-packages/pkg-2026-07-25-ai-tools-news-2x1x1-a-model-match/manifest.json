@@ -1,0 +1,264 @@
+{
+  "package_version": "1.1",
+  "package_id": "pkg-2026-07-25-ai-tools-news-2x1x1-a-model-match",
+  "candidate_id": "2026-07-25-ai-tools-news-2x1x1-a-model-match",
+  "status": "READY_FOR_BENCH",
+  "bench_id": null,
+  "source_engine": "competitor_validated",
+  "route_score": 84,
+  "route_rank": 1,
+  "route_methodology_version": "route-a-competitor-v1.1",
+  "data_completeness": 0.85,
+  "objective": {
+    "working_name": "Model Match（模型匹配）",
+    "target_markets": [
+      "Global"
+    ],
+    "target_platforms": [
+      "Web"
+    ],
+    "target_user": "需要为真实任务选择模型、但不想在多个订阅和聊天记录间比较的AI重度用户",
+    "trigger": "准备执行写作、代码、研究、图像或隐私敏感任务",
+    "core_job": "用同一个任务样本比较少量适合的模型，并保留成本与结果依据",
+    "current_alternative": "Poe、OpenRouter、ChatHub",
+    "product_promise": "围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表",
+    "minimum_success": "5–8名目标用户中至少70%独立完成核心任务，且核心结果优于现有替代。",
+    "scope": [
+      "先按任务和约束推荐三种模型，再用同一评测清单对比",
+      "保存提示词、版本、耗时、成本和用户选择理由",
+      "核心流程埋点、空状态、错误状态和隐私说明"
+    ],
+    "non_goals": [
+      "不做全品类平台",
+      "不复制参考产品资产",
+      "未授权不公开部署、不提交商店、不购买服务"
+    ],
+    "product_form": "web_app"
+  },
+  "references": [
+    {
+      "name": "Poe（多模型聊天）",
+      "url": "https://poe.com/",
+      "reference_type": "direct_competitor",
+      "learn": "多模型消费入口证明用户会在同一产品内访问不同模型。",
+      "redesign": "只学习已验证的任务与机制，围绕本项目承诺重新设计流程和视觉。",
+      "do_not_copy": "名称、图标、品牌、文案、截图、内容、代码、美术、关卡与专有数据。",
+      "evidence_ids": [
+        "ev-2026-07-25-ai-tools-news-2x1x1-a-model-match-1"
+      ],
+      "store": "apple_app_store",
+      "store_url": "https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955",
+      "kind": "mobile_app"
+    },
+    {
+      "name": "OpenRouter（开放路由）",
+      "url": "https://openrouter.ai/",
+      "reference_type": "direct_competitor",
+      "learn": "统一API、模型目录和价格比较证明开发者存在跨模型选择需求。",
+      "redesign": "只学习已验证的任务与机制，围绕本项目承诺重新设计流程和视觉。",
+      "do_not_copy": "名称、图标、品牌、文案、截图、内容、代码、美术、关卡与专有数据。",
+      "evidence_ids": [
+        "ev-2026-07-25-ai-tools-news-2x1x1-a-model-match-2"
+      ],
+      "store": null,
+      "store_url": null,
+      "kind": "developer_platform"
+    },
+    {
+      "name": "ChatHub（多模型聊天中心）",
+      "url": "https://chathub.gg/",
+      "reference_type": "direct_competitor",
+      "learn": "并排多模型对话是直接竞品机制，但缺少任务级长期证据账本。",
+      "redesign": "只学习已验证的任务与机制，围绕本项目承诺重新设计流程和视觉。",
+      "do_not_copy": "名称、图标、品牌、文案、截图、内容、代码、美术、关卡与专有数据。",
+      "evidence_ids": [
+        "ev-2026-07-25-ai-tools-news-2x1x1-a-model-match-3"
+      ],
+      "store": "apple_app_store",
+      "store_url": "https://apps.apple.com/us/app/chathub-all-in-one-ai-client/id6736810266",
+      "kind": "mobile_app"
+    }
+  ],
+  "change_directions": [
+    {
+      "title": "先按任务和约束推荐三种模型，再用同一评测清单对比",
+      "user_evidence": "参考组与公开用户证据共同指向：Poe、OpenRouter、ChatHub尚未稳定解决该结果。",
+      "current_failure": "Poe、OpenRouter、ChatHub",
+      "change": "先按任务和约束推荐三种模型，再用同一评测清单对比",
+      "expected_outcome": "减少核心任务的步骤、等待、误触或不确定性，并能在最小版本中直接测量。",
+      "validation_metric": "任务完成率、完成时间、错误/退出率及目标用户主观可信度。",
+      "out_of_scope": "不扩展为全能平台，不复制竞品品牌、内容、关卡、代码或受保护资产。"
+    },
+    {
+      "title": "保存提示词、版本、耗时、成本和用户选择理由",
+      "user_evidence": "参考组与公开用户证据共同指向：Poe、OpenRouter、ChatHub尚未稳定解决该结果。",
+      "current_failure": "Poe、OpenRouter、ChatHub",
+      "change": "保存提示词、版本、耗时、成本和用户选择理由",
+      "expected_outcome": "减少核心任务的步骤、等待、误触或不确定性，并能在最小版本中直接测量。",
+      "validation_metric": "任务完成率、完成时间、错误/退出率及目标用户主观可信度。",
+      "out_of_scope": "不扩展为全能平台，不复制竞品品牌、内容、关卡、代码或受保护资产。"
+    }
+  ],
+  "brand": {
+    "primary_name": "Model Match（模型匹配）",
+    "alternate_name": "ModelMatch",
+    "positioning": "围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表",
+    "personality": [
+      "可信",
+      "克制",
+      "直接"
+    ],
+    "voice": "短句、结果导向、解释风险，不夸大AI能力。",
+    "icon_direction": "统一1024px母版；使用一个与AI工具核心动作相关的几何符号，避免竞品近似轮廓。",
+    "avoid": [
+      "竞品近似名称或图标",
+      "渐变AI脑图标",
+      "不可读的小字与装饰性噪声"
+    ]
+  },
+  "ui": {
+    "direction": "单任务、强层级、触控友好；首屏直接进入核心动作。",
+    "principles": [
+      "一次只强调一个主动作",
+      "解释不确定性",
+      "关键操作可撤回",
+      "所有状态可访问"
+    ],
+    "colors": {
+      "primary": "#315DDC",
+      "secondary": "#AFC4FF",
+      "background": "#F6F8FC",
+      "surface": "#FFFFFF",
+      "text": "#142033",
+      "success": "#23866B",
+      "warning": "#B7791F",
+      "error": "#C2413B"
+    },
+    "typography": "系统无衬线字体；正文不小于16px，关键数字和动作使用清晰字重。",
+    "components": [
+      "主行动卡",
+      "证据/来源卡",
+      "确认与撤回条",
+      "结果状态"
+    ],
+    "core_screens": [
+      "首次进入与权限说明",
+      "核心任务",
+      "结果与下一步",
+      "历史或进度"
+    ],
+    "states": [
+      "loading",
+      "empty",
+      "success",
+      "partial",
+      "error",
+      "offline"
+    ],
+    "accessibility": [
+      "支持动态字号和高对比",
+      "触控目标至少44px并提供屏幕阅读器标签"
+    ]
+  },
+  "build": {
+    "stage": "MVP",
+    "stack": [
+      "React Native / Expo",
+      "TypeScript",
+      "本地优先存储",
+      "事件分析适配层"
+    ],
+    "repository": null,
+    "recommended_skills": [
+      "auto-loop",
+      "frontend-studio",
+      "vercel-react-best-practices"
+    ],
+    "master_prompt": "构建 Model Match（模型匹配） 的可测试MVP。目标用户是需要为真实任务选择模型、但不想在多个订阅和聊天记录间比较的AI重度用户。核心任务是用同一个任务样本比较少量适合的模型，并保留成本与结果依据。产品承诺是围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表。严格只实现资料包列出的核心改变；先冻结任务流、数据边界和验收标准，再实现、测试并检查真实界面。所有AI输出必须展示不确定性或来源；网络失败不得破坏本地核心任务。",
+    "deliverables": [
+      "可运行源代码",
+      "核心流程自动化测试",
+      "关键屏幕截图",
+      "事件字典",
+      "已知风险与下一阶段建议"
+    ],
+    "allowed_autonomy": [
+      "可在既定范围内选择组件和库",
+      "可修复测试、性能和无障碍问题",
+      "可优化文案但不得扩大功能"
+    ],
+    "pause_conditions": [
+      "需要付费服务或新凭据",
+      "需要公开部署或商店提交",
+      "范围变更影响产品承诺",
+      "涉及医疗、安全或隐私高风险决定"
+    ]
+  },
+  "acceptance": {
+    "user": [
+      "首次用户无需说明即可找到并开始核心任务",
+      "核心任务在失败、离线或不确定状态下仍给出清晰下一步",
+      "用户能理解数据去向、AI边界和撤回方式"
+    ],
+    "project_manager": [
+      "仅实现一到三个批准改进点，非目标没有混入版本",
+      "构建、类型检查、测试和关键流程烟测通过",
+      "证据、埋点、风险、截图和版本记录可追溯"
+    ],
+    "growth": [
+      "商店首屏能用一句话表达目标用户、任务和差异",
+      "至少准备三个基于真实任务的素材角度",
+      "冷启动测试能区分点击、激活、核心完成和重复使用"
+    ]
+  },
+  "growth": {
+    "positioning": "围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表",
+    "keywords": [
+      "AI工具",
+      "用同一个任务样本比较少量适合的模型，并保留成本与",
+      "Poe"
+    ],
+    "creative_angles": [
+      "旧流程与新流程的步骤对比",
+      "真实触发场景演示",
+      "核心结果和可信边界"
+    ],
+    "store_assets": [
+      "统一尺寸产品图标",
+      "首屏任务演示",
+      "核心差异与隐私说明"
+    ],
+    "channels": [
+      "App Store / Google Play搜索",
+      "目标用户社区",
+      "短视频问题场景演示"
+    ],
+    "cold_start_test": "用三个任务型素材角度各获同量小样本，比较商店到核心任务完成，不以点击率单独判断。"
+  },
+  "analytics": {
+    "events": [
+      "onboarding_completed",
+      "core_task_started",
+      "core_task_completed",
+      "core_task_failed",
+      "result_shared_or_exported"
+    ],
+    "success_metrics": [
+      "核心任务完成率和中位完成时间",
+      "次日/7日重复核心任务率",
+      "错误、撤回和隐私退出率"
+    ]
+  },
+  "stop_conditions": [
+    "目标用户任务完成率低于50%且一次修订后无改善",
+    "核心改变不能相对替代方案改善可测结果",
+    "获客样本显示问题意图不足或依赖不可接受的高成本渠道"
+  ],
+  "provenance": {
+    "source_run_id": "2026-07-25-ai-tools-news-2x1x1",
+    "candidate_path": "/Users/xmm/projects/APP选品系统/outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1/02-routes/candidates.json",
+    "evidence_path": "/Users/xmm/projects/APP选品系统/outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1/01-research/evidence.json",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "created_at": "2026-07-25T12:00:00+08:00"
+  }
+}

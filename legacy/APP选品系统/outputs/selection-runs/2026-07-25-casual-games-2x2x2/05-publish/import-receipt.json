@@ -1,0 +1,7 @@
+{
+  "status": "prepared",
+  "report_id": "2026-07-25-casual-games-2x2x2",
+  "candidate_count": 6,
+  "package_count": 6,
+  "note": "网站将在构建与部署后由内置报告种子幂等写入D1。"
+}

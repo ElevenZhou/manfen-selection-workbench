@@ -1,0 +1,199 @@
+{
+  "report": {
+    "id": "2026-11-21-music-games-global-v3",
+    "periodLabel": "2026-11-21 · 全球音乐游戏灰盒候选",
+    "publishedAt": "2026-11-21T05:30:00+08:00",
+    "title": "全球音乐游戏灰盒候选 3 项（补证版）",
+    "summary": "补证后按硬门禁推进3个音乐游戏候选进入灰盒验证，并为每个候选生成生产资料包。其余发现池候选仍需补充独立需求与痛点证据。",
+    "status": "partial",
+    "sourceRunId": "2026-11-21-music-games-global-v3",
+    "methodologyVersion": "app-opportunity-scout-gameplay-hunt-v1.1",
+    "payload": {
+      "marketPulse": "公开市场与商店证据显示，短局节奏、曲库运营、关卡编辑与练习反馈仍是可观察的音乐游戏需求方向。市场规模、收入、留存和真实玩法表现仍需通过授权数据与玩家测试补充。",
+      "sources": [
+        "Sensor Tower Top Music/Rhythm Apps Performance in the US, Q4 2025",
+        "Sensor Tower State of Gaming 2026",
+        "Apple App Store · Tiles Hop",
+        "Apple App Store · Magic Tiles 3",
+        "Apple App Store · Geometry Dash",
+        "Apple App Store · Arcaea",
+        "Apple App Store · Lanota",
+        "Apple App Store · Muse Dash",
+        "Apple App Store · Cytus II",
+        "Apple App Store · Phigros",
+        "Apple App Store · VOEZ",
+        "官方商店与产品页",
+        "公开评论与社区讨论",
+        "GitHub与官方技术文档"
+      ],
+      "scheduledCount": 0
+    }
+  },
+  "candidates": [
+    {
+      "id": "2026-11-21-music-games-global-v3-a-pulse-run",
+      "route": "A",
+      "title": "PulseRun",
+      "titleZh": "脉冲跑酷",
+      "productForm": "mobile_game",
+      "category": "短局节奏跑酷",
+      "market": "Global / US / UK / JP / KR / SEA",
+      "routeScore": 91,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "把一首歌压缩成可重复的60–90秒节奏跑酷挑战，并用难度匹配和幽灵回放提高重复游玩",
+      "improvements": [
+        "按玩家节奏表现自动匹配歌曲难度",
+        "用每日短赛和好友幽灵回放替代重社交养成",
+        "优先使用原创或可授权曲库并展示版权来源"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-11-21-music-games-global-v3-a-pulse-run",
+      "packageUrl": "/packages/2026-11-21-music-games-global-v3/pkg-2026-11-21-music-games-global-v3-a-pulse-run.zip",
+      "packageSha256": "edf92b0ab39246fb34a577697a8eb809be0e466a6b8c8818ce0f682346408ad6",
+      "references": [
+        {
+          "name": "Tiles Hop: Rhythm Music Ball",
+          "nameZh": "节奏音乐球",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "relation": "competitor"
+        },
+        {
+          "name": "Magic Tiles 3",
+          "nameZh": "魔法钢琴块3",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+          "relation": "competitor"
+        },
+        {
+          "name": "Muse Dash",
+          "nameZh": "喵斯快跑",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-11-21-music-games-global-v3-a-chart-garden",
+      "route": "A",
+      "title": "ChartGarden",
+      "titleZh": "谱面花园",
+      "productForm": "mobile_game",
+      "category": "社区谱面与创作",
+      "market": "Global / US / UK / JP / KR / SEA",
+      "routeScore": 89,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.81,
+      "opportunity": "把复杂谱面创作压缩成模板化编辑与可解释的难度/可玩性反馈",
+      "improvements": [
+        "先提供三种模板化谱面编辑器并自动校准节拍",
+        "把谱面难度与可玩性评分分开",
+        "提供版权安全的原创素材和本地音频实验模式"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-11-21-music-games-global-v3-a-chart-garden",
+      "packageUrl": "/packages/2026-11-21-music-games-global-v3/pkg-2026-11-21-music-games-global-v3-a-chart-garden.zip",
+      "packageSha256": "c705d8a102f754807e9ebac026701020707de2664d8b50e68aa8f722a7668dcd",
+      "references": [
+        {
+          "name": "Geometry Dash",
+          "nameZh": "几何冲刺",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+          "relation": "competitor"
+        },
+        {
+          "name": "Cytus II",
+          "nameZh": "赛特斯 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "relation": "competitor"
+        },
+        {
+          "name": "Phigros",
+          "nameZh": "菲格罗斯",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-11-21-music-games-global-v3-a-neon-practice",
+      "route": "A",
+      "title": "NeonPractice",
+      "titleZh": "霓虹练习室",
+      "productForm": "mobile_game",
+      "category": "练习型节奏游戏",
+      "market": "Global / US / UK / JP / KR / SEA",
+      "routeScore": 87,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.8,
+      "opportunity": "把一次失败转成可定位、可重复的20秒节奏训练，而不是只给总分",
+      "improvements": [
+        "增加自适应速度与容错",
+        "用提前/滞后诊断替代单一总分",
+        "提供可视化练习进度和回放"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-11-21-music-games-global-v3-a-neon-practice",
+      "packageUrl": "/packages/2026-11-21-music-games-global-v3/pkg-2026-11-21-music-games-global-v3-a-neon-practice.zip",
+      "packageSha256": "9fa9710344099a824374f9a83f64fb780b928b0ec4451f403b9bee619769010b",
+      "references": [
+        {
+          "name": "Arcaea",
+          "nameZh": "韵律源点",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "relation": "competitor"
+        },
+        {
+          "name": "Lanota",
+          "nameZh": "兰空",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "relation": "competitor"
+        },
+        {
+          "name": "VOEZ",
+          "nameZh": "兰空 VOEZ",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/voez/id1006088253",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/voez/id1006088253",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    }
+  ]
+}

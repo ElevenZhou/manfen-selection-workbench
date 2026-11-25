@@ -1,0 +1,7 @@
+{
+  "status": "prepared",
+  "report_id": "2026-07-25-ai-tools-news-2x1x1",
+  "candidate_count": 4,
+  "package_count": 4,
+  "note": "网站将在构建与部署后由内置报告种子幂等写入D1。"
+}

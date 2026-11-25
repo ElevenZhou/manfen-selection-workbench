@@ -1,0 +1,62 @@
+{
+  "run_id": "2026-07-29-rebull-ai-stock-agent",
+  "created_at": "2026-07-28T16:17:45.773088+00:00",
+  "completed_at": "2026-07-29T00:30:00+08:00",
+  "mode": "competitor-expand",
+  "direction": "rebull-ai-stock-agent",
+  "status": "completed_with_anchor_access_gap",
+  "scope": {
+    "qualified_count": 3,
+    "decision_contract": "max 3 SELECTED + 1 BACKUP + 1 WATCH",
+    "markets": [
+      "中国大陆",
+      "港股",
+      "美股"
+    ],
+    "platforms": [
+      "web_app",
+      "cross_platform"
+    ]
+  },
+  "assumptions": [
+    "将用户的“最多3+1+1”解释为最多3个正式主选、1个备选、1个观察项",
+    "RebBull 登录被网络连接阻塞，因此只把用户描述、域名与公开可核验信息用于锚点分析",
+    "未将任何第三方市场估算写成官方事实，也未把 App Store 评分数量写成 MAU 或留存"
+  ],
+  "sources": [
+    "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519",
+    "https://apps.apple.com/cn/app/%E5%A6%99%E6%83%B3/id6469681957",
+    "https://ai.eastmoney.com/nlink/",
+    "https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490",
+    "https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490?see-all=reviews",
+    "https://mcp.tipranks.com/",
+    "https://play.google.com/store/apps/details?id=com.danelfin.app",
+    "https://danelfin.com/pricing/annual",
+    "https://support.danelfin.com/hc/en-us/articles/4404381785233-How-does-Danelfin-analyze-stocks",
+    "https://fiscal.ai/",
+    "https://docs.fiscal.ai/docs/guides/mcp-skills",
+    "https://support.simplywall.st/hc/en-us/articles/10072135570063-Understanding-the-Subscription-Plan-Limits",
+    "https://www.composer.trade/",
+    "https://api.composer.trade/docs/index.html",
+    "https://tushare.pro/document/2?doc_id=",
+    "https://www.tushare.pro/document/2?doc_id=130",
+    "https://www.alphavantage.co/documentation/",
+    "https://www.sec.gov/about/webmaster-frequently-asked-questions",
+    "https://rebull.cn/"
+  ],
+  "source_inventory": {
+    "first_party": 14,
+    "user_review_surfaces": 3,
+    "observed_local_checks": 3,
+    "paid_market_exports": 0
+  },
+  "counts": {
+    "discovered": 10,
+    "ranked": 5,
+    "deep_dives": 5,
+    "selected": 3,
+    "backup": 1,
+    "watch": 1,
+    "rejected": 5
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-11-23-global-hot-games-10",
+  "created_at": "2026-11-23T00:02:09Z",
+  "mode": "broad",
+  "direction": "global-hot-games-daily",
+  "status": "completed",
+  "counts": {
+    "discovered": 10,
+    "selected": 6,
+    "watch": 4
+  },
+  "website_persistence": "confirmed",
+  "feishu_delivery": "confirmed"
+}

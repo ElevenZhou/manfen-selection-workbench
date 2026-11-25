@@ -1,0 +1,7 @@
+﻿run_id,candidate_id,name,source_engine,route_score,route_rank,data_completeness,decision,confidence,improvements,next_validation,name_zh,product_form
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-a-fair-screw,Fair Screw,competitor_validated,82,1,0.86,SELECTED,medium,关卡开始前展示可用槽位和失败因果，失败后给一步回放 | 奖励广告只出现在自然停顿点，不把必需槽位锁在广告后,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,公平螺丝,mobile_game
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-a-calm-sort,Calm Sort,competitor_validated,79,2,0.82,SELECTED,medium,主模式不设倒计时，挑战计时作为可选玩法 | 高对比轮廓与遮挡提示降低误触，广告仅在局间,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,舒缓分类,mobile_game
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-b-merge-minute,Merge Minute,gap_redesign,83,1,0.84,SELECTED,medium,固定三分钟任务板，完成或失败都结算，不用等待能量继续核心玩法 | 长期元进度使用可选章节，不用强制弹窗打断合成,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,一分钟合成,mobile_game
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-b-duo-shelf,Duo Shelf,gap_redesign,80,2,0.81,SELECTED,medium,每人完成货架的一半，另一人可看到对方留下的提示和失误 | 每日只推送一次可完成接力，不建立重社交系统,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,双人货架,mobile_game
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-c-daily-scene,Daily Scene,emerging_demand,80,1,0.82,SELECTED,medium,AI只用于生成干扰线索和难度变体，谜底与事实由编辑数据确认 | 分享卡只展示揭示次数和推理路径，不泄露答案,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,每日场景,mobile_game
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-c-snap-blocks,Snap Blocks,emerging_demand,78,2,0.8,SELECTED,medium,端侧分析照片主体并生成三档可解布局 | 分享默认只传布局和色块特征，原图保持本地,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,随拍方块,mobile_game

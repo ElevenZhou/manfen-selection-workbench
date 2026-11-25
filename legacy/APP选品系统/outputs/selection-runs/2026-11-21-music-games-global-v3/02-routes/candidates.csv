@@ -1,0 +1,4 @@
+﻿run_id,candidate_id,name,name_zh,product_form,source_engine,route_score,route_rank,data_completeness,decision,confidence,improvements,next_validation
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-pulse-run,PulseRun,脉冲跑酷,mobile_game,competitor_validated,91,1,0.82,SELECTED,medium,按玩家节奏表现自动匹配歌曲难度 | 用每日短赛和好友幽灵回放替代重社交养成 | 优先使用原创或可授权曲库并展示版权来源,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-chart-garden,ChartGarden,谱面花园,mobile_game,competitor_validated,89,2,0.81,SELECTED,medium,先提供三种模板化谱面编辑器并自动校准节拍 | 把谱面难度与可玩性评分分开 | 提供版权安全的原创素材和本地音频实验模式,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-neon-practice,NeonPractice,霓虹练习室,mobile_game,competitor_validated,87,3,0.8,SELECTED,medium,增加自适应速度与容错 | 用提前/滞后诊断替代单一总分 | 提供可视化练习进度和回放,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。

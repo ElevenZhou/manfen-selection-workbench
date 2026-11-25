@@ -1,0 +1,372 @@
+[
+  {
+    "id": "2026-11-23-global-hot-games-10-a-01-wolf-war-last-survival",
+    "route": "A",
+    "title": "Wolf War: Last Survival",
+    "titleZh": "狼群生存",
+    "productForm": "mobile_game",
+    "category": "策略／末日生存",
+    "market": "美国、澳大利亚及 8 个其他市场",
+    "routeScore": 93,
+    "routeRank": 1,
+    "decision": "ROUTE_SELECTED",
+    "dataCompleteness": 0.96,
+    "opportunity": "新近上线的狼群生存题材把基地成长、英雄招募和短回合防守结合，适合验证轻策略的首局节奏。",
+    "improvements": [
+      "把首局拆成三段可跳过教程",
+      "让狼群编队和防守结果在同一回合可读",
+      "先用非付费资源曲线测试留存"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Whiteout Survival",
+        "nameZh": "末日生存",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/whiteout-survival/id1609454138",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/whiteout-survival/id1609454138",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/whiteout-survival/id1609454138"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-02-nail-salon-diy-asmr",
+    "route": "A",
+    "title": "Nail Salon: DIY ASMR",
+    "titleZh": "美甲解压工坊",
+    "productForm": "mobile_game",
+    "category": "休闲／ASMR 模拟",
+    "market": "美国",
+    "routeScore": 88,
+    "routeRank": 2,
+    "decision": "ROUTE_SELECTED",
+    "dataCompleteness": 0.91,
+    "opportunity": "强视觉反馈和短步骤操作适合做低认知负担的美甲工作流，但评分偏低需要验证广告和操作摩擦。",
+    "improvements": [
+      "把涂色、贴饰和修形做成三步短局",
+      "在结算前展示可控的创作差异",
+      "限制广告插入到自然停顿点"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Project Makeover",
+        "nameZh": "梦幻家园改造",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/project-makeover/id1489824499",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/project-makeover/id1489824499",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/project-makeover/id1489824499"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-03-amochiroom-puzzle-room-sort",
+    "route": "A",
+    "title": "Amochiroom Puzzle: Room Sort",
+    "titleZh": "Amochiroom 房间整理",
+    "productForm": "mobile_game",
+    "category": "益智／整理收纳",
+    "market": "美国",
+    "routeScore": 86,
+    "routeRank": 3,
+    "decision": "ROUTE_SELECTED",
+    "dataCompleteness": 0.9,
+    "opportunity": "房间整理把物件识别、空间规划和完成反馈压缩成短局，适合验证日常收纳主题的关卡扩展。",
+    "improvements": [
+      "用确定性每日房间种子做公平挑战",
+      "将提示与自动整理分层",
+      "记录多语言物件词汇的理解率"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Zen Match",
+        "nameZh": "禅意配对",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-04-tidy-house-find-objects",
+    "route": "A",
+    "title": "Tidy House: Find Objects",
+    "titleZh": "整洁房间找物",
+    "productForm": "mobile_game",
+    "category": "益智／找物",
+    "market": "美国及 8 个其他市场",
+    "routeScore": 87,
+    "routeRank": 4,
+    "decision": "ROUTE_SELECTED",
+    "dataCompleteness": 0.88,
+    "opportunity": "找物游戏的跨市场上升信号较强，机会在于短关卡、局内提示和低广告干扰。",
+    "improvements": [
+      "每关固定三分钟目标",
+      "把提示次数和失败原因可视化",
+      "用本地化物件词汇做首轮测试"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "June's Journey: Hidden Objects",
+        "nameZh": "朱恩的冒险",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/junes-journey-hidden-objects/id1200391796",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/junes-journey-hidden-objects/id1200391796",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/junes-journey-hidden-objects/id1200391796"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-05-dark-hunter-hunter-hero-rpg",
+    "route": "A",
+    "title": "Dark Hunter - Hunter Hero RPG",
+    "titleZh": "暗黑猎人英雄 RPG",
+    "productForm": "mobile_game",
+    "category": "角色扮演／动作 RPG",
+    "market": "美国",
+    "routeScore": 84,
+    "routeRank": 5,
+    "decision": "ROUTE_SELECTED",
+    "dataCompleteness": 0.84,
+    "opportunity": "新进入榜单的动作 RPG 可拆为自动战斗、技能选择和短副本，需先验证首局决策密度。",
+    "improvements": [
+      "首局只保留三种技能选择",
+      "把自动战斗和手动爆发分层",
+      "用非 IP 原创美术做灰盒"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Survivor.io",
+        "nameZh": "幸存者io",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/survivor-io/id1528941310",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/survivor-io/id1528941310",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/survivor-io/id1528941310"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-06-heartshot-arrow-escape",
+    "route": "A",
+    "title": "Heartshot: Arrow Escape",
+    "titleZh": "心射箭矢逃脱",
+    "productForm": "mobile_game",
+    "category": "动作／物理躲避",
+    "market": "美国",
+    "routeScore": 82,
+    "routeRank": 6,
+    "decision": "ROUTE_SELECTED",
+    "dataCompleteness": 0.8,
+    "opportunity": "极短的箭矢躲避循环有清晰的失败反馈，适合做物理节奏和分享回放实验。",
+    "improvements": [
+      "用可解释的碰撞轨迹替代纯失败",
+      "将每局控制在 60 秒内",
+      "提供低广告的连续挑战模式"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Archero",
+        "nameZh": "弓箭传说",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/archero/id1453651052",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/archero/id1453651052",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/archero/id1453651052"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-07-fresh-today-cozy-supermarket",
+    "route": "A",
+    "title": "Fresh Today: Cozy Supermarket",
+    "titleZh": "今日鲜货：温馨超市",
+    "productForm": "mobile_game",
+    "category": "模拟经营／超市",
+    "market": "菲律宾及 3 个其他市场",
+    "routeScore": 78,
+    "routeRank": 7,
+    "decision": "ROUTE_WATCH",
+    "dataCompleteness": 0.61,
+    "opportunity": "地区榜首说明本地化题材有即时吸引力，但没有规模和留存证据，只适合观察。",
+    "improvements": [
+      "核对菲律宾商店页和实际可玩版本",
+      "先测试补货到收银的单一循环",
+      "补齐安装档位与评论后再晋级"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Good Pizza, Great Pizza",
+        "nameZh": "可口的披萨，美味的披萨",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/good-pizza-great-pizza/id911121200"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-08-shovel-squad",
+    "route": "A",
+    "title": "Shovel Squad",
+    "titleZh": "铲子小队",
+    "productForm": "mobile_game",
+    "category": "角色扮演／挖掘冒险",
+    "market": "菲律宾及 4 个其他市场",
+    "routeScore": 76,
+    "routeRank": 8,
+    "decision": "ROUTE_WATCH",
+    "dataCompleteness": 0.59,
+    "opportunity": "挖掘、收集和轻战斗的组合适合短局验证，但当前只有地区榜单信号。",
+    "improvements": [
+      "核对低端设备性能和首局时长",
+      "把挖掘收益与战斗结果做同回合反馈",
+      "补齐商店评论与规模数据"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Diggy's Adventure",
+        "nameZh": "挖掘冒险",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/diggys-adventure/id1084903379",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/diggys-adventure/id1084903379",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/diggys-adventure/id1084903379"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-09-tiny-war-kingdom-defense",
+    "route": "A",
+    "title": "Tiny War: Kingdom Defense",
+    "titleZh": "微型战争：王国防线",
+    "productForm": "mobile_game",
+    "category": "策略／塔防",
+    "market": "马来西亚及 3 个其他市场",
+    "routeScore": 75,
+    "routeRank": 9,
+    "decision": "ROUTE_WATCH",
+    "dataCompleteness": 0.58,
+    "opportunity": "马来西亚本地榜单的多市场扩散值得观察，塔防循环仍需灰盒和留存验证。",
+    "improvements": [
+      "先做三种塔和三波敌人",
+      "用短关卡验证布阵决策",
+      "补齐 Android 覆盖与规模证据"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "Kingdom Rush",
+        "nameZh": "王国保卫战",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/kingdom-rush-tower-defense/id516378985",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/kingdom-rush-tower-defense/id516378985",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/kingdom-rush-tower-defense/id516378985"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-a-10-",
+    "route": "A",
+    "title": "萌混成仙",
+    "titleZh": "萌混成仙",
+    "productForm": "mobile_game",
+    "category": "角色扮演／放置修仙",
+    "market": "马来西亚",
+    "routeScore": 74,
+    "routeRank": 10,
+    "decision": "ROUTE_WATCH",
+    "dataCompleteness": 0.56,
+    "opportunity": "中文题材在马来西亚本地榜单的早期信号可用于测试跨语言美术和放置成长，但证据不足以晋级。",
+    "improvements": [
+      "先做马来语／英语商店文案对照",
+      "把放置成长压缩为三种可理解资源",
+      "补齐多市场榜单和规模数据"
+    ],
+    "packageStatus": "BLOCKED",
+    "packageId": null,
+    "packageUrl": null,
+    "packageSha256": null,
+    "references": [
+      {
+        "name": "AFK Arena",
+        "nameZh": "剑与远征",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/afk-arena/id1375425431",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/afk-arena/id1375425431",
+        "relation": "competitor"
+      }
+    ],
+    "iconUrl": null,
+    "iconSource": "competitor",
+    "iconSourceUrl": "https://apps.apple.com/us/app/afk-arena/id1375425431"
+  }
+]

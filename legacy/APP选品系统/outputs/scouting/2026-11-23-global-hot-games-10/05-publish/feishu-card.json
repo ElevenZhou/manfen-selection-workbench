@@ -1,0 +1,61 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 全球近24小时上升游戏机会 10 项"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-11-23 · 全球近24小时游戏热度候选**\n✅ **6** 个最终入选　·　📦 **0** 个生产资料包\n从美国 Google Play Trending 与 Apple App Store 跨市场新上线事件发现 10 个未在历史运行中出现的游戏候选。6 个达到发布级证据门槛，4 个因规模或可玩版本证据不足保留 WATCH。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（6）**\n\n**1. Wolf War: Last Survival（狼群生存）**　`手机游戏`　`93分`\n参考：[Whiteout Survival（末日生存） · 手机游戏](https://apps.apple.com/us/app/whiteout-survival/id1609454138)\n资料包未就绪\n\n**2. Nail Salon: DIY ASMR（美甲解压工坊）**　`手机游戏`　`88分`\n参考：[Project Makeover（梦幻家园改造） · 手机游戏](https://apps.apple.com/us/app/project-makeover/id1489824499)\n资料包未就绪\n\n**3. Amochiroom Puzzle: Room Sort（Amochiroom 房间整理）**　`手机游戏`　`86分`\n参考：[Zen Match（禅意配对） · 手机游戏](https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141)\n资料包未就绪\n\n**4. Tidy House: Find Objects（整洁房间找物）**　`手机游戏`　`87分`\n参考：[June's Journey: Hidden Objects（朱恩的冒险） · 手机游戏](https://apps.apple.com/us/app/junes-journey-hidden-objects/id1200391796)\n资料包未就绪\n\n**5. Dark Hunter - Hunter Hero RPG（暗黑猎人英雄 RPG）**　`手机游戏`　`84分`\n参考：[Survivor.io（幸存者io） · 手机游戏](https://apps.apple.com/us/app/survivor-io/id1528941310)\n资料包未就绪\n\n**6. Heartshot: Arrow Escape（心射箭矢逃脱）**　`手机游戏`　`82分`\n参考：[Archero（弓箭传说） · 手机游戏](https://apps.apple.com/us/app/archero/id1453651052)\n资料包未就绪"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-11-23-global-hot-games-10"
+          }
+        ]
+      }
+    ]
+  }
+}

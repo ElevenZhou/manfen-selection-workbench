@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-11-21-music-games-global-v3",
+  "objective": "全球音乐游戏灰盒候选 3 项（补证版）",
+  "direction": "music-games-global",
+  "requested": {
+    "A": 3,
+    "B": 0,
+    "C": 0
+  },
+  "data_cutoff": "2026-11-21",
+  "collection_mode": "networked_model_on_demand",
+  "continuous_crawler": false,
+  "methodology_version": "app-opportunity-scout-gameplay-hunt-v1.1",
+  "assumptions": [
+    "沿用2026-11-21音乐游戏发现池，按硬门禁只推进3个证据相对完整的候选。",
+    "全球市场，优先观察美国、英国、日本、韩国和东南亚，首发平台仍为iOS与Android。",
+    "第三方市场数据仅作方向性代理，未接入授权的App级收入、DAU/MAU与留存原始数据。",
+    "音乐游戏入选仅表示进入灰盒验证，尚未证明玩法好玩或具备商业成功。"
+  ],
+  "acceptance": [
+    "route counts match",
+    "three references per selection",
+    "package schema passes",
+    "zip checksum exists",
+    "website payload validates"
+  ]
+}

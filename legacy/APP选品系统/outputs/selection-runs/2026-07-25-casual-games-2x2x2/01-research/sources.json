@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Sensor Tower State of Mobile 2026",
+    "url": "https://sensortower.com/press/press-release-boosted-by-gen-ai-services-consumers-spent-more-money-in-apps-than-games-for-first-time",
+    "claim": "2025年全球用户在App中投入5.3万亿小时，非游戏App消费首次超过游戏，生成式AI是主要增长因素之一。"
+  },
+  {
+    "name": "AppMagic Mobile Market Landscape 2026",
+    "url": "https://appmagic.rocks/research/mobile-landscape-report-2026/?hl=en",
+    "claim": "2025年非游戏App下载同比增长11.9%、收入增长19.1%；报告同时覆盖AI、工具和休闲游戏趋势。"
+  },
+  {
+    "name": "AppMagic 2026 Key Takeaways",
+    "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+    "claim": "Sort、Block、Logic、Merge等益智子类型仍是增长或变现活跃方向；数据口径为App Store与Google Play全球下载及IAP。"
+  },
+  {
+    "name": "Screw Jam",
+    "url": "https://play.google.com/store/apps/details?id=com.quok.screwJam",
+    "claim": "Google Play显示1M+下载、约74.1K评论；评论重复提到难度向道具和广告倾斜。"
+  },
+  {
+    "name": "Screw Wood Nuts & Bolts",
+    "url": "https://play.google.com/store/apps/details?id=com.funspace.screw",
+    "claim": "Google Play显示500K+下载、约11.3K评论；评论出现广告密度投诉。"
+  },
+  {
+    "name": "Screw Jam Handler",
+    "url": "https://play.google.com/store/apps/details?id=screw.jam.handler",
+    "claim": "Google Play显示1M+下载；2026评论反复提到广告、奖励失败和重新开局。"
+  },
+  {
+    "name": "Goods Triple Match",
+    "url": "https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle",
+    "claim": "Google Play持续更新并定位离线整理与三件匹配，证明玩法供给活跃。"
+  },
+  {
+    "name": "Match Factory",
+    "url": "https://play.google.com/store/apps/details?id=net.peakgames.match",
+    "claim": "Google Play显示10M+下载、约667K评论，验证物品识别和快速清屏的核心循环。"
+  },
+  {
+    "name": "Triple Match 3D",
+    "url": "https://play.google.com/store/apps/details?id=com.master.triple3d.find",
+    "claim": "成熟三件匹配产品证明视觉搜寻与收集循环的长期需求。"
+  },
+  {
+    "name": "Merge Mansion",
+    "url": "https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152",
+    "claim": "成熟合成+叙事产品证明长期内容和LiveOps可变现。"
+  },
+  {
+    "name": "Travel Town",
+    "url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+    "claim": "以能量、订单和活动驱动长线合成，是当前玩家替代方案。"
+  },
+  {
+    "name": "Gossip Harbor",
+    "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor",
+    "claim": "合成与连续剧情结合，进一步验证品类需求但也强化长时运营结构。"
+  },
+  {
+    "name": "Plato",
+    "url": "https://platoapp.com/",
+    "claim": "轻量社交小游戏证明朋友关系可以驱动重复游玩，但多为实时房间。"
+  },
+  {
+    "name": "Discord Activities",
+    "url": "https://discord.com/activities",
+    "claim": "聊天场景中的共同游戏验证社交入口，异步短接力仍有重构空间。"
+  },
+  {
+    "name": "NYT Games",
+    "url": "https://www.nytimes.com/crosswords",
+    "claim": "每日谜题和连续记录证明一次性日更行为可形成长期习惯。"
+  },
+  {
+    "name": "GeoGuessr",
+    "url": "https://www.geoguessr.com/",
+    "claim": "视觉场景推理和分享挑战已经形成成熟玩家行为。"
+  },
+  {
+    "name": "Apple Core AI",
+    "url": "https://developer.apple.com/core-ai/",
+    "claim": "设备端视觉和语言模型降低动态难度与离线线索生成成本。"
+  },
+  {
+    "name": "Block Blast",
+    "url": "https://play.google.com/store/apps/details?id=com.block.juggle",
+    "claim": "头部块状益智产品验证极简拖放和短局循环的广泛需求。"
+  }
+]

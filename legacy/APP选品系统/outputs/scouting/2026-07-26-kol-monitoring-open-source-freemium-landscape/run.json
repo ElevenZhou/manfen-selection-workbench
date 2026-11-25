@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-07-26-kol-monitoring-open-source-freemium-landscape",
+  "created_at": "2026-07-26T13:30:18.706916+00:00",
+  "completed_at": "2026-07-26T14:05:00+00:00",
+  "mode": "directed",
+  "direction": "kol-monitoring-open-source-freemium-landscape",
+  "status": "completed",
+  "scope": {
+    "qualified_count": 10,
+    "included": ["open-source GitHub projects", "commercial products with a persistent free tier"],
+    "excluded": ["free-trial-only products", "enterprise products without public free access", "tools whose core use requires unauthorized scraping"]
+  },
+  "assumptions": [
+    "The target workflow is change detection to original evidence to AI interpretation to human confirmation to assignment or push.",
+    "Commercial free plans are evaluated as validation tools, not production capacity.",
+    "GitHub popularity is a technology adoption proxy and not proof of end-user demand."
+  ],
+  "sources": [
+    "https://github.com/dgtlmoon/changedetection.io",
+    "https://github.com/DIYgod/RSSHub",
+    "https://github.com/FreshRSS/FreshRSS",
+    "https://github.com/FreshRSS/Extensions",
+    "https://github.com/huginn/huginn",
+    "https://github.com/miniflux/v2",
+    "https://visualping.io/blog/visualping-pricing-explained",
+    "https://www.talkwalker.com/alerts",
+    "https://www.inoreader.com/pricing",
+    "https://distill.io/pricing/",
+    "https://www.browse.ai/pricing",
+    "https://help.browse.ai/en/articles/11429429-how-do-plans-and-pricing-work"
+  ],
+  "counts": {
+    "discovered": 18,
+    "ranked": 10,
+    "deep_dives": 10,
+    "selected": 0,
+    "backup": 0,
+    "watch": 10,
+    "rejected": 8
+  },
+  "decision_note": "These are selected reference products, not app opportunities. They remain WATCH in the app-selection state machine."
+}

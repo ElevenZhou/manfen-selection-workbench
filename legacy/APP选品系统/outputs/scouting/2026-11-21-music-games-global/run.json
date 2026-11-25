@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-11-21-music-games-global",
+  "created_at": "2026-11-20T19:30:01.315296+00:00",
+  "mode": "gameplay-hunt",
+  "direction": "music-games-global",
+  "status": "completed",
+  "scope": {
+    "qualified_count": 10,
+    "markets": [
+      "global"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
+  },
+  "assumptions": [
+    "总数 10 个候选，不按路线平均分配",
+    "全球市场，重点 US/UK/JP/KR/SEA",
+    "近 12 个月优先"
+  ],
+  "sources": [
+    "Apple App Store",
+    "Google Play",
+    "Sensor Tower",
+    "公开评测和玩家讨论"
+  ],
+  "counts": {
+    "discovered": 20,
+    "ranked": 10,
+    "deep_dives": 10,
+    "selected": 8,
+    "backup": 2,
+    "watch": 0,
+    "rejected": 0
+  }
+}

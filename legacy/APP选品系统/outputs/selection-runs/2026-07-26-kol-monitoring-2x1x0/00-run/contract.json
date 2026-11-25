@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-07-26-kol-monitoring-2x1x0",
+  "objective": "KOL监控、AI分析与推送专项 2+1+0",
+  "direction": "kol-monitoring-ai-analysis-push",
+  "requested": {
+    "A": 2,
+    "B": 1,
+    "C": 0
+  },
+  "data_cutoff": "2026-07-26",
+  "collection_mode": "networked_model_on_demand",
+  "continuous_crawler": false,
+  "methodology_version": "route-system-v1.2-model-live-research",
+  "assumptions": [
+    "KOL包括品牌达人、行业专家和可配置的关键意见账号，不限定单一平台",
+    "首版只使用官方API、授权数据、RSS、公开网页和用户主动提交链接，不以绕过平台限制的爬虫作为前提",
+    "AI结论必须附原始内容、时间和来源；推送默认采用飞书、Slack或邮件中的一种，不自动替用户作经营或投资决策",
+    "没有授权的全量社交历史、App级收入、活跃和留存数据，因此先验证任务完成和付费意向"
+  ],
+  "acceptance": [
+    "route counts match",
+    "three references per selection",
+    "package schema passes",
+    "zip checksum exists",
+    "website payload validates"
+  ]
+}

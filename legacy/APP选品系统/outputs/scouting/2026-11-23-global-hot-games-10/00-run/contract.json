@@ -1,0 +1,43 @@
+{
+  "run_id": "2026-11-23-global-hot-games-10",
+  "created_at": "2026-11-23T00:02:09Z",
+  "execution_mode": "inline_fallback",
+  "mode": "broad",
+  "direction": "global-hot-games-daily",
+  "scope": {
+    "markets": [
+      "US",
+      "AU",
+      "PH",
+      "MY",
+      "global"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "target_count": 10,
+    "cutoff": "2026-11-22 chart snapshot"
+  },
+  "dedupe": {
+    "local_and_online_reports_checked": true,
+    "excluded_previous_candidates": [
+      "Shelter Defense",
+      "Fidget Clicker: Finger 3D Toy",
+      "Line Tangle: Untangle Puzzle",
+      "Tidy Room!",
+      "Card of Demon Slayer: Deck RPG",
+      "三国志: 九州覇業 CBT",
+      "Slice Away! - Physics Puzzle",
+      "Onthel Life: Street Bike",
+      "Sand Hole: Block Sort Jam",
+      "Cursed Game Dev Simulator",
+      "Bola Capture"
+    ]
+  },
+  "publish_authority": {
+    "website": true,
+    "feishu": true,
+    "idempotency_key": "2026-11-23-global-hot-games-10:feishu-summary:v1"
+  }
+}

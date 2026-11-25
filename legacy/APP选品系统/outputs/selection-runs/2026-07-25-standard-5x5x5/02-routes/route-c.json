@@ -1,0 +1,294 @@
+[
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-agent-inbox",
+    "parent_opportunity_id": null,
+    "title": "Agent Inbox",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Global"
+    ],
+    "target_user": "同时使用多个AI代理和自动化工作流的个人与小团队",
+    "core_job": "在一个地方看到真正需要人决定的动作、依据、风险和撤回窗口",
+    "trigger": "代理准备发送消息、付款、发布、删除或修改外部系统",
+    "current_alternative": "逐个工具通知、Slack审批、邮件和自动化运行日志",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-agent-inbox-1",
+      "sig-2026-07-25-standard-5x5x5-c-agent-inbox-2",
+      "sig-2026-07-25-standard-5x5x5-c-agent-inbox-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-agent-inbox-1",
+      "ev-2026-07-25-standard-5x5x5-c-agent-inbox-2",
+      "ev-2026-07-25-standard-5x5x5-c-agent-inbox-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 89,
+    "route_rank": 1,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.88,
+    "improvement_points": [
+      "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+      "每项展示来源、影响面、可逆性和撤回截止时间"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "智能体收件箱",
+    "product_form": "cross_platform"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-proof-camera",
+    "parent_opportunity_id": null,
+    "title": "Proof Camera",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "EU"
+    ],
+    "target_user": "需要证明原始照片来源和编辑过程的记者、卖家、创作者与普通用户",
+    "core_job": "在不增加专业取证负担的情况下生成可理解的来源和编辑记录",
+    "trigger": "拍摄可能被质疑的图片，或准备向外部平台提交内容",
+    "current_alternative": "普通相机、云盘时间戳、Adobe Content Credentials和专业取证服务",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-proof-camera-1",
+      "sig-2026-07-25-standard-5x5x5-c-proof-camera-2",
+      "sig-2026-07-25-standard-5x5x5-c-proof-camera-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-proof-camera-1",
+      "ev-2026-07-25-standard-5x5x5-c-proof-camera-2",
+      "ev-2026-07-25-standard-5x5x5-c-proof-camera-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 87,
+    "route_rank": 2,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.86,
+    "improvement_points": [
+      "拍摄即建立本地签名与编辑事件，不上传原图也能验证",
+      "分享时生成简明轨迹卡，明确哪些内容可证明、哪些不能"
+    ],
+    "ai_role": "background",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "可信相机",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-model-ledger",
+    "parent_opportunity_id": null,
+    "title": "Model Ledger",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Global"
+    ],
+    "target_user": "在多个云端和本地模型之间切换的重度AI用户",
+    "core_job": "知道哪个任务用了哪个模型、花了多少、数据去了哪里、结果能否复现",
+    "trigger": "完成一次重要任务、产生高成本调用或输入敏感内容",
+    "current_alternative": "OpenRouter用量页、Open WebUI、LM Studio和个人表格",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-model-ledger-1",
+      "sig-2026-07-25-standard-5x5x5-c-model-ledger-2",
+      "sig-2026-07-25-standard-5x5x5-c-model-ledger-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-model-ledger-1",
+      "ev-2026-07-25-standard-5x5x5-c-model-ledger-2",
+      "ev-2026-07-25-standard-5x5x5-c-model-ledger-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 85,
+    "route_rank": 3,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.85,
+    "improvement_points": [
+      "按任务而非按API调用记录模型、费用和结果版本",
+      "发送敏感内容前显示本地/云端路径和保留策略"
+    ],
+    "ai_role": "background",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "模型账本",
+    "product_form": "desktop_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-offline-tutor",
+    "parent_opportunity_id": null,
+    "title": "Offline Tutor",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Emerging Markets"
+    ],
+    "target_user": "网络不稳定但拥有较新手机的学习者",
+    "core_job": "离线获得有限范围、可回溯教材的个性化辅导，并在联网后同步进度",
+    "trigger": "没有稳定网络时需要解释课程、练习或复习",
+    "current_alternative": "下载视频、PDF、Khan Academy内容和通用聊天机器人",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-offline-tutor-1",
+      "sig-2026-07-25-standard-5x5x5-c-offline-tutor-2",
+      "sig-2026-07-25-standard-5x5x5-c-offline-tutor-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-offline-tutor-1",
+      "ev-2026-07-25-standard-5x5x5-c-offline-tutor-2",
+      "ev-2026-07-25-standard-5x5x5-c-offline-tutor-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 82,
+    "route_rank": 4,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.82,
+    "improvement_points": [
+      "课程包、引用和练习离线运行，答案必须回到教材片段",
+      "联网时只同步学习状态和内容更新，不上传原始学习对话"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "离线导师",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-passkey-ready",
+    "parent_opportunity_id": null,
+    "title": "Passkey Ready",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "EU"
+    ],
+    "target_user": "开始使用Passkey、但担心换机、家庭恢复和跨平台迁移的普通用户",
+    "core_job": "知道每个Passkey存在哪里、能否迁移，以及丢失设备后如何恢复",
+    "trigger": "网站要求创建Passkey、准备换机或需要为家人设置恢复方案",
+    "current_alternative": "系统密码管理器、1Password、Bitwarden和手工恢复清单",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-passkey-ready-1",
+      "sig-2026-07-25-standard-5x5x5-c-passkey-ready-2",
+      "sig-2026-07-25-standard-5x5x5-c-passkey-ready-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-passkey-ready-1",
+      "ev-2026-07-25-standard-5x5x5-c-passkey-ready-2",
+      "ev-2026-07-25-standard-5x5x5-c-passkey-ready-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 78,
+    "route_rank": 5,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.81,
+    "improvement_points": [
+      "扫描账户设置生成Passkey位置和恢复路径清单，不接触私钥",
+      "换机前运行可恢复性检查并生成家庭应急步骤"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "通行密钥助手",
+    "product_form": "mobile_app"
+  }
+]

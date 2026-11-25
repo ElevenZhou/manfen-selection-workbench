@@ -1,0 +1,4 @@
+﻿priority,bench,candidate_id,product,route,package_id,status
+1,BENCH-1,2026-11-21-music-games-global-v3-a-pulse-run,PulseRun（脉冲跑酷）,A,pkg-2026-11-21-music-games-global-v3-a-pulse-run,READY_TO_LOAD
+2,BENCH-2,2026-11-21-music-games-global-v3-a-chart-garden,ChartGarden（谱面花园）,A,pkg-2026-11-21-music-games-global-v3-a-chart-garden,READY_TO_LOAD
+3,BENCH-3,2026-11-21-music-games-global-v3-a-neon-practice,NeonPractice（霓虹练习室）,A,pkg-2026-11-21-music-games-global-v3-a-neon-practice,READY_TO_LOAD

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.1",
+  "candidate_id": "cand-example-001",
+  "parent_opportunity_id": null,
+  "title": "Example voice-note workflow",
+  "title_zh": "示例语音笔记工作流",
+  "product_form": "mobile_app",
+  "source_engine": "gap_redesign",
+  "source_run_id": "run-example-001",
+  "stage": "EVIDENCE_BUILDING",
+  "target_market": ["US"],
+  "target_user": "People who capture frequent voice notes",
+  "core_job": "Turn spoken thoughts into organized actions",
+  "trigger": "A thought is captured while the user cannot type",
+  "current_alternative": "Transcription plus notes plus task manager",
+  "lifecycle": "structural",
+  "signal_ids": ["sig-example-001"],
+  "evidence_ids": ["ev-example-001", "ev-example-002"],
+  "reference_gate": {
+    "type": "substitute_or_workaround",
+    "required_count": 3,
+    "actual_count": 1,
+    "passed": false
+  },
+  "route_score": 42,
+  "route_rank": 8,
+  "route_methodology_version": "gap-redesign-v1",
+  "data_completeness": 0.35,
+  "improvement_points": [
+    "Convert one recording into a structured summary and next actions"
+  ],
+  "ai_role": "background",
+  "minimum_build": "Record, transcribe, summarize, and confirm actions",
+  "monetization": null,
+  "acquisition": null,
+  "next_validation": "Observe 10 target users' current workflows",
+  "stop_conditions": [
+    "Fewer than three repeated workaround patterns are found"
+  ],
+  "decision": "WATCH",
+  "confidence": "low",
+  "created_at": "2026-07-25T00:00:00Z",
+  "updated_at": "2026-07-25T00:00:00Z",
+  "methodology_version": "multi-engine-v1"
+}

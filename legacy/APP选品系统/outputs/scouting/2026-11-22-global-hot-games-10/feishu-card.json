@@ -1,0 +1,61 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 全球近24小时上升游戏机会 10 项"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-11-22 · 全球近24小时游戏热度候选**\n✅ **8** 个最终入选　·　📦 **0** 个生产资料包\n从美国、日本、韩国、巴西、印度尼西亚及 App Store 付费榜发现 10 个未在历史运行中出现的游戏候选。8 个达到发布级证据门槛，2 个因规模或测试流量不确定性保留 WATCH。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（8）**\n\n**1. Shelter Defense（避难所防线）**　`手机游戏`　`90分`\n参考：[State of Survival（末日生存） · 手机游戏](https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [SortPuz（分类拼图） · 手机游戏](https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506)\n资料包未就绪\n\n**2. Fidget Clicker: Finger 3D Toy（手指 3D 解压点击）**　`手机游戏`　`86分`\n参考：[Fidget Toys Trading 3D（解压玩具 3D） · 手机游戏](https://apps.apple.com/us/app/fidget-toys-trading-3d/id1572681355) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Zen Match（禅意配对） · 手机游戏](https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141)\n资料包未就绪\n\n**3. Line Tangle: Untangle Puzzle（线条解结）**　`手机游戏`　`88分`\n参考：[Untangle（解结） · 手机游戏](https://apps.apple.com/us/app/untangle/id314890592) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Zen Match（禅意配对） · 手机游戏](https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141)\n资料包未就绪\n\n**4. Tidy Room!（整理房间）**　`手机游戏`　`87分`\n参考：[Zen Match（禅意配对） · 手机游戏](https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141) · [SortPuz（分类拼图） · 手机游戏](https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486)\n资料包未就绪\n\n**5. Card of Demon Slayer: Deck RPG（鬼灭卡牌）**　`手机游戏`　`89分`\n参考：[Slay the Spire（杀戮尖塔） · 手机游戏](https://apps.apple.com/us/app/slay-the-spire/id1491530147) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [SortPuz（分类拼图） · 手机游戏](https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506)\n资料包未就绪\n\n**7. Slice Away! - Physics Puzzle（切开！物理谜题）**　`手机游戏`　`82分`\n参考：[Cut the Rope（割绳子） · 手机游戏](https://apps.apple.com/us/app/cut-the-rope/id380293530) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [SortPuz（分类拼图） · 手机游戏](https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506)\n资料包未就绪\n\n**9. Sand Hole: Block Sort Jam（沙洞：方块分类）**　`手机游戏`　`84分`\n参考：[SortPuz（分类拼图） · 手机游戏](https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506) · [Block Blast!（方块爆破） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Zen Match（禅意配对） · 手机游戏](https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141)\n资料包未就绪\n\n**10. Cursed Game Dev Simulator（诅咒游戏开发模拟器）**　`手机游戏`　`83分`\n参考：[Game Dev Story（游戏开发物语） · 手机游戏](https://apps.apple.com/us/app/game-dev-story/id396085661) · [Minecraft: Play with Friends!（我的世界） · 手机游戏](https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143) · [Slay the Spire（杀戮尖塔） · 手机游戏](https://apps.apple.com/us/app/slay-the-spire/id1491530147)\n资料包未就绪"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-11-22-global-hot-games-10"
+          }
+        ]
+      }
+    ]
+  }
+}

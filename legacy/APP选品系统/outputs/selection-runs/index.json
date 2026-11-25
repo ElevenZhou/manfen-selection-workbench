@@ -1,0 +1,53 @@
+[
+  {
+    "run_id": "2026-07-25-standard-5x5x5",
+    "title": "标准全市场选品 5+5+5",
+    "direction": "all-markets",
+    "selected": 15,
+    "path": "outputs/selection-runs/2026-07-25-standard-5x5x5",
+    "website_payload": "outputs/selection-runs/2026-07-25-standard-5x5x5/05-publish/website-report.json",
+    "feishu_card": "outputs/selection-runs/2026-07-25-standard-5x5x5/05-publish/feishu-card.json",
+    "feishu_card_bilingual": "outputs/selection-runs/2026-07-25-standard-5x5x5/05-publish/feishu-card-bilingual.json",
+    "feishu_receipt": "outputs/selection-runs/2026-07-25-standard-5x5x5/05-publish/feishu-receipt.json"
+  },
+  {
+    "run_id": "2026-07-25-casual-games-2x2x2",
+    "title": "休闲游戏专项 2+2+2",
+    "direction": "casual-games",
+    "selected": 6,
+    "path": "outputs/selection-runs/2026-07-25-casual-games-2x2x2",
+    "website_payload": "outputs/selection-runs/2026-07-25-casual-games-2x2x2/05-publish/website-report.json",
+    "feishu_card": "outputs/selection-runs/2026-07-25-casual-games-2x2x2/05-publish/feishu-card.json",
+    "feishu_card_bilingual": "outputs/selection-runs/2026-07-25-casual-games-2x2x2/05-publish/feishu-card-bilingual.json",
+    "feishu_receipt": "outputs/selection-runs/2026-07-25-casual-games-2x2x2/05-publish/feishu-receipt.json"
+  },
+  {
+    "run_id": "2026-07-25-ai-tools-news-2x1x1",
+    "title": "AI工具与资讯专项 2+1+1",
+    "direction": "ai-tools-and-intelligence",
+    "selected": 4,
+    "path": "outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1",
+    "website_payload": "outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1/05-publish/website-report.json",
+    "feishu_card": "outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1/05-publish/feishu-card.json",
+    "feishu_card_bilingual": "outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1/05-publish/feishu-card-bilingual.json",
+    "feishu_receipt": "outputs/selection-runs/2026-07-25-ai-tools-news-2x1x1/05-publish/feishu-receipt.json"
+  },
+  {
+    "run_id": "2026-07-26-kol-monitoring-2x1x0",
+    "title": "KOL监控、AI分析与推送专项 2+1+0",
+    "direction": "kol-monitoring-ai-analysis-push",
+    "selected": 3,
+    "path": "outputs/selection-runs/2026-07-26-kol-monitoring-2x1x0",
+    "website_payload": "outputs/selection-runs/2026-07-26-kol-monitoring-2x1x0/05-publish/website-report.json",
+    "naming": "English（中文）"
+  },
+  {
+    "run_id": "2026-11-21-music-games-global-v3",
+    "title": "全球音乐游戏灰盒候选 3 项（补证版）",
+    "direction": "music-games-global",
+    "selected": 3,
+    "path": "outputs/selection-runs/2026-11-21-music-games-global-v3",
+    "website_payload": "outputs/selection-runs/2026-11-21-music-games-global-v3/05-publish/website-report.json",
+    "naming": "English（中文）"
+  }
+]

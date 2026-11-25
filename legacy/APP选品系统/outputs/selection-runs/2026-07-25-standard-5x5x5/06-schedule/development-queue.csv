@@ -1,0 +1,16 @@
+﻿priority,bench,candidate_id,product,route,package_id,status
+1,BENCH-1,2026-07-25-standard-5x5x5-a-dose-quiet,Dose Quiet,A,pkg-2026-07-25-standard-5x5x5-a-dose-quiet,READY_TO_LOAD
+2,BENCH-2,2026-07-25-standard-5x5x5-a-pantry-snap,Pantry Snap,A,pkg-2026-07-25-standard-5x5x5-a-pantry-snap,READY_TO_LOAD
+3,BENCH-3,2026-07-25-standard-5x5x5-a-study-slice,Study Slice,A,pkg-2026-07-25-standard-5x5x5-a-study-slice,READY_TO_LOAD
+4,BENCH-4,2026-07-25-standard-5x5x5-a-focus-relay,Focus Relay,A,pkg-2026-07-25-standard-5x5x5-a-focus-relay,READY_TO_LOAD
+5,BENCH-5,2026-07-25-standard-5x5x5-a-receipt-quiet,Receipt Quiet,A,pkg-2026-07-25-standard-5x5x5-a-receipt-quiet,READY_TO_LOAD
+6,WAITING,2026-07-25-standard-5x5x5-b-care-handoff,Care Handoff,B,pkg-2026-07-25-standard-5x5x5-b-care-handoff,READY_WAITING
+7,WAITING,2026-07-25-standard-5x5x5-b-field-quote,Field Quote,B,pkg-2026-07-25-standard-5x5x5-b-field-quote,READY_WAITING
+8,WAITING,2026-07-25-standard-5x5x5-b-shift-proof,Shift Proof,B,pkg-2026-07-25-standard-5x5x5-b-shift-proof,READY_WAITING
+9,WAITING,2026-07-25-standard-5x5x5-b-access-guide,Access Guide,B,pkg-2026-07-25-standard-5x5x5-b-access-guide,READY_WAITING
+10,WAITING,2026-07-25-standard-5x5x5-b-move-proof,Move Proof,B,pkg-2026-07-25-standard-5x5x5-b-move-proof,READY_WAITING
+11,WAITING,2026-07-25-standard-5x5x5-c-agent-inbox,Agent Inbox,C,pkg-2026-07-25-standard-5x5x5-c-agent-inbox,READY_WAITING
+12,WAITING,2026-07-25-standard-5x5x5-c-proof-camera,Proof Camera,C,pkg-2026-07-25-standard-5x5x5-c-proof-camera,READY_WAITING
+13,WAITING,2026-07-25-standard-5x5x5-c-model-ledger,Model Ledger,C,pkg-2026-07-25-standard-5x5x5-c-model-ledger,READY_WAITING
+14,WAITING,2026-07-25-standard-5x5x5-c-offline-tutor,Offline Tutor,C,pkg-2026-07-25-standard-5x5x5-c-offline-tutor,READY_WAITING
+15,WAITING,2026-07-25-standard-5x5x5-c-passkey-ready,Passkey Ready,C,pkg-2026-07-25-standard-5x5x5-c-passkey-ready,READY_WAITING

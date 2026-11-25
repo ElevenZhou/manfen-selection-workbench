@@ -1,0 +1,10 @@
+﻿run_id,candidate_id,theme_type,theme,evidence_basis,confidence
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-pulse-run,pain_or_request,按玩家节奏表现自动匹配歌曲难度,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-pulse-run,pain_or_request,用每日短赛和好友幽灵回放替代重社交养成,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-pulse-run,pain_or_request,优先使用原创或可授权曲库并展示版权来源,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-chart-garden,pain_or_request,先提供三种模板化谱面编辑器并自动校准节拍,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-chart-garden,pain_or_request,把谱面难度与可玩性评分分开,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-chart-garden,pain_or_request,提供版权安全的原创素材和本地音频实验模式,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-neon-practice,pain_or_request,增加自适应速度与容错,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-neon-practice,pain_or_request,用提前/滞后诊断替代单一总分,cross-reference synthesis,medium
+2026-11-21-music-games-global-v3,2026-11-21-music-games-global-v3-a-neon-practice,pain_or_request,提供可视化练习进度和回放,cross-reference synthesis,medium

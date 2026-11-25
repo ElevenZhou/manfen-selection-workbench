@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-09-18-ai-chat-mochichat-zeta-polybuzz",
+  "date": "2026-09-18",
+  "mode": "competitor-expand",
+  "direction": "AI character chat / companion / interactive story",
+  "request": "研究 Mochichat、zeta、PolyBuzz 并通过选品系统完成综合选品",
+  "assumptions": [
+    "mochicha interpreted as Mochichat (com.yuedong.mochi)",
+    "Global English-first scope; Android/iOS public evidence",
+    "Current public listings and reviews used; exact revenue/retention unavailable"
+  ],
+  "status": "completed",
+  "source_count": 16,
+  "ranked_count": 10,
+  "deep_dive_count": 3,
+  "selected_count": 2,
+  "backup_count": 1,
+  "watch_count": 7,
+  "rejected_count": 0,
+  "collected_at": "2026-09-18",
+  "report_path": "report.md",
+  "artifacts": [
+    "run.json",
+    "report.md",
+    "signals.json",
+    "candidates.json",
+    "candidates.csv",
+    "evidence.json",
+    "evidence.csv",
+    "review-themes.csv",
+    "website.json"
+  ]
+}

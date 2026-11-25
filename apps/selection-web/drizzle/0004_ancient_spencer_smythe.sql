@@ -1,0 +1,1 @@
+ALTER TABLE `candidates` ADD `title_zh` text DEFAULT '' NOT NULL;

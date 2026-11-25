@@ -1,0 +1,13 @@
+{
+  "task_id": "sel_95ced1f8-4b18-4b5b-b817-97dd062f7278",
+  "local_status": "research_completed",
+  "candidate_count": 10,
+  "route_selected_count": 5,
+  "route_backup_count": 5,
+  "website_report": "outputs/scouting/sel_95ced1f8-4b18-4b5b-b817-97dd062f7278-music-vertical-cn-us/website-report.json",
+  "worker_report": ".worker-runs/sel_95ced1f8-4b18-4b5b-b817-97dd062f7278/website-report.json",
+  "external_queue_update": "blocked",
+  "external_queue_update_reason": "公开站点 API 返回 HTTP 403，未绕过保护或伪造任务状态。",
+  "feishu": "not_sent",
+  "feishu_reason": "当前指令未明确授权外部通知。"
+}

@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-07-25-ai-tools-news-2x1x1",
+  "objective": "AI工具与资讯专项 2+1+1",
+  "direction": "ai-tools-and-intelligence",
+  "requested": {
+    "A": 2,
+    "B": 1,
+    "C": 1
+  },
+  "data_cutoff": "2026-07-25",
+  "collection_mode": "networked_model_on_demand",
+  "continuous_crawler": false,
+  "methodology_version": "route-system-v1.1-model-live-research",
+  "assumptions": [
+    "用户输入的2+1+）按2+1+1执行",
+    "优先开发者、AI重度用户与小团队",
+    "不把单次GitHub热度直接等同消费需求"
+  ],
+  "acceptance": [
+    "route counts match",
+    "three references per selection",
+    "package schema passes",
+    "zip checksum exists",
+    "website payload validates"
+  ]
+}

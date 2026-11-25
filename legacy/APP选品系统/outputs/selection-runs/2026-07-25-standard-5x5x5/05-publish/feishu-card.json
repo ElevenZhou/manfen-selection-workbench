@@ -1,0 +1,81 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 标准全市场选品 5+5+5"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-07-25 · all-markets**\n✅ **15** 个最终入选　·　📦 **15** 个生产资料包\n联网大模型现查形成的真实研究报告；三条路线独立评选，共15个入选和资料包。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（5）**\n\n**1. Dose Quiet**　`84分`\n参考：[MyTherapy](https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy) · [Medisafe](https://play.google.com/store/apps/details?id=com.medisafe.android.client) · [Pillo](https://www.pillo.care/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-dose-quiet.zip)\n\n**2. Pantry Snap**　`81分`\n参考：[KitchenPal](https://play.google.com/store/apps/details?id=fr.icuisto.icuisto) · [NoWaste](https://play.google.com/store/apps/details?id=com.khcreations.nowaste) · [Pantry Check](https://pantrycheck.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-pantry-snap.zip)\n\n**3. Study Slice**　`82分`\n参考：[Quizlet](https://quizlet.com/) · [Knowt](https://play.google.com/store/apps/details?id=com.knowt.app) · [StudyFetch](https://www.studyfetch.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-study-slice.zip)\n\n**4. Focus Relay**　`80分`\n参考：[Forest](https://www.forestapp.cc/) · [Focus To-Do](https://play.google.com/store/apps/details?id=com.superelement.pomodoro) · [Tide](https://tide.fm/en_US/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-focus-relay.zip)\n\n**5. Receipt Quiet**　`79分`\n参考：[Expensify](https://www.expensify.com/) · [Zoho Expense](https://www.zoho.com/expense/) · [Smart Receipts](https://www.smartreceipts.co/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-receipt-quiet.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟠 B · 市场缺口与第一性原理（5）**\n\n**1. Care Handoff**　`88分`\n参考：[Lotsa Helping Hands](https://lotsahelpinghands.com/) · [CaringBridge](https://www.caringbridge.org/) · [Google Calendar](https://calendar.google.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-care-handoff.zip)\n\n**2. Field Quote**　`86分`\n参考：[Jobber](https://apps.apple.com/us/app/jobber-field-service-software/id1014146758) · [Housecall Pro](https://apps.apple.com/us/app/housecall-pro-field-service/id692833651) · [Joist](https://www.joist.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-field-quote.zip)\n\n**3. Shift Proof**　`84分`\n参考：[Microsoft Teams Shifts](https://learn.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) · [SafetyCulture](https://safetyculture.com/platform) · [Connecteam](https://connecteam.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-shift-proof.zip)\n\n**4. Access Guide**　`83分`\n参考：[Be My Eyes](https://www.bemyeyes.com/bme-app/) · [TeamViewer Remote](https://www.teamviewer.com/en/products/remote/) · [Apple Assistive Access](https://support.apple.com/guide/assistive-access-iphone/welcome/ios)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-access-guide.zip)\n\n**5. Move Proof**　`81分`\n参考：[Google Drive](https://www.google.com/drive/) · [Splitwise](https://www.splitwise.com/) · [Sortly](https://www.sortly.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-move-proof.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟢 C · 新需求与趋势机会（5）**\n\n**1. Agent Inbox**　`89分`\n参考：[Stack Overflow 2026 Agent Survey](https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/) · [GitHub Agentic Adoption Study](https://arxiv.org/abs/2601.18341) · [Microsoft Build 2026 Agentic Workflows](https://www.tomsguide.com/news/live/microsoft-build-2026)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-agent-inbox.zip)\n\n**2. Proof Camera**　`87分`\n参考：[C2PA](https://c2pa.org/) · [Adobe Content Authenticity](https://contentauthenticity.adobe.com/) · [Truepic](https://www.truepic.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-proof-camera.zip)\n\n**3. Model Ledger**　`85分`\n参考：[OpenRouter](https://openrouter.ai/) · [Open WebUI](https://github.com/open-webui/open-webui) · [LM Studio](https://lmstudio.ai/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-model-ledger.zip)\n\n**4. Offline Tutor**　`82分`\n参考：[Apple Core AI](https://developer.apple.com/core-ai/) · [Gemini Nano](https://developer.android.com/ai/gemini-nano) · [Khan Academy](https://www.khanacademy.org/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-offline-tutor.zip)\n\n**5. Passkey Ready**　`78分`\n参考：[FIDO Alliance Passkeys](https://fidoalliance.org/passkeys/) · [Apple Passkeys](https://support.apple.com/guide/iphone/use-passkeys-and-passwords-iphf538ea8d0/ios) · [Google Passkeys](https://developers.google.com/identity/passkeys)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-passkey-ready.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-25-standard-5x5x5"
+          }
+        ]
+      }
+    ]
+  }
+}

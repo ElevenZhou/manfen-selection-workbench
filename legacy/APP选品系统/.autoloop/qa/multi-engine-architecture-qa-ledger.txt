@@ -1,0 +1,25 @@
+Status: SUPERSEDED by .autoloop/qa/loop-skill-architecture-qa-ledger.txt
+Auto Loop QA Ledger: multi-engine-architecture
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] internal role review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Findings:
+- Three JSON Schemas passed Draft 2020-12 checks and their examples validated.
+- Signal-score weights total 100, research shares total 1.0, and bench references total 5.
+- Skill structure validation passed.
+- A dry-run bundle generated nine non-overwriting standard files with 32 candidate CSV columns.
+- Local Markdown links resolved across README and all docs.
+- Improvement pass replaced the universal direct-competitor gate with engine-specific reference gates.
+- Schemas now enforce engine-to-reference-gate mapping and SELECTED minimum portfolio score, completeness, and passed reference gate.
+- Current stage remains Architecture / Research-only; no live data or production integration was claimed.

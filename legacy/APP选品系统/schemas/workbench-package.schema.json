@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://app-selection.local/schemas/workbench-package.schema.json",
+  "title": "Development Workbench Package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "package_version",
+    "package_id",
+    "candidate_id",
+    "status",
+    "source_engine",
+    "route_score",
+    "route_rank",
+    "route_methodology_version",
+    "data_completeness",
+    "objective",
+    "references",
+    "change_directions",
+    "brand",
+    "ui",
+    "build",
+    "acceptance",
+    "growth",
+    "analytics",
+    "stop_conditions",
+    "provenance"
+  ],
+  "properties": {
+    "package_version": { "const": "1.1" },
+    "package_id": { "type": "string", "minLength": 3 },
+    "candidate_id": { "type": "string", "minLength": 3 },
+    "status": { "enum": ["DRAFT", "REVIEW", "READY_FOR_BENCH", "LOADED", "RETURNED"] },
+    "bench_id": { "type": ["string", "null"] },
+    "source_engine": { "enum": ["competitor_validated", "gap_redesign", "emerging_demand"] },
+    "route_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "route_rank": { "type": "integer", "minimum": 1 },
+    "route_methodology_version": { "type": "string", "minLength": 1 },
+    "data_completeness": { "type": "number", "minimum": 0, "maximum": 1 },
+    "objective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["working_name", "product_form", "target_markets", "target_platforms", "target_user", "trigger", "core_job", "current_alternative", "product_promise", "minimum_success", "scope", "non_goals"],
+      "properties": {
+        "working_name": { "type": "string", "minLength": 1 },
+        "product_form": { "enum": ["mobile_app", "mobile_game", "web_app", "desktop_app", "cross_platform"] },
+        "target_markets": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "target_platforms": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "target_user": { "type": "string", "minLength": 1 },
+        "trigger": { "type": "string", "minLength": 1 },
+        "core_job": { "type": "string", "minLength": 1 },
+        "current_alternative": { "type": "string", "minLength": 1 },
+        "product_promise": { "type": "string", "minLength": 1 },
+        "minimum_success": { "type": "string", "minLength": 1 },
+        "scope": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "non_goals": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+    "references": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "kind", "url", "store", "store_url", "reference_type", "learn", "redesign", "do_not_copy", "evidence_ids"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "enum": ["mobile_app", "mobile_game", "web_product", "desktop_app", "open_source_project", "system_feature", "developer_platform", "technical_standard", "research_report"] },
+          "url": { "type": "string", "format": "uri" },
+          "store": { "enum": ["apple_app_store", "google_play", null] },
+          "store_url": { "type": ["string", "null"], "format": "uri" },
+          "reference_type": { "enum": ["direct_competitor", "adjacent_product", "substitute", "workaround", "leading_signal", "pilot_result"] },
+          "learn": { "type": "string", "minLength": 1 },
+          "redesign": { "type": "string", "minLength": 1 },
+          "do_not_copy": { "type": "string", "minLength": 1 },
+          "evidence_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+        }
+      }
+    },
+    "change_directions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "user_evidence", "current_failure", "change", "expected_outcome", "validation_metric", "out_of_scope"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "user_evidence": { "type": "string", "minLength": 1 },
+          "current_failure": { "type": "string", "minLength": 1 },
+          "change": { "type": "string", "minLength": 1 },
+          "expected_outcome": { "type": "string", "minLength": 1 },
+          "validation_metric": { "type": "string", "minLength": 1 },
+          "out_of_scope": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "brand": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary_name", "alternate_name", "positioning", "personality", "voice", "icon_direction", "avoid"],
+      "properties": {
+        "primary_name": { "type": "string", "minLength": 1 },
+        "alternate_name": { "type": "string", "minLength": 1 },
+        "positioning": { "type": "string", "minLength": 1 },
+        "personality": { "type": "array", "minItems": 2, "maxItems": 5, "items": { "type": "string" } },
+        "voice": { "type": "string", "minLength": 1 },
+        "icon_direction": { "type": "string", "minLength": 1 },
+        "avoid": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+    "ui": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["direction", "principles", "colors", "typography", "components", "core_screens", "states", "accessibility"],
+      "properties": {
+        "direction": { "type": "string", "minLength": 1 },
+        "principles": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "type": "string" } },
+        "colors": {
+          "type": "object",
+          "additionalProperties": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+          "required": ["primary", "secondary", "background", "surface", "text", "success", "warning", "error"]
+        },
+        "typography": { "type": "string", "minLength": 1 },
+        "components": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "core_screens": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "states": { "type": "array", "minItems": 4, "items": { "type": "string" } },
+        "accessibility": { "type": "array", "minItems": 2, "items": { "type": "string" } }
+      }
+    },
+    "build": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "stack", "repository", "recommended_skills", "master_prompt", "deliverables", "allowed_autonomy", "pause_conditions"],
+      "properties": {
+        "stage": { "enum": ["PROTOTYPE", "MVP", "PILOT", "PRODUCTION"] },
+        "stack": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "repository": { "type": ["string", "null"] },
+        "recommended_skills": { "type": "array", "items": { "type": "string" } },
+        "master_prompt": { "type": "string", "minLength": 50 },
+        "deliverables": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "allowed_autonomy": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "pause_conditions": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+    "acceptance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["user", "project_manager", "growth"],
+      "properties": {
+        "user": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "project_manager": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "growth": { "type": "array", "minItems": 3, "items": { "type": "string" } }
+      }
+    },
+    "growth": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["positioning", "keywords", "creative_angles", "store_assets", "channels", "cold_start_test"],
+      "properties": {
+        "positioning": { "type": "string", "minLength": 1 },
+        "keywords": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "creative_angles": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "type": "string" } },
+        "store_assets": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+        "channels": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "cold_start_test": { "type": "string", "minLength": 1 }
+      }
+    },
+    "analytics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["events", "success_metrics"],
+      "properties": {
+        "events": { "type": "array", "minItems": 3, "items": { "type": "string" } },
+        "success_metrics": { "type": "array", "minItems": 2, "items": { "type": "string" } }
+      }
+    },
+    "stop_conditions": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_run_id", "candidate_path", "evidence_path", "methodology_version", "created_at"],
+      "properties": {
+        "source_run_id": { "type": "string", "minLength": 1 },
+        "candidate_path": { "type": "string", "minLength": 1 },
+        "evidence_path": { "type": "string", "minLength": 1 },
+        "methodology_version": { "type": "string", "minLength": 1 },
+        "created_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "status": { "const": "READY_FOR_BENCH" } },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "route_score": { "minimum": 75 },
+          "data_completeness": { "minimum": 0.8 }
+        }
+      }
+    }
+  ]
+}

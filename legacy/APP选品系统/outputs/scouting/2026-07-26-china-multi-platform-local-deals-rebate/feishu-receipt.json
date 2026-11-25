@@ -1,0 +1,9 @@
+{
+  "reportId": "2026-07-26-china-multi-platform-local-deals-rebate",
+  "success": true,
+  "sentAt": "2026-07-26T13:23:06Z",
+  "deliveryRoute": "authenticated_site_push",
+  "providerResult": "选品概述已推送到飞书",
+  "idempotencyRecord": "site D1 feishu_pushes",
+  "reportUrl": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-26-china-multi-platform-local-deals-rebate"
+}

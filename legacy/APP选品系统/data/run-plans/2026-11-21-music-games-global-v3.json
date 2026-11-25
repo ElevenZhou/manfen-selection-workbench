@@ -1,0 +1,232 @@
+{
+  "methodology_version": "app-opportunity-scout-gameplay-hunt-v1.1",
+  "collected_at": "2026-11-21T05:30:00+08:00",
+  "shared_sources": [
+    {
+      "name": "Sensor Tower Top Music/Rhythm Apps Performance in the US, Q4 2025",
+      "url": "https://sensortower.com/blog/2025-q4-unified-top-5-music-rythm-revenue-us-60dc7bcc2829329604e56127",
+      "claim": "Sensor Tower公开页按美国Q4 2025音乐与节奏类应用报告表现，说明该细分仍有可观测的下载与收入竞争。数据为第三方估计，不能替代App级留存或收入原始数据。"
+    },
+    {
+      "name": "Sensor Tower State of Gaming 2026",
+      "url": "https://sensortower.com/press/press-release-sensor-tower-state-of-gaming-gaming-drove-52-billion-downloads-82b-iap-revenue-on-mobile-and-12b-premium-revenue-on-steam",
+      "claim": "Sensor Tower公开摘要显示2025年移动游戏仍有大规模下载与IAP收入，行业进入成熟市场后更依赖留存、活动和IP合作。该数字是第三方估计。"
+    },
+    {
+      "name": "Apple App Store · Tiles Hop",
+      "url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+      "claim": "官方商店页显示Tiles Hop为节奏音乐跑酷，包含短局、排行榜、活动和内购。页面同时保留近期用户对曲库、离线和广告的反馈。"
+    },
+    {
+      "name": "Apple App Store · Magic Tiles 3",
+      "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+      "claim": "官方商店页显示Magic Tiles 3覆盖多种音乐类型、在线对战、周赛和大量曲目，并持续提供活动与内购。"
+    },
+    {
+      "name": "Apple App Store · Geometry Dash",
+      "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+      "claim": "官方商店页显示Geometry Dash同时提供节奏动作平台、练习模式、关卡编辑与分享，并记录了近期版本更新。"
+    },
+    {
+      "name": "Apple App Store · Arcaea",
+      "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+      "claim": "官方商店页显示Arcaea具备多难度曲目、持续更新、排行榜、多人模式和故事内容。"
+    },
+    {
+      "name": "Apple App Store · Lanota",
+      "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+      "claim": "官方商店页显示Lanota包含动态节奏玩法、故事章节、回放、目标分数和节奏校准功能。"
+    },
+    {
+      "name": "Apple App Store · Muse Dash",
+      "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+      "claim": "官方商店页显示Muse Dash把节奏点击与横向动作结合，并有付费曲包。用户评论记录了购买恢复与曲包可用性问题。"
+    },
+    {
+      "name": "Apple App Store · Cytus II",
+      "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+      "claim": "官方商店页显示Cytus II具备主动判定线、多个难度、曲目与剧情内容，并采用基础内容加内购曲包。"
+    },
+    {
+      "name": "Apple App Store · Phigros",
+      "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+      "claim": "官方商店页显示Phigros采用无轨道与动态判定线，提供大量曲目。用户评论提到设备同步与自制谱面需求。"
+    },
+    {
+      "name": "Apple App Store · VOEZ",
+      "url": "https://apps.apple.com/us/app/voez/id1006088253",
+      "claim": "官方商店页显示VOEZ是持续更新的移动节奏游戏，提供曲目与关卡挑战，可作为练习与谱面体验参照。"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "2026-11-21-music-games-global-v3",
+      "title": "全球音乐游戏灰盒候选 3 项（补证版）",
+      "direction": "music-games-global",
+      "requested": {
+        "A": 3,
+        "B": 0,
+        "C": 0
+      },
+      "assumptions": [
+        "沿用2026-11-21音乐游戏发现池，按硬门禁只推进3个证据相对完整的候选。",
+        "全球市场，优先观察美国、英国、日本、韩国和东南亚，首发平台仍为iOS与Android。",
+        "第三方市场数据仅作方向性代理，未接入授权的App级收入、DAU/MAU与留存原始数据。",
+        "音乐游戏入选仅表示进入灰盒验证，尚未证明玩法好玩或具备商业成功。"
+      ],
+      "data_cutoff": "2026-11-21",
+      "candidates": [
+        {
+          "route": "A",
+          "slug": "pulse-run",
+          "name": "PulseRun",
+          "name_zh": "脉冲跑酷",
+          "category": "短局节奏跑酷",
+          "market": "Global / US / UK / JP / KR / SEA",
+          "user": "通勤和碎片时间里想用一首歌完成一次短挑战的移动玩家",
+          "trigger": "等待、通勤或想快速完成一局时打开游戏",
+          "job": "跟随节拍完成左右闪避、跳跃和收集，并在60–90秒内完成一次可分享挑战",
+          "alternative": "Tiles Hop、Magic Tiles 3、Muse Dash以及手机音乐短视频",
+          "promise": "把一首歌压缩成可重复的60–90秒节奏跑酷挑战，并用难度匹配和幽灵回放提高重复游玩",
+          "score": 91,
+          "completeness": 0.82,
+          "improvements": [
+            "按玩家节奏表现自动匹配歌曲难度",
+            "用每日短赛和好友幽灵回放替代重社交养成",
+            "优先使用原创或可授权曲库并展示版权来源"
+          ],
+          "references": [
+            {
+              "name": "Tiles Hop: Rhythm Music Ball",
+              "name_zh": "节奏音乐球",
+              "url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示节奏音乐跑酷、短局、排行榜、活动和内购；近期评论反复提到曲目缺失、离线可用性和广告体验。"
+            },
+            {
+              "name": "Magic Tiles 3",
+              "name_zh": "魔法钢琴块3",
+              "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示多音乐类型、在线对战、周赛、曲目解锁和内购，证明短时节奏挑战与曲库运营存在真实供给。"
+            },
+            {
+              "name": "Muse Dash",
+              "name_zh": "喵斯快跑",
+              "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示节奏点击与动作结合，并采用付费曲包；用户评论记录过购买恢复和曲包访问问题。"
+            }
+          ],
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "A",
+          "slug": "chart-garden",
+          "name": "ChartGarden",
+          "name_zh": "谱面花园",
+          "category": "社区谱面与创作",
+          "market": "Global / US / UK / JP / KR / SEA",
+          "user": "希望反复挑战并制作自定义谱面的节奏游戏核心玩家",
+          "trigger": "完成一首歌后想继续挑战、修改或分享自己的谱面",
+          "job": "用简单模板制作谱面、自动校准节拍并通过社区反馈迭代可玩性",
+          "alternative": "Geometry Dash关卡编辑、Phigros/Cytus II曲目挑战和玩家社区分享",
+          "promise": "把复杂谱面创作压缩成模板化编辑与可解释的难度/可玩性反馈",
+          "score": 89,
+          "completeness": 0.81,
+          "improvements": [
+            "先提供三种模板化谱面编辑器并自动校准节拍",
+            "把谱面难度与可玩性评分分开",
+            "提供版权安全的原创素材和本地音频实验模式"
+          ],
+          "references": [
+            {
+              "name": "Geometry Dash",
+              "name_zh": "几何冲刺",
+              "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示节奏动作平台、练习模式、关卡编辑与分享，并持续更新编辑器和音乐库，是用户创作与分享的直接参照。"
+            },
+            {
+              "name": "Cytus II",
+              "name_zh": "赛特斯 II",
+              "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示主动判定线、800+谱面与曲目/剧情内容，证明高密度谱面挑战和内容消费存在成熟供给。"
+            },
+            {
+              "name": "Phigros",
+              "name_zh": "菲格罗斯",
+              "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/phigros/id1454809109",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示无轨道动态判定线和200+曲目；用户评论明确提出希望自制并下载其他玩家谱面。"
+            }
+          ],
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "A",
+          "slug": "neon-practice",
+          "name": "NeonPractice",
+          "name_zh": "霓虹练习室",
+          "category": "练习型节奏游戏",
+          "market": "Global / US / UK / JP / KR / SEA",
+          "user": "想提升节奏准确度、但容易被高难度曲目劝退的新手和进阶玩家",
+          "trigger": "连续失误或想针对某一段节奏练习时打开游戏",
+          "job": "把歌曲拆成20秒片段，识别提前/滞后与连击断点，再逐段恢复完整演奏",
+          "alternative": "Arcaea、Lanota、VOEZ的练习/校准功能和普通训练模式",
+          "promise": "把一次失败转成可定位、可重复的20秒节奏训练，而不是只给总分",
+          "score": 87,
+          "completeness": 0.8,
+          "improvements": [
+            "增加自适应速度与容错",
+            "用提前/滞后诊断替代单一总分",
+            "提供可视化练习进度和回放"
+          ],
+          "references": [
+            {
+              "name": "Arcaea",
+              "name_zh": "韵律源点",
+              "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示多难度曲目、持续内容更新、排行榜、多人模式和故事内容，可观察到从新手到高难度的进阶循环。"
+            },
+            {
+              "name": "Lanota",
+              "name_zh": "兰空",
+              "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+              "kind": "mobile_game",
+              "claim": "官方商店页显示动态判定、回放、目标分数、节奏校准和持续更新，直接支持练习反馈与设备适配的需求判断。"
+            },
+            {
+              "name": "VOEZ",
+              "name_zh": "兰空 VOEZ",
+              "url": "https://apps.apple.com/us/app/voez/id1006088253",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/voez/id1006088253",
+              "kind": "mobile_game",
+              "claim": "官方商店页提供曲目与关卡挑战，和其他节奏游戏共同证明玩家会反复练习并追求更高准确度；具体留存和训练效果仍待灰盒验证。"
+            }
+          ],
+          "product_form": "mobile_game"
+        }
+      ]
+    }
+  ]
+}

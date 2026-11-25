@@ -1,0 +1,165 @@
+{
+  "run": {
+    "id": "2026-07-26-china-multi-platform-local-deals-rebate",
+    "date": "2026-07-26",
+    "mode": "competitor-expand",
+    "direction": "china-multi-platform-local-deals-rebate",
+    "status": "completed_authorization_gated",
+    "freshness": "2026-07-26T22:10:00+08:00",
+    "source_count": 13
+  },
+  "summary": {
+    "discovered": 10,
+    "ranked": 3,
+    "deep_dives": 3,
+    "selected": 0,
+    "backup": 0,
+    "watch": 3,
+    "rejected": 0
+  },
+  "candidates": [
+    {
+      "id": "MPR-01",
+      "title": "DealPilot",
+      "titleZh": "省钱决策台",
+      "score": 63,
+      "decision": "WATCH",
+      "confidence": "medium",
+      "productForm": "mobile_app",
+      "targetUser": "同时使用两个以上电商或本地生活平台的价格敏感用户",
+      "coreJob": "比较已授权平台的券后价、预计返现、到账条件和风险并选择真实到手价最优方案",
+      "improvements": [
+        "统一拆分平台券、补贴、支付优惠和我方预计返现",
+        "下单前显示可返性、确认周期、退款和归因失败条件",
+        "用返现状态机和证据包处理丢单、换货与申诉"
+      ],
+      "productBrief": {
+        "nextValidation": "取得美团和淘宝两家书面授权，完成各30-50笔小额订单和两个完整结算周期。"
+      }
+    },
+    {
+      "id": "MPR-02",
+      "title": "RebateGuard",
+      "titleZh": "返现守卫",
+      "score": 55,
+      "decision": "WATCH",
+      "confidence": "medium",
+      "productForm": "mobile_app",
+      "targetUser": "经常使用返利App但担心丢单、退款冲正和不到账的用户",
+      "coreJob": "解释每笔返现为什么待确认、可提现或失效，并生成申诉证据",
+      "improvements": [
+        "把联盟订单状态翻译成用户可理解的返现时间线",
+        "自动整理订单、点击、核销、退款和客服证据"
+      ],
+      "productBrief": {
+        "nextValidation": "从淘粉吧等竞品采集近90天丢单/冲正评论，并用真实联盟沙箱验证状态映射。"
+      }
+    },
+    {
+      "id": "MPR-03",
+      "title": "LocalDeal Optimizer",
+      "titleZh": "本地券优选",
+      "score": 54,
+      "decision": "WATCH",
+      "confidence": "low",
+      "productForm": "mobile_app",
+      "targetUser": "在美团、抖音和其他本地生活入口之间比较团购的消费者",
+      "coreJob": "比较同店同套餐的券后价、预计返现和使用限制",
+      "improvements": [
+        "同店同套餐归一化后比较，不把相似套餐误当同款",
+        "展示预约、时段、门店、退款和核销限制",
+        "只纳入有正式授权和可追踪订单的平台"
+      ],
+      "productBrief": {
+        "nextValidation": "抖音生活服务取得书面授权前，只以美团+淘宝验证，不宣传三平台返现。"
+      }
+    }
+  ],
+  "competitors": [
+    {
+      "name": "DouFan（豆返）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id6459108197",
+      "coverage": "淘宝/京东/拼多多/抖音商品返利；美团/饿了么红包返利",
+      "evidenceTier": "A"
+    },
+    {
+      "name": "Shengqianjiang（省钱酱）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id1298543740",
+      "coverage": "淘宝/京东/拼多多/抖音/美团/淘宝闪购",
+      "evidenceTier": "A"
+    },
+    {
+      "name": "ZhiFan（直返）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id6474171626",
+      "coverage": "多电商、美团/饿了么；抖音高佣转链",
+      "evidenceTier": "A"
+    },
+    {
+      "name": "Taofen8（淘粉吧）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id527012586",
+      "coverage": "淘宝/京东/抖音；美团/饿了么外卖返利",
+      "evidenceTier": "A"
+    },
+    {
+      "name": "Taofan Alliance（淘返联盟）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id1273170325",
+      "coverage": "多电商、抖音、美团外卖、淘宝闪购、饿了么",
+      "evidenceTier": "B"
+    },
+    {
+      "name": "Miyuan（蜜源）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id1262351972",
+      "coverage": "淘宝/京东/拼多多/抖音/美团/饿了么/点评等",
+      "evidenceTier": "B"
+    },
+    {
+      "name": "Gaosheng（高省）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id1584044872",
+      "coverage": "多电商、抖音、美团、淘宝闪购",
+      "evidenceTier": "B"
+    },
+    {
+      "name": "Fanli（返利网）",
+      "relation": "adjacent_product",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id591584458",
+      "coverage": "淘宝/京东/拼多多/美团/饿了么/携程",
+      "evidenceTier": "B"
+    },
+    {
+      "name": "Qingsongfan（轻松返）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id6695740999",
+      "coverage": "声称淘宝/抖音/美团/饿了么等",
+      "evidenceTier": "C"
+    },
+    {
+      "name": "Rebate Robot（返利机器人）",
+      "relation": "direct_competitor",
+      "kind": "mobile_app",
+      "storeUrl": "https://apps.apple.com/cn/app/id1535146403",
+      "coverage": "版本记录含美团本地生活与抖音返利",
+      "evidenceTier": "C"
+    }
+  ],
+  "methodology": {
+    "scoring_version": "app-opportunity-scout-v1",
+    "estimate_notice": "App Store claims do not prove every order is eligible.",
+    "missing_data_notice": "Platform written approvals and real order tests are required before selection."
+  }
+}

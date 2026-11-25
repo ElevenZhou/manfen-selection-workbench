@@ -1,0 +1,27 @@
+Auto Loop Contract: app-selection-loop-skill
+Created: 2026-07-25
+
+Objective:
+Create one discoverable Skill that continuously orchestrates the complete App selection system, internal core Skills, external Skills, connectors, tools, and local fallbacks toward verified final handoffs.
+
+Deliverables:
+- /Users/xmm/.codex/skills/app-selection-loop/SKILL.md
+- agents/openai.yaml
+- pipeline, contract/QA, and external-Skill references
+- deterministic non-overwriting run initializer
+- README and project architecture integration
+
+Constraints:
+- Keep Loop orchestration separate from route decisions.
+- Preserve three independent route scores and selections.
+- Default full target is 5 + 5 + 5; route-only targets apply only to that route.
+- Do not claim missing component Skills are installed.
+- Continue independent branches when one capability is unavailable.
+- Stop only for true credentials, purchase, destructive, publishing, or business-intent blockers.
+
+Acceptance:
+- Skill structure validates.
+- Full, repeat, route-only, and package-only initialization tests pass.
+- Run directories do not overwrite.
+- Mode-specific capability and QA plans are correct.
+- Project links and current terminology pass.

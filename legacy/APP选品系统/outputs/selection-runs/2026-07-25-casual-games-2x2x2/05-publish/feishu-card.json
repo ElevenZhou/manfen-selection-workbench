@@ -1,0 +1,81 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 休闲游戏专项 2+2+2"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-07-25 · casual-games**\n✅ **6** 个最终入选　·　📦 **6** 个生产资料包\n联网大模型现查形成的真实研究报告；三条路线独立评选，共6个入选和资料包。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（2）**\n\n**1. Fair Screw**　`82分`\n参考：[Screw Jam](https://play.google.com/store/apps/details?id=com.quok.screwJam) · [Screw Wood Nuts & Bolts](https://play.google.com/store/apps/details?id=com.funspace.screw) · [Screw Jam Handler](https://play.google.com/store/apps/details?id=screw.jam.handler)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-a-fair-screw.zip)\n\n**2. Calm Sort**　`79分`\n参考：[Goods Triple Match](https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle) · [Match Factory](https://play.google.com/store/apps/details?id=net.peakgames.match) · [Triple Match 3D](https://play.google.com/store/apps/details?id=com.master.triple3d.find)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-a-calm-sort.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟠 B · 市场缺口与第一性原理（2）**\n\n**1. Merge Minute**　`83分`\n参考：[Merge Mansion](https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152) · [Travel Town](https://play.google.com/store/apps/details?id=io.randomco.travel) · [Gossip Harbor](https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-b-merge-minute.zip)\n\n**2. Duo Shelf**　`80分`\n参考：[Goods Triple Match](https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle) · [Plato](https://platoapp.com/) · [Discord Activities](https://discord.com/activities)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-b-duo-shelf.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟢 C · 新需求与趋势机会（2）**\n\n**1. Daily Scene**　`80分`\n参考：[NYT Games](https://www.nytimes.com/crosswords) · [GeoGuessr](https://www.geoguessr.com/) · [Apple Core AI](https://developer.apple.com/core-ai/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-c-daily-scene.zip)\n\n**2. Snap Blocks**　`78分`\n参考：[AppMagic Mobile Market Landscape 2026](https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf) · [Apple Core AI](https://developer.apple.com/core-ai/) · [Block Blast](https://play.google.com/store/apps/details?id=com.block.juggle)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-c-snap-blocks.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-25-casual-games-2x2x2"
+          }
+        ]
+      }
+    ]
+  }
+}

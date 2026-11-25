@@ -1,0 +1,7 @@
+﻿route,rank,product,category,market,score,completeness,promise,improvements,primary_reference,product_form
+A,1,Fair Screw（公平螺丝）,休闲益智·Screw,US / BR,82,0.86,保留螺丝解谜的满足感，但每局失败都能解释为可学习的选择,关卡开始前展示可用槽位和失败因果，失败后给一步回放 | 奖励广告只出现在自然停顿点，不把必需槽位锁在广告后,https://play.google.com/store/apps/details?id=com.quok.screwJam,mobile_game
+A,2,Calm Sort（舒缓分类）,休闲益智·Goods Sort,US / JP,79,0.82,用无计时主模式和高可读货架，保留三件匹配的整理满足感,主模式不设倒计时，挑战计时作为可选玩法 | 高对比轮廓与遮挡提示降低误触，广告仅在局间,https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle,mobile_game
+B,1,Merge Minute（一分钟合成）,休闲益智·Merge,US / GB,83,0.84,每局三分钟有明确结尾，长期叙事是奖励而不是阻止继续玩的门槛,固定三分钟任务板，完成或失败都结算，不用等待能量继续核心玩法 | 长期元进度使用可选章节，不用强制弹窗打断合成,https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152,mobile_game
+B,2,Duo Shelf（双人货架）,休闲双人·Sort,Global,80,0.81,把单人整理变成无需同时在线的每日双人接力,每人完成货架的一半，另一人可看到对方留下的提示和失误 | 每日只推送一次可完成接力，不建立重社交系统,https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle,mobile_game
+C,1,Daily Scene（每日场景）,每日益智,US / EU,80,0.82,每天一个可验证来源的视觉谜题，三次揭示内完成并可无剧透分享,AI只用于生成干扰线索和难度变体，谜底与事实由编辑数据确认 | 分享卡只展示揭示次数和推理路径，不泄露答案,https://www.nytimes.com/crosswords,mobile_game
+C,2,Snap Blocks（随拍方块）,休闲益智·Block,Global,78,0.8,照片在设备端转成可解的60秒块状关卡，分享的是关卡种子而非原图,端侧分析照片主体并生成三档可解布局 | 分享默认只传布局和色块特征，原图保持本地,https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf,mobile_game

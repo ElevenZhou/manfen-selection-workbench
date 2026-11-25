@@ -1,0 +1,102 @@
+[
+  {
+    "signal_id": "sig-01",
+    "candidate": "Shelter Defense",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Google Play 美国游戏 Trending：2026-11-21 新进入第 1 名；公开安装数 20,041，7 日均安装约 2••，4.5★。"
+  },
+  {
+    "signal_id": "sig-02",
+    "candidate": "Fidget Clicker: Finger 3D Toy",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Google Play 美国游戏 Trending：2026-11-21 从前一日上升 42 位至第 4 名；公开安装数 106,445。"
+  },
+  {
+    "signal_id": "sig-03",
+    "candidate": "Line Tangle: Untangle Puzzle",
+    "source_url": "https://scaling.games/",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Scaling Games 2026-11-21：新进入榜单，直接进入加拿大 Arcade 第 9 名，并在另外 7 个国家同时上榜。AppsXray 美国 Trending 同日上升 12 位至第 7 名，公开安装数 56,246，4.9★。"
+  },
+  {
+    "signal_id": "sig-04",
+    "candidate": "Tidy Room!",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Google Play 美国 Trending 2026-11-21 上升 3 位至第 6 名，公开安装数 15,639，4.6★。韩国 Top new free 同日上升 16 位至第 21 名，4.7★。"
+  },
+  {
+    "signal_id": "sig-05",
+    "candidate": "Card of Demon Slayer: Deck RPG",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=new-free&country=KR",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Google Play 韩国 Top new free：2026-11-21 第 1 名，公开安装数 120,842，4.4★。"
+  },
+  {
+    "signal_id": "sig-06",
+    "candidate": "三国志: 九州覇業 CBT",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=trending&country=JP",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "ROUTED_HYPOTHESIS",
+    "notes": "Google Play 日本 Trending：2026-11-21 第 1 名；页面标注 CBT。"
+  },
+  {
+    "signal_id": "sig-07",
+    "candidate": "Slice Away! - Physics Puzzle",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=new-free&country=BR",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Google Play 巴西 Top new free：2026-11-21 上升 86 位至第 87 名，公开安装数约 600，日增约 600。"
+  },
+  {
+    "signal_id": "sig-08",
+    "candidate": "Onthel Life: Street Bike",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=new-free&country=ID",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "ROUTED_HYPOTHESIS",
+    "notes": "Google Play 印尼 Top new free：2026-11-21 第 1 名。"
+  },
+  {
+    "signal_id": "sig-09",
+    "candidate": "Sand Hole: Block Sort Jam",
+    "source_url": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "Google Play 美国 Trending：2026-11-21 新进入第 21 名，7 日均安装约 7.•K，4.8★。"
+  },
+  {
+    "signal_id": "sig-10",
+    "candidate": "Cursed Game Dev Simulator",
+    "source_url": "https://chartat.com/games/top-paid",
+    "observed_at": "2026-11-22T00:03:18Z",
+    "window_days": 1,
+    "signal_type": "chart_movement",
+    "status": "CONFIRMED_SIGNAL",
+    "notes": "App Store 美国 Top Paid Games：2026-11-21 新进入第 35 名；同页列为 14 个新条目之一，且被 Apple“New Games We Love”与“New Games We Love for iPad”收录。"
+  }
+]

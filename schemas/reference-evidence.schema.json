@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://app-selection.local/schemas/reference-evidence.schema.json",
+  "title": "Opportunity Reference Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "evidence_id",
+    "candidate_id",
+    "reference_type",
+    "entity_name",
+    "entity_name_zh",
+    "entity_kind",
+    "store_url",
+    "claim",
+    "country",
+    "platform",
+    "period_start",
+    "period_end",
+    "collected_at",
+    "value_type",
+    "source_name",
+    "source_url",
+    "confidence"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "evidence_id": { "type": "string", "minLength": 3 },
+    "candidate_id": { "type": "string", "minLength": 3 },
+    "reference_type": {
+      "enum": [
+        "direct_competitor",
+        "adjacent_product",
+        "substitute",
+        "workaround",
+        "leading_signal",
+        "pilot_result",
+        "internal_result"
+      ]
+    },
+    "entity_name": { "type": "string", "minLength": 1 },
+    "entity_name_zh": { "type": "string", "minLength": 1 },
+    "entity_kind": {
+      "enum": ["mobile_app", "mobile_game", "web_product", "desktop_app", "open_source_project", "system_feature", "developer_platform", "technical_standard", "research_report"]
+    },
+    "entity_url": { "type": ["string", "null"], "format": "uri" },
+    "store_url": { "type": ["string", "null"], "format": "uri" },
+    "claim": { "type": "string", "minLength": 1 },
+    "metric_name": { "type": ["string", "null"] },
+    "metric_value": { "type": ["number", "string", "null"] },
+    "metric_unit": { "type": ["string", "null"] },
+    "country": { "type": "string", "minLength": 2 },
+    "platform": { "type": "string", "minLength": 1 },
+    "period_start": { "type": "string", "format": "date" },
+    "period_end": { "type": "string", "format": "date" },
+    "collected_at": { "type": "string", "format": "date-time" },
+    "value_type": {
+      "enum": ["official", "estimate", "observed", "internal", "hypothesis"]
+    },
+    "source_name": { "type": "string", "minLength": 1 },
+    "source_url": { "type": "string", "format": "uri" },
+    "confidence": { "enum": ["low", "medium", "high"] },
+    "supports": {
+      "enum": ["demand", "growth", "durability", "pain", "gap", "solution", "distribution", "monetization", "risk"]
+    },
+    "notes": { "type": ["string", "null"] }
+  }
+}

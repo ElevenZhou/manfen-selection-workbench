@@ -1,0 +1,268 @@
+{
+  "package_version": "1.1",
+  "package_id": "pkg-2026-07-25-standard-5x5x5-c-agent-inbox",
+  "candidate_id": "2026-07-25-standard-5x5x5-c-agent-inbox",
+  "status": "READY_FOR_BENCH",
+  "bench_id": null,
+  "source_engine": "emerging_demand",
+  "route_score": 89,
+  "route_rank": 1,
+  "route_methodology_version": "route-c-emerging-v1.1",
+  "data_completeness": 0.88,
+  "objective": {
+    "working_name": "Agent Inbox（智能体收件箱）",
+    "target_markets": [
+      "Global"
+    ],
+    "target_platforms": [
+      "Web",
+      "macOS",
+      "Windows",
+      "iOS",
+      "Android"
+    ],
+    "target_user": "同时使用多个AI代理和自动化工作流的个人与小团队",
+    "trigger": "代理准备发送消息、付款、发布、删除或修改外部系统",
+    "core_job": "在一个地方看到真正需要人决定的动作、依据、风险和撤回窗口",
+    "current_alternative": "逐个工具通知、Slack审批、邮件和自动化运行日志",
+    "product_promise": "把人从盯代理运行变成只处理少量可解释的决策",
+    "minimum_success": "5–8名目标用户中至少70%独立完成核心任务，且核心结果优于现有替代。",
+    "scope": [
+      "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+      "每项展示来源、影响面、可逆性和撤回截止时间",
+      "核心流程埋点、空状态、错误状态和隐私说明"
+    ],
+    "non_goals": [
+      "不做全品类平台",
+      "不复制参考产品资产",
+      "未授权不公开部署、不提交商店、不购买服务"
+    ],
+    "product_form": "cross_platform"
+  },
+  "references": [
+    {
+      "name": "Stack Overflow 2026 Agent Survey（Stack Overflow 2026 智能体调查）",
+      "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+      "reference_type": "leading_signal",
+      "learn": "2026调查显示代理采用上升，但成本、准确性和安全仍是核心担忧。",
+      "redesign": "只学习已验证的任务与机制，围绕本项目承诺重新设计流程和视觉。",
+      "do_not_copy": "名称、图标、品牌、文案、截图、内容、代码、美术、关卡与专有数据。",
+      "evidence_ids": [
+        "ev-2026-07-25-standard-5x5x5-c-agent-inbox-1"
+      ],
+      "store": null,
+      "store_url": null,
+      "kind": "research_report"
+    },
+    {
+      "name": "GitHub Agentic Adoption Study（GitHub 智能体采用研究）",
+      "url": "https://arxiv.org/abs/2601.18341",
+      "reference_type": "leading_signal",
+      "learn": "对129,134个项目的研究估计编码代理采用率达到15.85%–22.60%且继续增长。",
+      "redesign": "只学习已验证的任务与机制，围绕本项目承诺重新设计流程和视觉。",
+      "do_not_copy": "名称、图标、品牌、文案、截图、内容、代码、美术、关卡与专有数据。",
+      "evidence_ids": [
+        "ev-2026-07-25-standard-5x5x5-c-agent-inbox-2"
+      ],
+      "store": null,
+      "store_url": null,
+      "kind": "research_report"
+    },
+    {
+      "name": "Microsoft Build 2026 Agentic Workflows（微软 Build 2026 智能体工作流）",
+      "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+      "reference_type": "leading_signal",
+      "learn": "2026产品发布持续把代理带入桌面和工作流，扩大需要人类监督的动作面。",
+      "redesign": "只学习已验证的任务与机制，围绕本项目承诺重新设计流程和视觉。",
+      "do_not_copy": "名称、图标、品牌、文案、截图、内容、代码、美术、关卡与专有数据。",
+      "evidence_ids": [
+        "ev-2026-07-25-standard-5x5x5-c-agent-inbox-3"
+      ],
+      "store": null,
+      "store_url": null,
+      "kind": "research_report"
+    }
+  ],
+  "change_directions": [
+    {
+      "title": "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+      "user_evidence": "参考组与公开用户证据共同指向：逐个工具通知、Slack审批、邮件和自动化运行日志尚未稳定解决该结果。",
+      "current_failure": "逐个工具通知、Slack审批、邮件和自动化运行日志",
+      "change": "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+      "expected_outcome": "减少核心任务的步骤、等待、误触或不确定性，并能在最小版本中直接测量。",
+      "validation_metric": "任务完成率、完成时间、错误/退出率及目标用户主观可信度。",
+      "out_of_scope": "不扩展为全能平台，不复制竞品品牌、内容、关卡、代码或受保护资产。"
+    },
+    {
+      "title": "每项展示来源、影响面、可逆性和撤回截止时间",
+      "user_evidence": "参考组与公开用户证据共同指向：逐个工具通知、Slack审批、邮件和自动化运行日志尚未稳定解决该结果。",
+      "current_failure": "逐个工具通知、Slack审批、邮件和自动化运行日志",
+      "change": "每项展示来源、影响面、可逆性和撤回截止时间",
+      "expected_outcome": "减少核心任务的步骤、等待、误触或不确定性，并能在最小版本中直接测量。",
+      "validation_metric": "任务完成率、完成时间、错误/退出率及目标用户主观可信度。",
+      "out_of_scope": "不扩展为全能平台，不复制竞品品牌、内容、关卡、代码或受保护资产。"
+    }
+  ],
+  "brand": {
+    "primary_name": "Agent Inbox（智能体收件箱）",
+    "alternate_name": "AgentInbox",
+    "positioning": "把人从盯代理运行变成只处理少量可解释的决策",
+    "personality": [
+      "可信",
+      "克制",
+      "直接"
+    ],
+    "voice": "短句、结果导向、解释风险，不夸大AI能力。",
+    "icon_direction": "统一1024px母版；使用一个与AI工作流核心动作相关的几何符号，避免竞品近似轮廓。",
+    "avoid": [
+      "竞品近似名称或图标",
+      "渐变AI脑图标",
+      "不可读的小字与装饰性噪声"
+    ]
+  },
+  "ui": {
+    "direction": "单任务、强层级、触控友好；首屏直接进入核心动作。",
+    "principles": [
+      "一次只强调一个主动作",
+      "解释不确定性",
+      "关键操作可撤回",
+      "所有状态可访问"
+    ],
+    "colors": {
+      "primary": "#198A72",
+      "secondary": "#A9DED1",
+      "background": "#F3F8F6",
+      "surface": "#FFFFFF",
+      "text": "#12251F",
+      "success": "#198A72",
+      "warning": "#A66B14",
+      "error": "#B63D47"
+    },
+    "typography": "系统无衬线字体；正文不小于16px，关键数字和动作使用清晰字重。",
+    "components": [
+      "主行动卡",
+      "证据/来源卡",
+      "确认与撤回条",
+      "结果状态"
+    ],
+    "core_screens": [
+      "首次进入与权限说明",
+      "核心任务",
+      "结果与下一步",
+      "历史或进度"
+    ],
+    "states": [
+      "loading",
+      "empty",
+      "success",
+      "partial",
+      "error",
+      "offline"
+    ],
+    "accessibility": [
+      "支持动态字号和高对比",
+      "触控目标至少44px并提供屏幕阅读器标签"
+    ]
+  },
+  "build": {
+    "stage": "MVP",
+    "stack": [
+      "React Native / Expo",
+      "TypeScript",
+      "本地优先存储",
+      "事件分析适配层"
+    ],
+    "repository": null,
+    "recommended_skills": [
+      "auto-loop",
+      "frontend-studio",
+      "vercel-react-best-practices"
+    ],
+    "master_prompt": "构建 Agent Inbox（智能体收件箱） 的可测试MVP。目标用户是同时使用多个AI代理和自动化工作流的个人与小团队。核心任务是在一个地方看到真正需要人决定的动作、依据、风险和撤回窗口。产品承诺是把人从盯代理运行变成只处理少量可解释的决策。严格只实现资料包列出的核心改变；先冻结任务流、数据边界和验收标准，再实现、测试并检查真实界面。所有AI输出必须展示不确定性或来源；网络失败不得破坏本地核心任务。",
+    "deliverables": [
+      "可运行源代码",
+      "核心流程自动化测试",
+      "关键屏幕截图",
+      "事件字典",
+      "已知风险与下一阶段建议"
+    ],
+    "allowed_autonomy": [
+      "可在既定范围内选择组件和库",
+      "可修复测试、性能和无障碍问题",
+      "可优化文案但不得扩大功能"
+    ],
+    "pause_conditions": [
+      "需要付费服务或新凭据",
+      "需要公开部署或商店提交",
+      "范围变更影响产品承诺",
+      "涉及医疗、安全或隐私高风险决定"
+    ]
+  },
+  "acceptance": {
+    "user": [
+      "首次用户无需说明即可找到并开始核心任务",
+      "核心任务在失败、离线或不确定状态下仍给出清晰下一步",
+      "用户能理解数据去向、AI边界和撤回方式"
+    ],
+    "project_manager": [
+      "仅实现一到三个批准改进点，非目标没有混入版本",
+      "构建、类型检查、测试和关键流程烟测通过",
+      "证据、埋点、风险、截图和版本记录可追溯"
+    ],
+    "growth": [
+      "商店首屏能用一句话表达目标用户、任务和差异",
+      "至少准备三个基于真实任务的素材角度",
+      "冷启动测试能区分点击、激活、核心完成和重复使用"
+    ]
+  },
+  "growth": {
+    "positioning": "把人从盯代理运行变成只处理少量可解释的决策",
+    "keywords": [
+      "AI工作流",
+      "在一个地方看到真正需要人决定的动作、依据、风险和",
+      "逐个工具通知"
+    ],
+    "creative_angles": [
+      "旧流程与新流程的步骤对比",
+      "真实触发场景演示",
+      "核心结果和可信边界"
+    ],
+    "store_assets": [
+      "统一尺寸产品图标",
+      "首屏任务演示",
+      "核心差异与隐私说明"
+    ],
+    "channels": [
+      "App Store / Google Play搜索",
+      "目标用户社区",
+      "短视频问题场景演示"
+    ],
+    "cold_start_test": "用三个任务型素材角度各获同量小样本，比较商店到核心任务完成，不以点击率单独判断。"
+  },
+  "analytics": {
+    "events": [
+      "onboarding_completed",
+      "core_task_started",
+      "core_task_completed",
+      "core_task_failed",
+      "result_shared_or_exported"
+    ],
+    "success_metrics": [
+      "核心任务完成率和中位完成时间",
+      "次日/7日重复核心任务率",
+      "错误、撤回和隐私退出率"
+    ]
+  },
+  "stop_conditions": [
+    "目标用户任务完成率低于50%且一次修订后无改善",
+    "核心改变不能相对替代方案改善可测结果",
+    "获客样本显示问题意图不足或依赖不可接受的高成本渠道"
+  ],
+  "provenance": {
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "candidate_path": "/Users/xmm/projects/APP选品系统/outputs/selection-runs/2026-07-25-standard-5x5x5/02-routes/candidates.json",
+    "evidence_path": "/Users/xmm/projects/APP选品系统/outputs/selection-runs/2026-07-25-standard-5x5x5/01-research/evidence.json",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "created_at": "2026-07-25T12:00:00+08:00"
+  }
+}

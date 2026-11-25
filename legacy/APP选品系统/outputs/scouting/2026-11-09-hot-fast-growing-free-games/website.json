@@ -1,0 +1,327 @@
+{
+  "run": {
+    "id": "2026-11-09-hot-fast-growing-free-games",
+    "date": "2026-11-09",
+    "mode": "gameplay-hunt",
+    "direction": "hot-fast-growing-free-games",
+    "status": "complete",
+    "freshness": "current chart + 2026 public estimates",
+    "source_count": 5
+  },
+  "summary": {
+    "scanned_count": 20,
+    "ranked_count": 20,
+    "deep_dive_count": 5,
+    "selected": 5,
+    "backup": 5,
+    "watch": 10,
+    "rejected": 0
+  },
+  "candidates": [
+    {
+      "id": "G01",
+      "name": "Daily Grid Duel",
+      "score": 77,
+      "decision": "daily 3-minute score duel + replayable seed",
+      "confidence": "SELECTED",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G02",
+      "name": "Sort & Sprint",
+      "score": 76,
+      "decision": "speedrun ladder with fair seeded levels",
+      "confidence": "SELECTED",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G03",
+      "name": "Traffic Escape Stories",
+      "score": 75,
+      "decision": "one-thumb traffic routing + short narrative chapters",
+      "confidence": "SELECTED",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G04",
+      "name": "Cozy Merge Café",
+      "score": 78,
+      "decision": "merge orders with no-energy daily board",
+      "confidence": "SELECTED",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G05",
+      "name": "Tiny UGC Worlds",
+      "score": 77,
+      "decision": "publish a playable room in under 2 minutes",
+      "confidence": "SELECTED",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G06",
+      "name": "Mahjong Journey Daily",
+      "score": 70,
+      "decision": "daily route with difficulty transparency",
+      "confidence": "BACKUP",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G07",
+      "name": "Hole.io Cleanup Crew",
+      "score": 69,
+      "decision": "co-op objectives instead of only size race",
+      "confidence": "BACKUP",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G08",
+      "name": "Pizza Rush Manager",
+      "score": 72,
+      "decision": "manual rush moments plus offline progress",
+      "confidence": "BACKUP",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G09",
+      "name": "Street Football Draft",
+      "score": 71,
+      "decision": "5-minute matches and auto-squad suggestions",
+      "confidence": "BACKUP",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G10",
+      "name": "Pet Habit Village",
+      "score": 70,
+      "decision": "care actions generated from user routines",
+      "confidence": "BACKUP",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G11",
+      "name": "Word Tile Relay",
+      "score": 61,
+      "decision": "pass-and-play daily relay",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G12",
+      "name": "Sand Physics Lab",
+      "score": 64,
+      "decision": "shareable physics challenge editor",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G13",
+      "name": "Amaze Arrow Escape",
+      "score": 63,
+      "decision": "limited-move puzzle plus ghost replay",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G14",
+      "name": "Island Builder Lite",
+      "score": 62,
+      "decision": "7-minute build loop and deterministic economy",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G15",
+      "name": "Battle Royale Microdrop",
+      "score": 61,
+      "decision": "small maps and instant rematch",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G16",
+      "name": "Chess Tactics Sprint",
+      "score": 64,
+      "decision": "explainable hints and 90-second rounds",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G17",
+      "name": "Merge Mystery Rooms",
+      "score": 63,
+      "decision": "case board with no forced wait on first chapter",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G18",
+      "name": "Color Sort Co-op",
+      "score": 62,
+      "decision": "two-player shared moves",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G19",
+      "name": "Runner Route Remix",
+      "score": 61,
+      "decision": "weekly route remix and safety filters",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    },
+    {
+      "id": "G20",
+      "name": "Ludo League Quickplay",
+      "score": 64,
+      "decision": "anti-stall timer and transparent matchmaking",
+      "confidence": "WATCH",
+      "competitors": "broad mobile players",
+      "improvements": [
+        ""
+      ],
+      "source_links": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/"
+      ]
+    }
+  ],
+  "methodology": {
+    "scoring": "100-point evidence model",
+    "gate": "3 direct competitors, >=80% completeness, >=75 score for SELECTED",
+    "notice": "Market signals do not prove fun; graybox and player tests required."
+  }
+}

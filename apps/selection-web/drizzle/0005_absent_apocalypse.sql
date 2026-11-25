@@ -1,0 +1,1 @@
+ALTER TABLE `candidates` ADD `product_form` text DEFAULT 'mobile_app' NOT NULL;

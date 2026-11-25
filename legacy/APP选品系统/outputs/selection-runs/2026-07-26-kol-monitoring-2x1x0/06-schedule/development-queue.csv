@@ -1,0 +1,4 @@
+﻿priority,bench,candidate_id,product,route,package_id,status
+1,BENCH-1,2026-07-26-kol-monitoring-2x1x0-a-creator-guard,Creator Guard（达人守望）,A,pkg-2026-07-26-kol-monitoring-2x1x0-a-creator-guard,READY_TO_LOAD
+2,BENCH-2,2026-07-26-kol-monitoring-2x1x0-a-thesis-watch,Thesis Watch（观点追踪）,A,pkg-2026-07-26-kol-monitoring-2x1x0-a-thesis-watch,READY_TO_LOAD
+3,BENCH-3,2026-07-26-kol-monitoring-2x1x0-b-signal-relay,Signal Relay（信号接力）,B,pkg-2026-07-26-kol-monitoring-2x1x0-b-signal-relay,READY_TO_LOAD

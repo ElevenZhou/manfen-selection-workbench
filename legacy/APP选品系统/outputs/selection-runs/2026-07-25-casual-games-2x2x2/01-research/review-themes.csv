@@ -1,0 +1,13 @@
+﻿run_id,candidate_id,theme_type,theme,evidence_basis,confidence
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-a-fair-screw,pain_or_request,关卡开始前展示可用槽位和失败因果，失败后给一步回放,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-a-fair-screw,pain_or_request,奖励广告只出现在自然停顿点，不把必需槽位锁在广告后,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-a-calm-sort,pain_or_request,主模式不设倒计时，挑战计时作为可选玩法,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-a-calm-sort,pain_or_request,高对比轮廓与遮挡提示降低误触，广告仅在局间,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-b-merge-minute,pain_or_request,固定三分钟任务板，完成或失败都结算，不用等待能量继续核心玩法,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-b-merge-minute,pain_or_request,长期元进度使用可选章节，不用强制弹窗打断合成,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-b-duo-shelf,pain_or_request,每人完成货架的一半，另一人可看到对方留下的提示和失误,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-b-duo-shelf,pain_or_request,每日只推送一次可完成接力，不建立重社交系统,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-c-daily-scene,pain_or_request,AI只用于生成干扰线索和难度变体，谜底与事实由编辑数据确认,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-c-daily-scene,pain_or_request,分享卡只展示揭示次数和推理路径，不泄露答案,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-c-snap-blocks,pain_or_request,端侧分析照片主体并生成三档可解布局,cross-reference synthesis,medium
+2026-07-25-casual-games-2x2x2,2026-07-25-casual-games-2x2x2-c-snap-blocks,pain_or_request,分享默认只传布局和色块特征，原图保持本地,cross-reference synthesis,medium

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Modash Creator Content Tracking",
+    "url": "https://help.modash.io/en/articles/10485038-how-modash-captures-all-your-creator-content",
+    "claim": "Modash 官方说明其活动跟踪会自动收集 Instagram、TikTok 与 YouTube 上创作者发布的帖子、Reel、Story 和视频，包括未带品牌标签的内容。"
+  },
+  {
+    "name": "HypeAuditor Media Monitor",
+    "url": "https://hypeauditor.com/media-monitor/",
+    "claim": "HypeAuditor 官方提供按账号、标签和关键词建立自定义内容流，覆盖 Instagram、YouTube 与 TikTok，并支持竞品、UGC 和品牌提及监控。"
+  },
+  {
+    "name": "Sprout Social Influencer Marketing",
+    "url": "https://sproutsocial.com/influencer-marketing/",
+    "claim": "Sprout Social 官方产品包含创作者发现、品牌安全、AI Brand Fit、审批、归因和报告，证明品牌侧愿意为创作者风险与效果工作流付费。"
+  },
+  {
+    "name": "Kaito Pro",
+    "url": "https://pro.kaito.ai/portal",
+    "claim": "Kaito Pro 官方提供跨大量 Web3 来源的搜索、情绪分析、自定义观察列表、实时 Smart Alerts、项目与叙事 Mindshare。"
+  },
+  {
+    "name": "Santiment Social Trends",
+    "url": "https://academy.santiment.net/sanbase/social-trends/",
+    "claim": "Santiment 官方按社交提及异常识别趋势，并用 AI 解释主题突然增长的原因、历史和观点。"
+  },
+  {
+    "name": "Feedly AI Feeds",
+    "url": "https://feedly.com/new-features/posts/track-specific-topics-and-trends-with-feedly-ai",
+    "claim": "Feedly 官方说明 AI Feeds 会从大量文章、报告和社交内容中判断相关性，并允许用户限制可信来源和组合语义条件。"
+  },
+  {
+    "name": "Inoreader Monitoring and Automations",
+    "url": "https://us.inoreader.com/vi/blog/2026/01/save-time-with-automations.html",
+    "claim": "Inoreader 官方规则可以过滤高容量信息流、生成摘要并触发推送通知、Webhook 与外部服务动作。"
+  },
+  {
+    "name": "Small Agency Manual Tracking Discussion",
+    "url": "https://www.reddit.com/r/SocialMediaMarketing/comments/1i6mub7/mini_tool_for_tracking_influencer_campaigns_on/",
+    "claim": "一名小型代理从业者描述每天花大量时间把 TikTok/Instagram 帖子指标复制进表格，同时认为完整企业套件价格和范围不匹配；该讨论只作为痛点线索，不代表市场规模。"
+  },
+  {
+    "name": "LunarCrush",
+    "name_zh": "月球社交情报",
+    "url": "https://lunarcrush.com/",
+    "claim": "官方定位为社交情报层，提供跨社交数据的市场与创作者信号，是行业KOL监测的直接参照。",
+    "store": null,
+    "store_url": null,
+    "kind": "web_product"
+  },
+  {
+    "name": "Google Alerts",
+    "name_zh": "谷歌提醒",
+    "url": "https://support.google.com/websearch/answer/4815696?hl=en",
+    "claim": "官方支持按主题、频率、站点类型、语言和地区把新搜索结果发送到邮箱，但不提供团队业务语义和证据簇。",
+    "store": null,
+    "store_url": null,
+    "kind": "web_product"
+  }
+]

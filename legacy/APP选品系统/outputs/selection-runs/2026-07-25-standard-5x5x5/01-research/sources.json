@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Sensor Tower State of Mobile 2026",
+    "url": "https://sensortower.com/press/press-release-boosted-by-gen-ai-services-consumers-spent-more-money-in-apps-than-games-for-first-time",
+    "claim": "2025年全球用户在App中投入5.3万亿小时，非游戏App消费首次超过游戏，生成式AI是主要增长因素之一。"
+  },
+  {
+    "name": "AppMagic Mobile Market Landscape 2026",
+    "url": "https://appmagic.rocks/research/mobile-landscape-report-2026/?hl=en",
+    "claim": "2025年非游戏App下载同比增长11.9%、收入增长19.1%；报告同时覆盖AI、工具和休闲游戏趋势。"
+  },
+  {
+    "name": "AppMagic 2026 Key Takeaways",
+    "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+    "claim": "Sort、Block、Logic、Merge等益智子类型仍是增长或变现活跃方向；数据口径为App Store与Google Play全球下载及IAP。"
+  },
+  {
+    "name": "MyTherapy",
+    "url": "https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy",
+    "claim": "Google Play显示5M+下载、约234K评论；近期评论同时肯定定制能力并抱怨新版确认流程过重。"
+  },
+  {
+    "name": "Medisafe",
+    "url": "https://play.google.com/store/apps/details?id=com.medisafe.android.client",
+    "claim": "Google Play显示5M+下载、约249K评论，覆盖复杂剂量、照护者和补药提醒；评论出现更新后记录与通知可信度问题。"
+  },
+  {
+    "name": "Pillo",
+    "url": "https://www.pillo.care/",
+    "claim": "同类产品以简单药物提醒和追踪为核心，证明用户会主动寻找更轻量替代。"
+  },
+  {
+    "name": "KitchenPal",
+    "url": "https://play.google.com/store/apps/details?id=fr.icuisto.icuisto",
+    "claim": "Google Play显示100K+下载、约6.26K评论；产品把库存、食谱、营养、计划等大量功能叠在一起。"
+  },
+  {
+    "name": "NoWaste",
+    "url": "https://play.google.com/store/apps/details?id=com.khcreations.nowaste",
+    "claim": "Google Play显示50K+下载，但评分约2.8，说明需求存在而持续体验和可靠性仍有空间。"
+  },
+  {
+    "name": "Pantry Check",
+    "url": "https://pantrycheck.com/",
+    "claim": "产品以条码、家庭库存和购物为核心，进一步验证录入与持续维护是品类关键任务。"
+  },
+  {
+    "name": "Quizlet",
+    "url": "https://quizlet.com/",
+    "claim": "成熟学习品牌证明闪卡、练习测试和共享内容的长期需求。"
+  },
+  {
+    "name": "Knowt",
+    "url": "https://play.google.com/store/apps/details?id=com.knowt.app",
+    "claim": "Google Play显示500K+下载、约8.1K评论，官方称覆盖700万以上学生，并提供资料转卡片和测试。"
+  },
+  {
+    "name": "StudyFetch",
+    "url": "https://www.studyfetch.com/",
+    "claim": "提供资料、视频到学习工具的AI工作流，证明资料转练习已成为明确竞品能力。"
+  },
+  {
+    "name": "Forest",
+    "url": "https://www.forestapp.cc/",
+    "claim": "以种树反馈建立专注动机，是成熟的行为设计参照。"
+  },
+  {
+    "name": "Focus To-Do",
+    "url": "https://play.google.com/store/apps/details?id=com.superelement.pomodoro",
+    "claim": "Google Play显示10M+下载、约282K评论，验证番茄钟与任务合并的广泛需求。"
+  },
+  {
+    "name": "Tide",
+    "url": "https://tide.fm/en_US/",
+    "claim": "以专注、睡眠与环境声音构建轻量体验，是相邻体验参照。"
+  },
+  {
+    "name": "Expensify",
+    "url": "https://www.expensify.com/",
+    "claim": "成熟报销和票据自动化产品，验证扫描、分类和报销闭环。"
+  },
+  {
+    "name": "Zoho Expense",
+    "url": "https://www.zoho.com/expense/",
+    "claim": "覆盖票据、审批、里程和企业流程，证明需求稳定但也显示复杂度。"
+  },
+  {
+    "name": "Smart Receipts",
+    "url": "https://www.smartreceipts.co/",
+    "claim": "面向个人与小团队的票据扫描和报告，是轻量化直接参照。"
+  },
+  {
+    "name": "Lotsa Helping Hands",
+    "url": "https://lotsahelpinghands.com/",
+    "claim": "照护日历和志愿协作证明家庭协调需求；公开评论摘要指出移动端日历和任务体验仍有摩擦。"
+  },
+  {
+    "name": "CaringBridge",
+    "url": "https://www.caringbridge.org/",
+    "claim": "家庭常用其集中更新病情和支持信息，但任务交接不是唯一核心。"
+  },
+  {
+    "name": "Google Calendar",
+    "url": "https://calendar.google.com/",
+    "claim": "用户讨论反复提到共享日历与群聊拼接，说明当前工作流跨工具。"
+  },
+  {
+    "name": "Jobber",
+    "url": "https://apps.apple.com/us/app/jobber-field-service-software/id1014146758",
+    "claim": "成熟现场服务产品覆盖照片、报价、排期和付款；2026公开评测指出弱网同步仍会造成现场摩擦。"
+  },
+  {
+    "name": "Housecall Pro",
+    "url": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651",
+    "claim": "覆盖现场照片、估价、客户沟通和收款，证明完整闭环有付费需求。"
+  },
+  {
+    "name": "Joist",
+    "url": "https://www.joist.com/",
+    "claim": "面向承包商的估价和发票产品，是更聚焦的替代方案。"
+  },
+  {
+    "name": "Microsoft Teams Shifts",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+    "claim": "官方说明其面向一线排班和协作，但交接事实链仍需借助消息或其他工具。"
+  },
+  {
+    "name": "SafetyCulture",
+    "url": "https://safetyculture.com/platform",
+    "claim": "覆盖每个站点和班次的检查、风险与运营，是重型替代方案。"
+  },
+  {
+    "name": "Connecteam",
+    "url": "https://connecteam.com/",
+    "claim": "覆盖排班、沟通和任务，验证一线团队愿意使用移动工作台。"
+  },
+  {
+    "name": "Be My Eyes",
+    "url": "https://www.bemyeyes.com/bme-app/",
+    "claim": "通过实时视频、志愿者和AI提供视觉帮助，证明即时远程辅助行为。"
+  },
+  {
+    "name": "TeamViewer Remote",
+    "url": "https://www.teamviewer.com/en/products/remote/",
+    "claim": "远程控制是常用替代，但用户讨论指出移动端授权码与控制流程对老人不友好。"
+  },
+  {
+    "name": "Apple Assistive Access",
+    "url": "https://support.apple.com/guide/assistive-access-iphone/welcome/ios",
+    "claim": "系统级简化模式证明老年和认知辅助需求，但不解决远程解释与可信确认。"
+  },
+  {
+    "name": "Google Drive",
+    "url": "https://www.google.com/drive/",
+    "claim": "租客常用文件夹和照片保存证据，但缺少结构、责任与确认。"
+  },
+  {
+    "name": "Splitwise",
+    "url": "https://www.splitwise.com/",
+    "claim": "共同费用拆分是成熟行为，但不保存房屋状态和责任证据。"
+  },
+  {
+    "name": "Sortly",
+    "url": "https://www.sortly.com/",
+    "claim": "照片化库存证明结构化资产记录有需求，但面向库存而非租住关系。"
+  },
+  {
+    "name": "Stack Overflow 2026 Agent Survey",
+    "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+    "claim": "2026调查显示代理采用上升，但成本、准确性和安全仍是核心担忧。"
+  },
+  {
+    "name": "GitHub Agentic Adoption Study",
+    "url": "https://arxiv.org/abs/2601.18341",
+    "claim": "对129,134个项目的研究估计编码代理采用率达到15.85%–22.60%且继续增长。"
+  },
+  {
+    "name": "Microsoft Build 2026 Agentic Workflows",
+    "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+    "claim": "2026产品发布持续把代理带入桌面和工作流，扩大需要人类监督的动作面。"
+  },
+  {
+    "name": "C2PA",
+    "url": "https://c2pa.org/",
+    "claim": "开放标准推动内容来源与真实性信息跨平台表达。"
+  },
+  {
+    "name": "Adobe Content Authenticity",
+    "url": "https://contentauthenticity.adobe.com/",
+    "claim": "Adobe提供Content Credentials工具，证明创作者和平台开始产品化来源信息。"
+  },
+  {
+    "name": "Truepic",
+    "url": "https://www.truepic.com/",
+    "claim": "专业可信媒体服务证明保险、市场与远程检查等场景存在付费价值。"
+  },
+  {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/",
+    "claim": "多模型统一入口证明用户跨供应商选择和成本比较已经成为真实行为。"
+  },
+  {
+    "name": "Open WebUI",
+    "url": "https://github.com/open-webui/open-webui",
+    "claim": "开源多模型与本地界面持续高热度，GitHub和公开比较均显示强采用信号。"
+  },
+  {
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai/",
+    "claim": "桌面本地模型工具证明隐私、离线和本地推理是独立需求。"
+  },
+  {
+    "name": "Apple Core AI",
+    "url": "https://developer.apple.com/core-ai/",
+    "claim": "Apple官方提供面向开发者的设备端模型执行能力，降低本地AI产品门槛。"
+  },
+  {
+    "name": "Gemini Nano",
+    "url": "https://developer.android.com/ai/gemini-nano",
+    "claim": "Android官方说明Gemini Nano通过AICore在设备端运行，强调低延迟和隐私。"
+  },
+  {
+    "name": "Khan Academy",
+    "url": "https://www.khanacademy.org/",
+    "claim": "全球课程与练习内容证明结构化学习需求，但端侧个性化仍是新供给。"
+  },
+  {
+    "name": "FIDO Alliance Passkeys",
+    "url": "https://fidoalliance.org/passkeys/",
+    "claim": "行业标准组织持续推动Passkey替代密码，使用范围结构性扩大。"
+  },
+  {
+    "name": "Apple Passkeys",
+    "url": "https://support.apple.com/guide/iphone/use-passkeys-and-passwords-iphf538ea8d0/ios",
+    "claim": "Apple系统已将Passkey纳入日常账户登录与同步。"
+  },
+  {
+    "name": "Google Passkeys",
+    "url": "https://developers.google.com/identity/passkeys",
+    "claim": "Google面向开发者和用户推动Passkey，跨生态迁移与恢复成为新任务。"
+  }
+]

@@ -1,0 +1,861 @@
+{
+  "run": {
+    "id": "2026-07-26-china-doushengsheng-competitor-map",
+    "date": "2026-07-26",
+    "mode": "competitor-expand",
+    "direction": "china-doushengsheng-competitor-map",
+    "scope": "中国市场，以抖省省为起点，直接竞品、相邻产品和替代方案",
+    "status": "completed_provisional_public_evidence",
+    "freshness": "2026-07-26T21:15:00+08:00",
+    "source_count": 18
+  },
+  "summary": {
+    "discovered": 10,
+    "ranked": 10,
+    "deep_dives": 3,
+    "selected": 0,
+    "backup": 0,
+    "watch": 10,
+    "rejected": 0
+  },
+  "candidates": [
+    {
+      "id": "DSS-01",
+      "title": "ClearDeal Local",
+      "titleZh": "明价到店",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 58,
+      "decision": "WATCH",
+      "confidence": "medium",
+      "dataCompleteness": 0.68,
+      "targetUser": "会在抖省省、美团、大众点评等多平台比价的城市到店消费者",
+      "coreJob": "在下单前确认同店同套餐的真实到手价、限制与可退款性",
+      "improvements": [
+        "把平台券、会员价、支付优惠和套餐限制折算成可核验的最终到手价",
+        "同店同套餐归一化后跨平台比较，并展示价格采集时间",
+        "下单前给出退款、预约、节假日和核销限制的风险卡"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        },
+        {
+          "name": "Amap",
+          "nameZh": "高德地图",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id461703208",
+          "url": "https://www.amap.com/"
+        },
+        {
+          "name": "Yitao",
+          "nameZh": "一淘",
+          "kind": "mobile_app",
+          "relation": "adjacent_product",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id451400917",
+          "url": "https://www.etao.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "app_store_rating",
+          "value": 4.2,
+          "unit": "stars",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "metric": "rating_count",
+          "value": 3951,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "metric": "category_rank",
+          "value": 1,
+          "unit": "Shopping rank",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "metric": "rating_count",
+          "value": 1130000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id423084029"
+        },
+        {
+          "metric": "rating_count",
+          "value": 2490000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id351091731"
+        },
+        {
+          "metric": "rating_count",
+          "value": 27430000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id461703208"
+        },
+        {
+          "metric": "rating_count",
+          "value": 180000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id451400917"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "会在抖省省、美团、大众点评等多平台比价的城市到店消费者",
+        "coreJob": "在下单前确认同店同套餐的真实到手价、限制与可退款性",
+        "nextValidation": "在上海、成都各抓取100个同店套餐，人工核验匹配准确率与最终价偏差；达不到90%匹配准确率则停止。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731",
+        "https://apps.apple.com/cn/app/id461703208",
+        "https://apps.apple.com/cn/app/id451400917"
+      ],
+      "deepDive": true
+    },
+    {
+      "id": "DSS-02",
+      "title": "VoucherPilot",
+      "titleZh": "券管家",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 56,
+      "decision": "WATCH",
+      "confidence": "medium",
+      "dataCompleteness": 0.66,
+      "targetUser": "在多个本地生活平台囤有团购券、容易忘记使用或退款的消费者",
+      "coreJob": "统一查看待使用、临期、需预约和可退款的团购券并完成处置",
+      "improvements": [
+        "从订单截图、短信或日历导入券信息，不要求共享平台账号密码",
+        "按距离、到期日、预约要求和退款状态统一排序与提醒",
+        "退款前解释实际退回金额和优惠券损失，并保留证据清单"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        },
+        {
+          "name": "Alipay",
+          "nameZh": "支付宝",
+          "kind": "mobile_app",
+          "relation": "adjacent_product",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id333206289",
+          "url": "https://www.alipay.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "review_theme",
+          "value": "订单无法自定义排序",
+          "unit": "recent review",
+          "valueType": "Apple App Store Reviews",
+          "sourceUrl": "用户希望按附近或状态找已购券。"
+        },
+        {
+          "metric": "refund_rule",
+          "value": "实际支付金额退款；券与促销抵扣另计",
+          "unit": "rule current",
+          "valueType": "美团规则中心",
+          "sourceUrl": "规则表明券生命周期和退款金额存在解释负担。"
+        },
+        {
+          "metric": "review_theme",
+          "value": "预付团购退款等待与承诺争议",
+          "unit": "recent review",
+          "valueType": "Apple App Store Reviews",
+          "sourceUrl": "单条评论仅作主题证据，不代表总体发生率。"
+        },
+        {
+          "metric": "rating_count",
+          "value": 1140000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id333206289"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "在多个本地生活平台囤有团购券、容易忘记使用或退款的消费者",
+        "coreJob": "统一查看待使用、临期、需预约和可退款的团购券并完成处置",
+        "nextValidation": "招募20名多平台用户导入至少100张券，验证字段识别、提醒命中和退款说明准确率；任何账号抓取方案都不进入MVP。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731",
+        "https://apps.apple.com/cn/app/id333206289"
+      ],
+      "deepDive": true
+    },
+    {
+      "id": "DSS-03",
+      "title": "TermsLens Local",
+      "titleZh": "团购规则眼",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 51,
+      "decision": "WATCH",
+      "confidence": "medium",
+      "dataCompleteness": 0.64,
+      "targetUser": "担心预约、节假日、适用门店、加价和退款限制的团购消费者",
+      "coreJob": "在付款前快速看懂套餐能否在自己的时间、门店和人数条件下使用",
+      "improvements": [
+        "从套餐截图或分享链接抽取预约、节假日、门店、时段、人数、叠加和退款限制",
+        "结合用户输入的使用计划给出红黄绿风险，并逐条链接回原文",
+        "生成下单前确认清单，不代替平台规则或客服结论"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        },
+        {
+          "name": "Amap",
+          "nameZh": "高德地图",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id461703208",
+          "url": "https://www.amap.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "terms_fields",
+          "value": "有效期、预约、地址、营业时间、退款等条件需在购买前阅读",
+          "unit": "current rule",
+          "valueType": "美团点评团购用户服务条款",
+          "sourceUrl": "官方条款列出多类购买前注意条件。"
+        },
+        {
+          "metric": "regulatory_requirement",
+          "value": "促销限制和额外服务需清晰展示",
+          "unit": "effective 2026-04-10",
+          "valueType": "国家市场监督管理总局",
+          "sourceUrl": "法规支持透明解释需求，不代表第三方可替平台承诺。"
+        },
+        {
+          "metric": "review_theme",
+          "value": "宣传优惠跳转后套餐不一致或无法购买",
+          "unit": "recent review",
+          "valueType": "Apple App Store Reviews",
+          "sourceUrl": "支持交易前核对商品与条件的需求。"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "担心预约、节假日、适用门店、加价和退款限制的团购消费者",
+        "coreJob": "在付款前快速看懂套餐能否在自己的时间、门店和人数条件下使用",
+        "nextValidation": "人工标注200个团购套餐条款，验证关键限制召回率与错误警告率；关键限制召回低于95%则不进入交易前场景。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731",
+        "https://apps.apple.com/cn/app/id461703208"
+      ],
+      "deepDive": true
+    },
+    {
+      "id": "DSS-04",
+      "title": "DealProof",
+      "titleZh": "优惠验真",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 48,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.61,
+      "targetUser": "担心宣传优惠无法兑现或到店条件变化的价格敏感用户",
+      "coreJob": "在下载、跳转和到店前验证优惠是否真实可买、可用",
+      "improvements": [
+        "记录优惠最近一次成功购买与核销时间",
+        "对跳转失效、券消失和套餐不一致给出风险标记",
+        "允许用户提交脱敏订单凭证以提高可信度"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        },
+        {
+          "name": "Yitao",
+          "nameZh": "一淘",
+          "kind": "mobile_app",
+          "relation": "adjacent_product",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id451400917",
+          "url": "https://www.etao.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "review_theme",
+          "value": "跨App优惠跳转后商品不一致或网络异常",
+          "unit": "recent review",
+          "valueType": "Apple App Store Reviews",
+          "sourceUrl": "直接支持优惠验真方向。"
+        },
+        {
+          "metric": "review_theme",
+          "value": "红包吸引下载后无法兑换",
+          "unit": "2024 review",
+          "valueType": "Apple App Store",
+          "sourceUrl": "相邻品类存在同类信任问题。"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "担心宣传优惠无法兑现或到店条件变化的价格敏感用户",
+        "coreJob": "在下载、跳转和到店前验证优惠是否真实可买、可用",
+        "nextValidation": "先验证用户是否愿意提交脱敏核销证据，以及平台条款是否允许该聚合方式。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731",
+        "https://apps.apple.com/cn/app/id451400917"
+      ],
+      "deepDive": false
+    },
+    {
+      "id": "DSS-05",
+      "title": "RouteBite",
+      "titleZh": "顺路吃",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 44,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.58,
+      "targetUser": "通勤、逛街或旅行途中想顺路找到可立即核销优惠的消费者",
+      "coreJob": "在不明显绕路的前提下找到当前可用、可信且划算的到店套餐",
+      "improvements": [
+        "用绕路分钟数而不是直线距离排序",
+        "过滤需预约、非营业时段和节假日不可用套餐",
+        "只给最省钱、最顺路、最稳妥三个选择"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        },
+        {
+          "name": "Amap",
+          "nameZh": "高德地图",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id461703208",
+          "url": "https://www.amap.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "app_size",
+          "value": 543.8,
+          "unit": "MB",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "metric": "app_size",
+          "value": 1400,
+          "unit": "MB",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id1142110895"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "通勤、逛街或旅行途中想顺路找到可立即核销优惠的消费者",
+        "coreJob": "在不明显绕路的前提下找到当前可用、可信且划算的到店套餐",
+        "nextValidation": "用30条真实路线对比高德+团购App；不能节省30%决策时间则并入明价到店。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731",
+        "https://apps.apple.com/cn/app/id461703208"
+      ],
+      "deepDive": false
+    },
+    {
+      "id": "DSS-06",
+      "title": "Family Deal Wallet",
+      "titleZh": "家庭券包",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 37,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.52,
+      "targetUser": "家庭或伴侣共同购买、代用和核销团购券的人",
+      "coreJob": "在不共享主账号密码的前提下协同管理家庭团购券",
+      "improvements": [
+        "共享券摘要、到期提醒和使用人，不共享支付信息",
+        "核销后自动归档并同步家庭账本"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Alipay",
+          "nameZh": "支付宝",
+          "kind": "mobile_app",
+          "relation": "adjacent_product",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id333206289",
+          "url": "https://www.alipay.com/"
+        }
+      ],
+      "evidenceSummary": [],
+      "productBrief": {
+        "targetUser": "家庭或伴侣共同购买、代用和核销团购券的人",
+        "coreJob": "在不共享主账号密码的前提下协同管理家庭团购券",
+        "nextValidation": "访谈15个家庭，确认真实共享频率与平台券是否允许转赠。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id333206289"
+      ],
+      "deepDive": false
+    },
+    {
+      "id": "DSS-07",
+      "title": "AccessDeal",
+      "titleZh": "长辈省心团购",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 38,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.5,
+      "targetUser": "需要更大字号、清楚规则和家人协助的中老年团购用户",
+      "coreJob": "安全地找到、购买并核销本地优惠，不被复杂券规则困住",
+      "improvements": [
+        "把套餐限制翻译成大字版三问：何时能用、到店加不加钱、退不退",
+        "家人远程只读协助和核销演练"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        },
+        {
+          "name": "Alipay",
+          "nameZh": "支付宝",
+          "kind": "mobile_app",
+          "relation": "adjacent_product",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id333206289",
+          "url": "https://www.alipay.com/"
+        }
+      ],
+      "evidenceSummary": [],
+      "productBrief": {
+        "targetUser": "需要更大字号、清楚规则和家人协助的中老年团购用户",
+        "coreJob": "安全地找到、购买并核销本地优惠，不被复杂券规则困住",
+        "nextValidation": "完成10名55岁以上用户可用性测试；不能显著降低求助次数则停止。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731",
+        "https://apps.apple.com/cn/app/id333206289"
+      ],
+      "deepDive": false
+    },
+    {
+      "id": "DSS-08",
+      "title": "SmallCity Saver",
+      "titleZh": "小城省",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 30,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.44,
+      "targetUser": "三四线城市和县域中寻找本地小店优惠的消费者",
+      "coreJob": "发现主流平台覆盖不足的本地商户真实优惠",
+      "improvements": [
+        "微信分享链接和商家二维码即可建档",
+        "到店核销后才形成公开可信度"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        }
+      ],
+      "evidenceSummary": [],
+      "productBrief": {
+        "targetUser": "三四线城市和县域中寻找本地小店优惠的消费者",
+        "coreJob": "发现主流平台覆盖不足的本地商户真实优惠",
+        "nextValidation": "选一个县级市验证50家商户供给和100名用户复用；当前没有足够覆盖证据。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731"
+      ],
+      "deepDive": false
+    },
+    {
+      "id": "DSS-09",
+      "title": "Merchant Fairness Desk",
+      "titleZh": "商家申诉台",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "web_app",
+      "score": 41,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.51,
+      "targetUser": "同时经营抖音生活服务、美团和大众点评的小微本地商家",
+      "coreJob": "统一整理差评、订单和申诉证据，减少多平台经营摩擦",
+      "improvements": [
+        "按平台规则生成证据清单和事实型申诉草稿",
+        "记录处理时限和结果，不自动发布回复"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Meituan",
+          "nameZh": "美团",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id423084029",
+          "url": "https://www.meituan.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "rating_count",
+          "value": 450000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id1603172928"
+        },
+        {
+          "metric": "review_theme",
+          "value": "商家对评价规则与申诉透明度不满",
+          "unit": "recent review",
+          "valueType": "Apple App Store",
+          "sourceUrl": "单条商家评论，需进一步访谈验证频率。"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "同时经营抖音生活服务、美团和大众点评的小微本地商家",
+        "coreJob": "统一整理差评、订单和申诉证据，减少多平台经营摩擦",
+        "nextValidation": "访谈20家多平台商户并核对各平台授权边界；该机会偏B端，不与前三名共用MVP。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id423084029",
+        "https://apps.apple.com/cn/app/id351091731"
+      ],
+      "deepDive": false
+    },
+    {
+      "id": "DSS-10",
+      "title": "Taste-to-Deal",
+      "titleZh": "种草到优惠",
+      "category": "Local Deals / 本地生活优惠",
+      "productForm": "mobile_app",
+      "score": 40,
+      "decision": "WATCH",
+      "confidence": "low",
+      "dataCompleteness": 0.53,
+      "targetUser": "在抖音、小红书被种草后，希望快速确认附近门店和可用优惠的年轻消费者",
+      "coreJob": "把内容中的店铺意图转换为可比较、可到店的套餐选择",
+      "improvements": [
+        "从分享链接提取店名、城市和套餐意图",
+        "优先返回同店可核销套餐而不是相似推荐",
+        "明确显示跳转后商品是否一致"
+      ],
+      "competitors": [
+        {
+          "name": "Dou Sheng Sheng",
+          "nameZh": "抖省省",
+          "kind": "mobile_app",
+          "relation": "seed_direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id6756863766",
+          "url": "https://apps.apple.com/cn/app/id6756863766"
+        },
+        {
+          "name": "Douyin",
+          "nameZh": "抖音",
+          "kind": "mobile_app",
+          "relation": "substitute",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id1142110895",
+          "url": "https://www.douyin.com/"
+        },
+        {
+          "name": "RedNote",
+          "nameZh": "小红书",
+          "kind": "mobile_app",
+          "relation": "substitute",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id741292507",
+          "url": "https://www.xiaohongshu.com/"
+        },
+        {
+          "name": "Dianping",
+          "nameZh": "大众点评",
+          "kind": "mobile_app",
+          "relation": "direct_competitor",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/cn/app/id351091731",
+          "url": "https://www.dianping.com/"
+        }
+      ],
+      "evidenceSummary": [
+        {
+          "metric": "rating_count",
+          "value": 20950000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id741292507"
+        },
+        {
+          "metric": "rating_count",
+          "value": 52060000,
+          "unit": "ratings",
+          "valueType": "official",
+          "sourceUrl": "https://apps.apple.com/cn/app/id1142110895"
+        }
+      ],
+      "productBrief": {
+        "targetUser": "在抖音、小红书被种草后，希望快速确认附近门店和可用优惠的年轻消费者",
+        "coreJob": "把内容中的店铺意图转换为可比较、可到店的套餐选择",
+        "nextValidation": "测试100条抖音/小红书分享链接的实体匹配率，并先完成平台合规审查。"
+      },
+      "sourceLinks": [
+        "https://apps.apple.com/cn/app/id6756863766",
+        "https://apps.apple.com/cn/app/id1142110895",
+        "https://apps.apple.com/cn/app/id741292507",
+        "https://apps.apple.com/cn/app/id351091731"
+      ],
+      "deepDive": false
+    }
+  ],
+  "methodology": {
+    "scoring_version": "app-opportunity-scout-v1",
+    "gates": {
+      "selected_min_score": 75,
+      "selected_min_completeness": 0.8,
+      "selected_min_direct_competitors": 3,
+      "independent_source_types": 2
+    },
+    "estimate_notice": "本轮未使用付费市场估算。App Store评分量和榜单仅作为公开代理，不等于下载、活跃、收入或留存。",
+    "missing_data_notice": "下载、MAU、留存、收入、3/6/12月趋势和大样本评论主题仍需授权数据或进一步采集。"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://app-selection.local/schemas/skill-task.schema.json",
+  "title": "App Selection Skill Task Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "task_id",
+    "requested_skill",
+    "invocation_mode",
+    "operation",
+    "input",
+    "context",
+    "output"
+  ],
+  "properties": {
+    "contract_version": { "const": "1.0" },
+    "task_id": { "type": "string", "minLength": 3 },
+    "requested_skill": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 63,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "invocation_mode": { "enum": ["loop", "standalone", "automation", "api"] },
+    "operation": { "type": "string", "minLength": 1 },
+    "input": { "type": "object" },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parent_run_id": { "type": ["string", "null"] },
+        "project_root": { "type": ["string", "null"] },
+        "data_cutoff": { "type": ["string", "null"], "format": "date-time" },
+        "methodology_version": { "type": ["string", "null"] },
+        "upstream_artifacts": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["format", "non_overwrite"],
+      "properties": {
+        "format": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["json", "markdown", "csv"] }
+        },
+        "output_root": { "type": ["string", "null"] },
+        "non_overwrite": { "const": true }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "site_url": "https://select.1add2.com",
+  "auto_publish_website": true,
+  "auto_push_feishu_after_website_success": true,
+  "feishu_webhook_env": "FEISHU_SELECTION_WEBHOOK_URL",
+  "publish_order": ["website", "feishu"],
+  "require_http_200_and_business_code_0": true,
+  "idempotency_key_template": "{run_id}:feishu-summary:v1"
+}

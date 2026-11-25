@@ -1,0 +1,5 @@
+﻿route,rank,product,category,market,score,completeness,promise,improvements,primary_reference,product_form
+A,1,Model Match（模型匹配）,AI工具,Global,84,0.85,围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表,先按任务和约束推荐三种模型，再用同一评测清单对比 | 保存提示词、版本、耗时、成本和用户选择理由,https://poe.com/,web_app
+A,2,Signal Brief（信号简报）,AI资讯,Global,81,0.84,不是摘要更多新闻，而是按用户项目判断变化、证据和待办,每条只回答变化、影响对象、证据和建议动作四件事 | 所有摘要并列原始来源与冲突，不生成无链接判断,https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556,mobile_app
+B,1,Release Impact（版本影响）,开发者工具,Global,86,0.86,把发布信息从“我看过”变成与代码和产品相连的影响清单,把Release与项目清单匹配，只输出受影响依赖和迁移动作 | 高风险废弃、价格或权限变化生成负责人和截止时间,https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases,web_app
+C,1,MCP Trust Lens（MCP 信任透镜）,AI安全工具,Global,90,0.89,在安装命令执行前生成权限、维护和风险说明，并建议最小权限配置,解析安装配置、工具声明和依赖，生成普通人可读的权限差异 | 结合维护活跃、漏洞与来源信号给出隔离运行建议，不自动安装,https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/hunt-them-all-an-ai-powered-vulnerability-sweep-of-19-000-mcp-servers,web_app

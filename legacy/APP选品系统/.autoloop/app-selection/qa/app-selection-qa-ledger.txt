@@ -1,0 +1,22 @@
+Auto Loop QA Ledger: app-selection
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] role review or multi-agent review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Findings:
+- 市场级数字已链接到 Sensor Tower、AppMagic；政策链接到 Apple、Google 官方文档。
+- 参考 App 的公开安装区间、评论量和功能来自 Google Play 页面。
+- CSV 3 行可解析，八项分数之和与 total_100 一致。
+- Critic 复核发现“1000+ 工程上可行”和“10 万+付费下载”表述过强，已分别改为“可管理大量实验”和“10 万+安装，当前为付费购买”。
+- 所有候选明确标注为待验证，未把类别趋势外推为具体 App 的商业验证。
+- 残余风险：缺少具体竞品 24 个月趋势、系统评论样本、用户访谈和付费测试。

@@ -1,0 +1,71 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 KOL监控与推送：开源及免费商业产品精选10个"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-07-26 · KOL监控开源与免费工具调查**\n🔎 **10** 个深度研究　·　⏸️ **0** 个正式入选\n精选5个开源底座和5个带长期免费额度的商业产品；本轮为参考对象调查，正式入选0个，10项保持WATCH。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 开源底座（5）**\n\n**1. changedetection.io（网页变化监控）**　`Web 应用`　`94分`\n参考：[changedetection.io（网页变化监控） · 开源项目](https://github.com/dgtlmoon/changedetection.io)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**2. RSSHub（万物皆可RSS）**　`Web 应用`　`91分`\n参考：[RSSHub（万物皆可RSS） · 开源项目](https://github.com/DIYgod/RSSHub)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**3. FreshRSS + Extensions（清新订阅）**　`Web 应用`　`89分`\n参考：[FreshRSS + Extensions（清新订阅） · 开源项目](https://github.com/FreshRSS/FreshRSS)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**4. Huginn（自动情报代理）**　`Web 应用`　`86分`\n参考：[Huginn（自动情报代理） · 开源项目](https://github.com/huginn/huginn)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**5. Miniflux（极简订阅流）**　`Web 应用`　`84分`\n参考：[Miniflux（极简订阅流） · 开源项目](https://github.com/miniflux/v2)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟠 B · 免费商业验证工具（5）**\n\n**1. Visualping（网页变化提醒）**　`Web 应用`　`88分`\n参考：[Visualping（网页变化提醒） · Web 产品](https://visualping.io/blog/visualping-pricing-explained)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**2. Talkwalker Alerts（拓克沃克提醒）**　`Web 应用`　`83分`\n参考：[Talkwalker Alerts（拓克沃克提醒） · Web 产品](https://www.talkwalker.com/alerts)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**3. Inoreader（资讯阅读器）**　`跨端应用`　`82分`\n参考：[Inoreader（资讯阅读器） · Web 产品](https://www.inoreader.com/pricing)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**4. Distill（网页监测器）**　`跨端应用`　`80分`\n参考：[Distill（网页监测器） · Web 产品](https://distill.io/pricing/)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台\n\n**5. Browse AI（浏览器采集助手）**　`Web 应用`　`76分`\n参考：[Browse AI（浏览器采集助手） · Web 产品](https://www.browse.ai/pricing)\n状态：WATCH，完成报告列出的验证门槛前不进入开发台"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "本卡为调查结果，不代表正式立项；完成报告列出的数据、权限、使用或技术验证后再决定是否入选。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-26-kol-monitoring-open-source-freemium-landscape"
+          }
+        ]
+      }
+    ]
+  }
+}

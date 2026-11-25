@@ -1,0 +1,8 @@
+旧站点 Git 基线
+
+HEAD: dbf8e80ccf7aab639004013a7276332a722248c4
+Tag: v1.0.0
+Remote name: sites
+Remote URL: https://git.chatgpt-team.site/c05f9954-9551-4840-a63e-9c2ef6cfe7de/appgprj_6a644b3b718c819193c58da6ff55989d.git
+
+说明：旧站点仓库的认证信息不在资料中保存。后续开发使用新项目根目录 Git；如需回查旧提交，再访问旧站点工作树或该远端。

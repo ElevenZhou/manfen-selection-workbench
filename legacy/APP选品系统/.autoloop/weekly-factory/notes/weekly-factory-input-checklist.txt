@@ -1,0 +1,26 @@
+Auto Loop Input Checklist: weekly-factory
+
+Completeness:
+- [x] goal
+- [x] artifact type
+- [x] audience/user
+- [x] inputs/source paths
+- [x] output format/path
+- [x] constraints
+- [x] quality bar
+- [x] autonomy level
+- [x] risks/sensitive boundaries
+- [x] current stage and entry gate
+- [x] inherited artifacts/evidence
+- [x] user-only prerequisites
+- [x] authorized external side effects
+- [x] stage exit evidence and handoff
+
+Missing items: Live vendor credentials, paid-plan budget, exact launch countries, and store accounts are intentionally deferred to Stage 1.
+
+Autofill assumptions:
+- One operator controls five asynchronous AI development benches.
+- Each bench targets one internally accepted Release Candidate per productive week.
+- Forty-six productive weeks per year.
+- Weekly output is five selected, three backup, and twelve watch candidates.
+- Current work is local planning and templates only; no public publishing or purchase is authorized.

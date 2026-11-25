@@ -1,0 +1,27 @@
+{
+  "pulledAt": "2026-11-21",
+  "source": "https://app-selection-hub.xiaojie-april.chatgpt.site/api/reports",
+  "onlineReportCount": 16,
+  "localGeneratedReportCount": 5,
+  "onlineOnlyReportIds": [
+    "2026-07-26-china-doushengsheng-competitor-map",
+    "2026-07-26-china-multi-platform-local-deals-rebate",
+    "2026-11-09-hot-fast-growing-free-games",
+    "2026-11-09-hot-fast-growing-free-games-v2",
+    "sel-13532a51-d7fa-4cf7-b26c-424486f29e41",
+    "sel_673dd010-7567-40c7-ada6-08513cd2a467",
+    "sel_84dc30df-ca3a-496c-bd7e-0787b24f0b65",
+    "sel_9fc81681-80f6-417b-9c29-b7b489f8b586",
+    "sel_9fc81681-80f6-417b-9c29-b7b489f8b586-manual-override-v1",
+    "tiktok-mini-games-2026-11-19",
+    "us-free-puzzle-games-2026-11-18"
+  ],
+  "sharedReportIds": [
+    "2026-07-25-ai-tools-news-2x1x1",
+    "2026-07-25-casual-games-2x2x2",
+    "2026-07-25-standard-5x5x5",
+    "2026-07-26-kol-monitoring-2x1x0",
+    "2026-07-26-kol-monitoring-open-source-freemium-landscape"
+  ],
+  "note": "该公开接口只返回报告级数据和 payload，候选明细、制作档案和任务状态需要单独导出接口。"
+}

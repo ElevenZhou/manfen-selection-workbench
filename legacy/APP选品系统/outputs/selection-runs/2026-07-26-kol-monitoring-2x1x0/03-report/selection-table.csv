@@ -1,0 +1,4 @@
+﻿route,rank,product,product_form,category,market,score,completeness,promise,improvements,primary_reference
+A,1,Creator Guard（达人守望）,web_app,KOL营销监控,Global / CN outbound,87,0.88,把达人内容监控从全量信息流变成可解释、可确认、可分派的品牌风险变化队列,把新增、删除、竞品提及、披露缺失和品牌规则命中归并成有严重度与原文证据的变化事件 | AI只解释为什么值得处理，并要求人工确认后再分派；相似事件在冷却窗口内合并推送,https://help.modash.io/en/articles/10485038-how-modash-captures-all-your-creator-content
+A,2,Thesis Watch（观点追踪）,web_app,行业KOL情报,Global,84,0.85,把KOL信息流转换为可回溯的观点版本、证据变化和低噪声推送，而不是再做一张热度榜,按人和主题维护观点版本，只在结论、置信度、时间窗口或关键依据变化时生成差异卡 | 推送同时展示原文、反方证据和AI不确定性，不把情绪或互动量直接写成事实,https://pro.kaito.ai/portal
+B,1,Signal Relay（信号接力）,web_app,小团队情报自动化,Global / CN teams,89,0.9,从关注名单到决策简报只保留来源、变化、影响和负责人四件事，让小团队无需购买完整达人营销套件,允许团队从RSS、公开网页、邮件转发和手动链接建立来源清单，用业务问题而非关键词定义相关性 | 把重复内容合并为一个证据簇，输出变化、影响、原文和建议负责人，并按紧急度选择日报或即时推送,https://support.google.com/websearch/answer/4815696?hl=en

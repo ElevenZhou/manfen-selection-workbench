@@ -1,0 +1,6 @@
+﻿run_id,candidate_id,competitor,theme_type,theme,review_count,period,country,platform,source_url,example_excerpt,confidence
+2026-07-26-china-multi-platform-local-deals-rebate,MPR-01,Taofen8（淘粉吧）,pain,跨渠道领券导致订单归因丢失,1,public store observation,CN,iOS,https://apps.apple.com/cn/app/id527012586,需要近90天评论样本补证,low
+2026-07-26-china-multi-platform-local-deals-rebate,MPR-01,Taofen8（淘粉吧）,pain,换货被误判退款后返利扣回,1,public store observation,CN,iOS,https://apps.apple.com/cn/app/id527012586,需要真实订单复现,low
+2026-07-26-china-multi-platform-local-deals-rebate,MPR-01,ZhiFan（直返）,value,复制链接即可查看返利,1,public store observation,CN,iOS,https://apps.apple.com/cn/app/id6474171626,近期公开评论支持,low
+2026-07-26-china-multi-platform-local-deals-rebate,MPR-01,DouFan（豆返）,value,无上下级、纯自用、返利透明,1,public store observation,CN,iOS,https://apps.apple.com/cn/app/id6459108197,官方产品定位,low
+2026-07-26-china-multi-platform-local-deals-rebate,MPR-01,Zhekou Fanli（折扣返利）,pain,抖音链接跳转失败,1,public store observation,CN,iOS,https://apps.apple.com/cn/app/id1460361504,说明平台接入稳定性是核心风险,low

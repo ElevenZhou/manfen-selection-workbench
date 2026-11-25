@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-07-25-standard-5x5x5",
+  "objective": "标准全市场选品 5+5+5",
+  "direction": "all-markets",
+  "requested": {
+    "A": 5,
+    "B": 5,
+    "C": 5
+  },
+  "data_cutoff": "2026-07-25",
+  "collection_mode": "networked_model_on_demand",
+  "continuous_crawler": false,
+  "methodology_version": "route-system-v1.1-model-live-research",
+  "assumptions": [
+    "以英语市场和Global为首发验证面",
+    "公开证据无法替代付费供应商的精确收入与留存数据",
+    "游戏入选仅表示进入灰盒验证"
+  ],
+  "acceptance": [
+    "route counts match",
+    "three references per selection",
+    "package schema passes",
+    "zip checksum exists",
+    "website payload validates"
+  ]
+}

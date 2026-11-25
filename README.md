@@ -8,6 +8,8 @@
 
 当前版本：`0.1.0`（立项与设计基线）
 
+资料迁移状态：已完成。旧选品系统的可安全复用资料已经迁移到本项目；以后开发、文档和运行记录统一以本目录为入口。
+
 ## 当前阶段
 
 `EARLY / MVP 设计冻结前`。本仓库已经完成产品契约、任务状态机、容量算法、部署方案、提示词库和三套视觉方向；尚未宣称生产部署或正式域名已切换。
@@ -37,6 +39,9 @@
 - [参考标的分析](docs/10-reference-benchmark.md)
 - [新版本架构图](docs/architecture-v2.svg)
 - [高保真设计图](design/generated/2026-11-25-obsidian-instrument-v1.png)
+- [资料迁移清单](MIGRATION.md)
+- [旧选品系统源代码](apps/selection-web/)
+- [旧系统完整资料归档](legacy/APP选品系统/)
 - [决策记录](decisions/0001-system-boundary.md)
 - [岗位提示词](prompts/)
 - [设计对比入口](design/index.html)
@@ -48,6 +53,8 @@ cd /Users/xmm/projects/满分选品系统
 cp .env.example .env.local
 git status
 ```
+
+当前 Web 基线位于 `apps/selection-web/`。它来自旧站点封板提交 `dbf8e80` / `v1.0.0`，保留现有报告、候选、资料包、Feishu 和筛选能力；新系统的账号、派发、容量和研究执行器将围绕这个基线逐步重构。
 
 生产系统建议使用 Docker Compose 运行 Web/API、队列、数据库、对象存储、研究适配器和执行器。Codex、OpenCode、Hermes 只通过受控执行器接入，不能从浏览器请求直接启动。
 

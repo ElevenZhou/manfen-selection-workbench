@@ -1,0 +1,18 @@
+{
+  "reportId": "2026-07-26-kol-monitoring-open-source-freemium-landscape",
+  "sentAt": "2026-07-26T13:43:24Z",
+  "success": true,
+  "deliveryMode": "website_authenticated_manual",
+  "providerResult": "选品概述已推送到飞书",
+  "confirmation": {
+    "buttonState": "已推送飞书",
+    "message": "选品概述已推送到飞书"
+  },
+  "idempotencyRecord": "site D1 feishu_pushes",
+  "reportUrl": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-26-kol-monitoring-open-source-freemium-landscape",
+  "cardPath": "feishu-card.json",
+  "selectedCount": 0,
+  "watchCount": 10,
+  "packageCount": 0,
+  "note": "通过正式报告页执行一次推送；页面确认成功后未重试。"
+}

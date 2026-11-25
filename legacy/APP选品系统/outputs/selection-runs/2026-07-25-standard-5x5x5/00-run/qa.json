@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": {
+    "requested_route_counts": true,
+    "minimum_three_references": true,
+    "score_and_completeness_gate": true,
+    "one_to_three_improvements": true,
+    "package_files_exist": true,
+    "package_archives_exist": true,
+    "website_candidate_count": true,
+    "no_cross_route_ranking": true
+  },
+  "warnings": [
+    "App级收入、DAU/MAU和留存未接入授权供应商数据。",
+    "游戏必须继续完成灰盒和玩家测试。"
+  ]
+}

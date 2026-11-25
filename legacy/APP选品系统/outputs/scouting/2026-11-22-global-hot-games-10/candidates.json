@@ -1,0 +1,522 @@
+[
+  {
+    "title": "Shelter Defense",
+    "zh": "避难所防线",
+    "market": "美国｜英语",
+    "pricing": "免费（含内购）",
+    "platform": "Android（iOS 未核实）",
+    "category": "策略／末日生存",
+    "score": 90,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.94,
+    "primary": "State of Survival",
+    "heat": "Google Play 美国游戏 Trending：2026-11-21 新进入第 1 名；公开安装数 20,041，7 日均安装约 2••，4.5★。",
+    "scale": "Google Play 产品页公开档位为 1K+，低于 500M；AppsXray 的精确安装数为第三方采集，口径存在差异。",
+    "opportunity": "末日基地修复、资源分配和防守波次形成可拆解的短周期策略循环。",
+    "risk": "新榜首可能是投放或首发噪声，且商店评论量很少，留存未验证。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "official": "https://play.google.com/store/apps/details?hl=en-US&id=com.camelgames.sd",
+    "references": [
+      {
+        "name": "State of Survival",
+        "nameZh": "末日生存",
+        "kind": "mobile_game",
+        "url": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+        "store": "google_play",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "competitor"
+      },
+      {
+        "name": "SortPuz",
+        "nameZh": "分类拼图",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "relation": "similar"
+      }
+    ],
+    "improvements": [
+      "把15分钟教程拆成可跳过的三段式开局",
+      "让基地修复与防守结果在同一回合内可读",
+      "先用小规模事件验证非付费玩家的资源公平感"
+    ]
+  },
+  {
+    "title": "Fidget Clicker: Finger 3D Toy",
+    "zh": "手指 3D 解压点击",
+    "market": "美国｜英语",
+    "pricing": "免费（广告／内购未细分）",
+    "platform": "Android",
+    "category": "休闲／解压玩具",
+    "score": 86,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.88,
+    "primary": "Fidget Toys Trading 3D",
+    "heat": "Google Play 美国游戏 Trending：2026-11-21 从前一日上升 42 位至第 4 名；公开安装数 106,445。",
+    "scale": "公开安装数约 10.6 万，低于 500M；收入与留存不可访问。",
+    "opportunity": "“手指操作＋即时反馈”是极短会话的明确入口，可测试材质反馈、收藏和每日挑战。",
+    "risk": "榜单上升幅度大但评分字段缺失，可能存在短期流量。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "official": null,
+    "references": [
+      {
+        "name": "Fidget Toys Trading 3D",
+        "nameZh": "解压玩具 3D",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/fidget-toys-trading-3d/id1572681355",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/fidget-toys-trading-3d/id1572681355",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "competitor"
+      },
+      {
+        "name": "Zen Match",
+        "nameZh": "禅意配对",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "relation": "similar"
+      }
+    ],
+    "improvements": [
+      "把单次点击反馈扩展为可比较的每日挑战",
+      "减少重复广告打断并展示奖励概率",
+      "提供触感与音效强度开关"
+    ]
+  },
+  {
+    "title": "Line Tangle: Untangle Puzzle",
+    "zh": "线条解结",
+    "market": "美国、加拿大及其他英语市场",
+    "pricing": "免费（含广告／内购）",
+    "platform": "Android",
+    "category": "益智／解结",
+    "score": 88,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.92,
+    "primary": "Untangle",
+    "heat": "Scaling Games 2026-11-21：新进入榜单，直接进入加拿大 Arcade 第 9 名，并在另外 7 个国家同时上榜。AppsXray 美国 Trending 同日上升 12 位至第 7 名，公开安装数 56,246，4.9★。",
+    "scale": "公开安装数约 5.6 万，低于 500M。",
+    "opportunity": "规则单一但可扩展的线条解结适合做每日种子、速度榜和可分享回放。",
+    "risk": "核心玩法容易同质化，需验证关卡生成质量。",
+    "source": "https://scaling.games/",
+    "official": null,
+    "references": [
+      {
+        "name": "Untangle",
+        "nameZh": "解结",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/untangle/id314890592",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/untangle/id314890592",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "competitor"
+      },
+      {
+        "name": "Zen Match",
+        "nameZh": "禅意配对",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "relation": "similar"
+      }
+    ],
+    "improvements": [
+      "用确定性每日种子做公平竞速",
+      "将失败原因拆成可理解的交叉点提示",
+      "提供离线关卡和低广告节奏"
+    ]
+  },
+  {
+    "title": "Tidy Room!",
+    "zh": "整理房间",
+    "market": "美国、日本、韩国｜多语种",
+    "pricing": "免费（广告／内购）",
+    "platform": "Android",
+    "category": "休闲／整理收纳",
+    "score": 87,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.91,
+    "primary": "Zen Match",
+    "heat": "Google Play 美国 Trending 2026-11-21 上升 3 位至第 6 名，公开安装数 15,639，4.6★。韩国 Top new free 同日上升 16 位至第 21 名，4.7★。",
+    "scale": "美国公开安装数约 1.6 万，韩国页面安装字段被遮挡，但未见超过 500M 的证据。",
+    "opportunity": "整理、收纳和视觉完成感可组合成低认知负担的短局内容。",
+    "risk": "跨市场上升未必来自同一版本，需核对本地化和素材差异。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "official": null,
+    "references": [
+      {
+        "name": "Zen Match",
+        "nameZh": "禅意配对",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "relation": "competitor"
+      },
+      {
+        "name": "SortPuz",
+        "nameZh": "分类拼图",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "similar"
+      }
+    ],
+    "improvements": [
+      "把房间任务拆成可预测的三分钟目标",
+      "在提示与自动整理之间保留可控难度",
+      "用多语言物件词汇验证本地化可玩性"
+    ]
+  },
+  {
+    "title": "Card of Demon Slayer: Deck RPG",
+    "zh": "鬼灭卡牌",
+    "market": "韩国｜韩语／英语",
+    "pricing": "免费（广告＋内购）",
+    "platform": "Android",
+    "category": "卡牌／肉鸽 RPG",
+    "score": 89,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.93,
+    "primary": "Slay the Spire",
+    "heat": "Google Play 韩国 Top new free：2026-11-21 第 1 名，公开安装数 120,842，4.4★。",
+    "scale": "公开安装数约 12 万，低于 500M；官方产品页显示 1K+ 档位与 27 条评价，来源口径不一致，保留不确定性。",
+    "opportunity": "竖屏单手、分支路线和自动战斗把肉鸽卡牌压缩到短会话。",
+    "risk": "IP 相关性与商店页展示的实际授权关系需核实，UI 缺陷评论可能影响转化。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=new-free&country=KR",
+    "official": "https://play.google.com/store/apps/details?id=com.rabbithole.cardofdemonslayer",
+    "references": [
+      {
+        "name": "Slay the Spire",
+        "nameZh": "杀戮尖塔",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "similar"
+      },
+      {
+        "name": "SortPuz",
+        "nameZh": "分类拼图",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "relation": "substitute"
+      }
+    ],
+    "improvements": [
+      "先做非 IP 原创美术灰盒验证循环",
+      "把自动战斗与关键手动决策明确分层",
+      "用首局可完成的分支路线降低学习成本"
+    ]
+  },
+  {
+    "title": "三国志: 九州覇業 CBT",
+    "zh": "三国志：九州霸业 CBT",
+    "market": "日本｜日语",
+    "pricing": "免费（测试版／商业化未核实）",
+    "platform": "Android（iOS 未核实）",
+    "category": "策略／三国题材",
+    "score": 80,
+    "decision": "ROUTE_WATCH",
+    "completeness": 0.72,
+    "primary": "State of Survival",
+    "heat": "Google Play 日本 Trending：2026-11-21 第 1 名；页面标注 CBT。",
+    "scale": "榜单页未提供可读安装数，规模不确定，无法排除超过 500M，仅保留 WATCH。",
+    "opportunity": "日本本地榜单的 CBT 上升可用于观察题材、联盟与短期测试活动的组合。",
+    "risk": "CBT 榜单可能来自预约或测试流量，不能推断正式发行需求。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=trending&country=JP",
+    "official": null,
+    "references": [
+      {
+        "name": "State of Survival",
+        "nameZh": "末日生存",
+        "kind": "mobile_game",
+        "url": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+        "store": "google_play",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+        "relation": "competitor"
+      },
+      {
+        "name": "Slay the Spire",
+        "nameZh": "杀戮尖塔",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+        "relation": "similar"
+      },
+      {
+        "name": "SortPuz",
+        "nameZh": "分类拼图",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "relation": "substitute"
+      }
+    ],
+    "improvements": [
+      "先核对测试资格与真实可玩版本",
+      "拆分题材吸引与策略留存两类指标",
+      "只用日本本地用户做首轮验证"
+    ]
+  },
+  {
+    "title": "Slice Away! - Physics Puzzle",
+    "zh": "切开！物理谜题",
+    "market": "巴西｜葡萄牙语",
+    "pricing": "免费（商业化未细分）",
+    "platform": "Android",
+    "category": "益智／物理",
+    "score": 82,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.86,
+    "primary": "Cut the Rope",
+    "heat": "Google Play 巴西 Top new free：2026-11-21 上升 86 位至第 87 名，公开安装数约 600，日增约 600。",
+    "scale": "公开安装数约 600，低于 500M。",
+    "opportunity": "物理切割和即时失败反馈适合低成本关卡迭代，可测试本地化标题与分享回放。",
+    "risk": "基数小，排名波动可能被极少量下载放大。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=new-free&country=BR",
+    "official": null,
+    "references": [
+      {
+        "name": "Cut the Rope",
+        "nameZh": "割绳子",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/cut-the-rope/id380293530",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/cut-the-rope/id380293530",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "similar"
+      },
+      {
+        "name": "SortPuz",
+        "nameZh": "分类拼图",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "relation": "substitute"
+      }
+    ],
+    "improvements": [
+      "以少量高质量物理关卡代替数量堆叠",
+      "加入葡萄牙语教学和无障碍对比度",
+      "记录切割路径并支持一键回放"
+    ]
+  },
+  {
+    "title": "Onthel Life: Street Bike",
+    "zh": "安塞尔生活：街头机车",
+    "market": "印度尼西亚｜印尼语",
+    "pricing": "免费（商业化未核实）",
+    "platform": "Android",
+    "category": "模拟／街机骑行",
+    "score": 79,
+    "decision": "ROUTE_WATCH",
+    "completeness": 0.7,
+    "primary": "Traffic Rider",
+    "heat": "Google Play 印尼 Top new free：2026-11-21 第 1 名。",
+    "scale": "榜单摘要没有可读安装数或收入，规模不确定，不能据此排除超过 500M。",
+    "opportunity": "本地市场首位新游可测试街机骑行、城市路线和轻社交挑战。",
+    "risk": "仅有榜首信号，缺少评论、版本与跨市场重复出现。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=new-free&country=ID",
+    "official": null,
+    "references": [
+      {
+        "name": "Traffic Rider",
+        "nameZh": "交通骑士",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/traffic-rider/id951744068",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/traffic-rider/id951744068",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "similar"
+      },
+      {
+        "name": "State of Survival",
+        "nameZh": "末日生存",
+        "kind": "mobile_game",
+        "url": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+        "store": "google_play",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+        "relation": "substitute"
+      }
+    ],
+    "improvements": [
+      "先验证印尼语首局和低端设备性能",
+      "把城市路线和短局计时作为单一灰盒变量",
+      "补齐商店页、下载档位和评论证据后再晋级"
+    ]
+  },
+  {
+    "title": "Sand Hole: Block Sort Jam",
+    "zh": "沙洞：方块分类",
+    "market": "美国及多国",
+    "pricing": "免费（广告／内购）",
+    "platform": "Android",
+    "category": "益智／分类",
+    "score": 84,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.83,
+    "primary": "SortPuz",
+    "heat": "Google Play 美国 Trending：2026-11-21 新进入第 21 名，7 日均安装约 7.•K，4.8★。",
+    "scale": "安装数在榜单页被部分遮挡，只能确认存在近期增长，规模上限不确定，需持续观察。",
+    "opportunity": "洞穴吸入与分类的视觉反馈可能比传统水排序更易传播。",
+    "risk": "“新进入榜单”与素材投放可能混淆真实自然增长。",
+    "source": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "official": null,
+    "references": [
+      {
+        "name": "SortPuz",
+        "nameZh": "分类拼图",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+        "relation": "competitor"
+      },
+      {
+        "name": "Block Blast!",
+        "nameZh": "方块爆破",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+        "relation": "competitor"
+      },
+      {
+        "name": "Zen Match",
+        "nameZh": "禅意配对",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+        "relation": "similar"
+      }
+    ],
+    "improvements": [
+      "把吸入路径和分类规则做成首局可理解的动效",
+      "做确定性种子避免随机难度失衡",
+      "限制广告插入到关卡结算节点"
+    ]
+  },
+  {
+    "title": "Cursed Game Dev Simulator",
+    "zh": "诅咒游戏开发模拟器",
+    "market": "美国｜英语",
+    "pricing": "付费（App Store）",
+    "platform": "iOS／iPadOS",
+    "category": "模拟／叙事经营",
+    "score": 83,
+    "decision": "ROUTE_SELECTED",
+    "completeness": 0.84,
+    "primary": "Game Dev Story",
+    "heat": "App Store 美国 Top Paid Games：2026-11-21 新进入第 35 名；同页列为 14 个新条目之一，且被 Apple“New Games We Love”与“New Games We Love for iPad”收录。",
+    "scale": "付费榜单不提供下载量，规模无法精确估计；未发现超过 500M 的证据，标记为不确定。",
+    "opportunity": "游戏开发题材把内容生产、评价反馈和资源管理组合成可复玩的叙事经营。",
+    "risk": "编辑推荐与付费榜短期排名不能替代持续销量，且题材较垂直。",
+    "source": "https://chartat.com/games/top-paid",
+    "official": "https://apps.apple.com/us/iphone/games",
+    "references": [
+      {
+        "name": "Game Dev Story",
+        "nameZh": "游戏开发物语",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/game-dev-story/id396085661",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/game-dev-story/id396085661",
+        "relation": "competitor"
+      },
+      {
+        "name": "Minecraft: Play with Friends!",
+        "nameZh": "我的世界",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143",
+        "relation": "similar"
+      },
+      {
+        "name": "Slay the Spire",
+        "nameZh": "杀戮尖塔",
+        "kind": "mobile_game",
+        "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+        "store": "apple_app_store",
+        "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+        "relation": "substitute"
+      }
+    ],
+    "improvements": [
+      "把开发决策和玩家评价的因果反馈做清楚",
+      "以短章节控制叙事成本并支持多结局",
+      "先验证付费转化与首小时完成率"
+    ]
+  }
+]

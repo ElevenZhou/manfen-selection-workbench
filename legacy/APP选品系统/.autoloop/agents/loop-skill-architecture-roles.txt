@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: Defined the system objective, stage, deliverables, constraints, and stop condition.
+- Architect: Split the design into input, control, Skill, contract, output, and feedback blocks.
+- Skill designer: Defined independent Skill responsibilities, dual invocation, versioning, and side-effect boundaries.
+- Contract designer: Added Task and Result Envelopes without sharing route-scoring logic.
+- Verifier: Validates Schemas, examples, terminology, links, and current implementation claims.
+- Critic: Checks that Loop stays thin, independent calls do not lower gates, and development capacity does not alter selection.
+- Integrator: Updates project authority and preserves existing Engine A and workbench artifacts.

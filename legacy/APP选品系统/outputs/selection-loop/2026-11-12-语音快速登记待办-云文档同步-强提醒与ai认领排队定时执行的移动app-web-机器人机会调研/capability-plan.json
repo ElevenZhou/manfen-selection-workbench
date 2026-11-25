@@ -1,0 +1,65 @@
+{
+  "run_id": "2026-11-12-语音快速登记待办-云文档同步-强提醒与ai认领排队定时执行的移动app-web-机器人机会调研",
+  "capabilities": [
+    {
+      "capability": "app-evidence-collector",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-signal-radar",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-route-competitor-validated",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-route-gap-redesign",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-route-emerging-demand",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-workbench-packager",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-selection-publisher",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-selection-feishu-publisher",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-development-scheduler",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    },
+    {
+      "capability": "app-outcome-calibrator",
+      "implementation": null,
+      "execution_mode": null,
+      "status": "unresolved"
+    }
+  ]
+}

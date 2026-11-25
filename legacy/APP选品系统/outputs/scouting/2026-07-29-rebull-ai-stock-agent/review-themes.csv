@@ -1,0 +1,7 @@
+﻿run_id,candidate_id,competitor,theme_type,theme,review_count,period,country,platform,source_url,example_excerpt,confidence
+2026-07-29-rebull-ai-stock-agent,RBA-001,TipRanks,pain,数据准确性与更新时间会直接破坏信任,3,2021-2026,美国,iOS/Web,https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490?see-all=reviews,portfolio updates and balances can be stale or wrong,medium
+2026-07-29-rebull-ai-stock-agent,RBA-001,TipRanks,pain,付费墙重、试用与年费表达不清,2,2021-2026,美国,iOS/Web,https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490?see-all=reviews,expected a trial but was billed for a year,medium
+2026-07-29-rebull-ai-stock-agent,RBA-002,Danelfin,pain,AI 分数短期波动，用户容易把概率误解为保证,1,current reviews,全球,Web,https://www.trustpilot.com/review/danelfin.com,scores may move from 10 to Hold within a week,low
+2026-07-29-rebull-ai-stock-agent,RBA-003,同花顺问财,request,需要选择历史日期验证过去结论,1,2021-07,中国,iOS,https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519,希望能调整日期来验证往期数据,medium
+2026-07-29-rebull-ai-stock-agent,RBA-001,东方财富妙想,value,问答溯源、研报总结和自动图表可显著减少资料整理步骤,1,current listing,中国,iOS,https://apps.apple.com/cn/app/%E5%A6%99%E6%83%B3/id6469681957,问答全程溯源，点击即可查看,high
+2026-07-29-rebull-ai-stock-agent,RBA-002,TipRanks,value,用户认可把新闻、评分、研究与组合放在一个服务中,2,2021-2023,美国,iOS,https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490?see-all=reviews,a good amount of resources rolled up into one site,medium

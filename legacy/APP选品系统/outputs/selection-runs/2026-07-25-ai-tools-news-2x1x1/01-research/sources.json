@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Sensor Tower State of Mobile 2026",
+    "url": "https://sensortower.com/press/press-release-boosted-by-gen-ai-services-consumers-spent-more-money-in-apps-than-games-for-first-time",
+    "claim": "2025年全球用户在App中投入5.3万亿小时，非游戏App消费首次超过游戏，生成式AI是主要增长因素之一。"
+  },
+  {
+    "name": "AppMagic Mobile Market Landscape 2026",
+    "url": "https://appmagic.rocks/research/mobile-landscape-report-2026/?hl=en",
+    "claim": "2025年非游戏App下载同比增长11.9%、收入增长19.1%；报告同时覆盖AI、工具和休闲游戏趋势。"
+  },
+  {
+    "name": "AppMagic 2026 Key Takeaways",
+    "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+    "claim": "Sort、Block、Logic、Merge等益智子类型仍是增长或变现活跃方向；数据口径为App Store与Google Play全球下载及IAP。"
+  },
+  {
+    "name": "Poe",
+    "url": "https://poe.com/",
+    "claim": "多模型消费入口证明用户会在同一产品内访问不同模型。"
+  },
+  {
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/",
+    "claim": "统一API、模型目录和价格比较证明开发者存在跨模型选择需求。"
+  },
+  {
+    "name": "ChatHub",
+    "url": "https://chathub.gg/",
+    "claim": "并排多模型对话是直接竞品机制，但缺少任务级长期证据账本。"
+  },
+  {
+    "name": "Feedly",
+    "url": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+    "claim": "官方商店页称覆盖40M+来源和2,000主题，验证专业信息聚合需求。"
+  },
+  {
+    "name": "TodayRSS",
+    "url": "https://apps.apple.com/us/app/todayrss/id6756196576",
+    "claim": "提供AI摘要、十秒概览、Newsletter和离线阅读，是移动端直接参照。"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+    "claim": "引用式回答和移动端搜索证明用户需要从问题快速抵达来源。"
+  },
+  {
+    "name": "GitHub Releases",
+    "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+    "claim": "Release是大量开源依赖的官方变更入口，但跨仓库影响仍需人工判断。"
+  },
+  {
+    "name": "Feedly",
+    "url": "https://feedly.com/",
+    "claim": "RSS和关键词监控能收集供应商变化，但不理解本地项目依赖。"
+  },
+  {
+    "name": "Dependabot",
+    "url": "https://docs.github.com/en/code-security/dependabot",
+    "claim": "依赖更新和安全告警证明代码级影响可自动识别，但模型、API和价格变化覆盖不足。"
+  },
+  {
+    "name": "Trend Micro MCP Sweep",
+    "url": "https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/hunt-them-all-an-ai-powered-vulnerability-sweep-of-19-000-mcp-servers",
+    "claim": "2026研究扫描约19,000个MCP服务器并报告显著漏洞与AI生成代码风险。"
+  },
+  {
+    "name": "GitHub Trending",
+    "url": "https://github.com/trending",
+    "claim": "2026年7月趋势页持续出现AI网关、代理和MCP基础设施项目，供给增长明确。"
+  },
+  {
+    "name": "MCP Registry",
+    "url": "https://registry.modelcontextprotocol.io/",
+    "claim": "官方注册表使MCP服务发现标准化，也扩大安装前信任判断的对象规模。"
+  }
+]

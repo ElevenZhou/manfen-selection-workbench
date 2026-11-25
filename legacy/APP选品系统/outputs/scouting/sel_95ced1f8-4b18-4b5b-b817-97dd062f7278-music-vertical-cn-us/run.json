@@ -1,0 +1,30 @@
+{
+  "run_id": "sel_95ced1f8-4b18-4b5b-b817-97dd062f7278",
+  "created_at": "2026-11-21T22:47:12+08:00",
+  "mode": "broad",
+  "direction": "中国与美国竖屏音乐节奏游戏选品 10 项",
+  "status": "partial",
+  "scope": {
+    "qualified_count": 10,
+    "markets": [
+      "中国 / 美国"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
+  },
+  "counts": {
+    "discovered": 20,
+    "ranked": 10,
+    "deep_dives": 10,
+    "selected": 5,
+    "backup": 5,
+    "watch": 0,
+    "rejected": 0
+  },
+  "warnings": [
+    "第三方平台提供类别和相对趋势代理，未接入授权App级收入、DAU/MAU和留存原始数据。",
+    "网站入库与飞书推送待外部授权。"
+  ]
+}

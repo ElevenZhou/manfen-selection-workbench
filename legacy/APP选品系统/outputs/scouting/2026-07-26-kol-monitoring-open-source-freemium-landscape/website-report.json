@@ -1,0 +1,386 @@
+{
+  "report": {
+    "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape",
+    "periodLabel": "2026-07-26 · KOL监控开源与免费工具调查",
+    "publishedAt": "2026-07-26T22:30:00+08:00",
+    "title": "KOL监控与推送：开源及免费商业产品精选10个",
+    "summary": "精选5个开源底座和5个带长期免费额度的商业产品；本轮为参考对象调查，正式入选0个，10项保持WATCH。",
+    "status": "research",
+    "sourceRunId": "2026-07-26-kol-monitoring-open-source-freemium-landscape",
+    "methodologyVersion": "kol-reference-fit-v1",
+    "payload": {
+      "marketPulse": "最可落地的开源组合是RSSHub接入、changedetection.io变化检测、FreshRSS聚合与分类，再复用现有飞书人工确认和幂等推送。",
+      "sources": [
+        "GitHub官方仓库、Release与API快照",
+        "Visualping官方免费档说明",
+        "Talkwalker Alerts官方页面",
+        "Inoreader官方价格页",
+        "Distill官方价格页",
+        "Browse AI官方价格与帮助中心"
+      ],
+      "scheduledCount": 0
+    }
+  },
+  "candidates": [
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-a-ref-changedetection-io",
+      "route": "A",
+      "title": "changedetection.io",
+      "titleZh": "网页变化监控",
+      "productForm": "web_app",
+      "category": "开源变化检测",
+      "market": "Global",
+      "routeScore": 94,
+      "routeRank": 1,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.9,
+      "opportunity": "网页差异、截图证据、AI重要性判断和多通道通知最接近现有KOL变化检测内核。",
+      "improvements": [
+        "复用CSS/XPath/JSON差异和原文快照",
+        "接入自选LLM后仍保留人工确认与证据引用"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "changedetection.io",
+          "nameZh": "网页变化监控",
+          "kind": "open_source_project",
+          "url": "https://github.com/dgtlmoon/changedetection.io",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-a-ref-rsshub",
+      "route": "A",
+      "title": "RSSHub",
+      "titleZh": "万物皆可RSS",
+      "productForm": "web_app",
+      "category": "开源来源接入",
+      "market": "Global",
+      "routeScore": 91,
+      "routeRank": 2,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.9,
+      "opportunity": "把微博、YouTube、TikTok、知乎等公开来源标准化成RSS，降低逐平台接入成本。",
+      "improvements": [
+        "优先选择官方API、公开RSS和允许的公开页面",
+        "为每条路由记录成功率、延迟和失效原因"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "RSSHub",
+          "nameZh": "万物皆可RSS",
+          "kind": "open_source_project",
+          "url": "https://github.com/DIYgod/RSSHub",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-a-ref-freshrss",
+      "route": "A",
+      "title": "FreshRSS + Extensions",
+      "titleZh": "清新订阅",
+      "productForm": "web_app",
+      "category": "开源信息聚合",
+      "market": "Global",
+      "routeScore": 89,
+      "routeRank": 3,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.9,
+      "opportunity": "官方扩展已有关键词Webhook和LLM分类，可快速搭建聚合、筛选与飞书入口。",
+      "improvements": [
+        "补充KOL实体、观点版本和证据字段",
+        "把LLM分类结果放入人工审核队列而非自动处置"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "FreshRSS + Extensions",
+          "nameZh": "清新订阅",
+          "kind": "open_source_project",
+          "url": "https://github.com/FreshRSS/FreshRSS",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-a-ref-huginn",
+      "route": "A",
+      "title": "Huginn",
+      "titleZh": "自动情报代理",
+      "productForm": "web_app",
+      "category": "开源工作流编排",
+      "market": "Global",
+      "routeScore": 86,
+      "routeRank": 4,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.9,
+      "opportunity": "用事件Agent图串联网页、RSS、过滤、Digest、Webhook和团队通知。",
+      "improvements": [
+        "借鉴Event与Agent模型而不直接复制旧技术栈",
+        "先用单条RSS到Webhook链路测量维护成本"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Huginn",
+          "nameZh": "自动情报代理",
+          "kind": "open_source_project",
+          "url": "https://github.com/huginn/huginn",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-a-ref-miniflux",
+      "route": "A",
+      "title": "Miniflux",
+      "titleZh": "极简订阅流",
+      "productForm": "web_app",
+      "category": "开源RSS后端",
+      "market": "Global",
+      "routeScore": 84,
+      "routeRank": 5,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.9,
+      "opportunity": "轻量RSS后端，具备过滤、REST API、Webhook以及Slack、Telegram、Apprise等集成。",
+      "improvements": [
+        "作为低维护来源收件箱与FreshRSS对照",
+        "将AI解释、观点变化和审核工作流保持在外部服务"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Miniflux",
+          "nameZh": "极简订阅流",
+          "kind": "open_source_project",
+          "url": "https://github.com/miniflux/v2",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-b-ref-visualping",
+      "route": "B",
+      "title": "Visualping",
+      "titleZh": "网页变化提醒",
+      "productForm": "web_app",
+      "category": "免费商业验证工具",
+      "market": "Global",
+      "routeScore": 88,
+      "routeRank": 1,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.9,
+      "opportunity": "无需部署即可用5个页面和150次月检查验证AI变化摘要与重要性提醒。",
+      "improvements": [
+        "用免费额度对比原始变化提醒和重要变化提醒",
+        "把Webhook结果接入现有人工确认卡片"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Visualping",
+          "nameZh": "网页变化提醒",
+          "kind": "web_product",
+          "url": "https://visualping.io/blog/visualping-pricing-explained",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-b-ref-talkwalker-alerts",
+      "route": "B",
+      "title": "Talkwalker Alerts",
+      "titleZh": "拓克沃克提醒",
+      "productForm": "web_app",
+      "category": "免费商业验证工具",
+      "market": "Global",
+      "routeScore": 83,
+      "routeRank": 2,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.82,
+      "opportunity": "免费发现新闻、博客、论坛、网站和X中的人物、品牌及关键词提及。",
+      "improvements": [
+        "用Boolean查询控制噪声并通过RSS保留来源",
+        "把免费结果当线索而不是完整审计数据"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Talkwalker Alerts",
+          "nameZh": "拓克沃克提醒",
+          "kind": "web_product",
+          "url": "https://www.talkwalker.com/alerts",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-b-ref-inoreader",
+      "route": "B",
+      "title": "Inoreader",
+      "titleZh": "资讯阅读器",
+      "productForm": "cross_platform",
+      "category": "免费商业验证工具",
+      "market": "Global",
+      "routeScore": 82,
+      "routeRank": 3,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.82,
+      "opportunity": "Free forever支持150个公开RSS订阅，适合快速验证KOL统一阅读池。",
+      "improvements": [
+        "先验证用户是否持续阅读和标记来源",
+        "不要把Pro的规则、监控源和社交源配额误当免费能力"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Inoreader",
+          "nameZh": "资讯阅读器",
+          "kind": "web_product",
+          "url": "https://www.inoreader.com/pricing",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-b-ref-distill",
+      "route": "B",
+      "title": "Distill",
+      "titleZh": "网页监测器",
+      "productForm": "cross_platform",
+      "category": "免费商业验证工具",
+      "market": "Global",
+      "routeScore": 80,
+      "routeRank": 4,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.82,
+      "opportunity": "免费25个监控、5个云端监控和每月1000次云检查，适合低频关键页面验证。",
+      "improvements": [
+        "仅用于少量公开页面的低频试验",
+        "自行保存原文快照和哈希以补足免费版无变化历史"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Distill",
+          "nameZh": "网页监测器",
+          "kind": "web_product",
+          "url": "https://distill.io/pricing/",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape-b-ref-browse-ai",
+      "route": "B",
+      "title": "Browse AI",
+      "titleZh": "浏览器采集助手",
+      "productForm": "web_app",
+      "category": "免费商业验证工具",
+      "market": "Global",
+      "routeScore": 76,
+      "routeRank": 5,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.82,
+      "opportunity": "用无代码浏览器任务验证难做RSS的公开页面能否稳定抽取结构化字段。",
+      "improvements": [
+        "只验证一个站点允许采集的公开来源",
+        "不把绕过CAPTCHA、登录限制或平台条款作为产品前提"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Browse AI",
+          "nameZh": "浏览器采集助手",
+          "kind": "web_product",
+          "url": "https://www.browse.ai/pricing",
+          "store": null,
+          "storeUrl": null,
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null
+    }
+  ]
+}

@@ -10,5 +10,8 @@ coverage/
 data/runtime/
 data/uploads/
 logs/
+.worker-runs/
 *.local
 *.secret
+legacy/APP选品系统/archives/
+apps/selection-web/outputs/

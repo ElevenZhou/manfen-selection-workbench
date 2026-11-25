@@ -1,0 +1,11 @@
+{
+  "status": "published",
+  "report_id": "2026-07-26-kol-monitoring-2x1x0",
+  "candidate_count": 3,
+  "package_count": 3,
+  "report_url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-26-kol-monitoring-2x1x0",
+  "published_at": "2026-07-26T12:37:46+08:00",
+  "site_version": 17,
+  "http_status": 200,
+  "note": "正式版本已经部署；API 可检索报告 ID，公开报告页可读取标题和入选项目。飞书通知未授权，未发送。"
+}

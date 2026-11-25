@@ -1,0 +1,9 @@
+﻿run_id,candidate_id,theme_type,theme,evidence_basis,confidence
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-a-model-match,pain_or_request,先按任务和约束推荐三种模型，再用同一评测清单对比,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-a-model-match,pain_or_request,保存提示词、版本、耗时、成本和用户选择理由,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-a-signal-brief,pain_or_request,每条只回答变化、影响对象、证据和建议动作四件事,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-a-signal-brief,pain_or_request,所有摘要并列原始来源与冲突，不生成无链接判断,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-b-release-impact,pain_or_request,把Release与项目清单匹配，只输出受影响依赖和迁移动作,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-b-release-impact,pain_or_request,高风险废弃、价格或权限变化生成负责人和截止时间,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens,pain_or_request,解析安装配置、工具声明和依赖，生成普通人可读的权限差异,cross-reference synthesis,medium
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens,pain_or_request,结合维护活跃、漏洞与来源信号给出隔离运行建议，不自动安装,cross-reference synthesis,medium

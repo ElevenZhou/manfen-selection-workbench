@@ -1,0 +1,92 @@
+[
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-1",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-01-wolf-war-last-survival",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "value": "美国 Google Play Trending 2026-11-22 排名第 5，较前日上升 89 位，公开安装数 371,729、4.8★；Scaling Games 同日显示上线 4 天，在澳大利亚 RPG 榜第 37，并扩散到 8 个其他国家。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-2",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-02-nail-salon-diy-asmr",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "value": "美国 Google Play Trending 2026-11-22 排名第 6，较前日上升 17 位，公开安装数 181,037、3.6★。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-3",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-03-amochiroom-puzzle-room-sort",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "value": "美国 Google Play Trending 2026-11-22 排名第 10，较前日上升 1 位；美国 Top free 同日第 1，公开安装数 1,588,402、4.8★。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-4",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-04-tidy-house-find-objects",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "value": "美国 Google Play Trending 2026-11-22 排名第 19，较前日上升 95 位，公开安装数约 2 万、4.7★；Scaling Games 同日显示上线 4 天，在新西兰 Puzzle 榜第 38，并扩散到 8 个其他国家。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-5",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-05-dark-hunter-hunter-hero-rpg",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "value": "美国 Google Play Trending 2026-11-22 新进入第 13 名，公开安装数约 8 万、4.6★。精确安装数在公开页面被遮挡。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-6",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-06-heartshot-arrow-escape",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "value": "美国 Google Play Trending 2026-11-22 较前日上升 143 位至第 31 名，公开安装数约 2 万、4.5★。精确安装数被遮挡。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-7",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-07-fresh-today-cozy-supermarket",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://scaling.games/",
+    "value": "Scaling Games 2026-11-22 显示上线 2 天，直接进入菲律宾 Arcade 榜第 1，并在 3 个其他国家上榜。未找到可读安装数或收入。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-8",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-08-shovel-squad",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://scaling.games/",
+    "value": "Scaling Games 2026-11-22 显示上线 4 天，在菲律宾 RPG 榜第 19，并在 4 个其他国家上榜。未找到公开安装数或收入。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-9",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-09-tiny-war-kingdom-defense",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://scaling.games/",
+    "value": "Scaling Games 2026-11-22 显示上线 3 天，在马来西亚 Strategy 榜第 40，并在 3 个其他国家上榜。未找到公开安装数或收入。",
+    "valueType": "observed"
+  },
+  {
+    "id": "2026-11-23-global-hot-games-10-signal-10",
+    "type": "chart_movement",
+    "candidate_id": "2026-11-23-global-hot-games-10-a-10-",
+    "observedAt": "2026-11-23T00:02:09Z",
+    "sourceUrl": "https://scaling.games/",
+    "value": "Scaling Games 2026-11-22 显示上线 4 天，直接进入马来西亚 RPG 榜第 13 名。未找到公开安装数、收入或评论趋势。",
+    "valueType": "observed"
+  }
+]

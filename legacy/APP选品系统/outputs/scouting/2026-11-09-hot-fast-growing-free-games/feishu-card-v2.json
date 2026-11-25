@@ -1,0 +1,61 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 热门、增长快、免费榜游戏机会 20 选（修订版）"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-11-09 · gameplay-hunt**\n✅ **5** 个最终入选　·　📦 **0** 个生产资料包\n20 个机会；5 个进入灰盒验证，5 个 BACKUP，10 个 WATCH。市场热度不等于玩法已验证。v2 修正路线状态字段。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（5）**\n\n**1. Daily Grid Duel（Daily Grid Duel）**　`手机游戏`　`77.0分`\n参考：[Block Blast!（Block Blast!） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Roblox（Roblox） · 手机游戏](https://apps.apple.com/us/app/roblox/id431946152) · [Vita Mahjong（Vita Mahjong） · 手机游戏](https://apps.apple.com/us/app/vita-mahjong/id6443768921)\n资料包未就绪\n\n**2. Sort & Sprint（Sort & Sprint）**　`手机游戏`　`76.0分`\n参考：[Block Blast!（Block Blast!） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Roblox（Roblox） · 手机游戏](https://apps.apple.com/us/app/roblox/id431946152) · [Vita Mahjong（Vita Mahjong） · 手机游戏](https://apps.apple.com/us/app/vita-mahjong/id6443768921)\n资料包未就绪\n\n**3. Traffic Escape Stories（Traffic Escape Stories）**　`手机游戏`　`75.0分`\n参考：[Block Blast!（Block Blast!） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Roblox（Roblox） · 手机游戏](https://apps.apple.com/us/app/roblox/id431946152) · [Vita Mahjong（Vita Mahjong） · 手机游戏](https://apps.apple.com/us/app/vita-mahjong/id6443768921)\n资料包未就绪\n\n**4. Cozy Merge Café（Cozy Merge Café）**　`手机游戏`　`78.0分`\n参考：[Block Blast!（Block Blast!） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Roblox（Roblox） · 手机游戏](https://apps.apple.com/us/app/roblox/id431946152) · [Vita Mahjong（Vita Mahjong） · 手机游戏](https://apps.apple.com/us/app/vita-mahjong/id6443768921)\n资料包未就绪\n\n**5. Tiny UGC Worlds（Tiny UGC Worlds）**　`手机游戏`　`77.0分`\n参考：[Block Blast!（Block Blast!） · 手机游戏](https://apps.apple.com/us/app/block-blast/id1617391486) · [Roblox（Roblox） · 手机游戏](https://apps.apple.com/us/app/roblox/id431946152) · [Vita Mahjong（Vita Mahjong） · 手机游戏](https://apps.apple.com/us/app/vita-mahjong/id6443768921)\n资料包未就绪"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-11-09-hot-fast-growing-free-games-v2"
+          }
+        ]
+      }
+    ]
+  }
+}

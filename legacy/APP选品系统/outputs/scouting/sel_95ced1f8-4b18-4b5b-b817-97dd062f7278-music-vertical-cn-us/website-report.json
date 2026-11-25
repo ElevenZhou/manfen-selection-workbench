@@ -1,0 +1,578 @@
+{
+  "report": {
+    "id": "sel_95ced1f8-4b18-4b5b-b817-97dd062f7278",
+    "periodLabel": "2026-11-21 · 中国与美国竖屏音乐节奏游戏选品 10 项",
+    "publishedAt": "2026-11-21T22:47:12+08:00",
+    "title": "中国与美国竖屏音乐节奏游戏选品 10 项",
+    "summary": "围绕中国和美国市场的竖屏音乐节奏游戏，完成10个候选机会排序。5个进入优先验证，5个保留为备选。公开商店与第三方榜单能证明需求和供给，真实玩法仍需灰盒与玩家测试。",
+    "status": "partial",
+    "sourceRunId": "sel_95ced1f8-4b18-4b5b-b817-97dd062f7278",
+    "methodologyVersion": "app-opportunity-scout-v1.2-queued-task",
+    "payload": {
+      "marketPulse": "Sensor Tower公开的美国音乐游戏榜单与官方商店页显示，短局节奏、曲库运营、剧情/IP、玩家谱面和练习反馈均有可观察供给。中国市场的收入、留存和分发数据仍需补充中国区商店或授权平台数据。",
+      "sources": [
+        "https://sensortower.com/blog/2025-q4-ios-top-5-music-games-units-us-6023eb77241bc16eb8cee1fa",
+        "https://sensortower.com/blog/2025-q4-unified-top-5-music-rythm-revenue-us-60dc7bcc2829329604e56127",
+        "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+        "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+        "https://apps.apple.com/us/app/geometry-dash/id625334537",
+        "https://apps.apple.com/us/app/arcaea/id1150733961",
+        "https://apps.apple.com/us/app/phigros/id1454809109",
+        "https://apps.apple.com/us/app/project-sekai/id1588872626"
+      ],
+      "scheduledCount": 0
+    }
+  },
+  "candidates": [
+    {
+      "id": "mu-01",
+      "route": "A",
+      "title": "节拍闪避跑酷",
+      "titleZh": "节拍闪避跑酷",
+      "productForm": "mobile_game",
+      "category": "竖屏短局节奏跑酷",
+      "market": "中国 / 美国",
+      "routeScore": 94,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.88,
+      "opportunity": "用节拍控制左右闪避、跳跃与收集，60–90秒完成一局",
+      "improvements": [
+        "自动按节奏表现匹配难度",
+        "每日短赛与幽灵回放",
+        "原创或可授权曲库可追溯"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Tiles Hop",
+          "nameZh": "节奏音乐球",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "relation": "competitor"
+        },
+        {
+          "name": "Magic Tiles 3",
+          "nameZh": "魔法钢琴块3",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+          "relation": "competitor"
+        },
+        {
+          "name": "Muse Dash",
+          "nameZh": "喵斯快跑",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806"
+    },
+    {
+      "id": "mu-02",
+      "route": "A",
+      "title": "乐队剧情节奏",
+      "titleZh": "乐队剧情节奏",
+      "productForm": "mobile_game",
+      "category": "IP乐队与故事节奏",
+      "market": "中国 / 美国",
+      "routeScore": 91,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.84,
+      "opportunity": "歌曲表现影响演出、对白和章节奖励",
+      "improvements": [
+        "章节制控制内容成本",
+        "降低抽卡依赖并把奖励放到歌曲表达",
+        "按地区提供可授权曲库"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Project SEKAI",
+          "nameZh": "世界计划",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "relation": "competitor"
+        },
+        {
+          "name": "BanG Dream!",
+          "nameZh": "邦邦少女乐团",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "relation": "competitor"
+        },
+        {
+          "name": "DEEMO II",
+          "nameZh": "古树旋律 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626"
+    },
+    {
+      "id": "mu-03",
+      "route": "A",
+      "title": "社区谱面工坊",
+      "titleZh": "社区谱面工坊",
+      "productForm": "mobile_game",
+      "category": "玩家创作与分享",
+      "market": "中国 / 美国",
+      "routeScore": 90,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.83,
+      "opportunity": "模板化制作谱面、自动校准节拍、社区投票筛选",
+      "improvements": [
+        "三种模板化编辑器",
+        "难度与可玩性分开评分",
+        "版权安全素材与本地音频实验"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Geometry Dash",
+          "nameZh": "几何冲刺",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/geometry-dash/id625334537",
+          "relation": "competitor"
+        },
+        {
+          "name": "Phigros",
+          "nameZh": "菲格罗斯",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "relation": "competitor"
+        },
+        {
+          "name": "Cytus II",
+          "nameZh": "赛特斯 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/geometry-dash/id625334537"
+    },
+    {
+      "id": "mu-04",
+      "route": "A",
+      "title": "节奏练习室",
+      "titleZh": "节奏练习室",
+      "productForm": "mobile_game",
+      "category": "练习与节奏诊断",
+      "market": "中国 / 美国",
+      "routeScore": 88,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "将歌曲拆成20秒片段，显示提前、滞后和断连位置",
+      "improvements": [
+        "自适应速度与容错",
+        "提前/滞后诊断",
+        "练习进度与回放"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Arcaea",
+          "nameZh": "韵律源点",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "relation": "competitor"
+        },
+        {
+          "name": "Lanota",
+          "nameZh": "兰空",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "relation": "competitor"
+        },
+        {
+          "name": "VOEZ",
+          "nameZh": "兰空 VOEZ",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/voez/id1006088253",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/voez/id1006088253",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/arcaea/id1150733961"
+    },
+    {
+      "id": "mu-05",
+      "route": "A",
+      "title": "双人异步合奏",
+      "titleZh": "双人异步合奏",
+      "productForm": "mobile_game",
+      "category": "异步合作音乐游戏",
+      "market": "中国 / 美国",
+      "routeScore": 86,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.81,
+      "opportunity": "两人完成不同声部并合成为可回放演出",
+      "improvements": [
+        "异步优先于实时匹配",
+        "生成可分享短视频",
+        "周主题维持回访"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Project SEKAI",
+          "nameZh": "世界计划",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "relation": "competitor"
+        },
+        {
+          "name": "BanG Dream!",
+          "nameZh": "邦邦少女乐团",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "relation": "competitor"
+        },
+        {
+          "name": "Rotaeno",
+          "nameZh": "旋转音律",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626"
+    },
+    {
+      "id": "mu-06",
+      "route": "A",
+      "title": "音乐叙事解谜",
+      "titleZh": "音乐叙事解谜",
+      "productForm": "mobile_game",
+      "category": "音乐与叙事解谜",
+      "market": "中国 / 美国",
+      "routeScore": 84,
+      "routeRank": 6,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.76,
+      "opportunity": "节奏准确度改变线索、场景和结局分支",
+      "improvements": [
+        "章节化内容",
+        "把重复游玩放到分支",
+        "原创角色与授权友好音乐"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "DEEMO II",
+          "nameZh": "古树旋律 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "relation": "competitor"
+        },
+        {
+          "name": "Cytus II",
+          "nameZh": "赛特斯 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "relation": "competitor"
+        },
+        {
+          "name": "Lanota",
+          "nameZh": "兰空",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150"
+    },
+    {
+      "id": "mu-07",
+      "route": "A",
+      "title": "旋转体感节奏",
+      "titleZh": "旋转体感节奏",
+      "productForm": "mobile_game",
+      "category": "旋转与体感节奏",
+      "market": "中国 / 美国",
+      "routeScore": 83,
+      "routeRank": 7,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.74,
+      "opportunity": "旋转、滑动和点击组成短手势连段",
+      "improvements": [
+        "先聚焦两种手势",
+        "单手与色盲友好模式",
+        "高难度曲包变现"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Rotaeno",
+          "nameZh": "旋转音律",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "relation": "competitor"
+        },
+        {
+          "name": "Arcaea",
+          "nameZh": "韵律源点",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "relation": "competitor"
+        },
+        {
+          "name": "Phigros",
+          "nameZh": "菲格罗斯",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/rotaeno/id1596844358"
+    },
+    {
+      "id": "mu-08",
+      "route": "A",
+      "title": "情绪节奏旅程",
+      "titleZh": "情绪节奏旅程",
+      "productForm": "mobile_game",
+      "category": "情绪音乐与节奏",
+      "market": "中国 / 美国",
+      "routeScore": 81,
+      "routeRank": 8,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.72,
+      "opportunity": "根据情绪和时长编排3–8分钟节奏旅程",
+      "improvements": [
+        "人工编排情绪曲线",
+        "反馈专注和放松趋势",
+        "三个明确入口"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Muse Dash",
+          "nameZh": "喵斯快跑",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "relation": "competitor"
+        },
+        {
+          "name": "Tiles Hop",
+          "nameZh": "节奏音乐球",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "relation": "competitor"
+        },
+        {
+          "name": "Lanota",
+          "nameZh": "兰空",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/lanota-music-game-with-story/id1050535507",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095"
+    },
+    {
+      "id": "mu-09",
+      "route": "A",
+      "title": "音乐战术短局",
+      "titleZh": "音乐战术短局",
+      "productForm": "mobile_game",
+      "category": "音乐与轻策略",
+      "market": "中国 / 美国",
+      "routeScore": 79,
+      "routeRank": 9,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.69,
+      "opportunity": "节拍点选择攻击、防守或移动，准确度决定战术资源",
+      "improvements": [
+        "三种动作起步",
+        "节奏影响策略而非纯反应",
+        "后续开放关卡编辑"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Phigros",
+          "nameZh": "菲格罗斯",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "relation": "competitor"
+        },
+        {
+          "name": "VOEZ",
+          "nameZh": "兰空 VOEZ",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/voez/id1006088253",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/voez/id1006088253",
+          "relation": "competitor"
+        },
+        {
+          "name": "Rotaeno",
+          "nameZh": "旋转音律",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/phigros/id1454809109"
+    },
+    {
+      "id": "mu-10",
+      "route": "A",
+      "title": "街舞节拍挑战",
+      "titleZh": "街舞节拍挑战",
+      "productForm": "mobile_game",
+      "category": "音乐与动作挑战",
+      "market": "中国 / 美国",
+      "routeScore": 77,
+      "routeRank": 10,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.66,
+      "opportunity": "竖屏节拍提示结合单手滑动和动作选择，生成可分享结果",
+      "improvements": [
+        "先做单手节拍挑战",
+        "原创舞蹈素材",
+        "分享前提供隐私与版权提示"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Tiles Hop",
+          "nameZh": "节奏音乐球",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806",
+          "relation": "competitor"
+        },
+        {
+          "name": "Muse Dash",
+          "nameZh": "喵斯快跑",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "relation": "competitor"
+        },
+        {
+          "name": "Magic Tiles 3",
+          "nameZh": "魔法钢琴块3",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/magic-tiles-3-piano-game/id1443446174",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806"
+    }
+  ]
+}

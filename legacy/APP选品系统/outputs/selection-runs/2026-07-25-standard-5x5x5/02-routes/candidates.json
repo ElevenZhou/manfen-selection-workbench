@@ -1,0 +1,843 @@
+[
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-a-dose-quiet",
+    "parent_opportunity_id": null,
+    "title": "Dose Quiet",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "DE"
+    ],
+    "target_user": "需要每天服用多种药物、但不希望提醒流程打断生活的成年人及照护者",
+    "core_job": "用最少操作可靠确认服药、暂停或延后，并让照护者只看到真正异常",
+    "trigger": "到达服药时间、调整处方或需要向家人确认漏服风险",
+    "current_alternative": "MyTherapy、Medisafe、Pillo与手机闹钟",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-a-dose-quiet-1",
+      "ev-2026-07-25-standard-5x5x5-a-dose-quiet-2",
+      "ev-2026-07-25-standard-5x5x5-a-dose-quiet-3"
+    ],
+    "reference_gate": {
+      "type": "direct_competitor",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 84,
+    "route_rank": 1,
+    "route_methodology_version": "route-a-competitor-v1.1",
+    "data_completeness": 0.88,
+    "improvement_points": [
+      "通知层一滑确认、延后或暂停，不强制打开App",
+      "照护者只接收异常升级，并保留用户可控的隐私边界"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "静药提醒",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-a-pantry-snap",
+    "parent_opportunity_id": null,
+    "title": "Pantry Snap",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "SG"
+    ],
+    "target_user": "希望减少食物浪费、但无法长期维护家庭库存的个人和家庭",
+    "core_job": "拍一次照快速建立可用库存，并只处理识别不确定项和临期事项",
+    "trigger": "购物回家、整理冰箱或发现临期食材",
+    "current_alternative": "KitchenPal、NoWaste、Pantry Check与共享购物清单",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-a-pantry-snap-1",
+      "ev-2026-07-25-standard-5x5x5-a-pantry-snap-2",
+      "ev-2026-07-25-standard-5x5x5-a-pantry-snap-3"
+    ],
+    "reference_gate": {
+      "type": "direct_competitor",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 81,
+    "route_rank": 2,
+    "route_methodology_version": "route-a-competitor-v1.1",
+    "data_completeness": 0.85,
+    "improvement_points": [
+      "整张购物袋或冰箱照片批量建档，只确认低置信度项目",
+      "首页只显示临期、缺货和需要确认三类行动"
+    ],
+    "ai_role": "background",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "随拍食材库",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-a-study-slice",
+    "parent_opportunity_id": null,
+    "title": "Study Slice",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "GB"
+    ],
+    "target_user": "考试前资料很多、但难以判断先学什么的高中生和大学生",
+    "core_job": "快速得到可验证的问题，并把复习时间集中在真正薄弱的知识点",
+    "trigger": "导入讲义、PDF或课程视频并准备一场具体考试",
+    "current_alternative": "Quizlet、Knowt、StudyFetch",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-a-study-slice-1",
+      "ev-2026-07-25-standard-5x5x5-a-study-slice-2",
+      "ev-2026-07-25-standard-5x5x5-a-study-slice-3"
+    ],
+    "reference_gate": {
+      "type": "direct_competitor",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 82,
+    "route_rank": 3,
+    "route_methodology_version": "route-a-competitor-v1.1",
+    "data_completeness": 0.86,
+    "improvement_points": [
+      "导入后先生成10题诊断而不是先生成整套卡片",
+      "所有AI答案可回跳原文，并按错误类型安排下一轮"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "学习切片",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-a-focus-relay",
+    "parent_opportunity_id": null,
+    "title": "Focus Relay",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Global"
+    ],
+    "target_user": "经常在手机和电脑之间切换、专注被打断的学生和知识工作者",
+    "core_job": "快速开始专注，并在中断后知道下一步而不是重新规划",
+    "trigger": "开始一段工作、被消息打断或更换设备",
+    "current_alternative": "Forest、Focus To-Do、Tide",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-a-focus-relay-1",
+      "ev-2026-07-25-standard-5x5x5-a-focus-relay-2",
+      "ev-2026-07-25-standard-5x5x5-a-focus-relay-3"
+    ],
+    "reference_gate": {
+      "type": "direct_competitor",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 80,
+    "route_rank": 4,
+    "route_methodology_version": "route-a-competitor-v1.1",
+    "data_completeness": 0.84,
+    "improvement_points": [
+      "每次中断只记录一句“下一步”，跨设备恢复时直接呈现",
+      "AI仅在会话结束后压缩中断原因和恢复建议"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "专注接力",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-a-receipt-quiet",
+    "parent_opportunity_id": null,
+    "title": "Receipt Quiet",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "JP"
+    ],
+    "target_user": "需要报销或做小型业务记账、但不想维护复杂会计系统的个人与自由职业者",
+    "core_job": "快速得到可信的结构化票据，并只人工处理真正不确定的字段",
+    "trigger": "收到纸质或电子票据并需要分类、留档或报销",
+    "current_alternative": "Expensify、Zoho Expense、Smart Receipts",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-a-receipt-quiet-1",
+      "ev-2026-07-25-standard-5x5x5-a-receipt-quiet-2",
+      "ev-2026-07-25-standard-5x5x5-a-receipt-quiet-3"
+    ],
+    "reference_gate": {
+      "type": "direct_competitor",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 79,
+    "route_rank": 5,
+    "route_methodology_version": "route-a-competitor-v1.1",
+    "data_completeness": 0.83,
+    "improvement_points": [
+      "批量扫描后只呈现低置信度字段队列",
+      "默认本地处理敏感票据，导出前展示数据去向"
+    ],
+    "ai_role": "background",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "静默票据",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-b-care-handoff",
+    "parent_opportunity_id": null,
+    "title": "Care Handoff",
+    "source_engine": "gap_redesign",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "SG"
+    ],
+    "target_user": "多人轮流照护老人或慢病家人的家庭",
+    "core_job": "把刚发生的事实、待办、药物与责任清楚交给下一位照护者",
+    "trigger": "一次照护结束、下一位家人接手或出现高风险异常",
+    "current_alternative": "Lotsa Helping Hands、CaringBridge、共享日历和家庭群聊",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-b-care-handoff-1",
+      "ev-2026-07-25-standard-5x5x5-b-care-handoff-2",
+      "ev-2026-07-25-standard-5x5x5-b-care-handoff-3"
+    ],
+    "reference_gate": {
+      "type": "substitute_or_workaround",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 88,
+    "route_rank": 1,
+    "route_methodology_version": "route-b-gap-v1.1",
+    "data_completeness": 0.89,
+    "improvement_points": [
+      "语音交接自动拆成事实、待办、药物和负责人",
+      "高风险事项必须由下一位照护者确认，普通更新不打扰"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "照护交接",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-b-field-quote",
+    "parent_opportunity_id": null,
+    "title": "Field Quote",
+    "source_engine": "gap_redesign",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "AU"
+    ],
+    "target_user": "在现场测量、拍照并当场报价的个体工匠和小型服务商",
+    "core_job": "从照片和语音快速形成可编辑报价并得到客户确认",
+    "trigger": "到达客户现场并需要在离开前形成可确认报价",
+    "current_alternative": "Jobber、Housecall Pro、Joist以及照片+聊天+表格",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-b-field-quote-1",
+      "ev-2026-07-25-standard-5x5x5-b-field-quote-2",
+      "ev-2026-07-25-standard-5x5x5-b-field-quote-3"
+    ],
+    "reference_gate": {
+      "type": "substitute_or_workaround",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 86,
+    "route_rank": 2,
+    "route_methodology_version": "route-b-gap-v1.1",
+    "data_completeness": 0.87,
+    "improvement_points": [
+      "照片和口述自动形成报价草稿，离线保存、联网再同步",
+      "报价中的每个项目可回看对应现场照片并让客户确认"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "现场报价",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-b-shift-proof",
+    "parent_opportunity_id": null,
+    "title": "Shift Proof",
+    "source_engine": "gap_redesign",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "GB",
+      "AU"
+    ],
+    "target_user": "需要跨班次交接设备、事故或任务状态的一线团队",
+    "core_job": "让下一班看到已验证事实、未完成动作和责任归属",
+    "trigger": "班次结束、异常升级或负责人更换",
+    "current_alternative": "Microsoft Teams Shifts、SafetyCulture、Connecteam和纸质/聊天交班",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-b-shift-proof-1",
+      "ev-2026-07-25-standard-5x5x5-b-shift-proof-2",
+      "ev-2026-07-25-standard-5x5x5-b-shift-proof-3"
+    ],
+    "reference_gate": {
+      "type": "substitute_or_workaround",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 84,
+    "route_rank": 3,
+    "route_methodology_version": "route-b-gap-v1.1",
+    "data_completeness": 0.85,
+    "improvement_points": [
+      "语音和照片生成事实、风险、行动与负责人四段式交班",
+      "关键项需接班人确认，所有修改保留原始记录"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "交班留证",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-b-access-guide",
+    "parent_opportunity_id": null,
+    "title": "Access Guide",
+    "source_engine": "gap_redesign",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "JP",
+      "US"
+    ],
+    "target_user": "需要远程帮助父母完成手机操作的成年子女，以及老年用户",
+    "core_job": "在不夺取控制权的前提下，一次只解释当前屏幕的一步并提供回退",
+    "trigger": "老人看到陌生提示、误入设置或无法描述当前屏幕",
+    "current_alternative": "Be My Eyes、TeamViewer、FaceTime/电话与Apple Assistive Access",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-b-access-guide-1",
+      "ev-2026-07-25-standard-5x5x5-b-access-guide-2",
+      "ev-2026-07-25-standard-5x5x5-b-access-guide-3"
+    ],
+    "reference_gate": {
+      "type": "substitute_or_workaround",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 83,
+    "route_rank": 4,
+    "route_methodology_version": "route-b-gap-v1.1",
+    "data_completeness": 0.86,
+    "improvement_points": [
+      "用户主动分享当前屏幕后只生成一个大字步骤和回退动作",
+      "识别诈骗或付款风险时停止指导并升级给可信联系人"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "无障碍向导",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-b-move-proof",
+    "parent_opportunity_id": null,
+    "title": "Move Proof",
+    "source_engine": "gap_redesign",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "SG",
+      "GB"
+    ],
+    "target_user": "合租或首次租房、需要保护押金的年轻租客",
+    "core_job": "把房屋状态、共同费用、责任和双方确认放在同一事件里",
+    "trigger": "入住、共同购买、报修或退租检查",
+    "current_alternative": "手机相册、Google Drive、Splitwise和家庭库存App",
+    "lifecycle": "structural",
+    "signal_ids": [],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-b-move-proof-1",
+      "ev-2026-07-25-standard-5x5x5-b-move-proof-2",
+      "ev-2026-07-25-standard-5x5x5-b-move-proof-3"
+    ],
+    "reference_gate": {
+      "type": "substitute_or_workaround",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 81,
+    "route_rank": 5,
+    "route_methodology_version": "route-b-gap-v1.1",
+    "data_completeness": 0.83,
+    "improvement_points": [
+      "拍摄时自动按房间和问题分类，并保留时间及编辑记录",
+      "费用或责任变更需要相关租客轻量确认，退租一键导出"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "搬家留证",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-agent-inbox",
+    "parent_opportunity_id": null,
+    "title": "Agent Inbox",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Global"
+    ],
+    "target_user": "同时使用多个AI代理和自动化工作流的个人与小团队",
+    "core_job": "在一个地方看到真正需要人决定的动作、依据、风险和撤回窗口",
+    "trigger": "代理准备发送消息、付款、发布、删除或修改外部系统",
+    "current_alternative": "逐个工具通知、Slack审批、邮件和自动化运行日志",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-agent-inbox-1",
+      "sig-2026-07-25-standard-5x5x5-c-agent-inbox-2",
+      "sig-2026-07-25-standard-5x5x5-c-agent-inbox-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-agent-inbox-1",
+      "ev-2026-07-25-standard-5x5x5-c-agent-inbox-2",
+      "ev-2026-07-25-standard-5x5x5-c-agent-inbox-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 89,
+    "route_rank": 1,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.88,
+    "improvement_points": [
+      "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+      "每项展示来源、影响面、可逆性和撤回截止时间"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "智能体收件箱",
+    "product_form": "cross_platform"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-proof-camera",
+    "parent_opportunity_id": null,
+    "title": "Proof Camera",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "EU"
+    ],
+    "target_user": "需要证明原始照片来源和编辑过程的记者、卖家、创作者与普通用户",
+    "core_job": "在不增加专业取证负担的情况下生成可理解的来源和编辑记录",
+    "trigger": "拍摄可能被质疑的图片，或准备向外部平台提交内容",
+    "current_alternative": "普通相机、云盘时间戳、Adobe Content Credentials和专业取证服务",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-proof-camera-1",
+      "sig-2026-07-25-standard-5x5x5-c-proof-camera-2",
+      "sig-2026-07-25-standard-5x5x5-c-proof-camera-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-proof-camera-1",
+      "ev-2026-07-25-standard-5x5x5-c-proof-camera-2",
+      "ev-2026-07-25-standard-5x5x5-c-proof-camera-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 87,
+    "route_rank": 2,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.86,
+    "improvement_points": [
+      "拍摄即建立本地签名与编辑事件，不上传原图也能验证",
+      "分享时生成简明轨迹卡，明确哪些内容可证明、哪些不能"
+    ],
+    "ai_role": "background",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "可信相机",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-model-ledger",
+    "parent_opportunity_id": null,
+    "title": "Model Ledger",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Global"
+    ],
+    "target_user": "在多个云端和本地模型之间切换的重度AI用户",
+    "core_job": "知道哪个任务用了哪个模型、花了多少、数据去了哪里、结果能否复现",
+    "trigger": "完成一次重要任务、产生高成本调用或输入敏感内容",
+    "current_alternative": "OpenRouter用量页、Open WebUI、LM Studio和个人表格",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-model-ledger-1",
+      "sig-2026-07-25-standard-5x5x5-c-model-ledger-2",
+      "sig-2026-07-25-standard-5x5x5-c-model-ledger-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-model-ledger-1",
+      "ev-2026-07-25-standard-5x5x5-c-model-ledger-2",
+      "ev-2026-07-25-standard-5x5x5-c-model-ledger-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 85,
+    "route_rank": 3,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.85,
+    "improvement_points": [
+      "按任务而非按API调用记录模型、费用和结果版本",
+      "发送敏感内容前显示本地/云端路径和保留策略"
+    ],
+    "ai_role": "background",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "模型账本",
+    "product_form": "desktop_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-offline-tutor",
+    "parent_opportunity_id": null,
+    "title": "Offline Tutor",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "Emerging Markets"
+    ],
+    "target_user": "网络不稳定但拥有较新手机的学习者",
+    "core_job": "离线获得有限范围、可回溯教材的个性化辅导，并在联网后同步进度",
+    "trigger": "没有稳定网络时需要解释课程、练习或复习",
+    "current_alternative": "下载视频、PDF、Khan Academy内容和通用聊天机器人",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-offline-tutor-1",
+      "sig-2026-07-25-standard-5x5x5-c-offline-tutor-2",
+      "sig-2026-07-25-standard-5x5x5-c-offline-tutor-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-offline-tutor-1",
+      "ev-2026-07-25-standard-5x5x5-c-offline-tutor-2",
+      "ev-2026-07-25-standard-5x5x5-c-offline-tutor-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 82,
+    "route_rank": 4,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.82,
+    "improvement_points": [
+      "课程包、引用和练习离线运行，答案必须回到教材片段",
+      "联网时只同步学习状态和内容更新，不上传原始学习对话"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "离线导师",
+    "product_form": "mobile_app"
+  },
+  {
+    "schema_version": "1.1",
+    "candidate_id": "2026-07-25-standard-5x5x5-c-passkey-ready",
+    "parent_opportunity_id": null,
+    "title": "Passkey Ready",
+    "source_engine": "emerging_demand",
+    "source_run_id": "2026-07-25-standard-5x5x5",
+    "stage": "ROUTE_SELECTED",
+    "target_market": [
+      "US",
+      "EU"
+    ],
+    "target_user": "开始使用Passkey、但担心换机、家庭恢复和跨平台迁移的普通用户",
+    "core_job": "知道每个Passkey存在哪里、能否迁移，以及丢失设备后如何恢复",
+    "trigger": "网站要求创建Passkey、准备换机或需要为家人设置恢复方案",
+    "current_alternative": "系统密码管理器、1Password、Bitwarden和手工恢复清单",
+    "lifecycle": "emerging",
+    "signal_ids": [
+      "sig-2026-07-25-standard-5x5x5-c-passkey-ready-1",
+      "sig-2026-07-25-standard-5x5x5-c-passkey-ready-2",
+      "sig-2026-07-25-standard-5x5x5-c-passkey-ready-3"
+    ],
+    "evidence_ids": [
+      "ev-2026-07-25-standard-5x5x5-c-passkey-ready-1",
+      "ev-2026-07-25-standard-5x5x5-c-passkey-ready-2",
+      "ev-2026-07-25-standard-5x5x5-c-passkey-ready-3"
+    ],
+    "reference_gate": {
+      "type": "leading_signal_plus_behavior",
+      "required_count": 3,
+      "actual_count": 3,
+      "passed": true
+    },
+    "route_score": 78,
+    "route_rank": 5,
+    "route_methodology_version": "route-c-emerging-v1.1",
+    "data_completeness": 0.81,
+    "improvement_points": [
+      "扫描账户设置生成Passkey位置和恢复路径清单，不接触私钥",
+      "换机前运行可恢复性检查并生成家庭应急步骤"
+    ],
+    "ai_role": "none",
+    "minimum_build": "两周内可测试MVP",
+    "monetization": "先验证使用，再测试一次性解锁或订阅；不在证据不足时预设价格。",
+    "acquisition": "竞品关键词、问题型搜索、社区定向内容和商店素材A/B。",
+    "next_validation": "游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。",
+    "stop_conditions": [
+      "目标用户无法在无讲解情况下理解核心任务",
+      "核心改进未比当前替代方案减少步骤、时间、错误或风险",
+      "补证后需求或可触达性低于路线门槛"
+    ],
+    "decision": "SELECTED",
+    "confidence": "medium",
+    "created_at": "2026-07-25T12:00:00+08:00",
+    "updated_at": "2026-07-25T12:00:00+08:00",
+    "methodology_version": "route-system-v1.1-model-live-research",
+    "title_zh": "通行密钥助手",
+    "product_form": "mobile_app"
+  }
+]

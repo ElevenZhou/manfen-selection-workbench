@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: Translated the 1000+ real-app objective into weekly throughput, staged rollout, and resource math.
+- Researcher: Verified current official capability pages for market, usage, revenue, retention, review, keyword, ad, game, API, and multi-store data sources.
+- Architect: Defined evidence entities, scoring model, hard gates, website information architecture, and weekly file contract.
+- Builder: Produced docs/03, docs/04, docs/05, README updates, and the Excel operating workbook.
+- Verifier: Ran spreadsheet formula-error scans, inspected computed capacity values, and rendered every worksheet.
+- Critic: Flagged evidence-vs-estimate boundaries, insufficient five-bench annual capacity for 1000/year, old-document ambiguity, and dashboard layout defects.
+- Integrator: Reconciled the user corrections into one current authority set and a Stage 1 data-Spike handoff.

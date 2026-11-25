@@ -1,0 +1,31 @@
+run_id,candidate_id,competitor,theme_type,theme,review_count,period,country,platform,source_url,example_excerpt,confidence
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-01,ChatGPT,pain_or_request,先做三类高频任务路由,unknown,2025/2026,美国,iOS / Android,https://openai.com/chatgpt/overview/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-01,Claude,pain_or_request,先做三类高频任务路由,unknown,2025/2026,美国,iOS / Android,https://www.anthropic.com/claude,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-01,Gemini,pain_or_request,先做三类高频任务路由,unknown,2025/2026,美国,iOS / Android,https://gemini.google.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-02,CapCut,pain_or_request,模板按发布目标组织,unknown,2025/2026,美国,iOS / Android,https://www.capcut.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-02,Canva,pain_or_request,模板按发布目标组织,unknown,2025/2026,美国,iOS / Android,https://www.canva.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-02,Adobe Express,pain_or_request,模板按发布目标组织,unknown,2025/2026,美国,iOS / Android,https://www.adobe.com/express/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-03,Remini,pain_or_request,按问题而非滤镜组织入口,unknown,2025/2026,美国,iOS / Android,https://remini.ai/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-03,Picsart,pain_or_request,按问题而非滤镜组织入口,unknown,2025/2026,美国,iOS / Android,https://picsart.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-03,Facetune,pain_or_request,按问题而非滤镜组织入口,unknown,2025/2026,美国,iOS / Android,https://www.facetuneapp.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-04,Quizlet,pain_or_request,先给提示再给答案,unknown,2025/2026,美国,iOS / Android,https://quizlet.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-04,Photomath,pain_or_request,先给提示再给答案,unknown,2025/2026,美国,iOS / Android,https://photomath.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-04,Socratic,pain_or_request,先给提示再给答案,unknown,2025/2026,美国,iOS / Android,https://socratic.org/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-05,Otter,pain_or_request,先做会议到任务的单一路径,unknown,2025/2026,美国,iOS / Android,https://otter.ai/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-05,Notion,pain_or_request,先做会议到任务的单一路径,unknown,2025/2026,美国,iOS / Android,https://www.notion.so/product,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-05,Evernote,pain_or_request,先做会议到任务的单一路径,unknown,2025/2026,美国,iOS / Android,https://evernote.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-06,Rocket Money,pain_or_request,先做账单识别与提醒,unknown,2025/2026,美国,iOS / Android,https://www.rocketmoney.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-06,Monarch Money,pain_or_request,先做账单识别与提醒,unknown,2025/2026,美国,iOS / Android,https://www.monarchmoney.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-06,Copilot Money,pain_or_request,先做账单识别与提醒,unknown,2025/2026,美国,iOS / Android,https://copilot.money/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-07,Strava,pain_or_request,按时间和器械生成短计划,unknown,2025/2026,美国,iOS / Android,https://www.strava.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-07,Nike Training Club,pain_or_request,按时间和器械生成短计划,unknown,2025/2026,美国,iOS / Android,https://www.nike.com/ntc-app,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-07,Fitbod,pain_or_request,按时间和器械生成短计划,unknown,2025/2026,美国,iOS / Android,https://fitbod.me/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-08,Duolingo,pain_or_request,场景化短练习,unknown,2025/2026,美国,iOS / Android,https://www.duolingo.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-08,Speak,pain_or_request,场景化短练习,unknown,2025/2026,美国,iOS / Android,https://www.speak.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-08,ELSA Speak,pain_or_request,场景化短练习,unknown,2025/2026,美国,iOS / Android,https://elsaspeak.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-09,Fetch,pain_or_request,按购物任务而非品牌入口组织,unknown,2025/2026,美国,iOS / Android,https://www.fetch.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-09,Rakuten,pain_or_request,按购物任务而非品牌入口组织,unknown,2025/2026,美国,iOS / Android,https://www.rakuten.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-09,Shop,pain_or_request,按购物任务而非品牌入口组织,unknown,2025/2026,美国,iOS / Android,https://shop.app/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-10,Shopify,pain_or_request,先聚焦报价到收款,unknown,2025/2026,美国,iOS / Android,https://www.shopify.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-10,Square,pain_or_request,先聚焦报价到收款,unknown,2025/2026,美国,iOS / Android,https://squareup.com/,公开功能与评论主题需继续补充近期样本,medium
+sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc,ap-10,QuickBooks,pain_or_request,先聚焦报价到收款,unknown,2025/2026,美国,iOS / Android,https://quickbooks.intuit.com/,公开功能与评论主题需继续补充近期样本,medium

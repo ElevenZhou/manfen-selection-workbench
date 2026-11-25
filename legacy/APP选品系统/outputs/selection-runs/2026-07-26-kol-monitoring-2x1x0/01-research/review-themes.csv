@@ -1,0 +1,7 @@
+﻿run_id,candidate_id,theme_type,theme,evidence_basis,confidence
+2026-07-26-kol-monitoring-2x1x0,2026-07-26-kol-monitoring-2x1x0-a-creator-guard,pain_or_request,把新增、删除、竞品提及、披露缺失和品牌规则命中归并成有严重度与原文证据的变化事件,cross-reference synthesis,medium
+2026-07-26-kol-monitoring-2x1x0,2026-07-26-kol-monitoring-2x1x0-a-creator-guard,pain_or_request,AI只解释为什么值得处理，并要求人工确认后再分派；相似事件在冷却窗口内合并推送,cross-reference synthesis,medium
+2026-07-26-kol-monitoring-2x1x0,2026-07-26-kol-monitoring-2x1x0-a-thesis-watch,pain_or_request,按人和主题维护观点版本，只在结论、置信度、时间窗口或关键依据变化时生成差异卡,cross-reference synthesis,medium
+2026-07-26-kol-monitoring-2x1x0,2026-07-26-kol-monitoring-2x1x0-a-thesis-watch,pain_or_request,推送同时展示原文、反方证据和AI不确定性，不把情绪或互动量直接写成事实,cross-reference synthesis,medium
+2026-07-26-kol-monitoring-2x1x0,2026-07-26-kol-monitoring-2x1x0-b-signal-relay,pain_or_request,允许团队从RSS、公开网页、邮件转发和手动链接建立来源清单，用业务问题而非关键词定义相关性,cross-reference synthesis,medium
+2026-07-26-kol-monitoring-2x1x0,2026-07-26-kol-monitoring-2x1x0-b-signal-relay,pain_or_request,把重复内容合并为一个证据簇，输出变化、影响、原文和建议负责人，并按紧急度选择日报或即时推送,cross-reference synthesis,medium

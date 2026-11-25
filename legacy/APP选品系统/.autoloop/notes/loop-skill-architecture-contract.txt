@@ -1,0 +1,37 @@
+Auto Loop Contract: loop-skill-architecture
+Created: 2026-07-25
+
+Objective:
+Restructure the APP selection system so Auto Loop orchestrates independent core Skills through stable contracts, while every Skill also works from natural language, URLs, files, API data, exports, or historical runs.
+
+Current stage:
+Architecture / Research-only.
+
+Inputs:
+README.md, docs/03 through docs/10, existing Schemas, app-opportunity-scout, workbench package generator, and the corrected three-route independent-selection rule.
+
+Deliverables:
+- docs/10 Loop and independent Skill architecture.
+- Standard Skill Task and Result Envelope Schemas and examples.
+- README, docs/06, docs/07, and docs/08 integration.
+- Updated Auto Loop ledger and QA evidence.
+
+Constraints:
+- Loop is a control plane, not a route-scoring system.
+- Route A, B, and C own separate evidence, scores, ranks, and final selections.
+- Each route defaults to five final selections.
+- Development scheduling remains separate.
+- Independent and orchestrated calls use the same method and gates.
+- Do not claim uncreated Skills, live data connections, website deployment, or production integrations as implemented.
+
+Acceptance checks:
+- Six architecture blocks and their boundaries are explicit.
+- Core Skill catalog covers data, signal, three routes, packaging, publishing, scheduling, and calibration.
+- Dual-mode input and output compatibility is defined.
+- Task and Result examples pass their JSON Schemas.
+- Existing candidate and package examples continue to pass.
+- No legacy cross-route scoring language returns.
+- Local Markdown links resolve.
+
+Stop condition:
+Architecture, contracts, examples, integration docs, and QA pass. Actual creation of the remaining Skills is a separate implementation stage.

@@ -1,0 +1,579 @@
+{
+  "report": {
+    "id": "2026-11-22-global-hot-games-10",
+    "periodLabel": "2026-11-22 · 全球近24小时游戏热度候选",
+    "publishedAt": "2026-11-22T00:03:18Z",
+    "title": "全球近24小时上升游戏机会 10 项",
+    "summary": "从美国、日本、韩国、巴西、印度尼西亚及 App Store 付费榜发现 10 个未在历史运行中出现的游戏候选。8 个达到发布级证据门槛，2 个因规模或测试流量不确定性保留 WATCH。",
+    "status": "published",
+    "sourceRunId": "2026-11-22-global-hot-games-10",
+    "methodologyVersion": "daily-global-game-signal-v1",
+    "payload": {
+      "marketPulse": "近24小时信号集中在新进入榜单、单日大幅上升和本地化榜首。小规模新游更适合进入灰盒验证，榜单热度不能替代留存、收入或可玩性测试。",
+      "sources": [
+        "https://appsxray.com/charts?category=GAME&chart=trending",
+        "https://appsxray.com/charts?category=GAME&chart=trending&country=JP",
+        "https://appsxray.com/charts?category=GAME&chart=new-free&country=KR",
+        "https://appsxray.com/charts?category=GAME&chart=new-free&country=BR",
+        "https://appsxray.com/charts?category=GAME&chart=new-free&country=ID",
+        "https://chartat.com/games/top-paid",
+        "https://scaling.games/",
+        "https://play.google.com/store/apps/details?hl=en-US&id=com.camelgames.sd",
+        "https://play.google.com/store/apps/details?id=com.rabbithole.cardofdemonslayer"
+      ],
+      "scheduledCount": 0
+    }
+  },
+  "candidates": [
+    {
+      "id": "2026-11-22-global-hot-games-10-a-01-shelter-defense",
+      "route": "A",
+      "title": "Shelter Defense",
+      "titleZh": "避难所防线",
+      "productForm": "mobile_game",
+      "category": "策略／末日生存",
+      "market": "美国｜英语",
+      "routeScore": 90,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.94,
+      "opportunity": "末日基地修复、资源分配和防守波次形成可拆解的短周期策略循环。",
+      "improvements": [
+        "把15分钟教程拆成可跳过的三段式开局",
+        "让基地修复与防守结果在同一回合内可读",
+        "先用小规模事件验证非付费玩家的资源公平感"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "State of Survival",
+          "nameZh": "末日生存",
+          "kind": "mobile_game",
+          "url": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "store": "google_play",
+          "storeUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "SortPuz",
+          "nameZh": "分类拼图",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-02-fidget-clicker-finger-3d-toy",
+      "route": "A",
+      "title": "Fidget Clicker: Finger 3D Toy",
+      "titleZh": "手指 3D 解压点击",
+      "productForm": "mobile_game",
+      "category": "休闲／解压玩具",
+      "market": "美国｜英语",
+      "routeScore": 86,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.88,
+      "opportunity": "“手指操作＋即时反馈”是极短会话的明确入口，可测试材质反馈、收藏和每日挑战。",
+      "improvements": [
+        "把单次点击反馈扩展为可比较的每日挑战",
+        "减少重复广告打断并展示奖励概率",
+        "提供触感与音效强度开关"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Fidget Toys Trading 3D",
+          "nameZh": "解压玩具 3D",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/fidget-toys-trading-3d/id1572681355",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/fidget-toys-trading-3d/id1572681355",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Zen Match",
+          "nameZh": "禅意配对",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/fidget-toys-trading-3d/id1572681355"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-03-line-tangle-untangle-puzzle",
+      "route": "A",
+      "title": "Line Tangle: Untangle Puzzle",
+      "titleZh": "线条解结",
+      "productForm": "mobile_game",
+      "category": "益智／解结",
+      "market": "美国、加拿大及其他英语市场",
+      "routeScore": 88,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.92,
+      "opportunity": "规则单一但可扩展的线条解结适合做每日种子、速度榜和可分享回放。",
+      "improvements": [
+        "用确定性每日种子做公平竞速",
+        "将失败原因拆成可理解的交叉点提示",
+        "提供离线关卡和低广告节奏"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Untangle",
+          "nameZh": "解结",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/untangle/id314890592",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/untangle/id314890592",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Zen Match",
+          "nameZh": "禅意配对",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/untangle/id314890592"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-04-tidy-room",
+      "route": "A",
+      "title": "Tidy Room!",
+      "titleZh": "整理房间",
+      "productForm": "mobile_game",
+      "category": "休闲／整理收纳",
+      "market": "美国、日本、韩国｜多语种",
+      "routeScore": 87,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.91,
+      "opportunity": "整理、收纳和视觉完成感可组合成低认知负担的短局内容。",
+      "improvements": [
+        "把房间任务拆成可预测的三分钟目标",
+        "在提示与自动整理之间保留可控难度",
+        "用多语言物件词汇验证本地化可玩性"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Zen Match",
+          "nameZh": "禅意配对",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "relation": "competitor"
+        },
+        {
+          "name": "SortPuz",
+          "nameZh": "分类拼图",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-05-card-of-demon-slayer-deck-rpg",
+      "route": "A",
+      "title": "Card of Demon Slayer: Deck RPG",
+      "titleZh": "鬼灭卡牌",
+      "productForm": "mobile_game",
+      "category": "卡牌／肉鸽 RPG",
+      "market": "韩国｜韩语／英语",
+      "routeScore": 89,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.93,
+      "opportunity": "竖屏单手、分支路线和自动战斗把肉鸽卡牌压缩到短会话。",
+      "improvements": [
+        "先做非 IP 原创美术灰盒验证循环",
+        "把自动战斗与关键手动决策明确分层",
+        "用首局可完成的分支路线降低学习成本"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Slay the Spire",
+          "nameZh": "杀戮尖塔",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "similar"
+        },
+        {
+          "name": "SortPuz",
+          "nameZh": "分类拼图",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "relation": "substitute"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-06-cbt",
+      "route": "A",
+      "title": "三国志: 九州覇業 CBT",
+      "titleZh": "三国志：九州霸业 CBT",
+      "productForm": "mobile_game",
+      "category": "策略／三国题材",
+      "market": "日本｜日语",
+      "routeScore": 80,
+      "routeRank": 6,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.72,
+      "opportunity": "日本本地榜单的 CBT 上升可用于观察题材、联盟与短期测试活动的组合。",
+      "improvements": [
+        "先核对测试资格与真实可玩版本",
+        "拆分题材吸引与策略留存两类指标",
+        "只用日本本地用户做首轮验证"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "State of Survival",
+          "nameZh": "末日生存",
+          "kind": "mobile_game",
+          "url": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "store": "google_play",
+          "storeUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "relation": "competitor"
+        },
+        {
+          "name": "Slay the Spire",
+          "nameZh": "杀戮尖塔",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+          "relation": "similar"
+        },
+        {
+          "name": "SortPuz",
+          "nameZh": "分类拼图",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "relation": "substitute"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-07-slice-away-physics-puzzle",
+      "route": "A",
+      "title": "Slice Away! - Physics Puzzle",
+      "titleZh": "切开！物理谜题",
+      "productForm": "mobile_game",
+      "category": "益智／物理",
+      "market": "巴西｜葡萄牙语",
+      "routeScore": 82,
+      "routeRank": 7,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "物理切割和即时失败反馈适合低成本关卡迭代，可测试本地化标题与分享回放。",
+      "improvements": [
+        "以少量高质量物理关卡代替数量堆叠",
+        "加入葡萄牙语教学和无障碍对比度",
+        "记录切割路径并支持一键回放"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Cut the Rope",
+          "nameZh": "割绳子",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/cut-the-rope/id380293530",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/cut-the-rope/id380293530",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "similar"
+        },
+        {
+          "name": "SortPuz",
+          "nameZh": "分类拼图",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "relation": "substitute"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/cut-the-rope/id380293530"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-08-onthel-life-street-bike",
+      "route": "A",
+      "title": "Onthel Life: Street Bike",
+      "titleZh": "安塞尔生活：街头机车",
+      "productForm": "mobile_game",
+      "category": "模拟／街机骑行",
+      "market": "印度尼西亚｜印尼语",
+      "routeScore": 79,
+      "routeRank": 8,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.7,
+      "opportunity": "本地市场首位新游可测试街机骑行、城市路线和轻社交挑战。",
+      "improvements": [
+        "先验证印尼语首局和低端设备性能",
+        "把城市路线和短局计时作为单一灰盒变量",
+        "补齐商店页、下载档位和评论证据后再晋级"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Traffic Rider",
+          "nameZh": "交通骑士",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/traffic-rider/id951744068",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/traffic-rider/id951744068",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "similar"
+        },
+        {
+          "name": "State of Survival",
+          "nameZh": "末日生存",
+          "kind": "mobile_game",
+          "url": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "store": "google_play",
+          "storeUrl": "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "relation": "substitute"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/traffic-rider/id951744068"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-09-sand-hole-block-sort-jam",
+      "route": "A",
+      "title": "Sand Hole: Block Sort Jam",
+      "titleZh": "沙洞：方块分类",
+      "productForm": "mobile_game",
+      "category": "益智／分类",
+      "market": "美国及多国",
+      "routeScore": 84,
+      "routeRank": 9,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.83,
+      "opportunity": "洞穴吸入与分类的视觉反馈可能比传统水排序更易传播。",
+      "improvements": [
+        "把吸入路径和分类规则做成首局可理解的动效",
+        "做确定性种子避免随机难度失衡",
+        "限制广告插入到关卡结算节点"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "SortPuz",
+          "nameZh": "分类拼图",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506",
+          "relation": "competitor"
+        },
+        {
+          "name": "Block Blast!",
+          "nameZh": "方块爆破",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Zen Match",
+          "nameZh": "禅意配对",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/zen-match-puzzle-game/id1457987141",
+          "relation": "similar"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/sortpuz-water-sort-puzzle/id1511796506"
+    },
+    {
+      "id": "2026-11-22-global-hot-games-10-a-10-cursed-game-dev-simulator",
+      "route": "A",
+      "title": "Cursed Game Dev Simulator",
+      "titleZh": "诅咒游戏开发模拟器",
+      "productForm": "mobile_game",
+      "category": "模拟／叙事经营",
+      "market": "美国｜英语",
+      "routeScore": 83,
+      "routeRank": 10,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.84,
+      "opportunity": "游戏开发题材把内容生产、评价反馈和资源管理组合成可复玩的叙事经营。",
+      "improvements": [
+        "把开发决策和玩家评价的因果反馈做清楚",
+        "以短章节控制叙事成本并支持多结局",
+        "先验证付费转化与首小时完成率"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Game Dev Story",
+          "nameZh": "游戏开发物语",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/game-dev-story/id396085661",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/game-dev-story/id396085661",
+          "relation": "competitor"
+        },
+        {
+          "name": "Minecraft: Play with Friends!",
+          "nameZh": "我的世界",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/minecraft-play-with-friends/id479516143",
+          "relation": "similar"
+        },
+        {
+          "name": "Slay the Spire",
+          "nameZh": "杀戮尖塔",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/slay-the-spire/id1491530147",
+          "relation": "substitute"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/game-dev-story/id396085661"
+    }
+  ]
+}

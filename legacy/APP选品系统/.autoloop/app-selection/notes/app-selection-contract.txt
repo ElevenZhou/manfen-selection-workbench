@@ -1,0 +1,23 @@
+Auto Loop Contract: app-selection
+Created: 2026-07-25T02:04:27
+
+Objective: 形成可反复运行的 App 选品提示词、首轮市场判断、精选学习清单和微创新方案。
+Current stage: Stage 0，选品与问题验证。
+Stage responsibility: 定义研究标准、识别方向、提出可证伪候选；不直接开发正式 App。
+Entry gate: 用户已明确品类、经营思路、少而精和自动研究要求。
+Audience/user: App 产品组合的经营与产品负责人。
+Inputs: 用户原始目标、当前空白项目目录、公开市场报告、商店政策、官方商店页面。
+Inherited artifacts/evidence: 过往 docs-first 与事实/假设/人工确认的研究模式。
+User-only prerequisites: 后续若购买市场数据工具、投放测试或上架，需要用户授权。
+Discoverable prerequisites: 商店政策、类别趋势、参考 App 的公开规模与评论线索。
+Deliverables: README、主提示词、启动研究、首批候选 CSV。
+Authorized side effects: 仅在当前工作区创建文档与自动循环台账；联网只读研究。
+Non-goals: 不购买数据、不投放、不部署、不上架、不复制竞品资产、不开发 MVP。
+Constraints: 中文；少而精；区分事实、推断与待验证；跨商店合规。
+Assumptions: 第一轮默认美国英语市场，iOS + Android；MVP 2–4 周；优先避开高风险行业。
+Acceptance checks: 有政策和市场来源；最多 3 个首选方向；有评分门禁、验证阈值和 30 天行动。
+Fallbacks: 无具体竞品时间序列时，只给待验证假设，不做立项结论。
+Failure/rollback boundary: 不执行外部写入或不可逆操作；文档可直接删除或改写。
+Exit evidence: 4 个交付文件存在，CSV 可解析，关键数字可追溯到来源。
+Next-stage handoff: 获取一个市场数据源，完成三案竞品趋势、每案 200 条评论和用户验证。
+Stop condition: 研究文档通过来源、边界、可执行性和一致性检查。

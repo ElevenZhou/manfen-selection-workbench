@@ -1,0 +1,5 @@
+﻿priority,bench,candidate_id,product,route,package_id,status
+1,BENCH-1,2026-07-25-ai-tools-news-2x1x1-a-model-match,Model Match,A,pkg-2026-07-25-ai-tools-news-2x1x1-a-model-match,READY_TO_LOAD
+2,BENCH-2,2026-07-25-ai-tools-news-2x1x1-a-signal-brief,Signal Brief,A,pkg-2026-07-25-ai-tools-news-2x1x1-a-signal-brief,READY_TO_LOAD
+3,BENCH-3,2026-07-25-ai-tools-news-2x1x1-b-release-impact,Release Impact,B,pkg-2026-07-25-ai-tools-news-2x1x1-b-release-impact,READY_TO_LOAD
+4,BENCH-4,2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens,MCP Trust Lens,C,pkg-2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens,READY_TO_LOAD

@@ -1,0 +1,30 @@
+{
+  "run_id": "sel_f54c0fc0-33e7-49f2-b36c-9e7c8264d0bc",
+  "created_at": "2026-11-21T22:47:12+08:00",
+  "mode": "broad",
+  "direction": "美国增长较快 App 机会选品 10 项",
+  "status": "partial",
+  "scope": {
+    "qualified_count": 10,
+    "markets": [
+      "美国"
+    ],
+    "platforms": [
+      "iOS",
+      "Android"
+    ]
+  },
+  "counts": {
+    "discovered": 20,
+    "ranked": 10,
+    "deep_dives": 10,
+    "selected": 5,
+    "backup": 5,
+    "watch": 0,
+    "rejected": 0
+  },
+  "warnings": [
+    "第三方平台提供类别和相对趋势代理，未接入授权App级收入、DAU/MAU和留存原始数据。",
+    "网站入库与飞书推送待外部授权。"
+  ]
+}

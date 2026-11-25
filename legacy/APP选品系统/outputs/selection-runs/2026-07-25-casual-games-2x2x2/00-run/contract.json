@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-07-25-casual-games-2x2x2",
+  "objective": "休闲游戏专项 2+2+2",
+  "direction": "casual-games",
+  "requested": {
+    "A": 2,
+    "B": 2,
+    "C": 2
+  },
+  "data_cutoff": "2026-07-25",
+  "collection_mode": "networked_model_on_demand",
+  "continuous_crawler": false,
+  "methodology_version": "route-system-v1.1-model-live-research",
+  "assumptions": [
+    "所有入选仅进入48小时灰盒与玩家测试，不等于玩法已验证",
+    "不复制关卡、美术、角色、音效或广告素材"
+  ],
+  "acceptance": [
+    "route counts match",
+    "three references per selection",
+    "package schema passes",
+    "zip checksum exists",
+    "website payload validates"
+  ]
+}

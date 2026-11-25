@@ -1,0 +1,380 @@
+[
+  {
+    "run_id": "2026-07-29-rebull-ai-stock-agent",
+    "candidate_id": "RBA-001",
+    "name": "StockProof 证析",
+    "name_zh": "证析",
+    "category": "Finance / Investment Research",
+    "type": "AI evidence-first stock research agent",
+    "product_form": "cross_platform",
+    "target_market": "中国大陆起步，后续港美股",
+    "target_user": "需要快速完成个股基本面与事件核验、但不愿盲信 AI 结论的自主投资者",
+    "core_job": "在一次会话中得到带时间戳、原文引用、反方证据和可复算指标的个股研究结论",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-29-rebull-ai-stock-agent",
+    "reference_gate_type": "direct_competitors",
+    "signal_ids": [],
+    "direct_competitor_count": 5,
+    "data_completeness": 0.86,
+    "demand_score": 18,
+    "growth_score": 10,
+    "durability_score": 8,
+    "usage_score": 6,
+    "monetization_score": 8,
+    "pain_score": 14,
+    "competitor_quality_score": 9,
+    "ai_reuse_score": 5,
+    "acquisition_score": 4,
+    "total_score": 82,
+    "route_score": 82,
+    "route_rank": 1,
+    "route_methodology_version": "app-opportunity-scout-v1",
+    "confidence": "medium",
+    "decision": "SELECTED",
+    "improvement_1": "每个数字绑定来源、口径、数据时点和原文页，用户可一键回到证据",
+    "improvement_2": "强制生成多空双栏、冲突来源和未知项，不输出无条件买卖承诺",
+    "improvement_3": "对关键财务比率使用确定性计算器并保存可复算公式，而不是让大模型心算",
+    "next_validation": "用 30 个 A 股问题对比问财/妙想；引用命中率≥95%、关键数值一致率≥98%、10名用户中≥6名愿连续使用，否则停止",
+    "competitors": [
+      {
+        "name": "同花顺问财",
+        "nameZh": "同花顺问财",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519",
+        "sourceUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519"
+      },
+      {
+        "name": "东方财富妙想",
+        "nameZh": "东方财富妙想",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%A6%99%E6%83%B3/id6469681957",
+        "sourceUrl": "https://ai.eastmoney.com/nlink/"
+      },
+      {
+        "name": "TipRanks",
+        "nameZh": "机构观点与股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490",
+        "sourceUrl": "https://mcp.tipranks.com/"
+      },
+      {
+        "name": "Danelfin",
+        "nameZh": "AI 股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.danelfin.app",
+        "sourceUrl": "https://danelfin.com/pricing/annual"
+      },
+      {
+        "name": "Fiscal.ai",
+        "nameZh": "财务研究终端",
+        "entityKind": "web_app",
+        "storeUrl": null,
+        "sourceUrl": "https://fiscal.ai/"
+      }
+    ],
+    "product_brief": {
+      "positioning": "不是 AI 股神，而是可审计的个人投研工作台",
+      "minimum_build": "证券搜索、三源检索、财务/事件工具、证据卡片、多空结论、报告导出",
+      "monetization": "免费限额 + 个人 Pro 订阅；高级数据按授权成本分层",
+      "acquisition": "财报季/重大事件模板、可分享的证据报告、SEO 长尾问题",
+      "risk": "金融数据许可、引用版权、模型幻觉、用户把一般信息误解为个性化投顾"
+    }
+  },
+  {
+    "run_id": "2026-07-29-rebull-ai-stock-agent",
+    "candidate_id": "RBA-002",
+    "name": "PositionGuard 持仓哨兵",
+    "name_zh": "持仓哨兵",
+    "category": "Finance / Portfolio Monitoring",
+    "type": "AI portfolio risk and thesis monitoring agent",
+    "product_form": "cross_platform",
+    "target_market": "A 股、港股、美股多市场自主管理用户",
+    "target_user": "持有 5–30 只标的、需要每天知道持仓论点是否被新信息推翻的投资者",
+    "core_job": "只推送会改变原持仓逻辑的事实、风险和待核验变化",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-29-rebull-ai-stock-agent",
+    "reference_gate_type": "direct_competitors",
+    "signal_ids": [],
+    "direct_competitor_count": 5,
+    "data_completeness": 0.84,
+    "demand_score": 18,
+    "growth_score": 9,
+    "durability_score": 9,
+    "usage_score": 7,
+    "monetization_score": 9,
+    "pain_score": 14,
+    "competitor_quality_score": 9,
+    "ai_reuse_score": 4,
+    "acquisition_score": 4,
+    "total_score": 83,
+    "route_score": 83,
+    "route_rank": 2,
+    "route_methodology_version": "app-opportunity-scout-v1",
+    "confidence": "medium",
+    "decision": "SELECTED",
+    "improvement_1": "先记录每只持仓的原始投资论点、触发阈值和证伪条件，再做个性化监控",
+    "improvement_2": "以“变更检测”取代新闻摘要，只报告新增、反转或超过阈值的信息",
+    "improvement_3": "组合不接券商也能用 CSV/手工校验；每次同步显示仓位时点和差异",
+    "next_validation": "邀请 20 名持仓用户连续试用 14 天；有效告警点击率≥35%、错误仓位率<1%、每周留存≥50%，否则缩回单市场",
+    "competitors": [
+      {
+        "name": "同花顺问财",
+        "nameZh": "同花顺问财",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519",
+        "sourceUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519"
+      },
+      {
+        "name": "东方财富妙想",
+        "nameZh": "东方财富妙想",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%A6%99%E6%83%B3/id6469681957",
+        "sourceUrl": "https://ai.eastmoney.com/nlink/"
+      },
+      {
+        "name": "TipRanks",
+        "nameZh": "机构观点与股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490",
+        "sourceUrl": "https://mcp.tipranks.com/"
+      },
+      {
+        "name": "Danelfin",
+        "nameZh": "AI 股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.danelfin.app",
+        "sourceUrl": "https://danelfin.com/pricing/annual"
+      },
+      {
+        "name": "Fiscal.ai",
+        "nameZh": "财务研究终端",
+        "entityKind": "web_app",
+        "storeUrl": null,
+        "sourceUrl": "https://fiscal.ai/"
+      }
+    ],
+    "product_brief": {
+      "positioning": "从信息流升级为持仓论点的变化检测器",
+      "minimum_build": "持仓导入、论点卡、事件规则、每日差异摘要、风险确认与静默",
+      "monetization": "按持仓数和监控频率订阅；不收交易佣金、不承诺收益",
+      "acquisition": "免费组合体检、财报季提醒、自选股风险分享卡",
+      "risk": "组合数据敏感、券商同步不可靠、延迟信息可能造成错误行动"
+    }
+  },
+  {
+    "run_id": "2026-07-29-rebull-ai-stock-agent",
+    "candidate_id": "RBA-003",
+    "name": "ReplayLab 投研复盘",
+    "name_zh": "投研复盘",
+    "category": "Finance / Decision Journal",
+    "type": "as-of research replay and decision journal",
+    "product_form": "web_app",
+    "target_market": "中国大陆个人投资者与投研内容创作者",
+    "target_user": "想验证历史判断、区分当时可知信息与事后诸葛亮的投资者",
+    "core_job": "按历史时点重建当时证据、结论和后续结果，形成可校准的个人决策记录",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-29-rebull-ai-stock-agent",
+    "reference_gate_type": "direct_competitors",
+    "signal_ids": [],
+    "direct_competitor_count": 4,
+    "data_completeness": 0.81,
+    "demand_score": 16,
+    "growth_score": 8,
+    "durability_score": 8,
+    "usage_score": 5,
+    "monetization_score": 7,
+    "pain_score": 15,
+    "competitor_quality_score": 9,
+    "ai_reuse_score": 5,
+    "acquisition_score": 4,
+    "total_score": 77,
+    "route_score": 77,
+    "route_rank": 3,
+    "route_methodology_version": "app-opportunity-scout-v1",
+    "confidence": "medium",
+    "decision": "SELECTED",
+    "improvement_1": "所有研究问题支持 as-of 日期，严格屏蔽该日期之后的资料",
+    "improvement_2": "自动把原判断拆成可验证命题，并在 7/30/90 天后回填结果与误差原因",
+    "improvement_3": "分别统计数据错、推理错、执行错和运气，不用单次涨跌评价全部质量",
+    "next_validation": "用 50 条历史问题做时间穿越泄漏测试；未来信息泄漏率必须为 0，且用户能在 5 分钟内完成一次复盘",
+    "competitors": [
+      {
+        "name": "同花顺问财",
+        "nameZh": "同花顺问财",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519",
+        "sourceUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519"
+      },
+      {
+        "name": "TipRanks",
+        "nameZh": "机构观点与股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490",
+        "sourceUrl": "https://mcp.tipranks.com/"
+      },
+      {
+        "name": "Danelfin",
+        "nameZh": "AI 股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.danelfin.app",
+        "sourceUrl": "https://danelfin.com/pricing/annual"
+      },
+      {
+        "name": "Fiscal.ai",
+        "nameZh": "财务研究终端",
+        "entityKind": "web_app",
+        "storeUrl": null,
+        "sourceUrl": "https://fiscal.ai/"
+      }
+    ],
+    "product_brief": {
+      "positioning": "投资者自己的可验证记忆，而不是新的荐股榜",
+      "minimum_build": "历史时点数据快照、论点拆分、结果回填、误差分类、个人校准面板",
+      "monetization": "基础日志免费；历史数据、批量回测与导出 Pro 订阅",
+      "acquisition": "历史热门股复盘模板、内容创作者公开成绩页",
+      "risk": "历史数据授权成本高、复权与幸存者偏差、回测被误读为未来收益"
+    }
+  },
+  {
+    "run_id": "2026-07-29-rebull-ai-stock-agent",
+    "candidate_id": "RBA-004",
+    "name": "MarketBridge 跨市研究",
+    "name_zh": "跨市研究",
+    "category": "Finance / Cross-market Research",
+    "type": "cross-market stock research router",
+    "product_form": "web_app",
+    "target_market": "A/H/US 跨市场华语投资者",
+    "target_user": "需要统一比较多市场公司但不想维护多套数据口径的用户",
+    "core_job": "用统一指标与口径比较跨市场公司",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-29-rebull-ai-stock-agent",
+    "reference_gate_type": "direct_competitors",
+    "signal_ids": [],
+    "direct_competitor_count": 5,
+    "data_completeness": 0.77,
+    "demand_score": 16,
+    "growth_score": 8,
+    "durability_score": 8,
+    "usage_score": 5,
+    "monetization_score": 7,
+    "pain_score": 12,
+    "competitor_quality_score": 8,
+    "ai_reuse_score": 5,
+    "acquisition_score": 4,
+    "total_score": 73,
+    "route_score": 73,
+    "route_rank": 4,
+    "route_methodology_version": "app-opportunity-scout-v1",
+    "confidence": "low",
+    "decision": "BACKUP",
+    "improvement_1": "统一币种、会计口径、交易时区和证券实体映射",
+    "improvement_2": "每个跨市场比较明确显示不可比项与数据缺口",
+    "improvement_3": "",
+    "next_validation": "先取得覆盖 A/H/US 且允许商业展示的报价；若数据成本无法被每用户毛利覆盖，则不进入开发",
+    "competitors": [
+      {
+        "name": "同花顺问财",
+        "nameZh": "同花顺问财",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519",
+        "sourceUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519"
+      },
+      {
+        "name": "东方财富妙想",
+        "nameZh": "东方财富妙想",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%A6%99%E6%83%B3/id6469681957",
+        "sourceUrl": "https://ai.eastmoney.com/nlink/"
+      },
+      {
+        "name": "TipRanks",
+        "nameZh": "机构观点与股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/us/app/tipranks-stock-market-analysis/id1237516490",
+        "sourceUrl": "https://mcp.tipranks.com/"
+      },
+      {
+        "name": "Danelfin",
+        "nameZh": "AI 股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.danelfin.app",
+        "sourceUrl": "https://danelfin.com/pricing/annual"
+      },
+      {
+        "name": "Fiscal.ai",
+        "nameZh": "财务研究终端",
+        "entityKind": "web_app",
+        "storeUrl": null,
+        "sourceUrl": "https://fiscal.ai/"
+      }
+    ]
+  },
+  {
+    "run_id": "2026-07-29-rebull-ai-stock-agent",
+    "candidate_id": "RBA-005",
+    "name": "TradePilot 交易驾驶",
+    "name_zh": "交易驾驶",
+    "category": "Finance / Automated Trading",
+    "type": "AI-generated strategy and trade execution agent",
+    "product_form": "cross_platform",
+    "target_market": "高风险偏好交易者",
+    "target_user": "希望用自然语言生成、回测并执行策略的个人用户",
+    "core_job": "把自然语言策略转成可回测规则并执行",
+    "source_engine": "competitor_validated",
+    "source_run_id": "2026-07-29-rebull-ai-stock-agent",
+    "reference_gate_type": "direct_competitors",
+    "signal_ids": [],
+    "direct_competitor_count": 4,
+    "data_completeness": 0.75,
+    "demand_score": 17,
+    "growth_score": 11,
+    "durability_score": 7,
+    "usage_score": 6,
+    "monetization_score": 9,
+    "pain_score": 11,
+    "competitor_quality_score": 9,
+    "ai_reuse_score": 4,
+    "acquisition_score": 5,
+    "total_score": 79,
+    "route_score": 79,
+    "route_rank": 5,
+    "route_methodology_version": "app-opportunity-scout-v1",
+    "confidence": "low",
+    "decision": "WATCH",
+    "improvement_1": "先输出确定性规则与费用/滑点，再允许纸面交易",
+    "improvement_2": "真实下单必须独立授权并逐笔确认，Agent 不持有交易权限",
+    "improvement_3": "",
+    "next_validation": "仅做 paper/shadow；取得法务、券商接口与地区合规结论前禁止连接真实资金",
+    "competitors": [
+      {
+        "name": "Composer",
+        "nameZh": "AI 策略与自动交易",
+        "entityKind": "web_app",
+        "storeUrl": null,
+        "sourceUrl": "https://www.composer.trade/"
+      },
+      {
+        "name": "同花顺问财",
+        "nameZh": "同花顺问财",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519",
+        "sourceUrl": "https://apps.apple.com/cn/app/%E5%90%8C%E8%8A%B1%E9%A1%BA%E9%97%AE%E8%B4%A2-ai%E6%8A%95%E8%B5%84%E5%8A%A9%E6%89%8B/id1222204519"
+      },
+      {
+        "name": "东方财富妙想",
+        "nameZh": "东方财富妙想",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://apps.apple.com/cn/app/%E5%A6%99%E6%83%B3/id6469681957",
+        "sourceUrl": "https://ai.eastmoney.com/nlink/"
+      },
+      {
+        "name": "Danelfin",
+        "nameZh": "AI 股票评分",
+        "entityKind": "mobile_app",
+        "storeUrl": "https://play.google.com/store/apps/details?id=com.danelfin.app",
+        "sourceUrl": "https://danelfin.com/pricing/annual"
+      }
+    ],
+    "hold_reason": "需求与商业化较强，但自动交易、适当性、牌照、模型风险和接口授权形成硬门槛；高分不等于可立项"
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "methodology_version": "route-system-v1.2-model-live-research",
+  "collected_at": "2026-07-26T10:30:00+08:00",
+  "shared_sources": [
+    {
+      "name": "Modash Creator Content Tracking",
+      "url": "https://help.modash.io/en/articles/10485038-how-modash-captures-all-your-creator-content",
+      "claim": "Modash 官方说明其活动跟踪会自动收集 Instagram、TikTok 与 YouTube 上创作者发布的帖子、Reel、Story 和视频，包括未带品牌标签的内容。"
+    },
+    {
+      "name": "HypeAuditor Media Monitor",
+      "url": "https://hypeauditor.com/media-monitor/",
+      "claim": "HypeAuditor 官方提供按账号、标签和关键词建立自定义内容流，覆盖 Instagram、YouTube 与 TikTok，并支持竞品、UGC 和品牌提及监控。"
+    },
+    {
+      "name": "Sprout Social Influencer Marketing",
+      "url": "https://sproutsocial.com/influencer-marketing/",
+      "claim": "Sprout Social 官方产品包含创作者发现、品牌安全、AI Brand Fit、审批、归因和报告，证明品牌侧愿意为创作者风险与效果工作流付费。"
+    },
+    {
+      "name": "Kaito Pro",
+      "url": "https://pro.kaito.ai/portal",
+      "claim": "Kaito Pro 官方提供跨大量 Web3 来源的搜索、情绪分析、自定义观察列表、实时 Smart Alerts、项目与叙事 Mindshare。"
+    },
+    {
+      "name": "Santiment Social Trends",
+      "url": "https://academy.santiment.net/sanbase/social-trends/",
+      "claim": "Santiment 官方按社交提及异常识别趋势，并用 AI 解释主题突然增长的原因、历史和观点。"
+    },
+    {
+      "name": "Feedly AI Feeds",
+      "url": "https://feedly.com/new-features/posts/track-specific-topics-and-trends-with-feedly-ai",
+      "claim": "Feedly 官方说明 AI Feeds 会从大量文章、报告和社交内容中判断相关性，并允许用户限制可信来源和组合语义条件。"
+    },
+    {
+      "name": "Inoreader Monitoring and Automations",
+      "url": "https://us.inoreader.com/vi/blog/2026/01/save-time-with-automations.html",
+      "claim": "Inoreader 官方规则可以过滤高容量信息流、生成摘要并触发推送通知、Webhook 与外部服务动作。"
+    },
+    {
+      "name": "Small Agency Manual Tracking Discussion",
+      "url": "https://www.reddit.com/r/SocialMediaMarketing/comments/1i6mub7/mini_tool_for_tracking_influencer_campaigns_on/",
+      "claim": "一名小型代理从业者描述每天花大量时间把 TikTok/Instagram 帖子指标复制进表格，同时认为完整企业套件价格和范围不匹配；该讨论只作为痛点线索，不代表市场规模。"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "2026-07-26-kol-monitoring-2x1x0",
+      "title": "KOL监控、AI分析与推送专项 2+1+0",
+      "direction": "kol-monitoring-ai-analysis-push",
+      "data_cutoff": "2026-07-26",
+      "requested": {
+        "A": 2,
+        "B": 1,
+        "C": 0
+      },
+      "assumptions": [
+        "KOL包括品牌达人、行业专家和可配置的关键意见账号，不限定单一平台",
+        "首版只使用官方API、授权数据、RSS、公开网页和用户主动提交链接，不以绕过平台限制的爬虫作为前提",
+        "AI结论必须附原始内容、时间和来源；推送默认采用飞书、Slack或邮件中的一种，不自动替用户作经营或投资决策",
+        "没有授权的全量社交历史、App级收入、活跃和留存数据，因此先验证任务完成和付费意向"
+      ],
+      "candidates": [
+        {
+          "route": "A",
+          "slug": "creator-guard",
+          "name": "Creator Guard",
+          "name_zh": "达人守望",
+          "product_form": "web_app",
+          "category": "KOL营销监控",
+          "market": "Global / CN outbound",
+          "user": "同时管理20–300名合作或观察达人、但没有专职风控分析师的品牌与小型代理团队",
+          "trigger": "达人发布、删除或修改内容，提及竞品，遗漏披露，或出现与品牌规则冲突的表达",
+          "job": "只在合作价值、合规或声誉真正变化时收到带证据的预警，并快速分派处理",
+          "alternative": "Modash、HypeAuditor、Sprout Social以及人工逐个查看账号",
+          "promise": "把达人内容监控从全量信息流变成可解释、可确认、可分派的品牌风险变化队列",
+          "score": 87,
+          "completeness": 0.88,
+          "improvements": [
+            "把新增、删除、竞品提及、披露缺失和品牌规则命中归并成有严重度与原文证据的变化事件",
+            "AI只解释为什么值得处理，并要求人工确认后再分派；相似事件在冷却窗口内合并推送"
+          ],
+          "references": [
+            {
+              "name": "Modash",
+              "name_zh": "达人营销管理",
+              "url": "https://help.modash.io/en/articles/10485038-how-modash-captures-all-your-creator-content",
+              "claim": "官方说明活动期间会自动收集 Instagram、TikTok 与 YouTube 创作者内容，包括未带品牌标签的帖子。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "HypeAuditor Media Monitor",
+              "name_zh": "媒体监控",
+              "url": "https://hypeauditor.com/media-monitor/",
+              "claim": "官方支持按账号、标签和关键词持续扫描多平台内容，并用于竞品、品牌提及和UGC监控。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "Sprout Social Influencer Marketing",
+              "name_zh": "芽社达人营销",
+              "url": "https://sproutsocial.com/influencer-marketing/",
+              "claim": "官方产品包含品牌安全、AI适配评分、审批、归因和可定制报告，验证完整品牌风控工作流。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            }
+          ]
+        },
+        {
+          "route": "A",
+          "slug": "thesis-watch",
+          "name": "Thesis Watch",
+          "name_zh": "观点追踪",
+          "product_form": "web_app",
+          "category": "行业KOL情报",
+          "market": "Global",
+          "user": "需要持续跟踪行业专家、研究员和高影响账号观点变化的投资、战略与研究团队",
+          "trigger": "关注对象改变结论、给出新催化剂、撤回旧判断，或同一主题的高质量观点出现明显分歧",
+          "job": "识别谁在何时改变了什么判断、依据是什么，并把变化而不是所有帖子推给团队",
+          "alternative": "Kaito Pro、Santiment、LunarCrush以及X列表和人工截图归档",
+          "promise": "把KOL信息流转换为可回溯的观点版本、证据变化和低噪声推送，而不是再做一张热度榜",
+          "score": 84,
+          "completeness": 0.85,
+          "improvements": [
+            "按人和主题维护观点版本，只在结论、置信度、时间窗口或关键依据变化时生成差异卡",
+            "推送同时展示原文、反方证据和AI不确定性，不把情绪或互动量直接写成事实"
+          ],
+          "references": [
+            {
+              "name": "Kaito Pro",
+              "name_zh": "凯拓智能情报",
+              "url": "https://pro.kaito.ai/portal",
+              "claim": "官方提供跨来源检索、情绪分析、观察列表、实时 Smart Alerts 与 Mindshare 变化跟踪。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "Santiment Social Trends",
+              "name_zh": "社交趋势分析",
+              "url": "https://academy.santiment.net/sanbase/social-trends/",
+              "claim": "官方基于社交提及异常识别趋势，并用AI解释主题增长原因、历史和意见结构。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "LunarCrush",
+              "name_zh": "月球社交情报",
+              "url": "https://lunarcrush.com/",
+              "claim": "官方定位为社交情报层，提供跨社交数据的市场与创作者信号，是行业KOL监测的直接参照。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            }
+          ]
+        },
+        {
+          "route": "B",
+          "slug": "signal-relay",
+          "name": "Signal Relay",
+          "name_zh": "信号接力",
+          "product_form": "web_app",
+          "category": "小团队情报自动化",
+          "market": "Global / CN teams",
+          "user": "依赖20–100个关键账号获取市场信息、但只能用平台关注、群聊、表格和人工摘要的小型业务团队",
+          "trigger": "每天需要向负责人汇报KOL动态，或突发内容需要跨团队判断是否行动",
+          "job": "把自选关注名单的新内容去重、按业务问题分析，并在固定节奏或高优事件时送达团队协作工具",
+          "alternative": "Google Alerts、Feedly AI、Inoreader规则、平台通知、人工截图与群聊转发",
+          "promise": "从关注名单到决策简报只保留来源、变化、影响和负责人四件事，让小团队无需购买完整达人营销套件",
+          "score": 89,
+          "completeness": 0.9,
+          "improvements": [
+            "允许团队从RSS、公开网页、邮件转发和手动链接建立来源清单，用业务问题而非关键词定义相关性",
+            "把重复内容合并为一个证据簇，输出变化、影响、原文和建议负责人，并按紧急度选择日报或即时推送"
+          ],
+          "references": [
+            {
+              "name": "Google Alerts",
+              "name_zh": "谷歌提醒",
+              "url": "https://support.google.com/websearch/answer/4815696?hl=en",
+              "claim": "官方支持按主题、频率、站点类型、语言和地区把新搜索结果发送到邮箱，但不提供团队业务语义和证据簇。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "Feedly AI Feeds",
+              "name_zh": "智能订阅流",
+              "url": "https://feedly.com/new-features/posts/track-specific-topics-and-trends-with-feedly-ai",
+              "claim": "官方可用语义模型和可信来源组合监控主题，证明AI降噪和定向情报的成熟替代路径。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "Inoreader Automations",
+              "name_zh": "阅读器自动化",
+              "url": "https://us.inoreader.com/vi/blog/2026/01/save-time-with-automations.html",
+              "claim": "官方规则可过滤内容、生成摘要并触发推送、Webhook及外部服务动作，证明从监控到交付的工具拼接可行。",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

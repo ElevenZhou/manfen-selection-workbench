@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-11-22-global-hot-games-10",
+  "mode": "gameplay-hunt",
+  "direction": "global-hot-games",
+  "collected_at": "2026-11-22T00:03:18Z",
+  "scope": {
+    "markets": [
+      "US",
+      "JP",
+      "KR",
+      "BR",
+      "ID"
+    ],
+    "stores": [
+      "Google Play",
+      "Apple App Store"
+    ],
+    "product_form": "mobile_game",
+    "free_and_paid": true
+  },
+  "assumptions": [
+    "仅将 2026-11-21 榜单与 2026-11-22 抓取时点作为近24小时代理。",
+    "不纳入历史运行中已出现的候选名称。",
+    "规模超过 500M 的候选排除；无法判断者保留 WATCH 并标记 insufficient_data。",
+    "官方商店、榜单页和第三方榜单的口径分别保留，不混算。"
+  ],
+  "status": "complete",
+  "source_count": 9,
+  "candidate_count": 10,
+  "published_candidate_count": 8,
+  "watch_count": 2
+}

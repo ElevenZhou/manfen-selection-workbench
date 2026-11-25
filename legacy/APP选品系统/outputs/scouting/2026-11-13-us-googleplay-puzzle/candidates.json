@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-11-13-us-googleplay-puzzle",
+  "mode": "broad",
+  "quantity": 3,
+  "market": "US Google Play",
+  "category": "puzzle",
+  "candidates": [
+    {"id":"PZ01","name":"Offline Bolt Workshop","core_loop":"拆解螺丝/部件并按顺序清空棋盘","primary_competitor":"Bolt Out - Puzzle Game","reference_objects":["Screw Out 3D: Nut Sort Jam","Unscrew Frenzy 3D"],"signal":"free puzzle rank #6; trending rank #2; 4.6; ~337K installs","decision":"SELECTED"},
+    {"id":"PZ02","name":"Sort Streak Daily","core_loop":"颜色排序 + 每日种子 + 计时竞速","primary_competitor":"Sort Streak: Color Puzzle","reference_objects":["Magic Sort!","Water Sort! Color Sort Puzzle"],"signal":"trending rank #4; 4.7; ~237K installs","decision":"SELECTED"},
+    {"id":"PZ03","name":"One Rule Logic","core_loop":"单一逻辑机制的短关卡 + 可解释提示","primary_competitor":"MOVLO: Logic Puzzle","reference_objects":["Brain Puzzle 3: Crazy Mind","Daily Number Match"],"signal":"trending rank #7; 4.9; ~698K installs","decision":"SELECTED"}
+  ]
+}

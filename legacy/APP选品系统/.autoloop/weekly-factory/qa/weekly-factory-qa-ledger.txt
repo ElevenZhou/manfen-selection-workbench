@@ -1,0 +1,23 @@
+Auto Loop QA Ledger: weekly-factory
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills/tools used
+- [x] artifact-specific QA run
+- [x] role review completed
+- [x] improvement pass completed
+- [x] stage entry gate was verified
+- [x] external side effects stayed within authorization
+- [x] stage exit evidence was collected
+- [x] next-stage handoff was produced when applicable
+- [x] final handoff includes paths and validation
+
+Findings:
+- Capacity formulas confirm five RCs/week, 230 RCs/year at 46 weeks, and about 4.35 years for 1000 RCs before store attrition; 1000 RCs/year requires 22 benches and five operators at the same assumptions.
+- Scoring weights total 100 and hard gates require score >=75, completeness >=80%, and at least three direct competitors.
+- Every data claim is required to carry source, market, period, collection date, and official/estimate/internal type.
+- The workbook contains nine operational sheets; formula-error scan returned zero matches.
+- All nine sheets were visually rendered and inspected. Dashboard column width and chart overlap were corrected in the improvement pass.
+- Historic docs were relabeled so they cannot override the current full-coverage operating authority.
+- No vendor purchase, live API connection, public website deployment, app build, or store submission was performed.

@@ -1,0 +1,113 @@
+version: "1.0"
+status: example_not_connected
+timezone: Asia/Singapore
+
+storage:
+  raw_path: data/signals/raw
+  normalized_path: data/signals/normalized
+  snapshots_path: data/signals/snapshots
+  candidates_path: outputs/scouting
+
+sources:
+  discussions:
+    enabled: false
+    cadence: "0 */4 * * *"
+    providers:
+      - name: community_source_to_select
+        auth_env: DISCUSSION_API_TOKEN
+        value_type: estimate
+    fields:
+      - mention_count
+      - unique_authors
+      - problem_intent
+      - product_intent
+      - country
+      - language
+
+  github:
+    enabled: false
+    cadence: "0 2 * * *"
+    providers:
+      - name: github_rest
+        auth_env: GITHUB_TOKEN
+        value_type: official
+    snapshot_fields:
+      - stargazers_count
+      - forks_count
+      - open_issues_count
+      - contributors_count
+      - release_count
+      - latest_release_at
+      - release_asset_downloads
+      - pushed_at
+    restrictions:
+      - do_not_assume_public_repository_traffic_access
+      - store_daily_aggregate_snapshots
+      - treat_growth_as_technology_signal_until_user_demand_is_confirmed
+
+  search:
+    enabled: false
+    cadence: "0 3 * * *"
+    providers:
+      - name: google_trends_export_or_alpha
+        auth_env: GOOGLE_TRENDS_CREDENTIAL
+        value_type: estimate
+    windows_days: [7, 30, 90, 365]
+    intent_classes: [news, learning, problem, product, brand]
+
+  web_traffic:
+    enabled: false
+    cadence: "0 4 * * 1"
+    providers:
+      - name: similarweb_or_selected_vendor
+        auth_env: WEB_TRAFFIC_API_KEY
+        value_type: estimate
+
+  app_market:
+    enabled: false
+    cadence: "0 5 * * *"
+    providers:
+      - name: appfigures_or_42matters
+        auth_env: APP_MARKET_API_KEY
+        value_type: estimate
+
+promotion:
+  raw_to_watch:
+    minimum_observations: 2
+  watch_to_confirmed:
+    minimum_independent_source_types: 2
+    minimum_persistence_days: 3
+  confirmed_to_routed:
+    require_target_user: true
+    require_core_job: true
+    require_causal_explanation: true
+  candidate_to_route_pool:
+    minimum_route_score: 75
+    minimum_data_completeness: 0.80
+    require_engine_gate: true
+
+signal_score_weights:
+  velocity: 20
+  acceleration: 15
+  persistence: 15
+  cross_source_confirmation: 20
+  problem_or_product_intent: 15
+  affected_population: 10
+  data_quality: 5
+
+route_selection:
+  competitor_validated:
+    candidate_pool_count: 20
+    final_selection_count: 5
+    backup_count: 3
+  gap_redesign:
+    candidate_pool_count: 20
+    final_selection_count: 5
+    backup_count: 3
+  emerging_demand:
+    candidate_pool_count: 20
+    final_selection_count: 5
+    backup_count: 3
+  force_fill: false
+  cross_route_ranking: false
+  development_scheduling_independent: true

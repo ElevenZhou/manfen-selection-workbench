@@ -1,0 +1,516 @@
+{
+  "run": {
+    "id": "2026-11-21-music-games-global",
+    "date": "2026-11-21",
+    "mode": "gameplay-hunt",
+    "direction": "music-games-global",
+    "scope": {
+      "qualifiedCount": 10
+    },
+    "status": "completed",
+    "freshness": "2026-11-21",
+    "sourceCount": 20
+  },
+  "summary": {
+    "scanned": 20,
+    "ranked": 10,
+    "deepDives": 10,
+    "selected": 8,
+    "backup": 2,
+    "watch": 0,
+    "rejected": 0
+  },
+  "candidates": [
+    {
+      "id": "2026-11-21-music-games-global-pulserun",
+      "route": "A",
+      "title": "PulseRun",
+      "titleZh": "脉冲跑酷",
+      "productForm": "mobile_game",
+      "category": "短局节奏跑酷",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 94,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "把歌曲节拍转成左右闪避、跳跃和收集路线，单局 60–90 秒完成一次可分享挑战。",
+      "improvements": [
+        "把音乐选择与关卡难度自动匹配",
+        "用每日短赛和好友幽灵回放替代重社交养成",
+        "支持无版权原创曲库和创作者分成"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Beatstar",
+          "nameZh": "节奏明星",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/beatstar/id1523186220",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/beatstar/id1523186220",
+          "relation": "competitor"
+        },
+        {
+          "name": "Muse Dash",
+          "nameZh": "喵斯快跑",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/beatstar/id1523186220"
+    },
+    {
+      "id": "2026-11-21-music-games-global-chartgarden",
+      "route": "A",
+      "title": "ChartGarden",
+      "titleZh": "谱面花园",
+      "productForm": "mobile_game",
+      "category": "社区谱面与创作",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 92,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "玩家以三种简单模板制作谱面，系统自动校准节拍，社区投票推动高质量谱面进入周榜。",
+      "improvements": [
+        "先做模板化谱面编辑器",
+        "把谱面难度与可玩性评分分开",
+        "提供版权安全的素材和本地音频实验模式"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Cytus II",
+          "nameZh": "赛特斯 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "relation": "competitor"
+        },
+        {
+          "name": "Phigros",
+          "nameZh": "菲格罗斯",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550"
+    },
+    {
+      "id": "2026-11-21-music-games-global-neonpractice",
+      "route": "A",
+      "title": "NeonPractice",
+      "titleZh": "霓虹练习室",
+      "productForm": "mobile_game",
+      "category": "练习型节奏游戏",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 90,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.8,
+      "opportunity": "每首歌拆成 20 秒练习片段，实时指出提前、滞后和连击断点，再逐段恢复完整演奏。",
+      "improvements": [
+        "增加自适应速度和容错",
+        "用清晰的节奏诊断代替单一分数",
+        "做可视化练习进度和回放"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Arcaea",
+          "nameZh": "韵律源点",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "relation": "competitor"
+        },
+        {
+          "name": "VOEZ",
+          "nameZh": "兰空 VOEZ",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/voez/id1006088253",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/voez/id1006088253",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/arcaea/id1150733961"
+    },
+    {
+      "id": "2026-11-21-music-games-global-beatchef",
+      "route": "B",
+      "title": "BeatChef",
+      "titleZh": "节拍料理店",
+      "productForm": "mobile_game",
+      "category": "音乐与轻模拟经营",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 88,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.78,
+      "opportunity": "按节拍完成切菜、烹饪和上菜，歌曲进度直接驱动店铺生产链，失败成本低、反馈密集。",
+      "improvements": [
+        "将节拍判定映射到可读的料理动作",
+        "用顾客偏好解锁音乐和装饰",
+        "把失败改成菜品质量变化而非强制重来"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "DEEMO II",
+          "nameZh": "古树旋律 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "relation": "competitor"
+        },
+        {
+          "name": "BanG Dream! Girls Band Party!",
+          "nameZh": "邦邦少女乐团",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150"
+    },
+    {
+      "id": "2026-11-21-music-games-global-storybeat",
+      "route": "B",
+      "title": "StoryBeat",
+      "titleZh": "故事节拍簿",
+      "productForm": "mobile_game",
+      "category": "音乐叙事冒险",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 87,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.76,
+      "opportunity": "每首歌是一个短章节，节奏表现改变对白、场景和结局分支，让音乐成为叙事操作。",
+      "improvements": [
+        "用章节制控制内容成本",
+        "把重复游玩奖励放在剧情分支",
+        "用原创角色和授权友好的音乐风格降低版权压力"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "DEEMO II",
+          "nameZh": "古树旋律 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150",
+          "relation": "competitor"
+        },
+        {
+          "name": "Project SEKAI",
+          "nameZh": "世界计划",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/deemo-ii/id1527650150"
+    },
+    {
+      "id": "2026-11-21-music-games-global-motionarc",
+      "route": "B",
+      "title": "MotionArc",
+      "titleZh": "动感弧线",
+      "productForm": "mobile_game",
+      "category": "体感与旋转节奏",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 86,
+      "routeRank": 6,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.74,
+      "opportunity": "以旋转、滑动和短促点击组成连续手势，关卡根据手机方向和节拍变化生成视觉弧线。",
+      "improvements": [
+        "先聚焦两种稳定手势",
+        "加入单手模式和色盲友好配色",
+        "将高难度内容做成可购买曲包"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Rotaeno",
+          "nameZh": "旋转音律",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/rotaeno/id1596844358",
+          "relation": "competitor"
+        },
+        {
+          "name": "Arcaea",
+          "nameZh": "韵律源点",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/arcaea/id1150733961",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/rotaeno/id1596844358"
+    },
+    {
+      "id": "2026-11-21-music-games-global-duojam",
+      "route": "C",
+      "title": "DuoJam",
+      "titleZh": "双人即兴",
+      "productForm": "mobile_game",
+      "category": "异步合作音乐游戏",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 85,
+      "routeRank": 7,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.72,
+      "opportunity": "两名玩家分别完成同一首歌的不同声部，系统把两段表现合成为一条可回放的合作演出。",
+      "improvements": [
+        "异步合作优先于实时匹配",
+        "给合作结果提供可分享短视频",
+        "用轻量任务和周主题维持回访"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "BanG Dream! Girls Band Party!",
+          "nameZh": "邦邦少女乐团",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "relation": "competitor"
+        },
+        {
+          "name": "Project SEKAI",
+          "nameZh": "世界计划",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278"
+    },
+    {
+      "id": "2026-11-21-music-games-global-moodmix",
+      "route": "C",
+      "title": "MoodMix",
+      "titleZh": "情绪混音",
+      "productForm": "mobile_game",
+      "category": "情绪与音乐生成",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 84,
+      "routeRank": 8,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.7,
+      "opportunity": "玩家选择情绪和时长，系统从安全曲库拼出 3–8 分钟的节奏旅程，强度随表现动态变化。",
+      "improvements": [
+        "先使用人工编排的情绪曲线",
+        "把节奏表现反馈为专注和放松趋势",
+        "提供睡前、通勤和运动三个明确入口"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Cytus II",
+          "nameZh": "赛特斯 II",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550",
+          "relation": "competitor"
+        },
+        {
+          "name": "Muse Dash",
+          "nameZh": "喵斯快跑",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/muse-dash/id1361473095",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/cytus-ii/id1290687550"
+    },
+    {
+      "id": "2026-11-21-music-games-global-pocketband",
+      "route": "C",
+      "title": "PocketBand",
+      "titleZh": "口袋乐队",
+      "productForm": "mobile_game",
+      "category": "乐队养成与节奏",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 82,
+      "routeRank": 9,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.68,
+      "opportunity": "通过节奏演出提升乐队默契，角色关系和编曲选择会改变歌曲的演出层次。",
+      "improvements": [
+        "把养成资源集中到歌曲表达",
+        "用乐队任务替代复杂数值系统",
+        "每周提供一首低成本原创主题曲"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Project SEKAI",
+          "nameZh": "世界计划",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626",
+          "relation": "competitor"
+        },
+        {
+          "name": "BanG Dream! Girls Band Party!",
+          "nameZh": "邦邦少女乐团",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/bang-dream-girls-band-party/id1017772278",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/project-sekai/id1588872626"
+    },
+    {
+      "id": "2026-11-21-music-games-global-taptactics",
+      "route": "B",
+      "title": "TapTactics",
+      "titleZh": "节奏战术局",
+      "productForm": "mobile_game",
+      "category": "音乐与轻策略",
+      "market": "全球（重点 US/UK/JP/KR/SEA）",
+      "routeScore": 80,
+      "routeRank": 10,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.64,
+      "opportunity": "在节拍点选择移动、防守或攻击，节奏准确度决定战术资源，单局 2–4 分钟。",
+      "improvements": [
+        "先做三种动作和少量敌人类型",
+        "用节奏准确度影响策略而非纯反应速度",
+        "把关卡编辑和战术词条作为后续扩展"
+      ],
+      "packageStatus": "DRAFT",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Phigros",
+          "nameZh": "菲格罗斯",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/phigros/id1454809109",
+          "relation": "competitor"
+        },
+        {
+          "name": "VOEZ",
+          "nameZh": "兰空 VOEZ",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/voez/id1006088253",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/voez/id1006088253",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/phigros/id1454809109"
+    }
+  ],
+  "methodology": {
+    "scoringVersion": "music-games-opportunity-v1",
+    "gates": [
+      "official store evidence",
+      "named competitor",
+      "mobile game form",
+      "graybox and player test required"
+    ],
+    "missingDataNotice": "收入、留存和真实玩法表现仍需通过付费数据或灰盒测试补充"
+  },
+  "report": {
+    "id": "2026-11-21-music-games-global",
+    "periodLabel": "2026-11-21 · 全球音乐游戏选品",
+    "publishedAt": "2026-11-21T03:45:00+08:00",
+    "title": "全球音乐游戏机会选品 10 项",
+    "summary": "围绕节奏、音乐创作、轻模拟、叙事、异步合作和情绪音乐六类方向，完成 10 个候选机会筛选。8 个进入优先验证，2 个作为备选。",
+    "status": "published",
+    "sourceRunId": "2026-11-21-music-games-global",
+    "methodologyVersion": "app-opportunity-scout-gameplay-hunt-v1",
+    "payload": {
+      "marketPulse": "移动音乐游戏仍由成熟节奏品类、IP 音乐内容、社区谱面和轻量短局共同构成机会池。较可控的切入点集中在短局、练习反馈、原创曲库、异步合作与玩法融合。",
+      "sources": [
+        "Apple App Store 官方产品页",
+        "Google Play 官方产品页",
+        "Sensor Tower Music Games 榜单",
+        "公开玩家讨论与评测",
+        "官方产品页和发行商资料"
+      ],
+      "scheduledCount": 0
+    }
+  }
+}

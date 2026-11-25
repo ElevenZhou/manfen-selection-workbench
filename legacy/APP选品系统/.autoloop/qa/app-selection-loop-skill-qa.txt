@@ -1,0 +1,22 @@
+Auto Loop QA: app-selection-loop
+
+- [x] Skill initialized under the default Codex Skills directory
+- [x] SKILL.md contains no placeholders
+- [x] UI metadata generated and matches the Skill
+- [x] References are one level deep and linked
+- [x] Run initializer compiles on the local Python version
+- [x] Full mode targets 15 from 5 per route
+- [x] Route-only mode targets only the requested route
+- [x] Package-only mode does not invent a selection count
+- [x] Repeated initialization creates a non-overwriting directory
+- [x] Mode-specific capability plan is correct
+- [x] Mode-specific QA ledger is correct
+- [x] quick_validate passes
+- [x] Project Markdown links pass
+- [x] Current architecture contains no legacy mixed-ranking fields
+
+Improvement applied:
+- Corrected the first initializer design so route-only and package-only modes no longer inherit full-run target counts or irrelevant QA checks.
+
+Residual:
+- The orchestrator is installed and runnable. Engine B, Engine C, publisher, scheduler, and calibrator remain capability interfaces or inline fallbacks until separately implemented and forward-tested.

@@ -1,0 +1,150 @@
+{
+  "package_version": "1.1",
+  "package_id": "pkg-example-001",
+  "candidate_id": "cand-example-001",
+  "status": "READY_FOR_BENCH",
+  "bench_id": null,
+  "source_engine": "gap_redesign",
+  "route_score": 80,
+  "route_rank": 1,
+  "route_methodology_version": "gap-redesign-v1",
+  "data_completeness": 0.85,
+  "objective": {
+    "working_name": "Example Voice Flow",
+    "product_form": "mobile_app",
+    "target_markets": ["US"],
+    "target_platforms": ["iOS", "Android"],
+    "target_user": "People who capture frequent voice notes",
+    "trigger": "The user has a thought while unable to type",
+    "core_job": "Turn spoken thoughts into organized actions",
+    "current_alternative": "Transcription plus notes plus task manager",
+    "product_promise": "Convert one recording into confirmed next actions",
+    "minimum_success": "A user records, reviews, and saves one accurate action list",
+    "scope": ["recording", "transcription", "structured summary", "action confirmation"],
+    "non_goals": ["team collaboration", "social feed", "general AI chat"]
+  },
+  "references": [
+    {
+      "name": "Example Reference A",
+      "kind": "mobile_app",
+      "url": "https://example.com/a",
+      "store": "apple_app_store",
+      "store_url": "https://apps.apple.com/us/app/example/id123456789",
+      "reference_type": "substitute",
+      "learn": "Fast capture",
+      "redesign": "Reduce tool switching",
+      "do_not_copy": "Name, icon, copy, or visual assets",
+      "evidence_ids": ["ev-example-001"]
+    },
+    {
+      "name": "Example Reference B",
+      "kind": "web_product",
+      "url": "https://example.com/b",
+      "store": null,
+      "store_url": null,
+      "reference_type": "workaround",
+      "learn": "User-controlled confirmation",
+      "redesign": "Make action extraction explicit",
+      "do_not_copy": "Workflow text or brand style",
+      "evidence_ids": ["ev-example-002"]
+    },
+    {
+      "name": "Example Reference C",
+      "kind": "desktop_app",
+      "url": "https://example.com/c",
+      "store": null,
+      "store_url": null,
+      "reference_type": "adjacent_product",
+      "learn": "Clear task status",
+      "redesign": "Connect capture to completion",
+      "do_not_copy": "Layouts, illustrations, or proprietary content",
+      "evidence_ids": ["ev-example-003"]
+    }
+  ],
+  "change_directions": [
+    {
+      "title": "One-step voice-to-action confirmation",
+      "user_evidence": "Example-only workaround evidence",
+      "current_failure": "Users move between three tools and lose actions",
+      "change": "Generate a structured summary and actions, then require confirmation",
+      "expected_outcome": "Less tool switching and fewer lost actions",
+      "validation_metric": "Median time from recording to confirmed action",
+      "out_of_scope": "Automatic sending or calendar changes"
+    }
+  ],
+  "brand": {
+    "primary_name": "Example Flow",
+    "alternate_name": "Example Capture",
+    "positioning": "Voice capture that ends in clear action",
+    "personality": ["calm", "precise", "trustworthy"],
+    "voice": "Short, direct, and reassuring",
+    "icon_direction": "An original abstract waveform resolving into one check mark",
+    "avoid": ["microphone clones", "competitor colors", "robot imagery"]
+  },
+  "ui": {
+    "direction": "Quiet utility with one primary action per screen",
+    "principles": ["capture first", "confirm before acting", "show confidence"],
+    "colors": {
+      "primary": "#315EFB",
+      "secondary": "#72A1FF",
+      "background": "#F7F9FC",
+      "surface": "#FFFFFF",
+      "text": "#172033",
+      "success": "#238A57",
+      "warning": "#B56A00",
+      "error": "#C43D4B"
+    },
+    "typography": "System sans serif with 17px body and strong numeric hierarchy",
+    "components": ["record button", "transcript card", "action confirmation row"],
+    "core_screens": ["capture", "review", "confirmed actions"],
+    "states": ["loading", "empty", "offline", "permission denied", "low confidence"],
+    "accessibility": ["WCAG AA contrast", "44pt touch targets", "dynamic type"]
+  },
+  "build": {
+    "stage": "PROTOTYPE",
+    "stack": ["to be selected by the workbench"],
+    "repository": null,
+    "recommended_skills": ["frontend-design", "app platform skill when selected"],
+    "master_prompt": "Read every package file, freeze the stated scope and acceptance criteria, then build and validate the smallest working prototype without adding unapproved features.",
+    "deliverables": ["working source", "tests", "screenshots", "validation report"],
+    "allowed_autonomy": ["choose architecture", "fix defects", "improve implementation details"],
+    "pause_conditions": ["paid service required", "credential missing", "public deployment", "scope conflict"]
+  },
+  "acceptance": {
+    "user": [
+      "A target user can complete the record-to-confirmed-action flow",
+      "The low-confidence state is understandable and recoverable",
+      "The flow is accessible with large text and screen reader"
+    ],
+    "project_manager": [
+      "Only the approved core direction is implemented",
+      "Normal, failure, offline, restart, and permission paths are tested",
+      "Source, tests, screenshots, and known risks are delivered"
+    ],
+    "growth": [
+      "The one-sentence positioning matches the actual product",
+      "Install, activation, value, and return events are measurable",
+      "Store assets use original brand and visual language"
+    ]
+  },
+  "growth": {
+    "positioning": "From spoken thought to confirmed action in one flow",
+    "keywords": ["voice notes", "action items", "voice organizer"],
+    "creative_angles": ["stop losing voice-note tasks", "one flow instead of three tools", "confirm before AI acts"],
+    "store_assets": ["original icon", "three core-flow screenshots"],
+    "channels": ["search-led test"],
+    "cold_start_test": "Run a small landing-page intent test before paid build expansion"
+  },
+  "analytics": {
+    "events": ["capture_started", "transcript_ready", "actions_confirmed", "returned_day_1"],
+    "success_metrics": ["core flow completion rate", "median time to confirmed action"]
+  },
+  "stop_conditions": ["Target users do not complete the confirmation flow", "The result is not better than the current multi-tool workflow"],
+  "provenance": {
+    "source_run_id": "run-example-001",
+    "candidate_path": "data/examples/opportunity-candidate.example.json",
+    "evidence_path": "data/examples/reference-evidence.example.json",
+    "methodology_version": "multi-engine-v1",
+    "created_at": "2026-07-25T00:00:00Z"
+  }
+}

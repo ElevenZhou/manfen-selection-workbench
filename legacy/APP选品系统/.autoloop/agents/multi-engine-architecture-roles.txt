@@ -1,0 +1,9 @@
+Status: SUPERSEDED by .autoloop/agents/loop-skill-architecture-roles.txt
+Roles / lanes:
+- Planner: Converted the broad idea into four layers, stage boundaries, deliverables, and acceptance checks.
+- Researcher: Reconciled existing competitor, usage, signal, trend, GitHub, search, traffic, gap, and new-demand knowledge.
+- Architect: Defined three discovery engines, native gates, unified investment scoring, state machine, schemas, and website entities.
+- Builder: Created docs/07, docs/08, JSON Schemas, YAML config, examples, and integrated updates.
+- Verifier: Validated skill structure, JSON Schema syntax/examples, YAML arithmetic, local links, and generated run bundles.
+- Critic: Found and removed the false universal three-direct-competitor rule; added signal-vs-demand and research-only boundaries.
+- Integrator: Preserved Engine A compatibility while adding shared fields, JSON output files, and current documentation authority.

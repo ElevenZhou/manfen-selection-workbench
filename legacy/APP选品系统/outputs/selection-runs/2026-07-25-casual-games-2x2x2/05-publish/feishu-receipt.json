@@ -1,0 +1,14 @@
+{
+  "reportId": "2026-07-25-casual-games-2x2x2",
+  "idempotencyKey": "2026-07-25-casual-games-2x2x2:feishu-summary:v1",
+  "sentAt": "2026-07-25T06:33:59.586590+00:00",
+  "httpStatus": 200,
+  "providerResponse": {
+    "StatusCode": 0,
+    "StatusMessage": "success",
+    "code": 0,
+    "data": {},
+    "msg": "success"
+  },
+  "success": true
+}

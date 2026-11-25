@@ -1,0 +1,14 @@
+{
+  "reportId": "2026-11-22-global-hot-games-10",
+  "idempotencyKey": "2026-11-22-global-hot-games-10:feishu-summary:v1",
+  "sentAt": "2026-11-22T00:07:25.137672+00:00",
+  "httpStatus": 200,
+  "providerResponse": {
+    "StatusCode": 0,
+    "StatusMessage": "success",
+    "code": 0,
+    "data": {},
+    "msg": "success"
+  },
+  "success": true
+}

@@ -1,0 +1,836 @@
+{
+  "report": {
+    "id": "2026-07-25-standard-5x5x5",
+    "periodLabel": "2026-07-25 · all-markets",
+    "publishedAt": "2026-07-25T12:00:00+08:00",
+    "title": "标准全市场选品 5+5+5",
+    "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共15个入选和资料包。",
+    "status": "published",
+    "sourceRunId": "2026-07-25-standard-5x5x5",
+    "methodologyVersion": "route-system-v1.1-model-live-research",
+    "payload": {
+      "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+      "sources": [
+        "Sensor Tower State of Mobile 2026",
+        "AppMagic Mobile Market Landscape 2026",
+        "AppMagic 2026 Key Takeaways",
+        "官方商店与产品页",
+        "公开评论与社区讨论",
+        "GitHub与官方技术文档"
+      ],
+      "scheduledCount": 5
+    }
+  },
+  "candidates": [
+    {
+      "id": "2026-07-25-standard-5x5x5-a-dose-quiet",
+      "route": "A",
+      "title": "Dose Quiet",
+      "category": "健康工具",
+      "market": "US / DE",
+      "routeScore": 84,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.88,
+      "opportunity": "把多药确认压缩到通知层，同时只把漏服风险升级给照护者",
+      "improvements": [
+        "通知层一滑确认、延后或暂停，不强制打开App",
+        "照护者只接收异常升级，并保留用户可控的隐私边界"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-a-dose-quiet",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-dose-quiet.zip",
+      "packageSha256": "24f64e1ee1b9cc7853ef2c0be9890c481b8b252a38446766693025778b228456",
+      "references": [
+        {
+          "name": "MyTherapy",
+          "url": "https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy",
+          "relation": "competitor",
+          "nameZh": "我的疗程",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/pill-reminder-mytherapy/id662170995",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Medisafe",
+          "url": "https://play.google.com/store/apps/details?id=com.medisafe.android.client",
+          "relation": "competitor",
+          "nameZh": "安心用药",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/medisafe-medication-management/id573916946",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Pillo",
+          "url": "https://www.pillo.care/",
+          "relation": "competitor",
+          "nameZh": "药丸助手",
+          "store": "google_play",
+          "storeUrl": "https://play.google.com/store/apps/details?id=xyz.rtrvr.pillo",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "静药提醒",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-a-pantry-snap",
+      "route": "A",
+      "title": "Pantry Snap",
+      "category": "生活工具",
+      "market": "US / SG",
+      "routeScore": 81,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.85,
+      "opportunity": "不要求逐件录入，用照片确认和临期优先级维持一个足够准确的家庭库存",
+      "improvements": [
+        "整张购物袋或冰箱照片批量建档，只确认低置信度项目",
+        "首页只显示临期、缺货和需要确认三类行动"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-a-pantry-snap",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-pantry-snap.zip",
+      "packageSha256": "0db07f8669d5717042b24ebdc31d7cd9fcbe0f6551671d3ffbc6660bacb093a6",
+      "references": [
+        {
+          "name": "KitchenPal",
+          "url": "https://play.google.com/store/apps/details?id=fr.icuisto.icuisto",
+          "relation": "competitor",
+          "nameZh": "厨房伙伴",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/kitchenpal-shared-grocery-list/id1084982489",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "NoWaste",
+          "url": "https://play.google.com/store/apps/details?id=com.khcreations.nowaste",
+          "relation": "competitor",
+          "nameZh": "零浪费",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/nowaste-food-inventory-list/id926211004",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Pantry Check",
+          "url": "https://pantrycheck.com/",
+          "relation": "competitor",
+          "nameZh": "食材库检查",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/pantry-check-grocery-list/id966702368",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "随拍食材库",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-a-study-slice",
+      "route": "A",
+      "title": "Study Slice",
+      "category": "知识学习",
+      "market": "US / GB",
+      "routeScore": 82,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "两步从资料进入首轮测验，之后只围绕错误证据安排复习",
+      "improvements": [
+        "导入后先生成10题诊断而不是先生成整套卡片",
+        "所有AI答案可回跳原文，并按错误类型安排下一轮"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-a-study-slice",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-study-slice.zip",
+      "packageSha256": "73a8813725b53aada6c7260904eb910d6c43c0fa01a13d97871a601ff198fa82",
+      "references": [
+        {
+          "name": "Quizlet",
+          "url": "https://quizlet.com/",
+          "relation": "competitor",
+          "nameZh": "记忆卡学习",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/quizlet-more-than-flashcards/id546473125",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Knowt",
+          "url": "https://play.google.com/store/apps/details?id=com.knowt.app",
+          "relation": "competitor",
+          "nameZh": "学习笔记",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/knowt-ai-flashcards-notes/id6463744184",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "StudyFetch",
+          "url": "https://www.studyfetch.com/",
+          "relation": "competitor",
+          "nameZh": "学习资料助手",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/studyfetch-make-learning-easy/id6663574866",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "学习切片",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-a-focus-relay",
+      "route": "A",
+      "title": "Focus Relay",
+      "category": "效率工具",
+      "market": "Global",
+      "routeScore": 80,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.84,
+      "opportunity": "把专注工具从计时器变成可恢复的工作接力",
+      "improvements": [
+        "每次中断只记录一句“下一步”，跨设备恢复时直接呈现",
+        "AI仅在会话结束后压缩中断原因和恢复建议"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-a-focus-relay",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-focus-relay.zip",
+      "packageSha256": "31fcea02f2a4e7481951861838752e3bddaee470bc097c6f7d42906fd26f30e5",
+      "references": [
+        {
+          "name": "Forest",
+          "url": "https://www.forestapp.cc/",
+          "relation": "competitor",
+          "nameZh": "专注森林",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/forest-focus-for-productivity/id866450515",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Focus To-Do",
+          "url": "https://play.google.com/store/apps/details?id=com.superelement.pomodoro",
+          "relation": "competitor",
+          "nameZh": "专注待办",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/focus-to-do-focus-timer-tasks/id966057213",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Tide",
+          "url": "https://tide.fm/en_US/",
+          "relation": "competitor",
+          "nameZh": "潮汐",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/tide-sleep-focus-meditation/id1077776989",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "专注接力",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-a-receipt-quiet",
+      "route": "A",
+      "title": "Receipt Quiet",
+      "category": "财务工具",
+      "market": "US / JP",
+      "routeScore": 79,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.83,
+      "opportunity": "本地优先识别票据，以置信度而不是复杂表单决定用户是否需要介入",
+      "improvements": [
+        "批量扫描后只呈现低置信度字段队列",
+        "默认本地处理敏感票据，导出前展示数据去向"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-a-receipt-quiet",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-a-receipt-quiet.zip",
+      "packageSha256": "f64b93986f09bab60f152bdbf8dae174c2beb0ee5109b2deceb7d580fae07724",
+      "references": [
+        {
+          "name": "Expensify",
+          "url": "https://www.expensify.com/",
+          "relation": "competitor",
+          "nameZh": "费用管理",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/expensify-travel-expense/id471713959",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Zoho Expense",
+          "url": "https://www.zoho.com/expense/",
+          "relation": "competitor",
+          "nameZh": "卓豪费用",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/zoho-expense-travel-expense/id966094166",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Smart Receipts",
+          "url": "https://www.smartreceipts.co/",
+          "relation": "competitor",
+          "nameZh": "智能票据",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/smart-receipts-expenses-tax/id905698613",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "静默票据",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-b-care-handoff",
+      "route": "B",
+      "title": "Care Handoff",
+      "category": "家庭照护",
+      "market": "US / SG",
+      "routeScore": 88,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.89,
+      "opportunity": "用一次结构化交接代替在聊天、日历和记忆中追线索",
+      "improvements": [
+        "语音交接自动拆成事实、待办、药物和负责人",
+        "高风险事项必须由下一位照护者确认，普通更新不打扰"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-b-care-handoff",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-care-handoff.zip",
+      "packageSha256": "addc0e4c8e476e1692b29b3c036c98c47bf0bbfef17112e80ef01369b2ff6055",
+      "references": [
+        {
+          "name": "Lotsa Helping Hands",
+          "url": "https://lotsahelpinghands.com/",
+          "relation": "substitute",
+          "nameZh": "互助照护",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/lotsa-helping-hands/id606923858",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "CaringBridge",
+          "url": "https://www.caringbridge.org/",
+          "relation": "substitute",
+          "nameZh": "关怀桥",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/caringbridge/id365726944",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Google Calendar",
+          "url": "https://calendar.google.com/",
+          "relation": "substitute",
+          "nameZh": "谷歌日历",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/google-calendar-get-organized/id909319292",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "照护交接",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-b-field-quote",
+      "route": "B",
+      "title": "Field Quote",
+      "category": "小微经营",
+      "market": "US / AU",
+      "routeScore": 86,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.87,
+      "opportunity": "离开现场前完成一份有照片依据、可编辑且可确认的报价",
+      "improvements": [
+        "照片和口述自动形成报价草稿，离线保存、联网再同步",
+        "报价中的每个项目可回看对应现场照片并让客户确认"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-b-field-quote",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-field-quote.zip",
+      "packageSha256": "d405622933fa04623feca71885461fdb4e3a37ad0c224c347fe38faee91ebc59",
+      "references": [
+        {
+          "name": "Jobber",
+          "url": "https://apps.apple.com/us/app/jobber-field-service-software/id1014146758",
+          "relation": "substitute",
+          "nameZh": "现场服务管理",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/jobber-field-service-software/id1014146758",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Housecall Pro",
+          "url": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651",
+          "relation": "substitute",
+          "nameZh": "上门服务管家",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Joist",
+          "url": "https://www.joist.com/",
+          "relation": "substitute",
+          "nameZh": "工程报价",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/joist-estimate-invoice-maker/id592163563",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "现场报价",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-b-shift-proof",
+      "route": "B",
+      "title": "Shift Proof",
+      "category": "一线工作",
+      "market": "GB / AU",
+      "routeScore": 84,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.85,
+      "opportunity": "把交班从消息堆变成带证据和确认的责任链",
+      "improvements": [
+        "语音和照片生成事实、风险、行动与负责人四段式交班",
+        "关键项需接班人确认，所有修改保留原始记录"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-b-shift-proof",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-shift-proof.zip",
+      "packageSha256": "e662dfbd5571fd76d35320a4daf4963d20b5aa277eb76a326f69e683fd96c1df",
+      "references": [
+        {
+          "name": "Microsoft Teams Shifts",
+          "url": "https://learn.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+          "relation": "substitute",
+          "nameZh": "微软 Teams 排班",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "SafetyCulture",
+          "url": "https://safetyculture.com/platform",
+          "relation": "substitute",
+          "nameZh": "安全文化",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/safetyculture-iauditor/id499999532",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Connecteam",
+          "url": "https://connecteam.com/",
+          "relation": "substitute",
+          "nameZh": "团队连接",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/connecteam-team-management-app/id1121613912",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "交班留证",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-b-access-guide",
+      "route": "B",
+      "title": "Access Guide",
+      "category": "无障碍工具",
+      "market": "JP / US",
+      "routeScore": 83,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "让远程手机指导从“你看到了什么”变成安全的一步一确认",
+      "improvements": [
+        "用户主动分享当前屏幕后只生成一个大字步骤和回退动作",
+        "识别诈骗或付款风险时停止指导并升级给可信联系人"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-b-access-guide",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-access-guide.zip",
+      "packageSha256": "d60d40022f3eceadb19f1879fc1cbaa458168faeffaecc93ecbd893b002e4f77",
+      "references": [
+        {
+          "name": "Be My Eyes",
+          "url": "https://www.bemyeyes.com/bme-app/",
+          "relation": "substitute",
+          "nameZh": "成为我的眼睛",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/be-my-eyes/id905177575",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "TeamViewer Remote",
+          "url": "https://www.teamviewer.com/en/products/remote/",
+          "relation": "substitute",
+          "nameZh": "远程协助",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/teamviewer-remote-control/id692035811",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Apple Assistive Access",
+          "url": "https://support.apple.com/guide/assistive-access-iphone/welcome/ios",
+          "relation": "substitute",
+          "nameZh": "苹果辅助访问",
+          "store": null,
+          "storeUrl": null,
+          "kind": "system_feature"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "无障碍向导",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-b-move-proof",
+      "route": "B",
+      "title": "Move Proof",
+      "category": "租房工具",
+      "market": "SG / GB",
+      "routeScore": 81,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.83,
+      "opportunity": "从入住到退租持续形成双方可读的证据时间线",
+      "improvements": [
+        "拍摄时自动按房间和问题分类，并保留时间及编辑记录",
+        "费用或责任变更需要相关租客轻量确认，退租一键导出"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-b-move-proof",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-b-move-proof.zip",
+      "packageSha256": "ef21a1c5f3c74acffc0c4f07daa06b3f4e47f5d3fcf390b7e03b180ea4bfeb75",
+      "references": [
+        {
+          "name": "Google Drive",
+          "url": "https://www.google.com/drive/",
+          "relation": "substitute",
+          "nameZh": "谷歌云端硬盘",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/google-drive/id507874739",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Splitwise",
+          "url": "https://www.splitwise.com/",
+          "relation": "substitute",
+          "nameZh": "分账助手",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/splitwise/id458023433",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Sortly",
+          "url": "https://www.sortly.com/",
+          "relation": "substitute",
+          "nameZh": "库存分类",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/sortly-inventory-simplified/id529353551",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "搬家留证",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-c-agent-inbox",
+      "route": "C",
+      "title": "Agent Inbox",
+      "category": "AI工作流",
+      "market": "Global",
+      "routeScore": 89,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.88,
+      "opportunity": "把人从盯代理运行变成只处理少量可解释的决策",
+      "improvements": [
+        "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+        "每项展示来源、影响面、可逆性和撤回截止时间"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-c-agent-inbox",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-agent-inbox.zip",
+      "packageSha256": "568328cedc2830233da8e47c96366ab4c9353b46af3b4ec42363d6e57c8a330e",
+      "references": [
+        {
+          "name": "Stack Overflow 2026 Agent Survey",
+          "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+          "relation": "similar",
+          "nameZh": "Stack Overflow 2026 智能体调查",
+          "store": null,
+          "storeUrl": null,
+          "kind": "research_report"
+        },
+        {
+          "name": "GitHub Agentic Adoption Study",
+          "url": "https://arxiv.org/abs/2601.18341",
+          "relation": "similar",
+          "nameZh": "GitHub 智能体采用研究",
+          "store": null,
+          "storeUrl": null,
+          "kind": "research_report"
+        },
+        {
+          "name": "Microsoft Build 2026 Agentic Workflows",
+          "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+          "relation": "similar",
+          "nameZh": "微软 Build 2026 智能体工作流",
+          "store": null,
+          "storeUrl": null,
+          "kind": "research_report"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "智能体收件箱",
+      "productForm": "cross_platform"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-c-proof-camera",
+      "route": "C",
+      "title": "Proof Camera",
+      "category": "内容可信",
+      "market": "US / EU",
+      "routeScore": 87,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "拍摄时自动建立来源链，分享时用普通人能理解的方式呈现",
+      "improvements": [
+        "拍摄即建立本地签名与编辑事件，不上传原图也能验证",
+        "分享时生成简明轨迹卡，明确哪些内容可证明、哪些不能"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-c-proof-camera",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-proof-camera.zip",
+      "packageSha256": "bce20421168f65c392e7a1218c96493b08ccc736622e677d3e0d7e1b97b5f9be",
+      "references": [
+        {
+          "name": "C2PA",
+          "url": "https://c2pa.org/",
+          "relation": "similar",
+          "nameZh": "内容来源认证联盟",
+          "store": null,
+          "storeUrl": null,
+          "kind": "technical_standard"
+        },
+        {
+          "name": "Adobe Content Authenticity",
+          "url": "https://contentauthenticity.adobe.com/",
+          "relation": "similar",
+          "nameZh": "Adobe 内容真实性",
+          "store": null,
+          "storeUrl": null,
+          "kind": "web_product"
+        },
+        {
+          "name": "Truepic",
+          "url": "https://www.truepic.com/",
+          "relation": "similar",
+          "nameZh": "真实图片认证",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/truepic-vision/id1412132981",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "可信相机",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-c-model-ledger",
+      "route": "C",
+      "title": "Model Ledger",
+      "category": "AI工具",
+      "market": "Global",
+      "routeScore": 85,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.85,
+      "opportunity": "跨模型自动生成成本、隐私和结果可追溯的任务账本",
+      "improvements": [
+        "按任务而非按API调用记录模型、费用和结果版本",
+        "发送敏感内容前显示本地/云端路径和保留策略"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-c-model-ledger",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-model-ledger.zip",
+      "packageSha256": "6db87c650df893d1d2b4adb9df8e6fc3e747c92c93fab11a0bf500d866b042a0",
+      "references": [
+        {
+          "name": "OpenRouter",
+          "url": "https://openrouter.ai/",
+          "relation": "similar",
+          "nameZh": "开放路由",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        },
+        {
+          "name": "Open WebUI",
+          "url": "https://github.com/open-webui/open-webui",
+          "relation": "similar",
+          "nameZh": "开放网页界面",
+          "store": null,
+          "storeUrl": null,
+          "kind": "open_source_project"
+        },
+        {
+          "name": "LM Studio",
+          "url": "https://lmstudio.ai/",
+          "relation": "similar",
+          "nameZh": "本地模型工作室",
+          "store": null,
+          "storeUrl": null,
+          "kind": "desktop_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "模型账本",
+      "productForm": "desktop_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-c-offline-tutor",
+      "route": "C",
+      "title": "Offline Tutor",
+      "category": "知识学习",
+      "market": "Emerging Markets",
+      "routeScore": 82,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "把端侧模型限制在一门课程内，让核心解释与练习离线可用",
+      "improvements": [
+        "课程包、引用和练习离线运行，答案必须回到教材片段",
+        "联网时只同步学习状态和内容更新，不上传原始学习对话"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-c-offline-tutor",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-offline-tutor.zip",
+      "packageSha256": "5bfcd40b018482cf1717415d36a57a788554087c2ac572be8f466595edb8512d",
+      "references": [
+        {
+          "name": "Apple Core AI",
+          "url": "https://developer.apple.com/core-ai/",
+          "relation": "similar",
+          "nameZh": "苹果核心 AI",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        },
+        {
+          "name": "Gemini Nano",
+          "url": "https://developer.android.com/ai/gemini-nano",
+          "relation": "similar",
+          "nameZh": "谷歌 Gemini Nano",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        },
+        {
+          "name": "Khan Academy",
+          "url": "https://www.khanacademy.org/",
+          "relation": "similar",
+          "nameZh": "可汗学院",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/khan-academy/id469863705",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "离线导师",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5-c-passkey-ready",
+      "route": "C",
+      "title": "Passkey Ready",
+      "category": "安全工具",
+      "market": "US / EU",
+      "routeScore": 78,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.81,
+      "opportunity": "不保存密钥本身，只给用户一张跨平台恢复与迁移地图",
+      "improvements": [
+        "扫描账户设置生成Passkey位置和恢复路径清单，不接触私钥",
+        "换机前运行可恢复性检查并生成家庭应急步骤"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-standard-5x5x5-c-passkey-ready",
+      "packageUrl": "/packages/2026-07-25-standard-5x5x5/pkg-2026-07-25-standard-5x5x5-c-passkey-ready.zip",
+      "packageSha256": "1145a277a1857b61140dd627da14111f9ad45ddf0865f0aab2e67db4cef1a8bc",
+      "references": [
+        {
+          "name": "FIDO Alliance Passkeys",
+          "url": "https://fidoalliance.org/passkeys/",
+          "relation": "similar",
+          "nameZh": "FIDO 联盟通行密钥",
+          "store": null,
+          "storeUrl": null,
+          "kind": "technical_standard"
+        },
+        {
+          "name": "Apple Passkeys",
+          "url": "https://support.apple.com/guide/iphone/use-passkeys-and-passwords-iphf538ea8d0/ios",
+          "relation": "similar",
+          "nameZh": "苹果通行密钥",
+          "store": null,
+          "storeUrl": null,
+          "kind": "system_feature"
+        },
+        {
+          "name": "Google Passkeys",
+          "url": "https://developers.google.com/identity/passkeys",
+          "relation": "similar",
+          "nameZh": "谷歌通行密钥",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "通行密钥助手",
+      "productForm": "mobile_app"
+    }
+  ]
+}

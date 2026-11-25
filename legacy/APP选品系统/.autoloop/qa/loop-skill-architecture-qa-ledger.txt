@@ -1,0 +1,27 @@
+Auto Loop QA Ledger: loop-skill-architecture
+
+Universal checks:
+- [x] deliverable exists
+- [x] explicit requirements covered
+- [x] relevant specialist skills used
+- [x] Task and Result Schemas validate
+- [x] existing Schemas still validate
+- [x] local links resolve
+- [x] legacy mixed-ranking terms absent
+- [x] internal role review completed
+- [x] improvement pass completed
+
+Findings:
+- Six blocks now separate input, Loop control, core Skills, shared contracts, output surfaces, and feedback.
+- Loop is explicitly prohibited from replacing route scores or reducing route selections to match development capacity.
+- Nine core capabilities have independent responsibilities and standalone input examples.
+- Task and Result Envelope examples passed Draft 2020-12 validation.
+- Signal, Evidence, Candidate, and Workbench Package examples still pass.
+- Blocked results require an error object and task output is non-overwriting.
+- Skill names use an extensible kebab-case contract; valid external Skills are accepted and invalid names rejected.
+- Existing app-opportunity-scout still passes Skill validation.
+- Local Markdown links resolve and legacy mixed-ranking fields are absent from current authority.
+
+Residual risks:
+- Engine B, Engine C, Publisher, Scheduler, and Calibrator are architecture interfaces until separately created and forward-tested.
+- Engine A still needs a later implementation pass to emit the standard Result Envelope automatically.

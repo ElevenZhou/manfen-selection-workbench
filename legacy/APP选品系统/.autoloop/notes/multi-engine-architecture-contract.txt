@@ -1,0 +1,25 @@
+Status: SUPERSEDED by .autoloop/notes/loop-skill-architecture-contract.txt
+Auto Loop Contract: multi-engine-architecture
+Created: 2026-07-25T12:33:18
+
+Objective:
+Upgrade the APP selection system into a practical multi-engine architecture using trend signals, competitor validation, gap redesign, emerging demand, unified investment review, weekly capacity, and operating feedback.
+Current stage: Architecture / Research-only.
+Stage responsibility: Lock concepts, prompts, schemas, state transitions, gates, example configuration, rollout stages, and documentation.
+Entry gate: Existing weekly factory, on-demand scout skill, website specification, workbook, and user-confirmed signal sources exist.
+Audience/user: One operator managing five AI development benches, later scaling to multiple operators and 1000+ Apps.
+Inputs: README.md, docs/03 through docs/06, app-opportunity-scout skill, user corrections about market gaps, first principles, new demand, discussion, GitHub, search, and traffic.
+Inherited artifacts/evidence: Existing weekly scoring, five-bench capacity, evidence pack, output bundle, and website entities.
+User-only prerequisites: Vendor accounts, API credentials, budgets, legal choices, launch markets, and authorization for live collection or deployment.
+Discoverable prerequisites: Local docs, skill files, schemas, scripts, and example data.
+Deliverables: docs/07 architecture, docs/08 master prompt, three JSON Schemas, source config example, three valid examples, updated README/docs/skill/output bundle.
+Authorized side effects: Local file changes and temporary validation environments only.
+Non-goals: Live data collection, paid API access, social scraping, website implementation/deployment, real candidate selection, App development, or store submission.
+Constraints: Never convert one trend into validated demand; engine-specific reference gates; unified portfolio gate; one to three improvements; preserve provenance and estimates.
+Assumptions: Research allocation 50/30/20 and bench reference 3/1/1 are initial risk budgets, not mandatory quotas.
+Acceptance checks: JSON Schemas are valid; examples validate; YAML weights and shares sum correctly; skill validates; run bundle has all required files; documentation links resolve; contradictions are corrected.
+Fallbacks: Use exports and snapshots during the Data Spike; mark missing vendor fields null; keep candidates WATCH when evidence is incomplete.
+Failure/rollback boundary: Stop before credentials, purchases, scraping beyond authorized access, public deployment, or external mutations.
+Exit evidence: QA output for skill, Schemas, YAML, links, run bundle, and negative gate tests.
+Next-stage handoff: Two-week signal Data Spike with five source classes and real sample collection.
+Stop condition: Architecture artifacts pass QA and clearly distinguish completed local design from blocked live integration.

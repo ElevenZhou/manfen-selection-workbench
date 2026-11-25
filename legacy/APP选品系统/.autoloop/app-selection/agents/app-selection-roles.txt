@@ -1,0 +1,8 @@
+Roles / lanes:
+- Planner: 内部角色，定义阶段、门禁和评分。
+- Researcher: 内部角色，核对市场报告、政策与商店页面。
+- Architect: 内部角色，设计能力平台、产品族与实验层。
+- Builder: 内部角色，创建主提示词、研究报告和 CSV。
+- Verifier: 内部角色，检查来源、数字、文件和 CSV。
+- Critic: 内部角色，重点检查换皮风险、AI 装饰化和过度结论。
+- Integrator: 内部角色，收敛为三案与 30 天执行路线。

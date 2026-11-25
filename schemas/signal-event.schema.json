@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://app-selection.local/schemas/signal-event.schema.json",
+  "title": "Trend Signal Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "signal_id",
+    "topic",
+    "entity_type",
+    "source_type",
+    "signal_role",
+    "source_name",
+    "source_url",
+    "country",
+    "language",
+    "first_seen_at",
+    "observed_at",
+    "window_days",
+    "value_type",
+    "confidence",
+    "status"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "signal_id": { "type": "string", "minLength": 3 },
+    "topic": { "type": "string", "minLength": 1 },
+    "entity_type": {
+      "enum": ["topic", "app", "website", "repository", "technology", "cohort", "policy", "behavior"]
+    },
+    "entity_url": { "type": ["string", "null"], "format": "uri" },
+    "source_type": {
+      "enum": ["discussion", "github", "search", "web_traffic", "app_traffic", "store", "technology", "demographic", "policy", "internal"]
+    },
+    "signal_role": {
+      "enum": ["demand", "technology", "competitor", "event", "demographic", "regulatory", "behavior"]
+    },
+    "source_name": { "type": "string", "minLength": 1 },
+    "source_url": { "type": "string", "format": "uri" },
+    "country": { "type": "string", "minLength": 2 },
+    "language": { "type": "string", "minLength": 2 },
+    "first_seen_at": { "type": "string", "format": "date-time" },
+    "observed_at": { "type": "string", "format": "date-time" },
+    "window_days": { "type": "integer", "minimum": 1 },
+    "current_value": { "type": ["number", "null"] },
+    "baseline_value": { "type": ["number", "null"] },
+    "unit": { "type": ["string", "null"] },
+    "growth_rate": { "type": ["number", "null"] },
+    "acceleration": { "type": ["number", "null"] },
+    "persistence_days": { "type": ["integer", "null"], "minimum": 0 },
+    "unique_authors": { "type": ["integer", "null"], "minimum": 0 },
+    "problem_intent": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "product_intent": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "paid_bias": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "value_type": {
+      "enum": ["official", "estimate", "observed", "internal", "hypothesis"]
+    },
+    "confidence": {
+      "enum": ["low", "medium", "high"]
+    },
+    "status": {
+      "enum": ["RAW_SIGNAL", "WATCH_SIGNAL", "CONFIRMED_SIGNAL", "ROUTED_HYPOTHESIS", "REJECTED"]
+    },
+    "routed_engine": {
+      "type": ["string", "null"],
+      "enum": [null, "competitor_validated", "gap_redesign", "emerging_demand"]
+    },
+    "notes": { "type": ["string", "null"] }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "status": { "const": "ROUTED_HYPOTHESIS" } },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "routed_engine": {
+            "enum": ["competitor_validated", "gap_redesign", "emerging_demand"]
+          }
+        },
+        "required": ["routed_engine"]
+      }
+    }
+  ]
+}

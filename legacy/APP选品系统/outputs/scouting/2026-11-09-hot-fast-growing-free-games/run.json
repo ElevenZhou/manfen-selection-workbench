@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-11-09-hot-fast-growing-free-games",
+  "mode": "gameplay-hunt",
+  "direction": "hot-fast-growing-free-games",
+  "collected_at": "2026-11-09",
+  "scope": {
+    "markets": [
+      "US",
+      "worldwide"
+    ],
+    "stores": [
+      "Apple App Store",
+      "Google Play"
+    ],
+    "product_form": "mobile_game"
+  },
+  "assumptions": [
+    "Free means free download with possible IAP/ads.",
+    "Top charts are current US iPhone snapshot; growth table is public third-party estimate.",
+    "20 opportunities are concepts derived from validated references; SELECTED means graybox validation only."
+  ],
+  "status": "complete",
+  "source_count": 5
+}

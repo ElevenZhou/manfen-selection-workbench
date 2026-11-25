@@ -1,0 +1,24 @@
+Auto Loop Contract: weekly-factory
+Created: 2026-07-25T02:38:36
+
+Objective:
+Build a concrete weekly operating system for selecting, explaining, building, and publishing a large portfolio of real apps using competitor and user-demand evidence.
+Current stage: Stage 0 planning and operating-system design.
+Stage responsibility: Define the weekly funnel, evidence gates, five-bench capacity, deliverables, website contract, and reusable AutoLoop prompt.
+Entry gate: User confirmed full coverage, large quantity, real concrete data, and competitor-first selection.
+Audience/user: One operator managing five AI development benches, later scaling toward 1000+ released apps.
+Inputs: Existing README/docs/data, user corrections, current official data-provider capability pages.
+Inherited artifacts/evidence: README.md, docs/01, docs/02, data/initial-shortlist.csv.
+User-only prerequisites: Vendor budget, account access, target countries, legal entity/store accounts, and final approval for paid subscriptions or deployment.
+Discoverable prerequisites: Data vendor APIs/exports, store metadata, reviews, competitor apps, and data freshness.
+Deliverables: Detailed plan, optimized weekly AutoLoop prompt, website/data specification, operational workbook, updated README.
+Authorized side effects: Local files only. No vendor purchase, API enrollment, live site deployment, store submission, or external publishing.
+Non-goals: Claiming live data coverage, claiming five real RCs, deploying a public website, or choosing production apps before the data Spike.
+Constraints: Every build candidate has at least three direct competitors; every metric includes source, market, period, collection date, and value type; each app keeps only one to three improvements.
+Assumptions: Five benches, one RC per bench per productive week, 46 productive weeks per year, five selected plus three backup plus twelve watch candidates weekly.
+Acceptance checks: Capacity math is formula-driven; scoring totals 100; hard gates are explicit; workbook renders cleanly and has no spreadsheet formula errors; docs distinguish estimates from facts.
+Fallbacks: Start with low-cost vendor exports and official store/review data; retain HOLD status when evidence is incomplete.
+Failure/rollback boundary: Stop before live buying, publishing, deployment, or store submission; preserve planning artifacts and mark missing evidence.
+Exit evidence: docs/03, docs/04, docs/05, README links, QA-checked workbook, completed QA ledger.
+Next-stage handoff: Two-week data-vendor Spike, followed by a four-week selection MVP and a twelve-week five-bench pilot.
+Stop condition: Stage 0 artifacts validated and handed off without representing unverified production outcomes as complete.

@@ -1,0 +1,14 @@
+{
+  "reportId": "2026-11-09-hot-fast-growing-free-games-v2",
+  "idempotencyKey": "2026-11-09-hot-fast-growing-free-games-v2:feishu-summary:v1",
+  "sentAt": "2026-11-09T08:07:52.373314+00:00",
+  "httpStatus": 200,
+  "providerResponse": {
+    "StatusCode": 0,
+    "StatusMessage": "success",
+    "code": 0,
+    "data": {},
+    "msg": "success"
+  },
+  "success": true
+}

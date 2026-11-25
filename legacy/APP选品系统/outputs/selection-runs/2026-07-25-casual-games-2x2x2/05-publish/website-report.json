@@ -1,0 +1,350 @@
+{
+  "report": {
+    "id": "2026-07-25-casual-games-2x2x2",
+    "periodLabel": "2026-07-25 · casual-games",
+    "publishedAt": "2026-07-25T12:00:00+08:00",
+    "title": "休闲游戏专项 2+2+2",
+    "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共6个入选和资料包。",
+    "status": "published",
+    "sourceRunId": "2026-07-25-casual-games-2x2x2",
+    "methodologyVersion": "route-system-v1.1-model-live-research",
+    "payload": {
+      "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+      "sources": [
+        "Sensor Tower State of Mobile 2026",
+        "AppMagic Mobile Market Landscape 2026",
+        "AppMagic 2026 Key Takeaways",
+        "官方商店与产品页",
+        "公开评论与社区讨论",
+        "GitHub与官方技术文档"
+      ],
+      "scheduledCount": 5
+    }
+  },
+  "candidates": [
+    {
+      "id": "2026-07-25-casual-games-2x2x2-a-fair-screw",
+      "route": "A",
+      "title": "Fair Screw",
+      "category": "休闲益智·Screw",
+      "market": "US / BR",
+      "routeScore": 82,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "保留螺丝解谜的满足感，但每局失败都能解释为可学习的选择",
+      "improvements": [
+        "关卡开始前展示可用槽位和失败因果，失败后给一步回放",
+        "奖励广告只出现在自然停顿点，不把必需槽位锁在广告后"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-casual-games-2x2x2-a-fair-screw",
+      "packageUrl": "/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-a-fair-screw.zip",
+      "packageSha256": "4d0856057d9665e91d503049fc0723db4ca1372d7f31c36dca682bdbd148d7e7",
+      "references": [
+        {
+          "name": "Screw Jam",
+          "url": "https://play.google.com/store/apps/details?id=com.quok.screwJam",
+          "relation": "competitor",
+          "nameZh": "螺丝堵塞",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/screw-jam/id6471490579",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Screw Wood Nuts & Bolts",
+          "url": "https://play.google.com/store/apps/details?id=com.funspace.screw",
+          "relation": "competitor",
+          "nameZh": "木板螺母螺栓",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/wood-nuts-bolts-puzzle/id6472426288",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Screw Jam Handler",
+          "url": "https://play.google.com/store/apps/details?id=screw.jam.handler",
+          "relation": "competitor",
+          "nameZh": "螺丝堵塞助手",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/screw-jam-handler-nuts-bolts/id6736894632",
+          "kind": "mobile_game"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "公平螺丝",
+      "productForm": "mobile_game"
+    },
+    {
+      "id": "2026-07-25-casual-games-2x2x2-a-calm-sort",
+      "route": "A",
+      "title": "Calm Sort",
+      "category": "休闲益智·Goods Sort",
+      "market": "US / JP",
+      "routeScore": 79,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "用无计时主模式和高可读货架，保留三件匹配的整理满足感",
+      "improvements": [
+        "主模式不设倒计时，挑战计时作为可选玩法",
+        "高对比轮廓与遮挡提示降低误触，广告仅在局间"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-casual-games-2x2x2-a-calm-sort",
+      "packageUrl": "/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-a-calm-sort.zip",
+      "packageSha256": "d09390afc9f4a22954467b137c2469f8467a1e2989ec6911fb8807d15e72b65d",
+      "references": [
+        {
+          "name": "Goods Triple Match",
+          "url": "https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle",
+          "relation": "competitor",
+          "nameZh": "货架三消",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/goods-triple-match/id6740660426",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Match Factory",
+          "url": "https://play.google.com/store/apps/details?id=net.peakgames.match",
+          "relation": "competitor",
+          "nameZh": "匹配工厂",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/match-factory/id6449094229",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Triple Match 3D",
+          "url": "https://play.google.com/store/apps/details?id=com.master.triple3d.find",
+          "relation": "competitor",
+          "nameZh": "3D 三消",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/triple-match-3d/id1607122287",
+          "kind": "mobile_game"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "舒缓分类",
+      "productForm": "mobile_game"
+    },
+    {
+      "id": "2026-07-25-casual-games-2x2x2-b-merge-minute",
+      "route": "B",
+      "title": "Merge Minute",
+      "category": "休闲益智·Merge",
+      "market": "US / GB",
+      "routeScore": 83,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.84,
+      "opportunity": "每局三分钟有明确结尾，长期叙事是奖励而不是阻止继续玩的门槛",
+      "improvements": [
+        "固定三分钟任务板，完成或失败都结算，不用等待能量继续核心玩法",
+        "长期元进度使用可选章节，不用强制弹窗打断合成"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-casual-games-2x2x2-b-merge-minute",
+      "packageUrl": "/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-b-merge-minute.zip",
+      "packageSha256": "19ad3e15cf5cc414cbb061152bbf74af432ed6419e2981d9f9c1327210c831f3",
+      "references": [
+        {
+          "name": "Merge Mansion",
+          "url": "https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152",
+          "relation": "substitute",
+          "nameZh": "合成庄园",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Travel Town",
+          "url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+          "relation": "substitute",
+          "nameZh": "旅行小镇",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Gossip Harbor",
+          "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor",
+          "relation": "substitute",
+          "nameZh": "绯闻港口",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294",
+          "kind": "mobile_game"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "一分钟合成",
+      "productForm": "mobile_game"
+    },
+    {
+      "id": "2026-07-25-casual-games-2x2x2-b-duo-shelf",
+      "route": "B",
+      "title": "Duo Shelf",
+      "category": "休闲双人·Sort",
+      "market": "Global",
+      "routeScore": 80,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.81,
+      "opportunity": "把单人整理变成无需同时在线的每日双人接力",
+      "improvements": [
+        "每人完成货架的一半，另一人可看到对方留下的提示和失误",
+        "每日只推送一次可完成接力，不建立重社交系统"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-casual-games-2x2x2-b-duo-shelf",
+      "packageUrl": "/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-b-duo-shelf.zip",
+      "packageSha256": "bd29bce4ab96e5a4ea69a8a636d20f9456945ba3da54e334963a94fd1a8ab9c1",
+      "references": [
+        {
+          "name": "Goods Triple Match",
+          "url": "https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle",
+          "relation": "substitute",
+          "nameZh": "货架三消",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/goods-triple-match/id6740660426",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Plato",
+          "url": "https://platoapp.com/",
+          "relation": "substitute",
+          "nameZh": "柏拉图社交游戏",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/plato-fun-multiplayer-games/id1054747306",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Discord Activities",
+          "url": "https://discord.com/activities",
+          "relation": "substitute",
+          "nameZh": "Discord 活动",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "双人货架",
+      "productForm": "mobile_game"
+    },
+    {
+      "id": "2026-07-25-casual-games-2x2x2-c-daily-scene",
+      "route": "C",
+      "title": "Daily Scene",
+      "category": "每日益智",
+      "market": "US / EU",
+      "routeScore": 80,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "每天一个可验证来源的视觉谜题，三次揭示内完成并可无剧透分享",
+      "improvements": [
+        "AI只用于生成干扰线索和难度变体，谜底与事实由编辑数据确认",
+        "分享卡只展示揭示次数和推理路径，不泄露答案"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-casual-games-2x2x2-c-daily-scene",
+      "packageUrl": "/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-c-daily-scene.zip",
+      "packageSha256": "d1b84b121c783ac2ddf429986e4ebbb6f0b1b9475f95c3c1e6c15b915b0cd122",
+      "references": [
+        {
+          "name": "NYT Games",
+          "url": "https://www.nytimes.com/crosswords",
+          "relation": "similar",
+          "nameZh": "纽约时报游戏",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "GeoGuessr",
+          "url": "https://www.geoguessr.com/",
+          "relation": "similar",
+          "nameZh": "地理猜谜",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/geoguessr/id1049876497",
+          "kind": "mobile_game"
+        },
+        {
+          "name": "Apple Core AI",
+          "url": "https://developer.apple.com/core-ai/",
+          "relation": "similar",
+          "nameZh": "苹果核心 AI",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "每日场景",
+      "productForm": "mobile_game"
+    },
+    {
+      "id": "2026-07-25-casual-games-2x2x2-c-snap-blocks",
+      "route": "C",
+      "title": "Snap Blocks",
+      "category": "休闲益智·Block",
+      "market": "Global",
+      "routeScore": 78,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.8,
+      "opportunity": "照片在设备端转成可解的60秒块状关卡，分享的是关卡种子而非原图",
+      "improvements": [
+        "端侧分析照片主体并生成三档可解布局",
+        "分享默认只传布局和色块特征，原图保持本地"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-casual-games-2x2x2-c-snap-blocks",
+      "packageUrl": "/packages/2026-07-25-casual-games-2x2x2/pkg-2026-07-25-casual-games-2x2x2-c-snap-blocks.zip",
+      "packageSha256": "85159d9924a39b2ed069bd4b72f4f0fa34c7c06f87c5e0f11d43dd73e05bd141",
+      "references": [
+        {
+          "name": "AppMagic Mobile Market Landscape 2026",
+          "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+          "relation": "similar",
+          "nameZh": "AppMagic 2026 移动市场全景",
+          "store": null,
+          "storeUrl": null,
+          "kind": "research_report"
+        },
+        {
+          "name": "Apple Core AI",
+          "url": "https://developer.apple.com/core-ai/",
+          "relation": "similar",
+          "nameZh": "苹果核心 AI",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        },
+        {
+          "name": "Block Blast",
+          "url": "https://play.google.com/store/apps/details?id=com.block.juggle",
+          "relation": "similar",
+          "nameZh": "方块爆破",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391485",
+          "kind": "mobile_game"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "随拍方块",
+      "productForm": "mobile_game"
+    }
+  ]
+}

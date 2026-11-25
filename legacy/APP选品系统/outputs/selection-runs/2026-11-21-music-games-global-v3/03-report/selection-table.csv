@@ -1,0 +1,4 @@
+﻿route,rank,product,product_form,category,market,score,completeness,promise,improvements,primary_reference
+A,1,PulseRun（脉冲跑酷）,mobile_game,短局节奏跑酷,Global / US / UK / JP / KR / SEA,91,0.82,把一首歌压缩成可重复的60–90秒节奏跑酷挑战，并用难度匹配和幽灵回放提高重复游玩,按玩家节奏表现自动匹配歌曲难度 | 用每日短赛和好友幽灵回放替代重社交养成 | 优先使用原创或可授权曲库并展示版权来源,https://apps.apple.com/us/app/tiles-hop-rhythm-music-ball/id1344702806
+A,2,ChartGarden（谱面花园）,mobile_game,社区谱面与创作,Global / US / UK / JP / KR / SEA,89,0.81,把复杂谱面创作压缩成模板化编辑与可解释的难度/可玩性反馈,先提供三种模板化谱面编辑器并自动校准节拍 | 把谱面难度与可玩性评分分开 | 提供版权安全的原创素材和本地音频实验模式,https://apps.apple.com/us/app/geometry-dash/id625334537
+A,3,NeonPractice（霓虹练习室）,mobile_game,练习型节奏游戏,Global / US / UK / JP / KR / SEA,87,0.8,把一次失败转成可定位、可重复的20秒节奏训练，而不是只给总分,增加自适应速度与容错 | 用提前/滞后诊断替代单一总分 | 提供可视化练习进度和回放,https://apps.apple.com/us/app/arcaea/id1150733961

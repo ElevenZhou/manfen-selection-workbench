@@ -1,0 +1,4 @@
+rank,concept,type,target_user,core_job,unique_wedge,market_evidence_20,durability_growth_15,pain_quality_15,ai_product_fit_15,mvp_speed_10,retention_10,monetization_10,compliance_5,total_100,confidence,status
+1,DeviceCare AI,工具+知识,不熟悉家庭设备的普通用户,识别设备或报错并安全解决问题,答案引用官方资料并按风险分级转成步骤,16,13,13,15,8,8,7,4,84,低到中,进入问题验证
+2,TinySteps Quest,生产力+轻养成,面对待办容易卡住的人,把混乱输入转成马上可做的行动,永远只给三个五分钟动作并连接原创成长反馈,14,12,13,13,9,9,6,4,80,低到中,进入问题验证
+3,Calm Circuit,混合休闲益智,厌恶强制广告的碎片时间玩家,打开即玩难度刚好的短局逻辑游戏,AI生成候选关卡而确定性求解器校验唯一解和难度,15,13,10,8,10,9,9,5,79,低到中,先验证三个原创机制

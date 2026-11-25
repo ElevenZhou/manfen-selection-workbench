@@ -1,0 +1,1083 @@
+{
+  "report": {
+    "id": "2026-11-09-hot-fast-growing-free-games-v2",
+    "periodLabel": "2026-11-09 · gameplay-hunt",
+    "publishedAt": "2026-11-09T15:31:00+08:00",
+    "title": "热门、增长快、免费榜游戏机会 20 选（修订版）",
+    "summary": "20 个机会；5 个进入灰盒验证，5 个 BACKUP，10 个 WATCH。市场热度不等于玩法已验证。v2 修正路线状态字段。",
+    "status": "published",
+    "sourceRunId": "2026-11-09-hot-fast-growing-free-games",
+    "methodologyVersion": "gameplay-hunt-evidence-v1",
+    "payload": {
+      "marketPulse": "美国 iPhone 免费榜与全球公开移动游戏下载/增长数据；SELECTED 仅进入灰盒验证。",
+      "sources": [
+        "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+        "https://www.singular.net/blog/top-mobile-games/",
+        "https://socialpeta.com/en/blog/top-mobile-games-by-revenue-and-downloads-september-2026"
+      ],
+      "scheduledCount": 0
+    }
+  },
+  "candidates": [
+    {
+      "id": "G01-v2",
+      "route": "A",
+      "title": "Daily Grid Duel",
+      "titleZh": "Daily Grid Duel",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 77.0,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "daily block puzzle with async 1v1",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G02-v2",
+      "route": "A",
+      "title": "Sort & Sprint",
+      "titleZh": "Sort & Sprint",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 76.0,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "color/water sort with 60-second challenge ladder",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G03-v2",
+      "route": "A",
+      "title": "Traffic Escape Stories",
+      "titleZh": "Traffic Escape Stories",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 75.0,
+      "routeRank": 3,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "traffic-jam puzzle with episodic story",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G04-v2",
+      "route": "A",
+      "title": "Cozy Merge Café",
+      "titleZh": "Cozy Merge Café",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 78.0,
+      "routeRank": 4,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "merge + café service in 5-minute sessions",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G05-v2",
+      "route": "A",
+      "title": "Tiny UGC Worlds",
+      "titleZh": "Tiny UGC Worlds",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 77.0,
+      "routeRank": 5,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.82,
+      "opportunity": "template-based social mini-world builder",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G06-v2",
+      "route": "A",
+      "title": "Mahjong Journey Daily",
+      "titleZh": "Mahjong Journey Daily",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 70.0,
+      "routeRank": 6,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.82,
+      "opportunity": "mahjong with travel map and daily streak",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G07-v2",
+      "route": "A",
+      "title": "Hole.io Cleanup Crew",
+      "titleZh": "Hole.io Cleanup Crew",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 69.0,
+      "routeRank": 7,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.82,
+      "opportunity": "co-op cleanup io with rotating cities",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G08-v2",
+      "route": "A",
+      "title": "Pizza Rush Manager",
+      "titleZh": "Pizza Rush Manager",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 72.0,
+      "routeRank": 8,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.82,
+      "opportunity": "idle restaurant with skill-based rush",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G09-v2",
+      "route": "A",
+      "title": "Street Football Draft",
+      "titleZh": "Street Football Draft",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 71.0,
+      "routeRank": 9,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.82,
+      "opportunity": "quick 3v3 football drafting",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G10-v2",
+      "route": "A",
+      "title": "Pet Habit Village",
+      "titleZh": "Pet Habit Village",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 70.0,
+      "routeRank": 10,
+      "decision": "ROUTE_BACKUP",
+      "dataCompleteness": 0.82,
+      "opportunity": "virtual pet tied to real-world habits",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G11-v2",
+      "route": "A",
+      "title": "Word Tile Relay",
+      "titleZh": "Word Tile Relay",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 61.0,
+      "routeRank": 11,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "asynchronous word tile relay",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G12-v2",
+      "route": "A",
+      "title": "Sand Physics Lab",
+      "titleZh": "Sand Physics Lab",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 64.0,
+      "routeRank": 12,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "sandbox sand puzzles with user levels",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G13-v2",
+      "route": "A",
+      "title": "Amaze Arrow Escape",
+      "titleZh": "Amaze Arrow Escape",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 63.0,
+      "routeRank": 13,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "arrow-routing puzzle with daily modifiers",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G14-v2",
+      "route": "A",
+      "title": "Island Builder Lite",
+      "titleZh": "Island Builder Lite",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 62.0,
+      "routeRank": 14,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "fast township builder with weekly island seeds",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G15-v2",
+      "route": "A",
+      "title": "Battle Royale Microdrop",
+      "titleZh": "Battle Royale Microdrop",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 61.0,
+      "routeRank": 15,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "30-player 4-minute battle royale",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G16-v2",
+      "route": "A",
+      "title": "Chess Tactics Sprint",
+      "titleZh": "Chess Tactics Sprint",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 64.0,
+      "routeRank": 16,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "daily tactical chess puzzle with streaks",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G17-v2",
+      "route": "A",
+      "title": "Merge Mystery Rooms",
+      "titleZh": "Merge Mystery Rooms",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 63.0,
+      "routeRank": 17,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "merge to reveal room clues",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G18-v2",
+      "route": "A",
+      "title": "Color Sort Co-op",
+      "titleZh": "Color Sort Co-op",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 62.0,
+      "routeRank": 18,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "co-op sort puzzle with shared board",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G19-v2",
+      "route": "A",
+      "title": "Runner Route Remix",
+      "titleZh": "Runner Route Remix",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 61.0,
+      "routeRank": 19,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "endless runner with player-authored routes",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    },
+    {
+      "id": "G20-v2",
+      "route": "A",
+      "title": "Ludo League Quickplay",
+      "titleZh": "Ludo League Quickplay",
+      "productForm": "mobile_game",
+      "category": "casual/strategy",
+      "market": "US + worldwide",
+      "routeScore": 64.0,
+      "routeRank": 20,
+      "decision": "ROUTE_WATCH",
+      "dataCompleteness": 0.68,
+      "opportunity": "ranked 6-minute ludo seasons",
+      "improvements": [
+        "graybox + 30-player test"
+      ],
+      "packageStatus": "BLOCKED",
+      "packageId": null,
+      "packageUrl": null,
+      "packageSha256": null,
+      "references": [
+        {
+          "name": "Block Blast!",
+          "nameZh": "Block Blast!",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/block-blast/id1617391486",
+          "relation": "competitor"
+        },
+        {
+          "name": "Roblox",
+          "nameZh": "Roblox",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/roblox/id431946152",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/roblox/id431946152",
+          "relation": "competitor"
+        },
+        {
+          "name": "Vita Mahjong",
+          "nameZh": "Vita Mahjong",
+          "kind": "mobile_game",
+          "url": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/vita-mahjong/id6443768921",
+          "relation": "competitor"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "competitor",
+      "iconSourceUrl": "https://apps.apple.com/us/app/block-blast/id1617391486"
+    }
+  ]
+}

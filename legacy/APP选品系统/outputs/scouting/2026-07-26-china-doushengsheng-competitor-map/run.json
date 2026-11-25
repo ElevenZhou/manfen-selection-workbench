@@ -1,0 +1,144 @@
+{
+  "run_id": "2026-07-26-china-doushengsheng-competitor-map",
+  "created_at": "2026-07-26T21:15:00+08:00",
+  "completed_at": "2026-07-26T21:15:00+08:00",
+  "mode": "competitor-expand",
+  "direction": "china-doushengsheng-competitor-map",
+  "status": "completed_provisional_public_evidence",
+  "request": "以中国市场抖省省App为起点，研究直接竞品、相邻产品和替代方案，输出10个机会，深度研究3个。",
+  "scope": {
+    "country": [
+      "CN"
+    ],
+    "platforms": [
+      "iOS"
+    ],
+    "ranked_count": 10,
+    "deep_dive_count": 3,
+    "qualified_count": 3
+  },
+  "assumptions": [
+    "种子为北京抖音科技有限公司、App Store ID 6756863766 的官方本地团购App。",
+    "没有付费下载/MAU/收入/留存数据；公开商店数据仅作代理。",
+    "SELECTED表示可进入Engine A候选池，不表示READY_FOR_BENCH。"
+  ],
+  "sources": [
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id6756863766",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id423084029",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id351091731",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id461703208",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id451400917",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "https://apps.apple.com/cn/app/id6756863766?see-all=reviews",
+      "url": "用户希望按附近或状态找已购券。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "Apple App Store Reviews"
+    },
+    {
+      "name": "https://rules-center.meituan.com/m/detail/guize/386003?activeRule=1",
+      "url": "规则表明券生命周期和退款金额存在解释负担。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "美团规则中心"
+    },
+    {
+      "name": "https://apps.apple.com/cn/app/id423084029?see-all=reviews",
+      "url": "单条评论仅作主题证据，不代表总体发生率。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "Apple App Store Reviews"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id333206289",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "https://portal-portm.meituan.com/webpc/protocolmanage/comment",
+      "url": "官方条款列出多类购买前注意条件。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "美团点评团购用户服务条款"
+    },
+    {
+      "name": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html",
+      "url": "法规支持透明解释需求，不代表第三方可替平台承诺。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "国家市场监督管理总局"
+    },
+    {
+      "name": "https://apps.apple.com/cn/app/id6756863766?see-all=reviews",
+      "url": "支持交易前核对商品与条件的需求。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "Apple App Store Reviews"
+    },
+    {
+      "name": "https://apps.apple.com/cn/app/id6756863766?see-all=reviews",
+      "url": "直接支持优惠验真方向。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "Apple App Store Reviews"
+    },
+    {
+      "name": "https://apps.apple.com/cn/app/id451400917",
+      "url": "相邻品类存在同类信任问题。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "Apple App Store"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id1142110895",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id1603172928",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    },
+    {
+      "name": "https://apps.apple.com/cn/app/id351091731",
+      "url": "单条商家评论，需进一步访谈验证频率。",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "Apple App Store"
+    },
+    {
+      "name": "Apple App Store",
+      "url": "https://apps.apple.com/cn/app/id741292507",
+      "collected_at": "2026-07-26T21:15:00+08:00",
+      "value_type": "official"
+    }
+  ],
+  "counts": {
+    "discovered": 10,
+    "ranked": 10,
+    "deep_dives": 3,
+    "selected": 0,
+    "backup": 0,
+    "watch": 10,
+    "rejected": 0
+  }
+}

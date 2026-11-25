@@ -1,0 +1,21 @@
+{
+  "run_id": "2026-11-23-global-hot-games-10",
+  "status": "completed",
+  "checks": {
+    "dedupe": "passed",
+    "candidate_count": "passed",
+    "primary_competitor_one_to_one": "passed",
+    "official_reference_links": "passed_after_url_correction",
+    "product_form": "passed",
+    "freshness": "passed",
+    "scale_gate": "passed_with_watch_warnings",
+    "website_schema": "passed_by_site_api_201",
+    "website_persistence": "passed_get_list_readback_original_and_revision",
+    "feishu_delivery": "passed_http_200_code_0"
+  },
+  "warnings": [
+    "4 WATCH candidates lack readable scale or playable-version evidence",
+    "Packages intentionally BLOCKED until separate build capability is invoked",
+    "Five competitor links corrected from stale Apple URLs to verified Google Play pages before final card resend"
+  ]
+}

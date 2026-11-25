@@ -1,0 +1,16 @@
+{
+  "status": "persisted",
+  "report_id": "2026-11-23-global-hot-games-10",
+  "candidate_count": 10,
+  "selected_count": 6,
+  "watch_count": 4,
+  "note": "待网站 API 入库并 GET 回读",
+  "http_status": 201,
+  "report_url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-11-23-global-hot-games-10-v2",
+  "readback": {
+    "endpoint": "https://app-selection-hub.xiaojie-april.chatgpt.site/api/reports",
+    "report_id_visible": true,
+    "report_count_after_write": 23
+  },
+  "feishu_status": "completed"
+}

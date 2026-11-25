@@ -1,0 +1,5 @@
+﻿run_id,candidate_id,name,source_engine,route_score,route_rank,data_completeness,decision,confidence,improvements,next_validation,name_zh,product_form
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-a-model-match,Model Match,competitor_validated,84,1,0.85,SELECTED,medium,先按任务和约束推荐三种模型，再用同一评测清单对比 | 保存提示词、版本、耗时、成本和用户选择理由,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,模型匹配,web_app
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-a-signal-brief,Signal Brief,competitor_validated,81,2,0.84,SELECTED,medium,每条只回答变化、影响对象、证据和建议动作四件事 | 所有摘要并列原始来源与冲突，不生成无链接判断,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,信号简报,mobile_app
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-b-release-impact,Release Impact,gap_redesign,86,1,0.86,SELECTED,medium,把Release与项目清单匹配，只输出受影响依赖和迁移动作 | 高风险废弃、价格或权限变化生成负责人和截止时间,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,版本影响,web_app
+2026-07-25-ai-tools-news-2x1x1,2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens,MCP Trust Lens,emerging_demand,90,1,0.89,SELECTED,medium,解析安装配置、工具声明和依赖，生成普通人可读的权限差异 | 结合维护活跃、漏洞与来源信号给出隔离运行建议，不自动安装,游戏招募至少30名方向性玩家；非游戏完成5–8名目标用户任务测试并测量核心结果。,MCP 信任透镜,web_app

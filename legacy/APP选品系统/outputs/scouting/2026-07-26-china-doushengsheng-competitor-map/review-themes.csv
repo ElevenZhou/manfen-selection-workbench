@@ -1,0 +1,11 @@
+﻿run_id,candidate_id,competitor,theme_type,theme,review_count,period,country,platform,source_url,example_excerpt,confidence
+2026-07-26-china-doushengsheng-competitor-map,DSS-01,Dou Sheng Sheng（抖省省）,value,比抖音内同店价格更省,2,2026-05 to 2026-06,CN,iOS,https://apps.apple.com/cn/app/id6756863766?see-all=reviews,有券且力度足够会继续使用,medium
+2026-07-26-china-doushengsheng-competitor-map,DSS-01,Dou Sheng Sheng（抖省省）,pain,优惠券减少或消失,3,2026-05 to 2026-06,CN,iOS,https://apps.apple.com/cn/app/id6756863766?see-all=reviews,优惠逐步减少，最后无券,medium
+2026-07-26-china-doushengsheng-competitor-map,DSS-01,Dou Sheng Sheng（抖省省）,pain,跨端宣传价无法购买,1,2026-06,CN,iOS,https://apps.apple.com/cn/app/id6756863766?see-all=reviews,跳转后套餐不一致并报网络异常,low
+2026-07-26-china-doushengsheng-competitor-map,DSS-02,Dou Sheng Sheng（抖省省）,request,已购券按状态、距离或时间排序,2,2026,CN,iOS,https://apps.apple.com/cn/app/id6756863766?see-all=reviews,希望增加排序，方便附近使用已购券,medium
+2026-07-26-china-doushengsheng-competitor-map,DSS-02,Meituan（美团）,pain,退款等待与券抵扣解释不清,2,2026,CN,iOS,https://apps.apple.com/cn/app/id423084029?see-all=reviews,未使用券退款与等待期引发争议,low
+2026-07-26-china-doushengsheng-competitor-map,DSS-03,Amap（高德地图）,value,导航、到店行为和附近决策在同一流程,1,current product description,CN,iOS,https://apps.apple.com/cn/app/id461703208,顺路买花、加油、取咖啡,medium
+2026-07-26-china-doushengsheng-competitor-map,DSS-04,Yitao（一淘）,pain,优惠承诺在下载或兑换时失效,1,2024-10,CN,iOS,https://apps.apple.com/cn/app/id451400917,下载后兑换入口已无库存,low
+2026-07-26-china-doushengsheng-competitor-map,DSS-05,Dou Sheng Sheng（抖省省）,value,独立工具入口比内容流更直接,1,current product description,CN,iOS,https://apps.apple.com/cn/app/id6756863766,按店名搜索并直接展示团购,medium
+2026-07-26-china-doushengsheng-competitor-map,DSS-09,Dianping（大众点评）,pain,商家评价申诉标准不透明,2,2026-04,CN,iOS,https://apps.apple.com/cn/app/id351091731,提交凭证后仍难理解判定,low
+2026-07-26-china-doushengsheng-competitor-map,DSS-10,Dou Sheng Sheng（抖省省）,pain,种草商品跳转后实体不一致,1,2026-06,CN,iOS,https://apps.apple.com/cn/app/id6756863766,原套餐跳转失败而推荐其他套餐,low

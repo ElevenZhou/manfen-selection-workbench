@@ -1,0 +1,26 @@
+Status: SUPERSEDED by .autoloop/notes/loop-skill-architecture-contract.txt
+Auto Loop Input Checklist: multi-engine-architecture
+
+Completeness:
+- [x] goal
+- [x] artifact type
+- [x] audience/user
+- [x] inputs/source paths
+- [x] output format/path
+- [x] constraints
+- [x] quality bar
+- [x] autonomy level
+- [x] risks/sensitive boundaries
+- [x] current stage and entry gate
+- [x] inherited artifacts/evidence
+- [x] user-only prerequisites
+- [x] authorized external side effects
+- [x] stage exit evidence and handoff
+
+Missing items: Live vendor credentials, budgets, target-market priority, discussion-source choice, and deployment authority are deferred to the signal Data Spike.
+
+Autofill assumptions:
+- Current work remains local Architecture / Research-only.
+- Existing app-opportunity-scout becomes Engine A.
+- Engine B and Engine C are architectural interfaces, not claimed installed skills.
+- Initial research allocation is 50/30/20 and bench reference is 3/1/1 without force-filling.

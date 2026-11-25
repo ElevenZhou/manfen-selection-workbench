@@ -1,0 +1,1298 @@
+{
+  "methodology_version": "route-system-v1.1-model-live-research",
+  "collected_at": "2026-07-25T12:00:00+08:00",
+  "shared_sources": [
+    {
+      "name": "Sensor Tower State of Mobile 2026",
+      "url": "https://sensortower.com/press/press-release-boosted-by-gen-ai-services-consumers-spent-more-money-in-apps-than-games-for-first-time",
+      "claim": "2025年全球用户在App中投入5.3万亿小时，非游戏App消费首次超过游戏，生成式AI是主要增长因素之一。"
+    },
+    {
+      "name": "AppMagic Mobile Market Landscape 2026",
+      "url": "https://appmagic.rocks/research/mobile-landscape-report-2026/?hl=en",
+      "claim": "2025年非游戏App下载同比增长11.9%、收入增长19.1%；报告同时覆盖AI、工具和休闲游戏趋势。"
+    },
+    {
+      "name": "AppMagic 2026 Key Takeaways",
+      "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+      "claim": "Sort、Block、Logic、Merge等益智子类型仍是增长或变现活跃方向；数据口径为App Store与Google Play全球下载及IAP。"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "2026-07-25-standard-5x5x5",
+      "title": "标准全市场选品 5+5+5",
+      "direction": "all-markets",
+      "requested": {
+        "A": 5,
+        "B": 5,
+        "C": 5
+      },
+      "assumptions": [
+        "以英语市场和Global为首发验证面",
+        "公开证据无法替代付费供应商的精确收入与留存数据",
+        "游戏入选仅表示进入灰盒验证"
+      ],
+      "candidates": [
+        {
+          "route": "A",
+          "slug": "dose-quiet",
+          "name": "Dose Quiet",
+          "category": "健康工具",
+          "market": "US / DE",
+          "user": "需要每天服用多种药物、但不希望提醒流程打断生活的成年人及照护者",
+          "trigger": "到达服药时间、调整处方或需要向家人确认漏服风险",
+          "job": "用最少操作可靠确认服药、暂停或延后，并让照护者只看到真正异常",
+          "alternative": "MyTherapy、Medisafe、Pillo与手机闹钟",
+          "promise": "把多药确认压缩到通知层，同时只把漏服风险升级给照护者",
+          "score": 84,
+          "completeness": 0.88,
+          "improvements": [
+            "通知层一滑确认、延后或暂停，不强制打开App",
+            "照护者只接收异常升级，并保留用户可控的隐私边界"
+          ],
+          "references": [
+            {
+              "name": "MyTherapy",
+              "url": "https://play.google.com/store/apps/details?id=eu.smartpatient.mytherapy",
+              "claim": "Google Play显示5M+下载、约234K评论；近期评论同时肯定定制能力并抱怨新版确认流程过重。",
+              "name_zh": "我的疗程",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/pill-reminder-mytherapy/id662170995",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Medisafe",
+              "url": "https://play.google.com/store/apps/details?id=com.medisafe.android.client",
+              "claim": "Google Play显示5M+下载、约249K评论，覆盖复杂剂量、照护者和补药提醒；评论出现更新后记录与通知可信度问题。",
+              "name_zh": "安心用药",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/medisafe-medication-management/id573916946",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Pillo",
+              "url": "https://www.pillo.care/",
+              "claim": "同类产品以简单药物提醒和追踪为核心，证明用户会主动寻找更轻量替代。",
+              "name_zh": "药丸助手",
+              "store": "google_play",
+              "store_url": "https://play.google.com/store/apps/details?id=xyz.rtrvr.pillo",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "静药提醒",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "A",
+          "slug": "pantry-snap",
+          "name": "Pantry Snap",
+          "category": "生活工具",
+          "market": "US / SG",
+          "user": "希望减少食物浪费、但无法长期维护家庭库存的个人和家庭",
+          "trigger": "购物回家、整理冰箱或发现临期食材",
+          "job": "拍一次照快速建立可用库存，并只处理识别不确定项和临期事项",
+          "alternative": "KitchenPal、NoWaste、Pantry Check与共享购物清单",
+          "promise": "不要求逐件录入，用照片确认和临期优先级维持一个足够准确的家庭库存",
+          "score": 81,
+          "completeness": 0.85,
+          "improvements": [
+            "整张购物袋或冰箱照片批量建档，只确认低置信度项目",
+            "首页只显示临期、缺货和需要确认三类行动"
+          ],
+          "references": [
+            {
+              "name": "KitchenPal",
+              "url": "https://play.google.com/store/apps/details?id=fr.icuisto.icuisto",
+              "claim": "Google Play显示100K+下载、约6.26K评论；产品把库存、食谱、营养、计划等大量功能叠在一起。",
+              "name_zh": "厨房伙伴",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/kitchenpal-shared-grocery-list/id1084982489",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "NoWaste",
+              "url": "https://play.google.com/store/apps/details?id=com.khcreations.nowaste",
+              "claim": "Google Play显示50K+下载，但评分约2.8，说明需求存在而持续体验和可靠性仍有空间。",
+              "name_zh": "零浪费",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/nowaste-food-inventory-list/id926211004",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Pantry Check",
+              "url": "https://pantrycheck.com/",
+              "claim": "产品以条码、家庭库存和购物为核心，进一步验证录入与持续维护是品类关键任务。",
+              "name_zh": "食材库检查",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/pantry-check-grocery-list/id966702368",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "随拍食材库",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "A",
+          "slug": "study-slice",
+          "name": "Study Slice",
+          "category": "知识学习",
+          "market": "US / GB",
+          "user": "考试前资料很多、但难以判断先学什么的高中生和大学生",
+          "trigger": "导入讲义、PDF或课程视频并准备一场具体考试",
+          "job": "快速得到可验证的问题，并把复习时间集中在真正薄弱的知识点",
+          "alternative": "Quizlet、Knowt、StudyFetch",
+          "promise": "两步从资料进入首轮测验，之后只围绕错误证据安排复习",
+          "score": 82,
+          "completeness": 0.86,
+          "improvements": [
+            "导入后先生成10题诊断而不是先生成整套卡片",
+            "所有AI答案可回跳原文，并按错误类型安排下一轮"
+          ],
+          "references": [
+            {
+              "name": "Quizlet",
+              "url": "https://quizlet.com/",
+              "claim": "成熟学习品牌证明闪卡、练习测试和共享内容的长期需求。",
+              "name_zh": "记忆卡学习",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/quizlet-more-than-flashcards/id546473125",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Knowt",
+              "url": "https://play.google.com/store/apps/details?id=com.knowt.app",
+              "claim": "Google Play显示500K+下载、约8.1K评论，官方称覆盖700万以上学生，并提供资料转卡片和测试。",
+              "name_zh": "学习笔记",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/knowt-ai-flashcards-notes/id6463744184",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "StudyFetch",
+              "url": "https://www.studyfetch.com/",
+              "claim": "提供资料、视频到学习工具的AI工作流，证明资料转练习已成为明确竞品能力。",
+              "name_zh": "学习资料助手",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/studyfetch-make-learning-easy/id6663574866",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "学习切片",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "A",
+          "slug": "focus-relay",
+          "name": "Focus Relay",
+          "category": "效率工具",
+          "market": "Global",
+          "user": "经常在手机和电脑之间切换、专注被打断的学生和知识工作者",
+          "trigger": "开始一段工作、被消息打断或更换设备",
+          "job": "快速开始专注，并在中断后知道下一步而不是重新规划",
+          "alternative": "Forest、Focus To-Do、Tide",
+          "promise": "把专注工具从计时器变成可恢复的工作接力",
+          "score": 80,
+          "completeness": 0.84,
+          "improvements": [
+            "每次中断只记录一句“下一步”，跨设备恢复时直接呈现",
+            "AI仅在会话结束后压缩中断原因和恢复建议"
+          ],
+          "references": [
+            {
+              "name": "Forest",
+              "url": "https://www.forestapp.cc/",
+              "claim": "以种树反馈建立专注动机，是成熟的行为设计参照。",
+              "name_zh": "专注森林",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/forest-focus-for-productivity/id866450515",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Focus To-Do",
+              "url": "https://play.google.com/store/apps/details?id=com.superelement.pomodoro",
+              "claim": "Google Play显示10M+下载、约282K评论，验证番茄钟与任务合并的广泛需求。",
+              "name_zh": "专注待办",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/focus-to-do-focus-timer-tasks/id966057213",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Tide",
+              "url": "https://tide.fm/en_US/",
+              "claim": "以专注、睡眠与环境声音构建轻量体验，是相邻体验参照。",
+              "name_zh": "潮汐",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/tide-sleep-focus-meditation/id1077776989",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "专注接力",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "A",
+          "slug": "receipt-quiet",
+          "name": "Receipt Quiet",
+          "category": "财务工具",
+          "market": "US / JP",
+          "user": "需要报销或做小型业务记账、但不想维护复杂会计系统的个人与自由职业者",
+          "trigger": "收到纸质或电子票据并需要分类、留档或报销",
+          "job": "快速得到可信的结构化票据，并只人工处理真正不确定的字段",
+          "alternative": "Expensify、Zoho Expense、Smart Receipts",
+          "promise": "本地优先识别票据，以置信度而不是复杂表单决定用户是否需要介入",
+          "score": 79,
+          "completeness": 0.83,
+          "improvements": [
+            "批量扫描后只呈现低置信度字段队列",
+            "默认本地处理敏感票据，导出前展示数据去向"
+          ],
+          "references": [
+            {
+              "name": "Expensify",
+              "url": "https://www.expensify.com/",
+              "claim": "成熟报销和票据自动化产品，验证扫描、分类和报销闭环。",
+              "name_zh": "费用管理",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/expensify-travel-expense/id471713959",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Zoho Expense",
+              "url": "https://www.zoho.com/expense/",
+              "claim": "覆盖票据、审批、里程和企业流程，证明需求稳定但也显示复杂度。",
+              "name_zh": "卓豪费用",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/zoho-expense-travel-expense/id966094166",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Smart Receipts",
+              "url": "https://www.smartreceipts.co/",
+              "claim": "面向个人与小团队的票据扫描和报告，是轻量化直接参照。",
+              "name_zh": "智能票据",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/smart-receipts-expenses-tax/id905698613",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "静默票据",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "B",
+          "slug": "care-handoff",
+          "name": "Care Handoff",
+          "category": "家庭照护",
+          "market": "US / SG",
+          "user": "多人轮流照护老人或慢病家人的家庭",
+          "trigger": "一次照护结束、下一位家人接手或出现高风险异常",
+          "job": "把刚发生的事实、待办、药物与责任清楚交给下一位照护者",
+          "alternative": "Lotsa Helping Hands、CaringBridge、共享日历和家庭群聊",
+          "promise": "用一次结构化交接代替在聊天、日历和记忆中追线索",
+          "score": 88,
+          "completeness": 0.89,
+          "improvements": [
+            "语音交接自动拆成事实、待办、药物和负责人",
+            "高风险事项必须由下一位照护者确认，普通更新不打扰"
+          ],
+          "references": [
+            {
+              "name": "Lotsa Helping Hands",
+              "url": "https://lotsahelpinghands.com/",
+              "claim": "照护日历和志愿协作证明家庭协调需求；公开评论摘要指出移动端日历和任务体验仍有摩擦。",
+              "name_zh": "互助照护",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/lotsa-helping-hands/id606923858",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "CaringBridge",
+              "url": "https://www.caringbridge.org/",
+              "claim": "家庭常用其集中更新病情和支持信息，但任务交接不是唯一核心。",
+              "name_zh": "关怀桥",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/caringbridge/id365726944",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Google Calendar",
+              "url": "https://calendar.google.com/",
+              "claim": "用户讨论反复提到共享日历与群聊拼接，说明当前工作流跨工具。",
+              "name_zh": "谷歌日历",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/google-calendar-get-organized/id909319292",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "照护交接",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "B",
+          "slug": "field-quote",
+          "name": "Field Quote",
+          "category": "小微经营",
+          "market": "US / AU",
+          "user": "在现场测量、拍照并当场报价的个体工匠和小型服务商",
+          "trigger": "到达客户现场并需要在离开前形成可确认报价",
+          "job": "从照片和语音快速形成可编辑报价并得到客户确认",
+          "alternative": "Jobber、Housecall Pro、Joist以及照片+聊天+表格",
+          "promise": "离开现场前完成一份有照片依据、可编辑且可确认的报价",
+          "score": 86,
+          "completeness": 0.87,
+          "improvements": [
+            "照片和口述自动形成报价草稿，离线保存、联网再同步",
+            "报价中的每个项目可回看对应现场照片并让客户确认"
+          ],
+          "references": [
+            {
+              "name": "Jobber",
+              "url": "https://apps.apple.com/us/app/jobber-field-service-software/id1014146758",
+              "claim": "成熟现场服务产品覆盖照片、报价、排期和付款；2026公开评测指出弱网同步仍会造成现场摩擦。",
+              "name_zh": "现场服务管理",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/jobber-field-service-software/id1014146758",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Housecall Pro",
+              "url": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651",
+              "claim": "覆盖现场照片、估价、客户沟通和收款，证明完整闭环有付费需求。",
+              "name_zh": "上门服务管家",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Joist",
+              "url": "https://www.joist.com/",
+              "claim": "面向承包商的估价和发票产品，是更聚焦的替代方案。",
+              "name_zh": "工程报价",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/joist-estimate-invoice-maker/id592163563",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "现场报价",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "B",
+          "slug": "shift-proof",
+          "name": "Shift Proof",
+          "category": "一线工作",
+          "market": "GB / AU",
+          "user": "需要跨班次交接设备、事故或任务状态的一线团队",
+          "trigger": "班次结束、异常升级或负责人更换",
+          "job": "让下一班看到已验证事实、未完成动作和责任归属",
+          "alternative": "Microsoft Teams Shifts、SafetyCulture、Connecteam和纸质/聊天交班",
+          "promise": "把交班从消息堆变成带证据和确认的责任链",
+          "score": 84,
+          "completeness": 0.85,
+          "improvements": [
+            "语音和照片生成事实、风险、行动与负责人四段式交班",
+            "关键项需接班人确认，所有修改保留原始记录"
+          ],
+          "references": [
+            {
+              "name": "Microsoft Teams Shifts",
+              "url": "https://learn.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams",
+              "claim": "官方说明其面向一线排班和协作，但交接事实链仍需借助消息或其他工具。",
+              "name_zh": "微软 Teams 排班",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "SafetyCulture",
+              "url": "https://safetyculture.com/platform",
+              "claim": "覆盖每个站点和班次的检查、风险与运营，是重型替代方案。",
+              "name_zh": "安全文化",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/safetyculture-iauditor/id499999532",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Connecteam",
+              "url": "https://connecteam.com/",
+              "claim": "覆盖排班、沟通和任务，验证一线团队愿意使用移动工作台。",
+              "name_zh": "团队连接",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/connecteam-team-management-app/id1121613912",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "交班留证",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "B",
+          "slug": "access-guide",
+          "name": "Access Guide",
+          "category": "无障碍工具",
+          "market": "JP / US",
+          "user": "需要远程帮助父母完成手机操作的成年子女，以及老年用户",
+          "trigger": "老人看到陌生提示、误入设置或无法描述当前屏幕",
+          "job": "在不夺取控制权的前提下，一次只解释当前屏幕的一步并提供回退",
+          "alternative": "Be My Eyes、TeamViewer、FaceTime/电话与Apple Assistive Access",
+          "promise": "让远程手机指导从“你看到了什么”变成安全的一步一确认",
+          "score": 83,
+          "completeness": 0.86,
+          "improvements": [
+            "用户主动分享当前屏幕后只生成一个大字步骤和回退动作",
+            "识别诈骗或付款风险时停止指导并升级给可信联系人"
+          ],
+          "references": [
+            {
+              "name": "Be My Eyes",
+              "url": "https://www.bemyeyes.com/bme-app/",
+              "claim": "通过实时视频、志愿者和AI提供视觉帮助，证明即时远程辅助行为。",
+              "name_zh": "成为我的眼睛",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/be-my-eyes/id905177575",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "TeamViewer Remote",
+              "url": "https://www.teamviewer.com/en/products/remote/",
+              "claim": "远程控制是常用替代，但用户讨论指出移动端授权码与控制流程对老人不友好。",
+              "name_zh": "远程协助",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/teamviewer-remote-control/id692035811",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Apple Assistive Access",
+              "url": "https://support.apple.com/guide/assistive-access-iphone/welcome/ios",
+              "claim": "系统级简化模式证明老年和认知辅助需求，但不解决远程解释与可信确认。",
+              "name_zh": "苹果辅助访问",
+              "store": null,
+              "store_url": null,
+              "kind": "system_feature"
+            }
+          ],
+          "name_zh": "无障碍向导",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "B",
+          "slug": "move-proof",
+          "name": "Move Proof",
+          "category": "租房工具",
+          "market": "SG / GB",
+          "user": "合租或首次租房、需要保护押金的年轻租客",
+          "trigger": "入住、共同购买、报修或退租检查",
+          "job": "把房屋状态、共同费用、责任和双方确认放在同一事件里",
+          "alternative": "手机相册、Google Drive、Splitwise和家庭库存App",
+          "promise": "从入住到退租持续形成双方可读的证据时间线",
+          "score": 81,
+          "completeness": 0.83,
+          "improvements": [
+            "拍摄时自动按房间和问题分类，并保留时间及编辑记录",
+            "费用或责任变更需要相关租客轻量确认，退租一键导出"
+          ],
+          "references": [
+            {
+              "name": "Google Drive",
+              "url": "https://www.google.com/drive/",
+              "claim": "租客常用文件夹和照片保存证据，但缺少结构、责任与确认。",
+              "name_zh": "谷歌云端硬盘",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/google-drive/id507874739",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Splitwise",
+              "url": "https://www.splitwise.com/",
+              "claim": "共同费用拆分是成熟行为，但不保存房屋状态和责任证据。",
+              "name_zh": "分账助手",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/splitwise/id458023433",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Sortly",
+              "url": "https://www.sortly.com/",
+              "claim": "照片化库存证明结构化资产记录有需求，但面向库存而非租住关系。",
+              "name_zh": "库存分类",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/sortly-inventory-simplified/id529353551",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "搬家留证",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "C",
+          "slug": "agent-inbox",
+          "name": "Agent Inbox",
+          "category": "AI工作流",
+          "market": "Global",
+          "user": "同时使用多个AI代理和自动化工作流的个人与小团队",
+          "trigger": "代理准备发送消息、付款、发布、删除或修改外部系统",
+          "job": "在一个地方看到真正需要人决定的动作、依据、风险和撤回窗口",
+          "alternative": "逐个工具通知、Slack审批、邮件和自动化运行日志",
+          "promise": "把人从盯代理运行变成只处理少量可解释的决策",
+          "score": 89,
+          "completeness": 0.88,
+          "improvements": [
+            "统一聚合高风险待确认动作，默认隐藏无须干预的执行日志",
+            "每项展示来源、影响面、可逆性和撤回截止时间"
+          ],
+          "references": [
+            {
+              "name": "Stack Overflow 2026 Agent Survey",
+              "url": "https://stackoverflow.blog/2026/05/27/agents-on-a-leash-agentic-ai-remains-mostly-monitored-at-work/",
+              "claim": "2026调查显示代理采用上升，但成本、准确性和安全仍是核心担忧。",
+              "name_zh": "Stack Overflow 2026 智能体调查",
+              "store": null,
+              "store_url": null,
+              "kind": "research_report"
+            },
+            {
+              "name": "GitHub Agentic Adoption Study",
+              "url": "https://arxiv.org/abs/2601.18341",
+              "claim": "对129,134个项目的研究估计编码代理采用率达到15.85%–22.60%且继续增长。",
+              "name_zh": "GitHub 智能体采用研究",
+              "store": null,
+              "store_url": null,
+              "kind": "research_report"
+            },
+            {
+              "name": "Microsoft Build 2026 Agentic Workflows",
+              "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+              "claim": "2026产品发布持续把代理带入桌面和工作流，扩大需要人类监督的动作面。",
+              "name_zh": "微软 Build 2026 智能体工作流",
+              "store": null,
+              "store_url": null,
+              "kind": "research_report"
+            }
+          ],
+          "name_zh": "智能体收件箱",
+          "product_form": "cross_platform"
+        },
+        {
+          "route": "C",
+          "slug": "proof-camera",
+          "name": "Proof Camera",
+          "category": "内容可信",
+          "market": "US / EU",
+          "user": "需要证明原始照片来源和编辑过程的记者、卖家、创作者与普通用户",
+          "trigger": "拍摄可能被质疑的图片，或准备向外部平台提交内容",
+          "job": "在不增加专业取证负担的情况下生成可理解的来源和编辑记录",
+          "alternative": "普通相机、云盘时间戳、Adobe Content Credentials和专业取证服务",
+          "promise": "拍摄时自动建立来源链，分享时用普通人能理解的方式呈现",
+          "score": 87,
+          "completeness": 0.86,
+          "improvements": [
+            "拍摄即建立本地签名与编辑事件，不上传原图也能验证",
+            "分享时生成简明轨迹卡，明确哪些内容可证明、哪些不能"
+          ],
+          "references": [
+            {
+              "name": "C2PA",
+              "url": "https://c2pa.org/",
+              "claim": "开放标准推动内容来源与真实性信息跨平台表达。",
+              "name_zh": "内容来源认证联盟",
+              "store": null,
+              "store_url": null,
+              "kind": "technical_standard"
+            },
+            {
+              "name": "Adobe Content Authenticity",
+              "url": "https://contentauthenticity.adobe.com/",
+              "claim": "Adobe提供Content Credentials工具，证明创作者和平台开始产品化来源信息。",
+              "name_zh": "Adobe 内容真实性",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "Truepic",
+              "url": "https://www.truepic.com/",
+              "claim": "专业可信媒体服务证明保险、市场与远程检查等场景存在付费价值。",
+              "name_zh": "真实图片认证",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/truepic-vision/id1412132981",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "可信相机",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "C",
+          "slug": "model-ledger",
+          "name": "Model Ledger",
+          "category": "AI工具",
+          "market": "Global",
+          "user": "在多个云端和本地模型之间切换的重度AI用户",
+          "trigger": "完成一次重要任务、产生高成本调用或输入敏感内容",
+          "job": "知道哪个任务用了哪个模型、花了多少、数据去了哪里、结果能否复现",
+          "alternative": "OpenRouter用量页、Open WebUI、LM Studio和个人表格",
+          "promise": "跨模型自动生成成本、隐私和结果可追溯的任务账本",
+          "score": 85,
+          "completeness": 0.85,
+          "improvements": [
+            "按任务而非按API调用记录模型、费用和结果版本",
+            "发送敏感内容前显示本地/云端路径和保留策略"
+          ],
+          "references": [
+            {
+              "name": "OpenRouter",
+              "url": "https://openrouter.ai/",
+              "claim": "多模型统一入口证明用户跨供应商选择和成本比较已经成为真实行为。",
+              "name_zh": "开放路由",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            },
+            {
+              "name": "Open WebUI",
+              "url": "https://github.com/open-webui/open-webui",
+              "claim": "开源多模型与本地界面持续高热度，GitHub和公开比较均显示强采用信号。",
+              "name_zh": "开放网页界面",
+              "store": null,
+              "store_url": null,
+              "kind": "open_source_project"
+            },
+            {
+              "name": "LM Studio",
+              "url": "https://lmstudio.ai/",
+              "claim": "桌面本地模型工具证明隐私、离线和本地推理是独立需求。",
+              "name_zh": "本地模型工作室",
+              "store": null,
+              "store_url": null,
+              "kind": "desktop_app"
+            }
+          ],
+          "name_zh": "模型账本",
+          "product_form": "desktop_app"
+        },
+        {
+          "route": "C",
+          "slug": "offline-tutor",
+          "name": "Offline Tutor",
+          "category": "知识学习",
+          "market": "Emerging Markets",
+          "user": "网络不稳定但拥有较新手机的学习者",
+          "trigger": "没有稳定网络时需要解释课程、练习或复习",
+          "job": "离线获得有限范围、可回溯教材的个性化辅导，并在联网后同步进度",
+          "alternative": "下载视频、PDF、Khan Academy内容和通用聊天机器人",
+          "promise": "把端侧模型限制在一门课程内，让核心解释与练习离线可用",
+          "score": 82,
+          "completeness": 0.82,
+          "improvements": [
+            "课程包、引用和练习离线运行，答案必须回到教材片段",
+            "联网时只同步学习状态和内容更新，不上传原始学习对话"
+          ],
+          "references": [
+            {
+              "name": "Apple Core AI",
+              "url": "https://developer.apple.com/core-ai/",
+              "claim": "Apple官方提供面向开发者的设备端模型执行能力，降低本地AI产品门槛。",
+              "name_zh": "苹果核心 AI",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            },
+            {
+              "name": "Gemini Nano",
+              "url": "https://developer.android.com/ai/gemini-nano",
+              "claim": "Android官方说明Gemini Nano通过AICore在设备端运行，强调低延迟和隐私。",
+              "name_zh": "谷歌 Gemini Nano",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            },
+            {
+              "name": "Khan Academy",
+              "url": "https://www.khanacademy.org/",
+              "claim": "全球课程与练习内容证明结构化学习需求，但端侧个性化仍是新供给。",
+              "name_zh": "可汗学院",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/khan-academy/id469863705",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "离线导师",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "C",
+          "slug": "passkey-ready",
+          "name": "Passkey Ready",
+          "category": "安全工具",
+          "market": "US / EU",
+          "user": "开始使用Passkey、但担心换机、家庭恢复和跨平台迁移的普通用户",
+          "trigger": "网站要求创建Passkey、准备换机或需要为家人设置恢复方案",
+          "job": "知道每个Passkey存在哪里、能否迁移，以及丢失设备后如何恢复",
+          "alternative": "系统密码管理器、1Password、Bitwarden和手工恢复清单",
+          "promise": "不保存密钥本身，只给用户一张跨平台恢复与迁移地图",
+          "score": 78,
+          "completeness": 0.81,
+          "improvements": [
+            "扫描账户设置生成Passkey位置和恢复路径清单，不接触私钥",
+            "换机前运行可恢复性检查并生成家庭应急步骤"
+          ],
+          "references": [
+            {
+              "name": "FIDO Alliance Passkeys",
+              "url": "https://fidoalliance.org/passkeys/",
+              "claim": "行业标准组织持续推动Passkey替代密码，使用范围结构性扩大。",
+              "name_zh": "FIDO 联盟通行密钥",
+              "store": null,
+              "store_url": null,
+              "kind": "technical_standard"
+            },
+            {
+              "name": "Apple Passkeys",
+              "url": "https://support.apple.com/guide/iphone/use-passkeys-and-passwords-iphf538ea8d0/ios",
+              "claim": "Apple系统已将Passkey纳入日常账户登录与同步。",
+              "name_zh": "苹果通行密钥",
+              "store": null,
+              "store_url": null,
+              "kind": "system_feature"
+            },
+            {
+              "name": "Google Passkeys",
+              "url": "https://developers.google.com/identity/passkeys",
+              "claim": "Google面向开发者和用户推动Passkey，跨生态迁移与恢复成为新任务。",
+              "name_zh": "谷歌通行密钥",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            }
+          ],
+          "name_zh": "通行密钥助手",
+          "product_form": "mobile_app"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-25-casual-games-2x2x2",
+      "title": "休闲游戏专项 2+2+2",
+      "direction": "casual-games",
+      "requested": {
+        "A": 2,
+        "B": 2,
+        "C": 2
+      },
+      "assumptions": [
+        "所有入选仅进入48小时灰盒与玩家测试，不等于玩法已验证",
+        "不复制关卡、美术、角色、音效或广告素材"
+      ],
+      "candidates": [
+        {
+          "route": "A",
+          "slug": "fair-screw",
+          "name": "Fair Screw",
+          "category": "休闲益智·Screw",
+          "market": "US / BR",
+          "user": "喜欢短局空间解谜、但反感人为卡关和强制广告的休闲玩家",
+          "trigger": "通勤或碎片时间想完成一局可预测的逻辑挑战",
+          "job": "通过可读的空间规则解开螺丝谜题，而不是依赖付费道具或反复重试",
+          "alternative": "Screw Jam、Screw Wood Nuts & Bolts、Screw Jam Handler",
+          "promise": "保留螺丝解谜的满足感，但每局失败都能解释为可学习的选择",
+          "score": 82,
+          "completeness": 0.86,
+          "improvements": [
+            "关卡开始前展示可用槽位和失败因果，失败后给一步回放",
+            "奖励广告只出现在自然停顿点，不把必需槽位锁在广告后"
+          ],
+          "references": [
+            {
+              "name": "Screw Jam",
+              "url": "https://play.google.com/store/apps/details?id=com.quok.screwJam",
+              "claim": "Google Play显示1M+下载、约74.1K评论；评论重复提到难度向道具和广告倾斜。",
+              "name_zh": "螺丝堵塞",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/screw-jam/id6471490579",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Screw Wood Nuts & Bolts",
+              "url": "https://play.google.com/store/apps/details?id=com.funspace.screw",
+              "claim": "Google Play显示500K+下载、约11.3K评论；评论出现广告密度投诉。",
+              "name_zh": "木板螺母螺栓",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/wood-nuts-bolts-puzzle/id6472426288",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Screw Jam Handler",
+              "url": "https://play.google.com/store/apps/details?id=screw.jam.handler",
+              "claim": "Google Play显示1M+下载；2026评论反复提到广告、奖励失败和重新开局。",
+              "name_zh": "螺丝堵塞助手",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/screw-jam-handler-nuts-bolts/id6736894632",
+              "kind": "mobile_game"
+            }
+          ],
+          "name_zh": "公平螺丝",
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "A",
+          "slug": "calm-sort",
+          "name": "Calm Sort",
+          "category": "休闲益智·Goods Sort",
+          "market": "US / JP",
+          "user": "喜欢整理与三消反馈、但不喜欢计时压迫和视觉杂乱的成年玩家",
+          "trigger": "睡前或短休息时想进行低压力、可完成的整理挑战",
+          "job": "通过视觉整理获得完成感，并清楚知道下一步而不是被遮挡和倒计时惩罚",
+          "alternative": "Goods Triple Match、Match Factory、Triple Match 3D",
+          "promise": "用无计时主模式和高可读货架，保留三件匹配的整理满足感",
+          "score": 79,
+          "completeness": 0.82,
+          "improvements": [
+            "主模式不设倒计时，挑战计时作为可选玩法",
+            "高对比轮廓与遮挡提示降低误触，广告仅在局间"
+          ],
+          "references": [
+            {
+              "name": "Goods Triple Match",
+              "url": "https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle",
+              "claim": "Google Play持续更新并定位离线整理与三件匹配，证明玩法供给活跃。",
+              "name_zh": "货架三消",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/goods-triple-match/id6740660426",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Match Factory",
+              "url": "https://play.google.com/store/apps/details?id=net.peakgames.match",
+              "claim": "Google Play显示10M+下载、约667K评论，验证物品识别和快速清屏的核心循环。",
+              "name_zh": "匹配工厂",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/match-factory/id6449094229",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Triple Match 3D",
+              "url": "https://play.google.com/store/apps/details?id=com.master.triple3d.find",
+              "claim": "成熟三件匹配产品证明视觉搜寻与收集循环的长期需求。",
+              "name_zh": "3D 三消",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/triple-match-3d/id1607122287",
+              "kind": "mobile_game"
+            }
+          ],
+          "name_zh": "舒缓分类",
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "B",
+          "slug": "merge-minute",
+          "name": "Merge Minute",
+          "category": "休闲益智·Merge",
+          "market": "US / GB",
+          "user": "喜欢合成成长、但只有三到五分钟且不愿被体力等待打断的玩家",
+          "trigger": "排队、通勤换乘或短休息时想完成一个明确目标",
+          "job": "在固定短时段内完成一次有结尾的合成任务",
+          "alternative": "Merge Mansion、Travel Town、Gossip Harbor及玩家等待体力/看广告",
+          "promise": "每局三分钟有明确结尾，长期叙事是奖励而不是阻止继续玩的门槛",
+          "score": 83,
+          "completeness": 0.84,
+          "improvements": [
+            "固定三分钟任务板，完成或失败都结算，不用等待能量继续核心玩法",
+            "长期元进度使用可选章节，不用强制弹窗打断合成"
+          ],
+          "references": [
+            {
+              "name": "Merge Mansion",
+              "url": "https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152",
+              "claim": "成熟合成+叙事产品证明长期内容和LiveOps可变现。",
+              "name_zh": "合成庄园",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Travel Town",
+              "url": "https://play.google.com/store/apps/details?id=io.randomco.travel",
+              "claim": "以能量、订单和活动驱动长线合成，是当前玩家替代方案。",
+              "name_zh": "旅行小镇",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Gossip Harbor",
+              "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor",
+              "claim": "合成与连续剧情结合，进一步验证品类需求但也强化长时运营结构。",
+              "name_zh": "绯闻港口",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294",
+              "kind": "mobile_game"
+            }
+          ],
+          "name_zh": "一分钟合成",
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "B",
+          "slug": "duo-shelf",
+          "name": "Duo Shelf",
+          "category": "休闲双人·Sort",
+          "market": "Global",
+          "user": "异地朋友或伴侣，想用轻量游戏保持日常联系但不想实时约局",
+          "trigger": "收到朋友留下的半完成货架或每日挑战",
+          "job": "异步合作完成一个两分钟整理任务，并留下可见的接力痕迹",
+          "alternative": "Goods Sort单机、Plato实时小游戏、Discord Activities和聊天中的小游戏链接",
+          "promise": "把单人整理变成无需同时在线的每日双人接力",
+          "score": 80,
+          "completeness": 0.81,
+          "improvements": [
+            "每人完成货架的一半，另一人可看到对方留下的提示和失误",
+            "每日只推送一次可完成接力，不建立重社交系统"
+          ],
+          "references": [
+            {
+              "name": "Goods Triple Match",
+              "url": "https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle",
+              "claim": "提供已验证的整理核心循环，但主要是单人体验。",
+              "name_zh": "货架三消",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/goods-triple-match/id6740660426",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Plato",
+              "url": "https://platoapp.com/",
+              "claim": "轻量社交小游戏证明朋友关系可以驱动重复游玩，但多为实时房间。",
+              "name_zh": "柏拉图社交游戏",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/plato-fun-multiplayer-games/id1054747306",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Discord Activities",
+              "url": "https://discord.com/activities",
+              "claim": "聊天场景中的共同游戏验证社交入口，异步短接力仍有重构空间。",
+              "name_zh": "Discord 活动",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "双人货架",
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "C",
+          "slug": "daily-scene",
+          "name": "Daily Scene",
+          "category": "每日益智",
+          "market": "US / EU",
+          "user": "喜欢Wordle或GeoGuessr式每日一次分享，但希望更视觉化的轻量玩家",
+          "trigger": "每天打开一次并与朋友比较推理路径",
+          "job": "从逐步揭示的场景线索猜地点、事件或主题并分享不剧透结果",
+          "alternative": "NYT Games、GeoGuessr和社交平台每日挑战",
+          "promise": "每天一个可验证来源的视觉谜题，三次揭示内完成并可无剧透分享",
+          "score": 80,
+          "completeness": 0.82,
+          "improvements": [
+            "AI只用于生成干扰线索和难度变体，谜底与事实由编辑数据确认",
+            "分享卡只展示揭示次数和推理路径，不泄露答案"
+          ],
+          "references": [
+            {
+              "name": "NYT Games",
+              "url": "https://www.nytimes.com/crosswords",
+              "claim": "每日谜题和连续记录证明一次性日更行为可形成长期习惯。",
+              "name_zh": "纽约时报游戏",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "GeoGuessr",
+              "url": "https://www.geoguessr.com/",
+              "claim": "视觉场景推理和分享挑战已经形成成熟玩家行为。",
+              "name_zh": "地理猜谜",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/geoguessr/id1049876497",
+              "kind": "mobile_game"
+            },
+            {
+              "name": "Apple Core AI",
+              "url": "https://developer.apple.com/core-ai/",
+              "claim": "设备端视觉和语言模型降低动态难度与离线线索生成成本。",
+              "name_zh": "苹果核心 AI",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            }
+          ],
+          "name_zh": "每日场景",
+          "product_form": "mobile_game"
+        },
+        {
+          "route": "C",
+          "slug": "snap-blocks",
+          "name": "Snap Blocks",
+          "category": "休闲益智·Block",
+          "market": "Global",
+          "user": "希望把自己的照片变成短局拼块挑战的休闲玩家",
+          "trigger": "拍到宠物、旅行或家庭照片并想立刻得到一个可玩的分享物",
+          "job": "在不上传私人照片的情况下生成一局可玩的块状拼图",
+          "alternative": "Block Puzzle、传统照片拼图和社交平台滤镜",
+          "promise": "照片在设备端转成可解的60秒块状关卡，分享的是关卡种子而非原图",
+          "score": 78,
+          "completeness": 0.8,
+          "improvements": [
+            "端侧分析照片主体并生成三档可解布局",
+            "分享默认只传布局和色块特征，原图保持本地"
+          ],
+          "references": [
+            {
+              "name": "AppMagic Mobile Market Landscape 2026",
+              "url": "https://appmagic.rocks/files/view/upload/Reports/EN_MobileMarkeLandscape2026.pdf",
+              "claim": "2025–2026报告把Block Puzzle列为增长显著的休闲子类型。",
+              "name_zh": "AppMagic 2026 移动市场全景",
+              "store": null,
+              "store_url": null,
+              "kind": "research_report"
+            },
+            {
+              "name": "Apple Core AI",
+              "url": "https://developer.apple.com/core-ai/",
+              "claim": "设备端视觉模型使私人照片本地理解和生成成为可行的新供给。",
+              "name_zh": "苹果核心 AI",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            },
+            {
+              "name": "Block Blast",
+              "url": "https://play.google.com/store/apps/details?id=com.block.juggle",
+              "claim": "头部块状益智产品验证极简拖放和短局循环的广泛需求。",
+              "name_zh": "方块爆破",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/block-blast/id1617391485",
+              "kind": "mobile_game"
+            }
+          ],
+          "name_zh": "随拍方块",
+          "product_form": "mobile_game"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-25-ai-tools-news-2x1x1",
+      "title": "AI工具与资讯专项 2+1+1",
+      "direction": "ai-tools-and-intelligence",
+      "requested": {
+        "A": 2,
+        "B": 1,
+        "C": 1
+      },
+      "assumptions": [
+        "用户输入的2+1+）按2+1+1执行",
+        "优先开发者、AI重度用户与小团队",
+        "不把单次GitHub热度直接等同消费需求"
+      ],
+      "candidates": [
+        {
+          "route": "A",
+          "slug": "model-match",
+          "name": "Model Match",
+          "category": "AI工具",
+          "market": "Global",
+          "user": "需要为真实任务选择模型、但不想在多个订阅和聊天记录间比较的AI重度用户",
+          "trigger": "准备执行写作、代码、研究、图像或隐私敏感任务",
+          "job": "用同一个任务样本比较少量适合的模型，并保留成本与结果依据",
+          "alternative": "Poe、OpenRouter、ChatHub",
+          "promise": "围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表",
+          "score": 84,
+          "completeness": 0.85,
+          "improvements": [
+            "先按任务和约束推荐三种模型，再用同一评测清单对比",
+            "保存提示词、版本、耗时、成本和用户选择理由"
+          ],
+          "references": [
+            {
+              "name": "Poe",
+              "url": "https://poe.com/",
+              "claim": "多模型消费入口证明用户会在同一产品内访问不同模型。",
+              "name_zh": "多模型聊天",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "OpenRouter",
+              "url": "https://openrouter.ai/",
+              "claim": "统一API、模型目录和价格比较证明开发者存在跨模型选择需求。",
+              "name_zh": "开放路由",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            },
+            {
+              "name": "ChatHub",
+              "url": "https://chathub.gg/",
+              "claim": "并排多模型对话是直接竞品机制，但缺少任务级长期证据账本。",
+              "name_zh": "多模型聊天中心",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/chathub-all-in-one-ai-client/id6736810266",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "模型匹配",
+          "product_form": "web_app"
+        },
+        {
+          "route": "A",
+          "slug": "signal-brief",
+          "name": "Signal Brief",
+          "category": "AI资讯",
+          "market": "Global",
+          "user": "每天需要跟踪模型、工具和开源变化的产品经理、开发者与投资研究者",
+          "trigger": "开始工作、准备技术选型或发现某工具突然增长",
+          "job": "在十分钟内知道哪些变化会影响自己的项目，并回到原始来源",
+          "alternative": "Feedly、TodayRSS、Perplexity和多份AI Newsletter",
+          "promise": "不是摘要更多新闻，而是按用户项目判断变化、证据和待办",
+          "score": 81,
+          "completeness": 0.84,
+          "improvements": [
+            "每条只回答变化、影响对象、证据和建议动作四件事",
+            "所有摘要并列原始来源与冲突，不生成无链接判断"
+          ],
+          "references": [
+            {
+              "name": "Feedly",
+              "url": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+              "claim": "官方商店页称覆盖40M+来源和2,000主题，验证专业信息聚合需求。",
+              "name_zh": "资讯订阅",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "TodayRSS",
+              "url": "https://apps.apple.com/us/app/todayrss/id6756196576",
+              "claim": "提供AI摘要、十秒概览、Newsletter和离线阅读，是移动端直接参照。",
+              "name_zh": "今日 RSS",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/todayrss/id6756196576",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Perplexity",
+              "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+              "claim": "引用式回答和移动端搜索证明用户需要从问题快速抵达来源。",
+              "name_zh": "AI 搜索",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
+              "kind": "mobile_app"
+            }
+          ],
+          "name_zh": "信号简报",
+          "product_form": "mobile_app"
+        },
+        {
+          "route": "B",
+          "slug": "release-impact",
+          "name": "Release Impact",
+          "category": "开发者工具",
+          "market": "Global",
+          "user": "依赖多个AI模型、SDK、开源项目和平台API的小型开发团队",
+          "trigger": "供应商发布模型、API、价格、废弃或安全更新",
+          "job": "知道这次变化影响自己的哪些仓库、功能和截止日期",
+          "alternative": "GitHub Watch、RSS/Feedly、供应商邮件和人工维护依赖表",
+          "promise": "把发布信息从“我看过”变成与代码和产品相连的影响清单",
+          "score": 86,
+          "completeness": 0.86,
+          "improvements": [
+            "把Release与项目清单匹配，只输出受影响依赖和迁移动作",
+            "高风险废弃、价格或权限变化生成负责人和截止时间"
+          ],
+          "references": [
+            {
+              "name": "GitHub Releases",
+              "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+              "claim": "Release是大量开源依赖的官方变更入口，但跨仓库影响仍需人工判断。",
+              "name_zh": "GitHub 版本发布",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "Feedly",
+              "url": "https://feedly.com/",
+              "claim": "RSS和关键词监控能收集供应商变化，但不理解本地项目依赖。",
+              "name_zh": "资讯订阅",
+              "store": "apple_app_store",
+              "store_url": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+              "kind": "mobile_app"
+            },
+            {
+              "name": "Dependabot",
+              "url": "https://docs.github.com/en/code-security/dependabot",
+              "claim": "依赖更新和安全告警证明代码级影响可自动识别，但模型、API和价格变化覆盖不足。",
+              "name_zh": "依赖更新机器人",
+              "store": null,
+              "store_url": null,
+              "kind": "developer_platform"
+            }
+          ],
+          "name_zh": "版本影响",
+          "product_form": "web_app"
+        },
+        {
+          "route": "C",
+          "slug": "mcp-trust-lens",
+          "name": "MCP Trust Lens",
+          "category": "AI安全工具",
+          "market": "Global",
+          "user": "准备给桌面AI或编码代理安装MCP服务器的开发者和高级用户",
+          "trigger": "复制一条MCP安装命令、授权文件系统或连接外部账户",
+          "job": "在安装前理解该服务器会访问什么、维护是否活跃、已知风险和最小权限",
+          "alternative": "阅读README、手工审代码、社区推荐和直接试装",
+          "promise": "在安装命令执行前生成权限、维护和风险说明，并建议最小权限配置",
+          "score": 90,
+          "completeness": 0.89,
+          "improvements": [
+            "解析安装配置、工具声明和依赖，生成普通人可读的权限差异",
+            "结合维护活跃、漏洞与来源信号给出隔离运行建议，不自动安装"
+          ],
+          "references": [
+            {
+              "name": "Trend Micro MCP Sweep",
+              "url": "https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/hunt-them-all-an-ai-powered-vulnerability-sweep-of-19-000-mcp-servers",
+              "claim": "2026研究扫描约19,000个MCP服务器并报告显著漏洞与AI生成代码风险。",
+              "name_zh": "趋势科技 MCP 扫描",
+              "store": null,
+              "store_url": null,
+              "kind": "research_report"
+            },
+            {
+              "name": "GitHub Trending",
+              "url": "https://github.com/trending",
+              "claim": "2026年7月趋势页持续出现AI网关、代理和MCP基础设施项目，供给增长明确。",
+              "name_zh": "GitHub 趋势榜",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            },
+            {
+              "name": "MCP Registry",
+              "url": "https://registry.modelcontextprotocol.io/",
+              "claim": "官方注册表使MCP服务发现标准化，也扩大安装前信任判断的对象规模。",
+              "name_zh": "MCP 注册表",
+              "store": null,
+              "store_url": null,
+              "kind": "web_product"
+            }
+          ],
+          "name_zh": "MCP 信任透镜",
+          "product_form": "web_app"
+        }
+      ]
+    }
+  ]
+}

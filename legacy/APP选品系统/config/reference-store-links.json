@@ -1,0 +1,202 @@
+{
+  "MyTherapy": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/pill-reminder-mytherapy/id662170995"
+  },
+  "Medisafe": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/medisafe-medication-management/id573916946"
+  },
+  "Pillo": {
+    "store": "google_play",
+    "store_url": "https://play.google.com/store/apps/details?id=xyz.rtrvr.pillo"
+  },
+  "KitchenPal": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/kitchenpal-shared-grocery-list/id1084982489"
+  },
+  "NoWaste": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/nowaste-food-inventory-list/id926211004"
+  },
+  "Pantry Check": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/pantry-check-grocery-list/id966702368"
+  },
+  "Quizlet": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/quizlet-more-than-flashcards/id546473125"
+  },
+  "Knowt": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/knowt-ai-flashcards-notes/id6463744184"
+  },
+  "StudyFetch": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/studyfetch-make-learning-easy/id6663574866"
+  },
+  "Forest": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/forest-focus-for-productivity/id866450515"
+  },
+  "Focus To-Do": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/focus-to-do-focus-timer-tasks/id966057213"
+  },
+  "Tide": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/tide-sleep-focus-meditation/id1077776989"
+  },
+  "Expensify": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/expensify-travel-expense/id471713959"
+  },
+  "Zoho Expense": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/zoho-expense-travel-expense/id966094166"
+  },
+  "Smart Receipts": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/smart-receipts-expenses-tax/id905698613"
+  },
+  "Lotsa Helping Hands": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/lotsa-helping-hands/id606923858"
+  },
+  "CaringBridge": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/caringbridge/id365726944"
+  },
+  "Google Calendar": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/google-calendar-get-organized/id909319292"
+  },
+  "Jobber": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/jobber-field-service-software/id1014146758"
+  },
+  "Housecall Pro": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/housecall-pro-field-service/id692833651"
+  },
+  "Joist": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/joist-estimate-invoice-maker/id592163563"
+  },
+  "Microsoft Teams Shifts": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706"
+  },
+  "SafetyCulture": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/safetyculture-iauditor/id499999532"
+  },
+  "Connecteam": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/connecteam-team-management-app/id1121613912"
+  },
+  "Be My Eyes": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/be-my-eyes/id905177575"
+  },
+  "TeamViewer Remote": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/teamviewer-remote-control/id692035811"
+  },
+  "Google Drive": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/google-drive/id507874739"
+  },
+  "Splitwise": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/splitwise/id458023433"
+  },
+  "Sortly": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/sortly-inventory-simplified/id529353551"
+  },
+  "Truepic": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/truepic-vision/id1412132981"
+  },
+  "Khan Academy": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/khan-academy/id469863705"
+  },
+  "Screw Jam": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/screw-jam/id6471490579"
+  },
+  "Screw Wood Nuts & Bolts": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/wood-nuts-bolts-puzzle/id6472426288"
+  },
+  "Screw Jam Handler": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/screw-jam-handler-nuts-bolts/id6736894632"
+  },
+  "Goods Triple Match": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/goods-triple-match/id6740660426"
+  },
+  "Match Factory": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/match-factory/id6449094229"
+  },
+  "Triple Match 3D": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/triple-match-3d/id1607122287"
+  },
+  "Merge Mansion": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/merge-mansion-puzzles-story/id1484442152"
+  },
+  "Travel Town": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603"
+  },
+  "Gossip Harbor": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294"
+  },
+  "Plato": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/plato-fun-multiplayer-games/id1054747306"
+  },
+  "Discord Activities": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746"
+  },
+  "NYT Games": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/nyt-games-wordle-crossword/id307569751"
+  },
+  "GeoGuessr": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/geoguessr/id1049876497"
+  },
+  "Block Blast": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/block-blast/id1617391485"
+  },
+  "Poe": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955"
+  },
+  "ChatHub": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/chathub-all-in-one-ai-client/id6736810266"
+  },
+  "Feedly": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556"
+  },
+  "TodayRSS": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/todayrss/id6756196576"
+  },
+  "Perplexity": {
+    "store": "apple_app_store",
+    "store_url": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334"
+  }
+}

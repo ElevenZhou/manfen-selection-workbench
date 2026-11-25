@@ -1,0 +1,17 @@
+[
+  {
+    "query": "Google Play US trending games 22 Nov 2026",
+    "source": "https://appsxray.com/charts?category=GAME&chart=trending",
+    "collectedAt": "2026-11-23T00:02:09Z"
+  },
+  {
+    "query": "Scaling Games daily events Sun 22 Nov 2026",
+    "source": "https://scaling.games/",
+    "collectedAt": "2026-11-23T00:02:09Z"
+  },
+  {
+    "query": "official store pages for new games and competitors",
+    "source": "Apple App Store / Google Play",
+    "collectedAt": "2026-11-23T00:02:09Z"
+  }
+]

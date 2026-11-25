@@ -1,0 +1,81 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 AI工具与资讯专项 2+1+1"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-07-25 · ai-tools-and-intelligence**\n✅ **4** 个最终入选　·　📦 **4** 个生产资料包\n联网大模型现查形成的真实研究报告；三条路线独立评选，共4个入选和资料包。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（2）**\n\n**1. Model Match**　`84分`\n参考：[Poe](https://poe.com/) · [OpenRouter](https://openrouter.ai/) · [ChatHub](https://chathub.gg/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-a-model-match.zip)\n\n**2. Signal Brief**　`81分`\n参考：[Feedly](https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556) · [TodayRSS](https://apps.apple.com/us/app/todayrss/id6756196576) · [Perplexity](https://play.google.com/store/apps/details?id=ai.perplexity.app.android)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-a-signal-brief.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟠 B · 市场缺口与第一性原理（1）**\n\n**1. Release Impact**　`86分`\n参考：[GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) · [Feedly](https://feedly.com/) · [Dependabot](https://docs.github.com/en/code-security/dependabot)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-b-release-impact.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟢 C · 新需求与趋势机会（1）**\n\n**1. MCP Trust Lens**　`90分`\n参考：[Trend Micro MCP Sweep](https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/hunt-them-all-an-ai-powered-vulnerability-sweep-of-19-000-mcp-servers) · [GitHub Trending](https://github.com/trending) · [MCP Registry](https://registry.modelcontextprotocol.io/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-25-ai-tools-news-2x1x1"
+          }
+        ]
+      }
+    ]
+  }
+}

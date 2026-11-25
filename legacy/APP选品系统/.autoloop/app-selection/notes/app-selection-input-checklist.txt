@@ -1,0 +1,21 @@
+Auto Loop Input Checklist: app-selection
+
+Completeness:
+- [x] goal
+- [x] artifact type
+- [x] audience/user
+- [x] inputs/source paths
+- [x] output format/path
+- [x] constraints
+- [x] quality bar
+- [x] autonomy level
+- [x] risks/sensitive boundaries
+- [x] current stage and entry gate
+- [x] inherited artifacts/evidence
+- [x] user-only prerequisites
+- [x] authorized external side effects
+- [x] stage exit evidence and handoff
+
+Missing items: 具体首发国家、预算、团队技术栈和付费数据账号；均不阻塞 Stage 0。
+
+Autofill assumptions: 美国英语首轮；iOS + Android；Markdown + CSV；当前目录为交付位置；不做外部写操作。

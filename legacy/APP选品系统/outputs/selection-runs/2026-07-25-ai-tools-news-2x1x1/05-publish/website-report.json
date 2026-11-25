@@ -1,0 +1,242 @@
+{
+  "report": {
+    "id": "2026-07-25-ai-tools-news-2x1x1",
+    "periodLabel": "2026-07-25 · ai-tools-and-intelligence",
+    "publishedAt": "2026-07-25T12:00:00+08:00",
+    "title": "AI工具与资讯专项 2+1+1",
+    "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共4个入选和资料包。",
+    "status": "published",
+    "sourceRunId": "2026-07-25-ai-tools-news-2x1x1",
+    "methodologyVersion": "route-system-v1.1-model-live-research",
+    "payload": {
+      "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+      "sources": [
+        "Sensor Tower State of Mobile 2026",
+        "AppMagic Mobile Market Landscape 2026",
+        "AppMagic 2026 Key Takeaways",
+        "官方商店与产品页",
+        "公开评论与社区讨论",
+        "GitHub与官方技术文档"
+      ],
+      "scheduledCount": 4
+    }
+  },
+  "candidates": [
+    {
+      "id": "2026-07-25-ai-tools-news-2x1x1-a-model-match",
+      "route": "A",
+      "title": "Model Match",
+      "category": "AI工具",
+      "market": "Global",
+      "routeScore": 84,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.85,
+      "opportunity": "围绕任务做小规模可复现对比，而不是提供又一个无限模型聊天列表",
+      "improvements": [
+        "先按任务和约束推荐三种模型，再用同一评测清单对比",
+        "保存提示词、版本、耗时、成本和用户选择理由"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-ai-tools-news-2x1x1-a-model-match",
+      "packageUrl": "/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-a-model-match.zip",
+      "packageSha256": "3d9c58a3cb25a1f927a70f9240d17f98383a67dda2eaf288fefa67094d1b7232",
+      "references": [
+        {
+          "name": "Poe",
+          "url": "https://poe.com/",
+          "relation": "competitor",
+          "nameZh": "多模型聊天",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/poe-fast-ai-chat/id1640745955",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "OpenRouter",
+          "url": "https://openrouter.ai/",
+          "relation": "competitor",
+          "nameZh": "开放路由",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        },
+        {
+          "name": "ChatHub",
+          "url": "https://chathub.gg/",
+          "relation": "competitor",
+          "nameZh": "多模型聊天中心",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/chathub-all-in-one-ai-client/id6736810266",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "模型匹配",
+      "productForm": "web_app"
+    },
+    {
+      "id": "2026-07-25-ai-tools-news-2x1x1-a-signal-brief",
+      "route": "A",
+      "title": "Signal Brief",
+      "category": "AI资讯",
+      "market": "Global",
+      "routeScore": 81,
+      "routeRank": 2,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.84,
+      "opportunity": "不是摘要更多新闻，而是按用户项目判断变化、证据和待办",
+      "improvements": [
+        "每条只回答变化、影响对象、证据和建议动作四件事",
+        "所有摘要并列原始来源与冲突，不生成无链接判断"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-ai-tools-news-2x1x1-a-signal-brief",
+      "packageUrl": "/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-a-signal-brief.zip",
+      "packageSha256": "40718a8d24bbf6d4b3f846464b1936aa325623ed279da4bf4d1385c79332f82f",
+      "references": [
+        {
+          "name": "Feedly",
+          "url": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+          "relation": "competitor",
+          "nameZh": "资讯订阅",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "TodayRSS",
+          "url": "https://apps.apple.com/us/app/todayrss/id6756196576",
+          "relation": "competitor",
+          "nameZh": "今日 RSS",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/todayrss/id6756196576",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android",
+          "relation": "competitor",
+          "nameZh": "AI 搜索",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
+          "kind": "mobile_app"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "信号简报",
+      "productForm": "mobile_app"
+    },
+    {
+      "id": "2026-07-25-ai-tools-news-2x1x1-b-release-impact",
+      "route": "B",
+      "title": "Release Impact",
+      "category": "开发者工具",
+      "market": "Global",
+      "routeScore": 86,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.86,
+      "opportunity": "把发布信息从“我看过”变成与代码和产品相连的影响清单",
+      "improvements": [
+        "把Release与项目清单匹配，只输出受影响依赖和迁移动作",
+        "高风险废弃、价格或权限变化生成负责人和截止时间"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-ai-tools-news-2x1x1-b-release-impact",
+      "packageUrl": "/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-b-release-impact.zip",
+      "packageSha256": "fdb7d794ae21b5335d851d9d1f68b422094d2f3d47edaf59c237c79112f6a0e7",
+      "references": [
+        {
+          "name": "GitHub Releases",
+          "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+          "relation": "substitute",
+          "nameZh": "GitHub 版本发布",
+          "store": null,
+          "storeUrl": null,
+          "kind": "web_product"
+        },
+        {
+          "name": "Feedly",
+          "url": "https://feedly.com/",
+          "relation": "substitute",
+          "nameZh": "资讯订阅",
+          "store": "apple_app_store",
+          "storeUrl": "https://apps.apple.com/us/app/feedly-smart-news-reader/id396069556",
+          "kind": "mobile_app"
+        },
+        {
+          "name": "Dependabot",
+          "url": "https://docs.github.com/en/code-security/dependabot",
+          "relation": "substitute",
+          "nameZh": "依赖更新机器人",
+          "store": null,
+          "storeUrl": null,
+          "kind": "developer_platform"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "版本影响",
+      "productForm": "web_app"
+    },
+    {
+      "id": "2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens",
+      "route": "C",
+      "title": "MCP Trust Lens",
+      "category": "AI安全工具",
+      "market": "Global",
+      "routeScore": 90,
+      "routeRank": 1,
+      "decision": "ROUTE_SELECTED",
+      "dataCompleteness": 0.89,
+      "opportunity": "在安装命令执行前生成权限、维护和风险说明，并建议最小权限配置",
+      "improvements": [
+        "解析安装配置、工具声明和依赖，生成普通人可读的权限差异",
+        "结合维护活跃、漏洞与来源信号给出隔离运行建议，不自动安装"
+      ],
+      "packageStatus": "READY_FOR_BENCH",
+      "packageId": "pkg-2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens",
+      "packageUrl": "/packages/2026-07-25-ai-tools-news-2x1x1/pkg-2026-07-25-ai-tools-news-2x1x1-c-mcp-trust-lens.zip",
+      "packageSha256": "5e9bad8f511eab6a70f4fd0b2887d320f44fc52a0e9fd9484a0056dc7847613b",
+      "references": [
+        {
+          "name": "Trend Micro MCP Sweep",
+          "url": "https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/hunt-them-all-an-ai-powered-vulnerability-sweep-of-19-000-mcp-servers",
+          "relation": "similar",
+          "nameZh": "趋势科技 MCP 扫描",
+          "store": null,
+          "storeUrl": null,
+          "kind": "research_report"
+        },
+        {
+          "name": "GitHub Trending",
+          "url": "https://github.com/trending",
+          "relation": "similar",
+          "nameZh": "GitHub 趋势榜",
+          "store": null,
+          "storeUrl": null,
+          "kind": "web_product"
+        },
+        {
+          "name": "MCP Registry",
+          "url": "https://registry.modelcontextprotocol.io/",
+          "relation": "similar",
+          "nameZh": "MCP 注册表",
+          "store": null,
+          "storeUrl": null,
+          "kind": "web_product"
+        }
+      ],
+      "iconUrl": null,
+      "iconSource": "generated",
+      "iconSourceUrl": null,
+      "titleZh": "MCP 信任透镜",
+      "productForm": "web_app"
+    }
+  ]
+}

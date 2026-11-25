@@ -1,0 +1,47 @@
+{
+  "run_id": "2026-07-26-china-doushengsheng-competitor-map",
+  "checked_at": "2026-07-26T21:15:00+08:00",
+  "status": "pass_with_warnings",
+  "checks": [
+    {
+      "name": "ranked_count",
+      "pass": true,
+      "value": 10
+    },
+    {
+      "name": "deep_dive_count",
+      "pass": true,
+      "value": 3
+    },
+    {
+      "name": "selected_hard_gates",
+      "pass": true
+    },
+    {
+      "name": "qualified_count_shortfall_disclosed",
+      "pass": true,
+      "value": "0 of requested 3; missing paid market/usage and large-sample review evidence"
+    },
+    {
+      "name": "product_form_present",
+      "pass": true
+    },
+    {
+      "name": "reference_kind_and_store_links",
+      "pass": true
+    },
+    {
+      "name": "numeric_claim_metadata",
+      "pass": true
+    },
+    {
+      "name": "improvement_limit",
+      "pass": true
+    }
+  ],
+  "warnings": [
+    "未接入付费市场数据，增长、使用、收入和留存维度证据不足。",
+    "公开评论主题样本量小，review_count是本轮明确观察到的条目数，不是总体发生率。",
+    "App Store页面数据动态变化；不同搜索快照出现过评分量差异，本轮采用采集时打开页面值。"
+  ]
+}

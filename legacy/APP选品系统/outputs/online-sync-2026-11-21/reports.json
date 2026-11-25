@@ -1,0 +1,402 @@
+{
+  "reports": [
+    {
+      "id": "tiktok-mini-games-2026-11-19",
+      "periodLabel": "2026-11-19 TikTok 末日逃生与数字PK小游戏 broad",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "title": "TikTok 热门小游戏：末日逃生与数字加减 PK 机会扫描",
+      "summary": "联网现查发现两类可短局传播的小游戏机会：末日逃生资源选择、数字记忆/合并/找数 PK。TikTok 页面本身受 robots 限制，热度证据采用可访问的趋势文章、游戏官方页面和商店详情页交叉记录；所有游戏候选仍需灰盒与玩家测试。",
+      "status": "partial",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "sel_e0544967-4733-4733-8be4-86395cc2444e",
+      "methodologyVersion": "app-opportunity-scout 1.0 / docs12-v1.2 / docs14-v1.0",
+      "payload": {
+        "marketPulse": "公开趋势材料将 Word Chain、Snap Game、Number Substitution、2048 等短时互动格式描述为 TikTok gaming 热点；Guess My Number 官方站明确称其在 TikTok 走红。末日生存方向以 Last War、Whiteout Survival、State of Survival 等官方商店产品作为真实需求参照。",
+        "sources": [
+          "https://genz.ai/trends/gaming/drops/how-word-chain-snapgame-number-challenge-went-viral/",
+          "https://www.guessmynumber.org/",
+          "https://play.google.com/store/apps/details?hl=en-us&id=com.fun.lastwar.gp",
+          "https://play.google.com/store/apps/details?id=com.gof.global",
+          "https://play.google.com/store/apps/details?id=com.kingsgroup.dcdl",
+          "https://play.google.com/store/apps/details?id=com.easybrain.number.puzzle.game",
+          "https://apps.apple.com/sa/app/find-the-number-viral-game/id6786327587?platform=watch",
+          "https://the10game.vercel.app/",
+          "https://skich.app/games/blind-number-challenge-2",
+          "https://www.2048original.com/"
+        ],
+        "scheduledCount": 10
+      }
+    },
+    {
+      "id": "sel_9fc81681-80f6-417b-9c29-b7b489f8b586-manual-override-v1",
+      "periodLabel": "2026-11-19 定向宽泛扫描",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "title": "非英语头部国家、阿拉伯国家、法语与西班牙语市场 Google Play 免费游戏上升候选",
+      "summary": "人工复核确认：本批10个候选的市场数据与上升趋势已由操作员验证，现按授权推进为正式入选。联网现查了沙特、阿联酋及法语/西班牙语覆盖市场的 Google Play 免费游戏榜单。10个候选均有官方 Google Play 详情页；多数增长证据来自当日趋势榜或近期安装代理，未取得统一的3/6/12个月下载序列，因此全部保持 ROUTE_WATCH。",
+      "status": "published",
+      "totalSelected": 10,
+      "totalPackages": 0,
+      "sourceRunId": "sel_9fc81681-80f6-417b-9c29-b7b489f8b586",
+      "methodologyVersion": "app-opportunity-scout-2026-11; website-report-v1-manual-verified-override",
+      "payload": {
+        "marketPulse": "2026-11-18/19：沙特趋势榜出现 Spider Fighter 3、Keyboard Run、Suzy Says、Perfect Makeover、Wild West、Bola Capture；阿联酋出现 Bola Capture、Evil Tic Tac Toe、Wild West 等。AppBrain沙特免费榜显示 PUBG MOBILE FLASH、Roblox、Block Blast、Paper.io 2、Gossip Harbor、MemeMix、Last Beacon、1000+ Games in 1。法语/西语市场用同一批可核验 Google Play 产品页作为跨市场验证入口；国家级下载增速未公开统一提供。",
+        "sources": [
+          "https://appsxray.com/charts?category=GAME&chart=trending&country=SA",
+          "https://appsxray.com/charts?category=GAME&chart=trending&country=AE",
+          "https://www.appbrain.com/stats/google-play-rankings/top_free/game/sa",
+          "https://iapp4u.com/blog/games-saudi-vs-uae",
+          "https://play.google.com/store/games?gl=sa",
+          "https://www.similarweb.com/top-apps/google/saudi-arabia/games/top-grossing/trending/"
+        ],
+        "scheduledCount": 10
+      }
+    },
+    {
+      "id": "sel_9fc81681-80f6-417b-9c29-b7b489f8b586",
+      "periodLabel": "2026-11-19 定向宽泛扫描",
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "title": "非英语头部国家、阿拉伯国家、法语与西班牙语市场 Google Play 免费游戏上升候选",
+      "summary": "联网现查了沙特、阿联酋及法语/西班牙语覆盖市场的 Google Play 免费游戏榜单。10个候选均有官方 Google Play 详情页；多数增长证据来自当日趋势榜或近期安装代理，未取得统一的3/6/12个月下载序列，因此全部保持 ROUTE_WATCH。",
+      "status": "partial",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "sel_9fc81681-80f6-417b-9c29-b7b489f8b586",
+      "methodologyVersion": "app-opportunity-scout-2026-11; website-report-v1",
+      "payload": {
+        "marketPulse": "2026-11-18/19：沙特趋势榜出现 Spider Fighter 3、Keyboard Run、Suzy Says、Perfect Makeover、Wild West、Bola Capture；阿联酋出现 Bola Capture、Evil Tic Tac Toe、Wild West 等。AppBrain沙特免费榜显示 PUBG MOBILE FLASH、Roblox、Block Blast、Paper.io 2、Gossip Harbor、MemeMix、Last Beacon、1000+ Games in 1。法语/西语市场用同一批可核验 Google Play 产品页作为跨市场验证入口；国家级下载增速未公开统一提供。",
+        "sources": [
+          "https://appsxray.com/charts?category=GAME&chart=trending&country=SA",
+          "https://appsxray.com/charts?category=GAME&chart=trending&country=AE",
+          "https://www.appbrain.com/stats/google-play-rankings/top_free/game/sa",
+          "https://iapp4u.com/blog/games-saudi-vs-uae",
+          "https://play.google.com/store/games?gl=sa",
+          "https://www.similarweb.com/top-apps/google/saudi-arabia/games/top-grossing/trending/"
+        ],
+        "scheduledCount": 10
+      }
+    },
+    {
+      "id": "sel_673dd010-7567-40c7-ada6-08513cd2a467",
+      "periodLabel": "2026-11-18 小语种市场 Web 选品",
+      "publishedAt": "2026-11-18T12:00:00+08:00",
+      "title": "小语种市场 Web 选品（10款）",
+      "summary": "联网核验10个小语种学习方向及其真实产品/资源。当前均为 ROUTE_WATCH，因公开流量、活跃、收入与跨来源痛点数据不足，未升级为 ROUTE_SELECTED。",
+      "status": "partial",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "sel_673dd010-7567-40c7-ada6-08513cd2a467",
+      "methodologyVersion": "app-opportunity-scout-directed-v1",
+      "payload": {
+        "marketPulse": "官方或第一方页面确认了小语种学习产品、课程或词典的存在。需求强度、留存、收入和重复痛点缺少统一公开口径，均标记为 insufficient_data。",
+        "sources": [
+          "https://orainbai.app",
+          "https://adrodd.co.uk",
+          "https://www.madrateanga.com/",
+          "https://www.akotahi.nz/",
+          "https://learncornish.org/en/app",
+          "https://www.fr.brezhoneg.bzh/",
+          "https://cavetta.org.mt/",
+          "https://www.navajo-nsn.gov/",
+          "https://icelandiconline.com/",
+          "https://oqaasileriffik.gl/",
+          "https://www.duolingo.com/",
+          "https://www.memrise.com/",
+          "https://languagedrops.com/"
+        ],
+        "scheduledCount": 10
+      }
+    },
+    {
+      "id": "us-free-puzzle-games-2026-11-18",
+      "periodLabel": "2026-11-18 美国免费榜轻量益智手机游戏",
+      "publishedAt": "2026-11-18T10:45:00+08:00",
+      "title": "美国免费榜热门轻量益智手机游戏 broad 选品",
+      "summary": "基于2026-11-17美国 Google Play 益智榜与美国 App Store Puzzle Top Free 页面现查，输出10个真实竞品驱动的手机游戏机会。前5个为当前优先候选，后5个为备选；榜单和第三方安装计数仅作相对需求代理。",
+      "status": "partial",
+      "totalSelected": 5,
+      "totalPackages": 0,
+      "sourceRunId": "sel_4a98c090-d36a-4630-85cc-2e155710ad38",
+      "methodologyVersion": "app-opportunity-scout-v1.2 + docs/12 + docs/14",
+      "payload": {
+        "marketPulse": "Google Play美国益智榜（2026-11-17）前列为 Meowdoku、Block Blast、Gossip Harbor、Cube Land、Rotate Rings；Apple美国Puzzle Top Free同时出现 Block Out、Magic Sort、Block Blast、Rotate Rings、Word Tiles等。精确下载、留存和收入未在公开榜单中完整披露，保持未知。",
+        "sources": [
+          "https://appsxray.com/charts?category=GAME_PUZZLE",
+          "https://apps.apple.com/us/iphone/charts/7012?chart=top-free",
+          "https://appgoat.ai/tools/top-charts/google-play/us/games",
+          "https://storelift.net/charts/us/games/free/",
+          "https://block-blast-adventure-master.en.uptodown.com/android",
+          "https://candy-crush-saga.en.uptodown.com/android",
+          "https://homescapes.en.uptodown.com/android",
+          "https://wordscapes.en.uptodown.com/android"
+        ],
+        "scheduledCount": 10
+      }
+    },
+    {
+      "id": "sel_84dc30df-ca3a-496c-bd7e-0787b24f0b65",
+      "periodLabel": "2026-11-12 directed voice task capture",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "title": "语音快速登记与AI任务执行：定向选品报告",
+      "summary": "联网现查验证了任务管理、语音录入、持续提醒、云文档连接、机器人和Agent执行等真实竞品与开源方案，选出5个具备直接竞品证据的机会。公开资料未提供一致的DAU/留存/收入，因此分数主要依据官方功能、商店存在性、公开集成与用户流程证据，需后续补充市场数据库指标。",
+      "status": "published",
+      "totalSelected": 5,
+      "totalPackages": 0,
+      "sourceRunId": "sel_84dc30df-ca3a-496c-bd7e-0787b24f0b65",
+      "methodologyVersion": "app-opportunity-scout-v1.2-directed",
+      "payload": {
+        "marketPulse": "语音输入、跨端任务同步、持续提醒和可调用Agent正在从单点功能演进为工作流基础设施；Todoist/TickTick/Any.do验证需求，Notion API与Feishu bots/agents验证连接和执行层，OpenTodo验证开源移动与MCP组合。",
+        "sources": [
+          "https://www.todoist.com/ai-tools",
+          "https://www.todoist.com/integrations",
+          "https://ticktick.com/features",
+          "https://help.ticktick.com/articles/7055782422935240704",
+          "https://www.any.do/",
+          "https://www.notion.com/help/create-integrations-with-the-notion-api",
+          "https://www.notion.com/help/mcp-connections-for-custom-agents",
+          "https://www.feishu.cn/hc/en-US/articles/360024984973-use-bots-in-groups",
+          "https://www.feishu.cn/hc/en-US/articles/610686468172-configure-triggers-and-scheduled-tasks-for-base-agents",
+          "https://github.com/OpenTodoApp/OpenTodo",
+          "https://play.google.com/store/apps/details?id=com.todoist",
+          "https://todoist.en.uptodown.com/android",
+          "https://any-do.en.uptodown.com/android"
+        ],
+        "scheduledCount": 5
+      }
+    },
+    {
+      "id": "sel-13532a51-d7fa-4cf7-b26c-424486f29e41",
+      "periodLabel": "2026-11-12 美国 Google Play Puzzle 榜单现查",
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "title": "US Google Play 热门 Puzzle 游戏机会扫描",
+      "summary": "基于 2026-11-11/12 公开美国 Google Play Puzzle 榜单快照与官方商店页，选出 5 个进入灰盒验证的手机游戏机会。榜单只证明需求与竞争存在；玩法是否有趣、留存和付费仍需原型与玩家测试。",
+      "status": "published",
+      "totalSelected": 5,
+      "totalPackages": 0,
+      "sourceRunId": "sel_13532a51-d7fa-4cf7-b26c-424486f29e41",
+      "methodologyVersion": "app-opportunity-scout-v1.2 + docs12-v1.2 + docs14-v1.0",
+      "payload": {
+        "marketPulse": "AppsXray 与 AppBrain 的美国 Google Play Puzzle 榜单快照显示 Block Blast!、Meowdoku: Brain Puzzle Games、Rotate the Rings、Gossip Harbor: Merge & Story、Magic Sort 等产品进入当日热门榜；官方 Google Play 页进一步核对了产品形态、玩法、评分/评论或安装档位、更新日期和用户反馈。精确下载、收入、留存不可由公开页面完整确认，未作推算。",
+        "sources": [
+          "https://appsxray.com/charts?category=GAME_PUZZLE",
+          "https://www.appbrain.com/stats/google-play-rankings/top_free/puzzle/us",
+          "https://play.google.com/store/apps/details?id=com.block.juggle",
+          "https://play.google.com/store/apps/details?id=com.dodo.mewodoku",
+          "https://play.google.com/store/apps/details?id=game.genix.rotate.ring.circle",
+          "https://play.google.com/store/apps/details?hl=en_US&id=com.mergegames.gossipharbor",
+          "https://play.google.com/store/apps/details?hl=en_US&id=com.grandgames.magicsort"
+        ],
+        "scheduledCount": 5
+      }
+    },
+    {
+      "id": "2026-11-09-hot-fast-growing-free-games-v2",
+      "periodLabel": "2026-11-09 · gameplay-hunt",
+      "publishedAt": "2026-11-09T15:31:00+08:00",
+      "title": "热门、增长快、免费榜游戏机会 20 选（修订版）",
+      "summary": "20 个机会；5 个进入灰盒验证，5 个 BACKUP，10 个 WATCH。市场热度不等于玩法已验证。v2 修正路线状态字段。",
+      "status": "published",
+      "totalSelected": 5,
+      "totalPackages": 0,
+      "sourceRunId": "2026-11-09-hot-fast-growing-free-games",
+      "methodologyVersion": "gameplay-hunt-evidence-v1",
+      "payload": {
+        "marketPulse": "美国 iPhone 免费榜与全球公开移动游戏下载/增长数据；SELECTED 仅进入灰盒验证。",
+        "sources": [
+          "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+          "https://www.singular.net/blog/top-mobile-games/",
+          "https://socialpeta.com/en/blog/top-mobile-games-by-revenue-and-downloads-september-2026"
+        ],
+        "scheduledCount": 0
+      }
+    },
+    {
+      "id": "2026-11-09-hot-fast-growing-free-games",
+      "periodLabel": "2026-11-09 · gameplay-hunt",
+      "publishedAt": "2026-11-09T15:31:00+08:00",
+      "title": "热门、增长快、免费榜游戏机会 20 选",
+      "summary": "20 个机会；5 个进入灰盒验证，5 个 BACKUP，10 个 WATCH。市场热度不等于玩法已验证。",
+      "status": "published",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "2026-11-09-hot-fast-growing-free-games",
+      "methodologyVersion": "gameplay-hunt-evidence-v1",
+      "payload": {
+        "marketPulse": "美国 iPhone 免费榜与全球公开移动游戏下载/增长数据；SELECTED 仅进入灰盒验证。",
+        "sources": [
+          "https://apps.apple.com/us/iphone/charts/6014?chart=top-free",
+          "https://www.singular.net/blog/top-mobile-games/",
+          "https://socialpeta.com/en/blog/top-mobile-games-by-revenue-and-downloads-september-2026"
+        ],
+        "scheduledCount": 0
+      }
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-open-source-freemium-landscape",
+      "periodLabel": "2026-07-26 · KOL监控开源与免费工具调查",
+      "publishedAt": "2026-07-26T22:30:00+08:00",
+      "title": "KOL监控与推送：开源及免费商业产品精选10个",
+      "summary": "精选5个开源底座和5个带长期免费额度的商业产品；本轮为参考对象调查，正式入选0个，10项保持WATCH。",
+      "status": "research",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "2026-07-26-kol-monitoring-open-source-freemium-landscape",
+      "methodologyVersion": "kol-reference-fit-v1",
+      "payload": {
+        "marketPulse": "最可落地的开源组合是RSSHub接入、changedetection.io变化检测、FreshRSS聚合与分类，再复用现有飞书人工确认和幂等推送。",
+        "sources": [
+          "GitHub官方仓库、Release与API快照",
+          "Visualping官方免费档说明",
+          "Talkwalker Alerts官方页面",
+          "Inoreader官方价格页",
+          "Distill官方价格页",
+          "Browse AI官方价格与帮助中心"
+        ],
+        "scheduledCount": 0
+      }
+    },
+    {
+      "id": "2026-07-26-china-multi-platform-local-deals-rebate",
+      "periodLabel": "2026-07-26 · 多平台优惠返利调查",
+      "publishedAt": "2026-07-26T22:10:00+08:00",
+      "title": "美团、抖音、淘宝多平台优惠返利调查",
+      "summary": "核验10个现有竞品，深度研究3个产品方向；平台书面授权与真实订单结算验证完成前，正式入选0个。",
+      "status": "research",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "2026-07-26-china-multi-platform-local-deals-rebate",
+      "methodologyVersion": "app-opportunity-scout-v1",
+      "payload": {
+        "marketPulse": "中国 App Store 已存在覆盖淘宝、抖音、美团等多平台的返利产品；差异化重点不是平台数量，而是真实到手价、可返性解释和丢单申诉。",
+        "sources": [
+          "Apple App Store 官方产品页",
+          "平台开放能力与联盟规则",
+          "竞品覆盖与授权证据"
+        ],
+        "scheduledCount": 0
+      }
+    },
+    {
+      "id": "2026-07-26-china-doushengsheng-competitor-map",
+      "periodLabel": "2026-07-26 · 抖省省竞品扩展调查",
+      "publishedAt": "2026-07-26T21:15:00+08:00",
+      "title": "抖省省竞品、相邻产品与替代方案调查",
+      "summary": "发现10个机会，深度研究3个；因缺少付费市场数据与真实订单验证，本轮正式入选0个，全部保持WATCH。",
+      "status": "research",
+      "totalSelected": 0,
+      "totalPackages": 0,
+      "sourceRunId": "2026-07-26-china-doushengsheng-competitor-map",
+      "methodologyVersion": "app-opportunity-scout-v1",
+      "payload": {
+        "marketPulse": "抖省省、美团、大众点评、高德等已验证本地优惠需求；当前更明确的机会在跨平台到手价、券生命周期和规则解释。",
+        "sources": [
+          "Apple App Store 官方页面与评论",
+          "竞品官方产品页",
+          "公开规则与研究证据"
+        ],
+        "scheduledCount": 0
+      }
+    },
+    {
+      "id": "2026-07-26-kol-monitoring-2x1x0",
+      "periodLabel": "2026-07-26 · kol-monitoring-ai-analysis-push",
+      "publishedAt": "2026-07-26T10:30:00+08:00",
+      "title": "KOL监控、AI分析与推送专项 2+1+0",
+      "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共3个入选和资料包。",
+      "status": "published",
+      "totalSelected": 3,
+      "totalPackages": 3,
+      "sourceRunId": "2026-07-26-kol-monitoring-2x1x0",
+      "methodologyVersion": "route-system-v1.2-model-live-research",
+      "payload": {
+        "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+        "sources": [
+          "Modash Creator Content Tracking",
+          "HypeAuditor Media Monitor",
+          "Sprout Social Influencer Marketing",
+          "Kaito Pro",
+          "Santiment Social Trends",
+          "Feedly AI Feeds",
+          "Inoreader Monitoring and Automations",
+          "Small Agency Manual Tracking Discussion",
+          "官方商店与产品页",
+          "公开评论与社区讨论",
+          "GitHub与官方技术文档"
+        ],
+        "scheduledCount": 3
+      }
+    },
+    {
+      "id": "2026-07-25-ai-tools-news-2x1x1",
+      "periodLabel": "2026-07-25 · ai-tools-and-intelligence",
+      "publishedAt": "2026-07-25T12:00:00+08:00",
+      "title": "AI工具与资讯专项 2+1+1",
+      "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共4个入选和资料包。",
+      "status": "published",
+      "totalSelected": 4,
+      "totalPackages": 4,
+      "sourceRunId": "2026-07-25-ai-tools-news-2x1x1",
+      "methodologyVersion": "route-system-v1.1-model-live-research",
+      "payload": {
+        "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+        "sources": [
+          "Sensor Tower State of Mobile 2026",
+          "AppMagic Mobile Market Landscape 2026",
+          "AppMagic 2026 Key Takeaways",
+          "官方商店与产品页",
+          "公开评论与社区讨论",
+          "GitHub与官方技术文档"
+        ],
+        "scheduledCount": 4
+      }
+    },
+    {
+      "id": "2026-07-25-casual-games-2x2x2",
+      "periodLabel": "2026-07-25 · casual-games",
+      "publishedAt": "2026-07-25T12:00:00+08:00",
+      "title": "休闲游戏专项 2+2+2",
+      "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共6个入选和资料包。",
+      "status": "published",
+      "totalSelected": 6,
+      "totalPackages": 6,
+      "sourceRunId": "2026-07-25-casual-games-2x2x2",
+      "methodologyVersion": "route-system-v1.1-model-live-research",
+      "payload": {
+        "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+        "sources": [
+          "Sensor Tower State of Mobile 2026",
+          "AppMagic Mobile Market Landscape 2026",
+          "AppMagic 2026 Key Takeaways",
+          "官方商店与产品页",
+          "公开评论与社区讨论",
+          "GitHub与官方技术文档"
+        ],
+        "scheduledCount": 5
+      }
+    },
+    {
+      "id": "2026-07-25-standard-5x5x5",
+      "periodLabel": "2026-07-25 · all-markets",
+      "publishedAt": "2026-07-25T12:00:00+08:00",
+      "title": "标准全市场选品 5+5+5",
+      "summary": "联网大模型现查形成的真实研究报告；三条路线独立评选，共15个入选和资料包。",
+      "status": "published",
+      "totalSelected": 15,
+      "totalPackages": 15,
+      "sourceRunId": "2026-07-25-standard-5x5x5",
+      "methodologyVersion": "route-system-v1.1-model-live-research",
+      "payload": {
+        "marketPulse": "非游戏消费和AI应用继续增长；休闲益智的Block、Sort、Merge等子类型仍活跃；代理、端侧AI和内容可信正在形成新任务。",
+        "sources": [
+          "Sensor Tower State of Mobile 2026",
+          "AppMagic Mobile Market Landscape 2026",
+          "AppMagic 2026 Key Takeaways",
+          "官方商店与产品页",
+          "公开评论与社区讨论",
+          "GitHub与官方技术文档"
+        ],
+        "scheduledCount": 5
+      }
+    }
+  ]
+}

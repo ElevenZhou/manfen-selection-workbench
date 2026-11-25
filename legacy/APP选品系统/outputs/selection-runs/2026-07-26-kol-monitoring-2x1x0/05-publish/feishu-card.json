@@ -1,0 +1,71 @@
+{
+  "msg_type": "interactive",
+  "card": {
+    "config": {
+      "wide_screen_mode": true,
+      "enable_forward": true
+    },
+    "header": {
+      "template": "blue",
+      "title": {
+        "tag": "plain_text",
+        "content": "📊 KOL监控、AI分析与推送专项 2+1+0"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🗓️ 2026-07-26 · kol-monitoring-ai-analysis-push**\n✅ **3** 个最终入选　·　📦 **3** 个生产资料包\n联网大模型现查形成的真实研究报告；三条路线独立评选，共3个入选和资料包。"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🔵 A · 竞品验证与微创新（2）**\n\n**1. Creator Guard（达人守望）**　`Web 应用`　`87分`\n参考：[Modash（达人营销管理） · Web 产品](https://help.modash.io/en/articles/10485038-how-modash-captures-all-your-creator-content) · [HypeAuditor Media Monitor（媒体监控） · Web 产品](https://hypeauditor.com/media-monitor/) · [Sprout Social Influencer Marketing（芽社达人营销） · Web 产品](https://sproutsocial.com/influencer-marketing/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-26-kol-monitoring-2x1x0/pkg-2026-07-26-kol-monitoring-2x1x0-a-creator-guard.zip)\n\n**2. Thesis Watch（观点追踪）**　`Web 应用`　`84分`\n参考：[Kaito Pro（凯拓智能情报） · Web 产品](https://pro.kaito.ai/portal) · [Santiment Social Trends（社交趋势分析） · Web 产品](https://academy.santiment.net/sanbase/social-trends/) · [LunarCrush（月球社交情报） · Web 产品](https://lunarcrush.com/)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-26-kol-monitoring-2x1x0/pkg-2026-07-26-kol-monitoring-2x1x0-a-thesis-watch.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**🟠 B · 市场缺口与第一性原理（1）**\n\n**1. Signal Relay（信号接力）**　`Web 应用`　`89分`\n参考：[Google Alerts（谷歌提醒） · Web 产品](https://support.google.com/websearch/answer/4815696?hl=en) · [Feedly AI Feeds（智能订阅流） · Web 产品](https://feedly.com/new-features/posts/track-specific-topics-and-trends-with-feedly-ai) · [Inoreader Automations（阅读器自动化） · Web 产品](https://us.inoreader.com/vi/blog/2026/01/save-time-with-automations.html)\n[📦 生产资料包](https://app-selection-hub.xiaojie-april.chatgpt.site/packages/2026-07-26-kol-monitoring-2x1x0/pkg-2026-07-26-kol-monitoring-2x1x0-b-signal-relay.zip)"
+        }
+      },
+      {
+        "tag": "hr"
+      },
+      {
+        "tag": "note",
+        "elements": [
+          {
+            "tag": "plain_text",
+            "content": "三条路线独立评选；开发台以生产资料包为唯一交接入口。"
+          }
+        ]
+      },
+      {
+        "tag": "action",
+        "actions": [
+          {
+            "tag": "button",
+            "text": {
+              "tag": "plain_text",
+              "content": "查看完整选品报告"
+            },
+            "type": "primary",
+            "url": "https://app-selection-hub.xiaojie-april.chatgpt.site/reports/2026-07-26-kol-monitoring-2x1x0"
+          }
+        ]
+      }
+    ]
+  }
+}
