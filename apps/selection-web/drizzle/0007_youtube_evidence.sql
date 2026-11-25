@@ -1,0 +1,1 @@
+ALTER TABLE `candidates` ADD `youtube_evidence` text NOT NULL DEFAULT '{"status":"insufficient_data","query":"未提供 YouTube 检索回执","searchedAt":"","scope":"历史报告兼容回填","limitation":"导入数据未携带可核验的视频证据","videos":[]}';

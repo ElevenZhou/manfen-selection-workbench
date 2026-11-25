@@ -22,6 +22,9 @@
 - 系统级同时进行量永远不超过所有启用人员的基础容量之和，加上已配置的认领额外额度。
 - `queued`、`claimed`、`processing`、`review`、`completed`、`blocked`、`cancelled` 是不同事实状态，不能以排队或领取替代完成证据。
 - 选品报告、候选、资料包、Feishu 卡片和执行回执都保留版本与幂等键。
+- 每个候选在选品完成后都必须执行 YouTube 关联视频检索。找到的官方演示、实机、玩法或评测视频要保存标题、频道、发布时间、URL、关联类型和核验时间，并在候选详情与报告页面展示。
+- YouTube 未找到可确认的关联视频时也要保存检索范围、关键词、时间和 `insufficient_data` 结果，不能把未检索写成“暂无视频”。
+- 所有开工提示词都必须带入 YouTube 检索任务和已有视频证据。执行器没有完成 YouTube 检索与回执时，不能把开工包标记为完成。
 
 ## 资料导航
 
@@ -36,6 +39,7 @@
 - [提示词与角色](docs/07-prompts-and-roles.md)
 - [路线图](docs/08-roadmap.md)
 - [质量与发布门禁](docs/09-quality-release-gates.md)
+- [YouTube 视频证据与视觉资料规范](docs/11-youtube-video-evidence.md)
 - [参考标的分析](docs/10-reference-benchmark.md)
 - [新版本架构图](docs/architecture-v2.svg)
 - [高保真设计图](design/generated/2026-11-25-obsidian-instrument-v1.png)
@@ -54,10 +58,30 @@ cp .env.example .env.local
 git status
 ```
 
+## 10 分钟本地启动
+
+```bash
+git clone https://github.com/ElevenZhou/manfen-selection-workbench.git
+cd manfen-selection-workbench/apps/selection-web
+npm install
+npm test
+npm run dev
+```
+
+浏览器打开 `http://localhost:3000/selector`，提交一条任务即可看到本地队列。需要执行研究 Worker 时，在第二个终端运行：
+
+```bash
+SELECTION_SITE_URL=http://localhost:3000 \
+SELECTION_PROJECT_ROOT="$(cd ../.. && pwd)" \
+node scripts/selection-worker.mjs
+```
+
+本地试用可以不配置 Feishu Webhook。生产环境仍需通过部署平台注入 Secret，并按发布门禁配置身份、数据库、Worker、监控和回滚。
+
 当前 Web 基线位于 `apps/selection-web/`。它来自旧站点封板提交 `dbf8e80` / `v1.0.0`，保留现有报告、候选、资料包、Feishu 和筛选能力；新系统的账号、派发、容量和研究执行器将围绕这个基线逐步重构。
 
 生产系统建议使用 Docker Compose 运行 Web/API、队列、数据库、对象存储、研究适配器和执行器。Codex、OpenCode、Hermes 只通过受控执行器接入，不能从浏览器请求直接启动。
 
 ## 外部状态说明
 
-本地 Git 已初始化，当前没有绑定远程仓库。正式服务器、DNS、Feishu 生产 Webhook 和 Git 远程地址属于外部配置，必须在凭据就绪后按文档的 canary、健康检查和回滚门禁执行。
+GitHub 公开仓库：<https://github.com/ElevenZhou/manfen-selection-workbench>。正式服务器、DNS、Feishu 生产 Webhook 属于外部配置，必须按文档的 canary、健康检查和回滚门禁执行。

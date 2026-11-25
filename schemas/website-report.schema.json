@@ -96,7 +96,20 @@
           },
           "iconUrl": { "type": ["string", "null"], "format": "uri", "pattern": "^https?://" },
           "iconSource": { "enum": ["product", "competitor", "generated"] },
-          "iconSourceUrl": { "type": ["string", "null"], "format": "uri", "pattern": "^https?://" }
+          "iconSourceUrl": { "type": ["string", "null"], "format": "uri", "pattern": "^https?://" },
+          "youtubeEvidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["status", "query", "searchedAt", "scope", "limitation", "videos"],
+            "properties": {
+              "status": { "enum": ["found", "insufficient_data"] },
+              "query": { "type": "string", "minLength": 1 },
+              "searchedAt": { "type": "string" },
+              "scope": { "type": "string", "minLength": 1 },
+              "limitation": { "type": "string", "minLength": 1 },
+              "videos": { "type": "array" }
+            }
+          }
         }
       }
     }

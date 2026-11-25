@@ -107,13 +107,14 @@ test("readability pass keeps report text legible and mobile rows adaptive", asyn
   assert.match(shell, /skip-link/);
 });
 
-test("every candidate can render a uniform icon and clickable reference apps", async () => {
-  const [visual, report, ledger, repository, migration] = await Promise.all([
+test("every candidate can render a uniform icon, references, and YouTube evidence", async () => {
+  const [visual, report, ledger, repository, migration, evidence] = await Promise.all([
     readFile(new URL("../app/components/ProductVisual.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/reports/[id]/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../app/candidates/page.tsx", import.meta.url), "utf8"),
     readFile(new URL("../lib/reports.ts", import.meta.url), "utf8"),
     readFile(new URL("../drizzle/0001_fuzzy_bug.sql", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/YoutubeEvidence.tsx", import.meta.url), "utf8"),
   ]);
   assert.match(visual, /width=\{compact \? 34 : 42\}/);
   assert.match(visual, /target="_blank"/);
@@ -125,6 +126,10 @@ test("every candidate can render a uniform icon and clickable reference apps", a
   assert.match(ledger, /ProductIcon/);
   assert.match(repository, /references必须包含1–5个/);
   assert.match(migration, /reference_apps/);
+  assert.match(report, /YoutubeEvidence/);
+  assert.match(ledger, /YoutubeEvidence/);
+  assert.match(repository, /validateYoutubeEvidence/);
+  assert.match(evidence, /insufficient_data/);
 });
 
 test("reference objects can expose verified APK download sources", async () => {
@@ -145,6 +150,7 @@ test("reference objects can expose verified APK download sources", async () => {
   assert.ok("apkDownloads" in JSON.parse(schema).properties.candidates.items.properties.references.items.properties);
   assert.match(worker, /apkDownloads/);
   assert.match(worker, /APKMirror/);
+  assert.match(worker, /assertYoutubeEvidence/);
 });
 
 test("real runs expose verified package downloads without demo seed data", async () => {
@@ -264,6 +270,39 @@ test("selection launcher stays within supported tasks and creates a queued reque
   assert.match(page, /启动选品/);
   assert.match(route, /MODES = new Set/);
   assert.match(route, /quantity < 1 \|\| quantity > 20/);
-  assert.match(route, /status: "queued"/);
-  assert.match(route, /selection_requests/);
+  assert.match(route, /createTask/);
+  assert.match(route, /ensureSelectionRequestSchema/);
+  assert.match(route, /\["queued", "claimed", "processing", "review", "completed", "blocked", "cancelled", "failed"\]/);
+  assert.match(route, /Idempotency-Key/);
+  assert.match(route, /Number\.isFinite\(requestedLimit\)/);
+  assert.match(page, /Idempotency-Key/);
+  assert.match(page, /重新排队/);
+});
+
+test("primary navigation exposes research and schedule paths", async () => {
+  const shell = await readFile(new URL("../app/components/AppShell.tsx", import.meta.url), "utf8");
+  const schedule = await readFile(new URL("../app/schedule/page.tsx", import.meta.url), "utf8");
+  assert.match(shell, /id: "research", label: "调查报告"/);
+  assert.match(shell, /id: "schedule", label: "开发排期"/);
+  assert.match(schedule, /active="schedule"/);
+});
+
+test("selection task board exposes lifecycle filters and recoverable errors", async () => {
+  const page = await readFile(new URL("../app/selector/page.tsx", import.meta.url), "utf8");
+  const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(page, /task-status-filter/);
+  assert.match(page, /taskResult\.task/);
+  assert.match(page, /task-board-error/);
+  assert.match(page, /statusLabels/);
+  assert.match(css, /\.status-review b/);
+  assert.match(css, /\.status-cancelled b/);
+});
+
+test("selection queue protects concurrent idempotency and lease transitions", async () => {
+  const source = await readFile(new URL("../lib/selectionRequests.ts", import.meta.url), "utf8");
+  assert.match(source, /selection_requests_idempotency_idx/);
+  assert.match(source, /Resolve the unique-index race/);
+  assert.match(source, /ALLOWED_TRANSITIONS/);
+  assert.match(source, /任务租约不匹配/);
+  assert.match(source, /updated\.meta\.changes/);
 });

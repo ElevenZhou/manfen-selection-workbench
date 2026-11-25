@@ -26,6 +26,12 @@
 - `/ingest`：报告入库
 - `/api/reports`：报告读取与写入接口
 
+## 视觉与视频证据
+
+候选展示需要优先呈现可追溯的产品图标、参考产品图标和商店样图。选品完成后，每个候选都要有 YouTube 关联视频检索回执。找到的视频以具体视频页面链接挂到候选详情、报告详情和制作档案；没有找到时显示 `insufficient_data` 的检索范围与限制。
+
+开工提示词必须要求执行 YouTube 检索，并把视频证据、图标/样图来源和缺口带入后续制作。缺少检索回执的候选不能进入完整开工包。
+
 ## 数据与发布原则
 
 - 同一个网站持续新增报告，不为每次运行创建新站点。
@@ -50,6 +56,15 @@ npm run build
 - `npm run build`：验证生产构建
 - `npm test`：运行项目测试
 - `npm run db:generate`：数据库结构变化后生成 D1 migration
+
+本地闭环可在一个终端启动网站，在另一个终端手动运行 Worker：
+
+```bash
+npm run dev
+SELECTION_SITE_URL=http://localhost:3000 SELECTION_PROJECT_ROOT="$(cd ../.. && pwd)" node scripts/selection-worker.mjs
+```
+
+Worker 会领取一个排队任务，续租执行中的任务，写入报告和回执，并在证据门禁通过后更新为 `completed`。
 
 ## 配置
 

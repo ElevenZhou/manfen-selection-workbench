@@ -5,6 +5,7 @@ import { ProductFormBadge, ProductIcon, ReferenceLinks } from "../../components/
 import { RouteMark } from "../../components/RouteMark";
 import { getReport } from "../../../lib/reports";
 import { bilingualName } from "../../../lib/localization";
+import { YoutubeEvidence } from "../../components/YoutubeEvidence";
 
 export default async function ReportDetail({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -79,6 +80,7 @@ export default async function ReportDetail({ params }: { params: Promise<{ id: s
                     <ProductFormBadge form={item.productForm} />
                     <small>{item.category} · {item.market}</small>
                     <ReferenceLinks references={item.references} />
+                    <YoutubeEvidence evidence={item.youtubeEvidence} />
                     {item.packageUrl ? <a className="package-download-link" href={item.packageUrl} download>下载资料包 ZIP</a> : null}
                   </div>
                 </div>

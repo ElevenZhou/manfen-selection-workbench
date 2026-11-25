@@ -15,7 +15,7 @@ export const metadata = { title: "总览 · APP 选品驾驶舱" };
 // 综合机会地图 remains the page title for the overview route
 
 export default async function Home() {
-  const { reports, latest, candidates } = await getDashboard();
+  const { reports, candidates } = await getDashboard();
   const selected = candidates.filter((item) => item.decision === "ROUTE_SELECTED");
   const watch = candidates.filter((item) => item.decision === "ROUTE_WATCH" || item.decision === "ROUTE_BACKUP").slice(0, 4);
   const ready = candidates.filter((item) => item.packageStatus === "READY_FOR_BENCH");

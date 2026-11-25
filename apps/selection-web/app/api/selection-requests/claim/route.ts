@@ -1,10 +1,16 @@
 import { NextResponse } from "next/server";
-import { env } from "cloudflare:workers";
+import { claimTask, ensureSelectionRequestSchema, getSelectionDb } from "../../../../lib/selectionRequests";
 
-export async function POST() {
-  if (!env.DB) return NextResponse.json({ error: "任务队列尚未连接" }, { status: 500 });
-  const task = await env.DB.prepare("SELECT id, mode, quantity, request FROM selection_requests WHERE status = 'queued' ORDER BY created_at LIMIT 1").first<{ id: string; mode: string; quantity: number; request: string }>();
-  if (!task) return NextResponse.json({ task: null, message: "没有待处理任务" });
-  await env.DB.prepare("UPDATE selection_requests SET status = 'processing', updated_at = CURRENT_TIMESTAMP WHERE id = ? AND status = 'queued'").bind(task.id).run();
-  return NextResponse.json({ task: { ...task, status: "processing" } });
+export async function POST(request: Request) {
+  try {
+    const body = await request.json().catch(() => ({})) as { workerId?: unknown; actor?: unknown };
+    const workerId = typeof body.workerId === "string" && body.workerId.trim() ? body.workerId.trim() : "selection-worker";
+    const actor = typeof body.actor === "string" && body.actor.trim() ? body.actor.trim() : workerId;
+    const db = getSelectionDb();
+    await ensureSelectionRequestSchema(db);
+    const task = await claimTask(db, workerId, actor);
+    return NextResponse.json({ task, message: task ? "任务已领取" : "没有待处理任务" });
+  } catch (error) {
+    return NextResponse.json({ error: error instanceof Error ? error.message : "任务领取失败" }, { status: 500 });
+  }
 }

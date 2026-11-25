@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-type Active = "overview" | "reports" | "research" | "candidates" | "packages" | "ingest" | "selector" | "projects" | "prompts";
+type Active = "overview" | "reports" | "research" | "candidates" | "packages" | "schedule" | "ingest" | "selector" | "projects" | "prompts";
 
 // APP PORTFOLIO · 调查报告归档保留在 /research，不占用主导航
 const nav = [
@@ -8,6 +8,8 @@ const nav = [
   { id: "reports", label: "选品报告", href: "/reports" },
   { id: "candidates", label: "选品总表", href: "/candidates" },
   { id: "packages", label: "资料包", href: "/packages" },
+  { id: "research", label: "调查报告", href: "/research" },
+  { id: "schedule", label: "开发排期", href: "/schedule" },
   { id: "projects", label: "制作档案", href: "/projects" },
   { id: "prompts", label: "提示词库", href: "/prompts" },
   { id: "ingest", label: "AI整理提交", href: "/ingest" },
@@ -45,7 +47,7 @@ export function AppShell({ active, children }: { active: Active; children: React
         </div>
       </aside>
       <main className={`content ${active === "overview" ? "command-center" : ""}`} id="main-content">
-        <header className="topbar workbench-topbar"><div className="topbar-context"><span className="topbar-kicker">APP 选品与构建 · 运营中枢</span><span className="stage-flow"><b className="stage-active">选品</b><i>→</i><b>构建</b><i>→</i><b>验证</b><i>→</i><b>上线</b></span></div><div className="topbar-actions"><span className="team-pill">◉ 产品实验舱</span><span className="ready-pill">进行中</span><time>{new Intl.DateTimeFormat("zh-CN", { month: "short", day: "numeric" }).format(new Date())}</time></div></header>
+        <header className="topbar workbench-topbar"><div className="topbar-context"><span className="topbar-kicker">APP 选品与构建 · 运营中枢</span><span className="stage-flow"><b className="stage-active">选品</b><i>→</i><b>构建</b><i>→</i><b>验证</b><i>→</i><b>上线</b></span></div><div className="topbar-actions"><span className="team-pill">◉ 产品实验舱</span><span className="ready-pill">进行中</span><time suppressHydrationWarning>{new Intl.DateTimeFormat("zh-CN", { month: "short", day: "numeric" }).format(new Date())}</time></div></header>
         {children}
       </main>
     </div>

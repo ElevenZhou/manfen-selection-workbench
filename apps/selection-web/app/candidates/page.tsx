@@ -5,6 +5,7 @@ import { RouteMark } from "../components/RouteMark";
 import { bilingualName } from "../../lib/localization";
 import { getCandidateFilterOptions, listCandidateArchive } from "../../lib/reports";
 import type { CandidateArchiveFilters } from "../../lib/types";
+import { YoutubeEvidence } from "../components/YoutubeEvidence";
 
 export const metadata = { title: "选品总表" };
 
@@ -141,6 +142,7 @@ export default async function CandidatesPage({ searchParams }: { searchParams: P
                         <ProductFormBadge form={item.productForm} />
                         <small>{item.category} · {item.market}</small>
                         <ReferenceLinks references={item.references} />
+                        <YoutubeEvidence evidence={item.youtubeEvidence} />
                         {item.packageUrl ? <a className="package-download-link" href={item.packageUrl} download>下载资料包</a> : null}
                         {item.decision === "ROUTE_SELECTED" ? <Link className="package-download-link" href={`/projects/${encodeURIComponent(item.id)}`}>打开制作档案 →</Link> : null}
                       </div>

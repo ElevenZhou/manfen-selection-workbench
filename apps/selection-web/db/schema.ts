@@ -39,6 +39,7 @@ export const candidates = sqliteTable("candidates", {
   iconUrl: text("icon_url"),
   iconSource: text("icon_source").notNull().default("generated"),
   iconSourceUrl: text("icon_source_url"),
+  youtubeEvidence: text("youtube_evidence").notNull().default("{\"status\":\"insufficient_data\",\"query\":\"未提供 YouTube 检索回执\",\"searchedAt\":\"\",\"scope\":\"历史报告兼容回填\",\"limitation\":\"导入数据未携带可核验的视频证据\",\"videos\":[]}"),
 }, (table) => [index("candidates_report_route_idx").on(table.reportId, table.route, table.routeRank)]);
 
 export const feishuPushes = sqliteTable("feishu_pushes", {

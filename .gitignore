@@ -13,5 +13,6 @@ logs/
 .worker-runs/
 *.local
 *.secret
+*.tsbuildinfo
 legacy/APP选品系统/archives/
 apps/selection-web/outputs/

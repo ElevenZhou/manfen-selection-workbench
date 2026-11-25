@@ -14,6 +14,7 @@ import type {
   RouteId,
   DashboardMetrics,
   DashboardTaskSummary,
+  YoutubeVideoEvidence,
 } from "./types";
 
 let schemaReady = false;
@@ -64,6 +65,7 @@ async function ensureSchema() {
       icon_url TEXT,
       icon_source TEXT NOT NULL DEFAULT 'generated',
       icon_source_url TEXT,
+      youtube_evidence TEXT NOT NULL DEFAULT '{"status":"insufficient_data","query":"未提供 YouTube 检索回执","searchedAt":"","scope":"历史报告兼容回填","limitation":"导入数据未携带可核验的视频证据","videos":[]}',
       FOREIGN KEY (report_id) REFERENCES reports(id)
     )`),
     db.prepare("CREATE INDEX IF NOT EXISTS reports_published_at_idx ON reports(published_at DESC)"),
@@ -119,6 +121,7 @@ async function ensureCandidatePresentationColumns(db: D1Database) {
     ["icon_url", "ALTER TABLE candidates ADD COLUMN icon_url TEXT"],
     ["icon_source", "ALTER TABLE candidates ADD COLUMN icon_source TEXT NOT NULL DEFAULT 'generated'"],
     ["icon_source_url", "ALTER TABLE candidates ADD COLUMN icon_source_url TEXT"],
+    ["youtube_evidence", "ALTER TABLE candidates ADD COLUMN youtube_evidence TEXT NOT NULL DEFAULT '{\"status\":\"insufficient_data\",\"query\":\"未提供 YouTube 检索回执\",\"searchedAt\":\"\",\"scope\":\"历史报告兼容回填\",\"limitation\":\"导入数据未携带可核验的视频证据\",\"videos\":[]}'"],
   ] as const;
   for (const [name, statement] of migrations) {
     if (!names.has(name)) await db.prepare(statement).run();
@@ -177,8 +180,8 @@ async function insertReport(report: Report, candidates: Candidate[]) {
         id, report_id, route, title, title_zh, product_form, category, market, route_score, route_rank,
         decision, data_completeness, opportunity, improvements, package_status,
         package_id, package_url, package_sha256, reference_apps, icon_url,
-        icon_source, icon_source_url
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`).bind(
+        icon_source, icon_source_url, youtube_evidence
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`).bind(
         item.id,
         report.id,
         item.route,
@@ -201,6 +204,7 @@ async function insertReport(report: Report, candidates: Candidate[]) {
         item.iconUrl,
         item.iconSource,
         item.iconSourceUrl,
+        JSON.stringify(item.youtubeEvidence),
       ),
     ),
   ];
@@ -448,6 +452,48 @@ function validateCandidate(value: unknown, reportId: string, index: number): Can
     iconUrl: optionalUrl(item.iconUrl, `candidates[${index}].iconUrl`),
     iconSource,
     iconSourceUrl: optionalUrl(item.iconSourceUrl, `candidates[${index}].iconSourceUrl`),
+    youtubeEvidence: validateYoutubeEvidence(item.youtubeEvidence, index),
+  };
+}
+
+function validateYoutubeEvidence(value: unknown, candidateIndex: number): YoutubeVideoEvidence {
+  const fallback: YoutubeVideoEvidence = {
+    status: "insufficient_data",
+    query: "未提供 YouTube 检索回执",
+    searchedAt: "",
+    scope: "历史报告兼容回填",
+    limitation: "导入数据未携带可核验的视频证据",
+    videos: [],
+  };
+  if (value === undefined || value === null) return fallback;
+  if (!value || typeof value !== "object") throw new Error(`candidates[${candidateIndex}].youtubeEvidence无效`);
+  const raw = value as Record<string, unknown>;
+  const status = raw.status as YoutubeVideoEvidence["status"];
+  if (status !== "found" && status !== "insufficient_data") throw new Error(`candidates[${candidateIndex}].youtubeEvidence.status无效`);
+  const videos = Array.isArray(raw.videos) ? raw.videos.map((entry, videoIndex) => {
+    if (!entry || typeof entry !== "object") throw new Error(`candidates[${candidateIndex}].youtubeEvidence.videos[${videoIndex}]无效`);
+    const video = entry as Record<string, unknown>;
+    const url = requiredUrl(video.url, `candidates[${candidateIndex}].youtubeEvidence.videos[${videoIndex}].url`);
+    if (!url.startsWith("https://www.youtube.com/") && !url.startsWith("https://youtu.be/")) throw new Error(`candidates[${candidateIndex}].youtubeEvidence.videos[${videoIndex}].url必须是YouTube视频链接`);
+    const relation = String(video.relation) as YoutubeVideoEvidence["videos"][number]["relation"];
+    const relations = ["candidate", "primary_competitor", "reference", "gameplay", "review", "demo"] as const;
+    if (!relations.includes(relation)) throw new Error(`candidates[${candidateIndex}].youtubeEvidence.videos[${videoIndex}].relation无效`);
+    return {
+      url,
+      title: requiredText(video.title, `candidates[${candidateIndex}].youtubeEvidence.videos[${videoIndex}].title`),
+      channel: requiredText(video.channel, `candidates[${candidateIndex}].youtubeEvidence.videos[${videoIndex}].channel`),
+      publishedAt: video.publishedAt === null || video.publishedAt === undefined || video.publishedAt === "" ? null : String(video.publishedAt),
+      relation,
+    };
+  }) : [];
+  if (status === "found" && videos.length === 0) throw new Error(`candidates[${candidateIndex}].youtubeEvidence为found时必须包含视频`);
+  return {
+    status,
+    query: requiredText(raw.query, `candidates[${candidateIndex}].youtubeEvidence.query`),
+    searchedAt: typeof raw.searchedAt === "string" ? raw.searchedAt : "",
+    scope: requiredText(raw.scope, `candidates[${candidateIndex}].youtubeEvidence.scope`),
+    limitation: requiredText(raw.limitation, `candidates[${candidateIndex}].youtubeEvidence.limitation`),
+    videos,
   };
 }
 
@@ -620,7 +666,23 @@ function mapCandidate(row: CandidateRow): Candidate {
     iconUrl: row.icon_url,
     iconSource: (row.icon_source || "generated") as Candidate["iconSource"],
     iconSourceUrl: row.icon_source_url,
+    youtubeEvidence: parseYoutubeEvidence(row.youtube_evidence),
   };
+}
+
+function parseYoutubeEvidence(value: string | null | undefined): YoutubeVideoEvidence {
+  try {
+    return validateYoutubeEvidence(JSON.parse(value || "null"), 0);
+  } catch {
+    return {
+      status: "insufficient_data",
+      query: "未提供 YouTube 检索回执",
+      searchedAt: "",
+      scope: "历史报告兼容回填",
+      limitation: "数据库记录缺少可核验的视频证据",
+      videos: [],
+    };
+  }
 }
 
 function parseReferences(value: string): AppReference[] {
@@ -644,6 +706,7 @@ type CandidateRow = {
   opportunity: string; improvements: string; package_status: string; reference_apps: string;
   package_id: string | null; package_url: string | null; package_sha256: string | null;
   icon_url: string | null; icon_source: string; icon_source_url: string | null;
+  youtube_evidence: string | null;
 };
 
 type CandidateArchiveRow = CandidateRow & {

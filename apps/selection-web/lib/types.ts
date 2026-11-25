@@ -49,6 +49,21 @@ export type ApkDownload = {
   status: "verified" | "needs_verification";
 };
 
+export type YoutubeVideoEvidence = {
+  status: "found" | "insufficient_data";
+  query: string;
+  searchedAt: string;
+  scope: string;
+  limitation: string;
+  videos: Array<{
+    url: string;
+    title: string;
+    channel: string;
+    publishedAt: string | null;
+    relation: "candidate" | "primary_competitor" | "reference" | "gameplay" | "review" | "demo";
+  }>;
+};
+
 export type Candidate = {
   id: string;
   reportId: string;
@@ -72,6 +87,7 @@ export type Candidate = {
   iconUrl: string | null;
   iconSource: "product" | "competitor" | "generated";
   iconSourceUrl: string | null;
+  youtubeEvidence: YoutubeVideoEvidence;
 };
 
 export type CandidateArchiveEntry = Candidate & {
