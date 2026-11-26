@@ -1,0 +1,24 @@
+flowchart LR
+  U[操作员 / 管理员] --> G[Web 工作台 + OIDC]
+  G --> API[API / 状态命令层]
+  API --> DB[(PostgreSQL<br/>任务 · 项目 · 报告 · 审计)]
+  API --> Q[(Redis<br/>队列 · 租约 · 限流)]
+
+  Q --> D[Dispatcher]
+  D --> H[Gameplay Observation Harness<br/>Hermes / DeepSeek Harness]
+  H --> C[观测连接器<br/>Playwright · ADB · 截图 · 视频 · 商店页面]
+  C --> S[Observation Session Store<br/>轨迹 · 截图 · 视频 · 操作日志]
+  S --> J{人工决策门}
+  J -->|继续开工| P[Prompt Builder<br/>复制开工提示词 + 项目约束]
+  J -->|阻塞 / 复核| DB
+  P --> X[受控执行器<br/>Codex · OpenCode · Hermes]
+  X --> W[独立 Worktree / Sandbox]
+  W --> R[构建 · 测试 · 回执]
+  R --> API
+
+  S --> M[可选摘要模型<br/>只做整理，不决定是否开工]
+  M --> DB
+  DB --> F[项目状态 API]
+  F --> UI[项目档案 · 排期 · 测试回填]
+  DB --> O[(对象存储<br/>报告 · 设计图 · APK · 回执)]
+  DB --> N[Feishu / 通知 Outbox]

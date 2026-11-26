@@ -6,15 +6,23 @@ flowchart LR
   A --> T[(Postgres<br/>任务 · 报告 · 审计)]
   D --> Q[(Redis Queue<br/>队列 · 心跳 · 限流)]
   Q --> R[Research Adapter<br/>来源 · 证据 · 报告]
+  Q --> G[Gameplay Observation Harness<br/>采集 · 抽帧 · 事件时间线]
   R --> X{Executor Adapter}
   X --> C[Codex<br/>计划 / 综合 / Review]
   X --> O[OpenCode<br/>代码 / 测试 / Worktree]
   X --> H[Hermes<br/>长时研究 / 批处理]
+  G --> MG[Model Gateway<br/>路由 · 脱敏 · 配额 · Schema]
+  MG --> H
+  MG --> DS[DeepSeek Adapter<br/>帧描述 · 标注 · 总结]
   R --> S[(Object Storage<br/>证据 · 资料包 · 回执)]
+  G --> S
   R --> T
+  G --> T
+  G --> GP[(Postgres<br/>观察运行 · 事件 · 项目状态)]
   T --> F[Feishu Publisher<br/>幂等卡片 + 发送回执]
   F --> L[Feishu Webhook]
   R --> M[外部来源<br/>商店 · 趋势 · GitHub · 评论]
   D --> V[容量与公平性看板]
   T --> V
+  GP --> V
 

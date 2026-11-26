@@ -6,6 +6,7 @@ node_modules/
 dist/
 .next/
 .wrangler/
+.playwright-cli/
 coverage/
 data/runtime/
 data/uploads/
