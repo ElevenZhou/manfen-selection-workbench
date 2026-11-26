@@ -303,6 +303,17 @@ test("design library and visual evidence are reachable from the workbench", asyn
   assert.match(evidence, /打开检索入口/);
 });
 
+test("latest case exposes store media and playable YouTube evidence", async () => {
+  const [home, showcase] = await Promise.all([
+    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/LatestCaseShowcase.tsx", import.meta.url), "utf8"),
+  ]);
+  assert.match(home, /LatestCaseShowcase/);
+  assert.match(showcase, /youtube\.com\/embed\/zgBze7IAdXQ/);
+  assert.match(showcase, /商店截图/);
+  assert.match(showcase, /打开完整报告/);
+});
+
 test("selection task board exposes lifecycle filters and recoverable errors", async () => {
   const page = await readFile(new URL("../app/selector/page.tsx", import.meta.url), "utf8");
   const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");

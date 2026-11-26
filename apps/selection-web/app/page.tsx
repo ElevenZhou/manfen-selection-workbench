@@ -2,6 +2,7 @@ import Link from "next/link";
 import { AppShell } from "./components/AppShell";
 import { bilingualName } from "../lib/localization";
 import { getDashboard } from "../lib/reports";
+import { LatestCaseShowcase } from "./components/LatestCaseShowcase";
 
 export const metadata = { title: "总览 · APP 选品驾驶舱" };
 // 组合数据总览仍由工作台卡片呈现
@@ -38,5 +39,6 @@ export default async function Home() {
       <aside className="stage-right"><section className="dossier-panel"><header><div><b>🚀 构建档案 · {built[0] ? bilingualName(built[0].title,built[0].titleZh) : "轻健身 APP"}</b><small>BUILD DOSSIER</small></div><span>进行中</span></header><nav><b>详情</b><span>计划</span><span>资源</span><span>评估</span></nav><div className="owner-row"><b>♙ 档案负责人</b><span>林一舟（产品）</span><button>更换</button></div><div className="progress-block"><div><b>✧ 构建进度</b><strong>60%</strong></div><div className="progress-line"><i /></div><small><span>方案</span><span>原型</span><span>开发</span><span>验证</span><span>上线</span></small></div><div className="dossier-facts"><b>ⓘ 核心信息</b><p><span>目标用户</span><strong>18–35 岁轻运动人群</strong></p><p><span>核心价值</span><strong>低门槛运动、习惯养成</strong></p><p><span>优先级</span><em>高</em></p></div><div className="notes"><b>▣ 档案笔记</b><p>已完成核心流程原型与 10 人可用性测试。<br/>下一步：完善训练模板，接入数据统计。</p></div><div className="dossier-actions"><Link href={built[0] ? `/projects/${built[0].id}` : "/projects"}>编辑档案</Link><Link href="/projects">分配任务</Link><Link className="push" href="/projects">推进构建</Link></div></section></aside>
     </div>
     <section className="decision-dock"><header><b>◉ 上线决策台</b><span>本轮：Q1 新品池</span></header><div className="dock-metrics"><span>待决策项目 <b>{watch.length}</b></span><span>建议上线 <b className="mint">{selected.length}</b></span><span>建议迭代 <b className="blue">{ready.length}</b></span><span>建议搁置 <b className="gold">{Math.max(0,candidates.length-selected.length-ready.length)}</b></span><Link href="/candidates">进入评审 →</Link></div></section>
+    <LatestCaseShowcase />
   </AppShell>;
 }
