@@ -287,6 +287,22 @@ test("primary navigation exposes research and schedule paths", async () => {
   assert.match(schedule, /active="schedule"/);
 });
 
+test("design library and visual evidence are reachable from the workbench", async () => {
+  const [shell, design, media, report, evidence] = await Promise.all([
+    readFile(new URL("../app/components/AppShell.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/design/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/ReferenceMediaPreview.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/reports/[id]/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/components/YoutubeEvidence.tsx", import.meta.url), "utf8"),
+  ]);
+  assert.match(shell, /id: "design", label: "设计方向"/);
+  assert.match(design, /option-g-playbook-atelier\.png/);
+  assert.match(design, /dashboard-anime\.png/);
+  assert.match(media, /商店视觉资料/);
+  assert.match(report, /ReferenceMediaPreview/);
+  assert.match(evidence, /打开检索入口/);
+});
+
 test("selection task board exposes lifecycle filters and recoverable errors", async () => {
   const page = await readFile(new URL("../app/selector/page.tsx", import.meta.url), "utf8");
   const css = await readFile(new URL("../app/globals.css", import.meta.url), "utf8");

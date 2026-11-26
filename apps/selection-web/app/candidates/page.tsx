@@ -142,7 +142,7 @@ export default async function CandidatesPage({ searchParams }: { searchParams: P
                         <ProductFormBadge form={item.productForm} />
                         <small>{item.category} · {item.market}</small>
                         <ReferenceLinks references={item.references} />
-                        <YoutubeEvidence evidence={item.youtubeEvidence} />
+                        <YoutubeEvidence evidence={item.youtubeEvidence} candidateName={bilingualName(item.title, item.titleZh)} />
                         {item.packageUrl ? <a className="package-download-link" href={item.packageUrl} download>下载资料包</a> : null}
                         {item.decision === "ROUTE_SELECTED" ? <Link className="package-download-link" href={`/projects/${encodeURIComponent(item.id)}`}>打开制作档案 →</Link> : null}
                       </div>

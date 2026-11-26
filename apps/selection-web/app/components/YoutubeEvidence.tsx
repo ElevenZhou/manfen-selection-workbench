@@ -1,7 +1,9 @@
 import type { YoutubeVideoEvidence } from "../../lib/types";
 
-export function YoutubeEvidence({ evidence }: { evidence: YoutubeVideoEvidence }) {
+export function YoutubeEvidence({ evidence, candidateName }: { evidence: YoutubeVideoEvidence; candidateName?: string }) {
   const found = evidence.status === "found" && evidence.videos.length > 0;
+  const query = evidence.query.startsWith("未提供") && candidateName ? `${candidateName} gameplay demo review` : evidence.query;
+  const searchUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
   return (
     <div className={`youtube-evidence ${found ? "youtube-found" : "youtube-insufficient"}`}>
       <span className="youtube-evidence-label">YouTube 证据</span>
@@ -16,7 +18,7 @@ export function YoutubeEvidence({ evidence }: { evidence: YoutubeVideoEvidence }
       ) : (
         <span className="youtube-evidence-note">insufficient_data · {evidence.limitation}</span>
       )}
-      <small>检索范围：{evidence.scope}</small>
+      <small>检索范围：{evidence.scope} · 关键词：{query} · <a href={searchUrl} target="_blank" rel="noreferrer">打开检索入口 ↗</a></small>
     </div>
   );
 }

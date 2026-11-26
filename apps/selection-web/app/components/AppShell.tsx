@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-type Active = "overview" | "reports" | "research" | "candidates" | "packages" | "schedule" | "ingest" | "selector" | "projects" | "prompts";
+type Active = "overview" | "reports" | "research" | "candidates" | "packages" | "schedule" | "design" | "ingest" | "selector" | "projects" | "prompts";
 
 // APP PORTFOLIO · 调查报告归档保留在 /research，不占用主导航
 const nav = [
@@ -10,6 +10,7 @@ const nav = [
   { id: "packages", label: "资料包", href: "/packages" },
   { id: "research", label: "调查报告", href: "/research" },
   { id: "schedule", label: "开发排期", href: "/schedule" },
+  { id: "design", label: "设计方向", href: "/design" },
   { id: "projects", label: "制作档案", href: "/projects" },
   { id: "prompts", label: "提示词库", href: "/prompts" },
   { id: "ingest", label: "AI整理提交", href: "/ingest" },
